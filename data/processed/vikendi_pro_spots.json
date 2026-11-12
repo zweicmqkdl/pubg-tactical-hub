@@ -426,5 +426,13 @@
       }
     }
   ],
-  "cache_profile": "pro"
+  "cache_profile": "pro",
+  "region_counts": {
+    "kakao": 0,
+    "as": 0,
+    "eu": 0,
+    "na": 2,
+    "sea": 0,
+    "oc": 0
+  }
 }

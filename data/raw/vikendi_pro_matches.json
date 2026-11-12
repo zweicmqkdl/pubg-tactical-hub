@@ -1,0 +1,620 @@
+{
+  "map_id": "vikendi",
+  "map_name_ko": "비켄디",
+  "map_name_en": "Vikendi",
+  "data_source": "real_pubg_api",
+  "size_meter": 6000.0,
+  "num_matches": 2,
+  "num_squads_per_match": 16,
+  "holding_time_threshold_sec": 30,
+  "matches": [
+    {
+      "match_id": "e414ff4c-7b9c-45f7-bbf1-c677a1230089",
+      "match_index": 0,
+      "map_id": "vikendi",
+      "phases": {
+        "1": {
+          "phase": 1,
+          "zone_center_x_meter": 4092.9,
+          "zone_center_y_meter": 3868.6,
+          "zone_center_x_norm": 0.68215,
+          "zone_center_y_norm": 0.64477,
+          "zone_radius_meter": 5531.0,
+          "zone_radius_norm": 0.92183,
+          "squad_holdings": [
+            {
+              "squad_id": 13,
+              "x_meter": 3816.45,
+              "y_meter": 1375.83,
+              "x_norm": 0.63607,
+              "y_norm": 0.22931,
+              "holding_time_sec": 30,
+              "landmark_hint": "Spot (3816m, 1375m)",
+              "seed_id": 0,
+              "team_rank": 3
+            },
+            {
+              "squad_id": 10,
+              "x_meter": 5314.88,
+              "y_meter": 2410.56,
+              "x_norm": 0.88581,
+              "y_norm": 0.40176,
+              "holding_time_sec": 40,
+              "landmark_hint": "Spot (5314m, 2410m)",
+              "seed_id": 0,
+              "team_rank": 16
+            },
+            {
+              "squad_id": 23,
+              "x_meter": 3537.63,
+              "y_meter": 2766.12,
+              "x_norm": 0.58961,
+              "y_norm": 0.46102,
+              "holding_time_sec": 43,
+              "landmark_hint": "Spot (3537m, 2766m)",
+              "seed_id": 0,
+              "team_rank": 9
+            },
+            {
+              "squad_id": 21,
+              "x_meter": 3527.49,
+              "y_meter": 2800.94,
+              "x_norm": 0.58792,
+              "y_norm": 0.46682,
+              "holding_time_sec": 97,
+              "landmark_hint": "Spot (3527m, 2800m)",
+              "seed_id": 0,
+              "team_rank": 18
+            },
+            {
+              "squad_id": 26,
+              "x_meter": 5202.96,
+              "y_meter": 2503.88,
+              "x_norm": 0.86716,
+              "y_norm": 0.41731,
+              "holding_time_sec": 41,
+              "landmark_hint": "Spot (5202m, 2503m)",
+              "seed_id": 0,
+              "team_rank": 1
+            },
+            {
+              "squad_id": 3,
+              "x_meter": 5243.53,
+              "y_meter": 2423.98,
+              "x_norm": 0.87392,
+              "y_norm": 0.404,
+              "holding_time_sec": 127,
+              "landmark_hint": "Spot (5243m, 2423m)",
+              "seed_id": 0,
+              "team_rank": 15
+            },
+            {
+              "squad_id": 7,
+              "x_meter": 5221.56,
+              "y_meter": 2380.97,
+              "x_norm": 0.87026,
+              "y_norm": 0.39683,
+              "holding_time_sec": 30,
+              "landmark_hint": "Spot (5221m, 2380m)",
+              "seed_id": 0,
+              "team_rank": 27
+            },
+            {
+              "squad_id": 1,
+              "x_meter": 3807.97,
+              "y_meter": 1372.46,
+              "x_norm": 0.63466,
+              "y_norm": 0.22874,
+              "holding_time_sec": 39,
+              "landmark_hint": "Spot (3807m, 1372m)",
+              "seed_id": 0,
+              "team_rank": 25
+            },
+            {
+              "squad_id": 9,
+              "x_meter": 3807.73,
+              "y_meter": 1365.19,
+              "x_norm": 0.63462,
+              "y_norm": 0.22753,
+              "holding_time_sec": 59,
+              "landmark_hint": "Spot (3807m, 1365m)",
+              "seed_id": 0,
+              "team_rank": 19
+            },
+            {
+              "squad_id": 6,
+              "x_meter": 3128.87,
+              "y_meter": 1359.27,
+              "x_norm": 0.52148,
+              "y_norm": 0.22655,
+              "holding_time_sec": 59,
+              "landmark_hint": "Spot (3128m, 1359m)",
+              "seed_id": 0,
+              "team_rank": 14
+            }
+          ]
+        },
+        "2": {
+          "phase": 2,
+          "zone_center_x_meter": 4209.0,
+          "zone_center_y_meter": 1110.2,
+          "zone_center_x_norm": 0.70149,
+          "zone_center_y_norm": 0.18503,
+          "zone_radius_meter": 1791.4,
+          "zone_radius_norm": 0.29856,
+          "squad_holdings": [
+            {
+              "squad_id": 15,
+              "x_meter": 5449.91,
+              "y_meter": 5206.25,
+              "x_norm": 0.90832,
+              "y_norm": 0.86771,
+              "holding_time_sec": 59,
+              "landmark_hint": "Spot (5449m, 5206m)",
+              "seed_id": 0,
+              "team_rank": 2
+            },
+            {
+              "squad_id": 17,
+              "x_meter": 5424.82,
+              "y_meter": 2560.49,
+              "x_norm": 0.90414,
+              "y_norm": 0.42675,
+              "holding_time_sec": 39,
+              "landmark_hint": "Spot (5424m, 2560m)",
+              "seed_id": 0,
+              "team_rank": 13
+            },
+            {
+              "squad_id": 19,
+              "x_meter": 5463.97,
+              "y_meter": 5183.51,
+              "x_norm": 0.91066,
+              "y_norm": 0.86392,
+              "holding_time_sec": 30,
+              "landmark_hint": "Spot (5463m, 5183m)",
+              "seed_id": 0,
+              "team_rank": 12
+            },
+            {
+              "squad_id": 14,
+              "x_meter": 2456.34,
+              "y_meter": 1778.52,
+              "x_norm": 0.40939,
+              "y_norm": 0.29642,
+              "holding_time_sec": 59,
+              "landmark_hint": "Spot (2456m, 1778m)",
+              "seed_id": 0,
+              "team_rank": 11
+            }
+          ]
+        },
+        "3": {
+          "phase": 3,
+          "zone_center_x_meter": 3928.6,
+          "zone_center_y_meter": 458.5,
+          "zone_center_x_norm": 0.65477,
+          "zone_center_y_norm": 0.07641,
+          "zone_radius_meter": 993.2,
+          "zone_radius_norm": 0.16553,
+          "squad_holdings": [
+            {
+              "squad_id": 20,
+              "x_meter": 3949.17,
+              "y_meter": 947.11,
+              "x_norm": 0.6582,
+              "y_norm": 0.15785,
+              "holding_time_sec": 33,
+              "landmark_hint": "Spot (3949m, 947m)",
+              "seed_id": 0,
+              "team_rank": 4
+            }
+          ]
+        },
+        "4": {
+          "phase": 4,
+          "zone_center_x_meter": 3799.9,
+          "zone_center_y_meter": 536.8,
+          "zone_center_x_norm": 0.63331,
+          "zone_center_y_norm": 0.08946,
+          "zone_radius_meter": 595.9,
+          "zone_radius_norm": 0.09932,
+          "squad_holdings": [
+            {
+              "squad_id": 15,
+              "x_meter": 4253.82,
+              "y_meter": 353.48,
+              "x_norm": 0.70897,
+              "y_norm": 0.05891,
+              "holding_time_sec": 41,
+              "landmark_hint": "Spot (4253m, 353m)",
+              "seed_id": 0,
+              "team_rank": 2
+            }
+          ]
+        },
+        "5": {
+          "phase": 5,
+          "zone_center_x_meter": 3909.9,
+          "zone_center_y_meter": 465.4,
+          "zone_center_x_norm": 0.65166,
+          "zone_center_y_norm": 0.07757,
+          "zone_radius_meter": 380.3,
+          "zone_radius_norm": 0.06338,
+          "squad_holdings": [
+            {
+              "squad_id": 15,
+              "x_meter": 4110.63,
+              "y_meter": 297.45,
+              "x_norm": 0.6851,
+              "y_norm": 0.04957,
+              "holding_time_sec": 30,
+              "landmark_hint": "Spot (4110m, 297m)",
+              "seed_id": 0,
+              "team_rank": 2
+            }
+          ]
+        },
+        "6": {
+          "phase": 6,
+          "zone_center_x_meter": 3909.9,
+          "zone_center_y_meter": 465.4,
+          "zone_center_x_norm": 0.65166,
+          "zone_center_y_norm": 0.07757,
+          "zone_radius_meter": 168.0,
+          "zone_radius_norm": 0.028,
+          "squad_holdings": []
+        }
+      },
+      "platform": "steam",
+      "region": "na"
+    },
+    {
+      "match_id": "c63b084a-f459-4c90-8938-07cada15468d",
+      "match_index": 1,
+      "map_id": "vikendi",
+      "phases": {
+        "1": {
+          "phase": 1,
+          "zone_center_x_meter": 4090.6,
+          "zone_center_y_meter": 4155.9,
+          "zone_center_x_norm": 0.68177,
+          "zone_center_y_norm": 0.69264,
+          "zone_radius_meter": 5531.1,
+          "zone_radius_norm": 0.92185,
+          "squad_holdings": [
+            {
+              "squad_id": 27,
+              "x_meter": 5462.13,
+              "y_meter": 2485.41,
+              "x_norm": 0.91035,
+              "y_norm": 0.41424,
+              "holding_time_sec": 58,
+              "landmark_hint": "Spot (5462m, 2485m)",
+              "seed_id": 0,
+              "team_rank": 25
+            },
+            {
+              "squad_id": 26,
+              "x_meter": 5331.92,
+              "y_meter": 2630.92,
+              "x_norm": 0.88865,
+              "y_norm": 0.43849,
+              "holding_time_sec": 42,
+              "landmark_hint": "Spot (5331m, 2630m)",
+              "seed_id": 0,
+              "team_rank": 18
+            },
+            {
+              "squad_id": 5,
+              "x_meter": 3917.97,
+              "y_meter": 4416.38,
+              "x_norm": 0.653,
+              "y_norm": 0.73606,
+              "holding_time_sec": 62,
+              "landmark_hint": "Spot (3917m, 4416m)",
+              "seed_id": 0,
+              "team_rank": 22
+            },
+            {
+              "squad_id": 19,
+              "x_meter": 3593.34,
+              "y_meter": 4406.94,
+              "x_norm": 0.59889,
+              "y_norm": 0.73449,
+              "holding_time_sec": 146,
+              "landmark_hint": "Spot (3593m, 4406m)",
+              "seed_id": 0,
+              "team_rank": 15
+            },
+            {
+              "squad_id": 15,
+              "x_meter": 4353.65,
+              "y_meter": 5141.13,
+              "x_norm": 0.72561,
+              "y_norm": 0.85686,
+              "holding_time_sec": 59,
+              "landmark_hint": "Spot (4353m, 5141m)",
+              "seed_id": 0,
+              "team_rank": 16
+            },
+            {
+              "squad_id": 10,
+              "x_meter": 5287.0,
+              "y_meter": 2695.14,
+              "x_norm": 0.88117,
+              "y_norm": 0.44919,
+              "holding_time_sec": 48,
+              "landmark_hint": "Spot (5286m, 2695m)",
+              "seed_id": 0,
+              "team_rank": 28
+            },
+            {
+              "squad_id": 9,
+              "x_meter": 5371.11,
+              "y_meter": 2619.31,
+              "x_norm": 0.89518,
+              "y_norm": 0.43655,
+              "holding_time_sec": 43,
+              "landmark_hint": "Spot (5371m, 2619m)",
+              "seed_id": 0,
+              "team_rank": 1
+            },
+            {
+              "squad_id": 28,
+              "x_meter": 4333.87,
+              "y_meter": 5127.62,
+              "x_norm": 0.72231,
+              "y_norm": 0.8546,
+              "holding_time_sec": 136,
+              "landmark_hint": "Spot (4333m, 5127m)",
+              "seed_id": 0,
+              "team_rank": 9
+            },
+            {
+              "squad_id": 18,
+              "x_meter": 2613.01,
+              "y_meter": 4376.23,
+              "x_norm": 0.4355,
+              "y_norm": 0.72937,
+              "holding_time_sec": 81,
+              "landmark_hint": "Spot (2613m, 4376m)",
+              "seed_id": 0,
+              "team_rank": 4
+            }
+          ]
+        },
+        "2": {
+          "phase": 2,
+          "zone_center_x_meter": 4180.5,
+          "zone_center_y_meter": 5021.4,
+          "zone_center_x_norm": 0.69675,
+          "zone_center_y_norm": 0.8369,
+          "zone_radius_meter": 1790.9,
+          "zone_radius_norm": 0.29848,
+          "squad_holdings": [
+            {
+              "squad_id": 20,
+              "x_meter": 3915.29,
+              "y_meter": 5495.17,
+              "x_norm": 0.65255,
+              "y_norm": 0.91586,
+              "holding_time_sec": 69,
+              "landmark_hint": "Spot (3915m, 5495m)",
+              "seed_id": 0,
+              "team_rank": 8
+            },
+            {
+              "squad_id": 17,
+              "x_meter": 3825.11,
+              "y_meter": 4016.99,
+              "x_norm": 0.63752,
+              "y_norm": 0.6695,
+              "holding_time_sec": 49,
+              "landmark_hint": "Spot (3825m, 4016m)",
+              "seed_id": 0,
+              "team_rank": 10
+            },
+            {
+              "squad_id": 16,
+              "x_meter": 4818.92,
+              "y_meter": 4680.0,
+              "x_norm": 0.80315,
+              "y_norm": 0.78,
+              "holding_time_sec": 44,
+              "landmark_hint": "Spot (4818m, 4680m)",
+              "seed_id": 0,
+              "team_rank": 3
+            },
+            {
+              "squad_id": 24,
+              "x_meter": 4436.24,
+              "y_meter": 4708.05,
+              "x_norm": 0.73937,
+              "y_norm": 0.78467,
+              "holding_time_sec": 52,
+              "landmark_hint": "Spot (4436m, 4708m)",
+              "seed_id": 0,
+              "team_rank": 5
+            },
+            {
+              "squad_id": 22,
+              "x_meter": 3837.98,
+              "y_meter": 5403.99,
+              "x_norm": 0.63966,
+              "y_norm": 0.90066,
+              "holding_time_sec": 108,
+              "landmark_hint": "Spot (3837m, 5403m)",
+              "seed_id": 0,
+              "team_rank": 13
+            },
+            {
+              "squad_id": 28,
+              "x_meter": 4355.78,
+              "y_meter": 5141.71,
+              "x_norm": 0.72596,
+              "y_norm": 0.85695,
+              "holding_time_sec": 167,
+              "landmark_hint": "Spot (4355m, 5141m)",
+              "seed_id": 0,
+              "team_rank": 9
+            },
+            {
+              "squad_id": 18,
+              "x_meter": 2524.36,
+              "y_meter": 4426.37,
+              "x_norm": 0.42073,
+              "y_norm": 0.73773,
+              "holding_time_sec": 43,
+              "landmark_hint": "Spot (2524m, 4426m)",
+              "seed_id": 0,
+              "team_rank": 4
+            }
+          ]
+        },
+        "3": {
+          "phase": 3,
+          "zone_center_x_meter": 3948.1,
+          "zone_center_y_meter": 4571.4,
+          "zone_center_x_norm": 0.65802,
+          "zone_center_y_norm": 0.7619,
+          "zone_radius_meter": 993.0,
+          "zone_radius_norm": 0.1655,
+          "squad_holdings": [
+            {
+              "squad_id": 17,
+              "x_meter": 3810.1,
+              "y_meter": 4019.17,
+              "x_norm": 0.63502,
+              "y_norm": 0.66986,
+              "holding_time_sec": 49,
+              "landmark_hint": "Spot (3810m, 4019m)",
+              "seed_id": 0,
+              "team_rank": 10
+            },
+            {
+              "squad_id": 24,
+              "x_meter": 4435.81,
+              "y_meter": 4708.65,
+              "x_norm": 0.7393,
+              "y_norm": 0.78478,
+              "holding_time_sec": 172,
+              "landmark_hint": "Spot (4435m, 4708m)",
+              "seed_id": 0,
+              "team_rank": 5
+            },
+            {
+              "squad_id": 9,
+              "x_meter": 3812.05,
+              "y_meter": 4018.14,
+              "x_norm": 0.63534,
+              "y_norm": 0.66969,
+              "holding_time_sec": 30,
+              "landmark_hint": "Spot (3812m, 4018m)",
+              "seed_id": 0,
+              "team_rank": 1
+            }
+          ]
+        },
+        "4": {
+          "phase": 4,
+          "zone_center_x_meter": 3995.6,
+          "zone_center_y_meter": 4693.3,
+          "zone_center_x_norm": 0.66594,
+          "zone_center_y_norm": 0.78222,
+          "zone_radius_meter": 608.4,
+          "zone_radius_norm": 0.1014,
+          "squad_holdings": [
+            {
+              "squad_id": 24,
+              "x_meter": 3926.65,
+              "y_meter": 5256.43,
+              "x_norm": 0.65444,
+              "y_norm": 0.87607,
+              "holding_time_sec": 93,
+              "landmark_hint": "Spot (3926m, 5256m)",
+              "seed_id": 0,
+              "team_rank": 5
+            }
+          ]
+        },
+        "5": {
+          "phase": 5,
+          "zone_center_x_meter": 4005.0,
+          "zone_center_y_meter": 4917.0,
+          "zone_center_x_norm": 0.66751,
+          "zone_center_y_norm": 0.8195,
+          "zone_radius_meter": 380.1,
+          "zone_radius_norm": 0.06334,
+          "squad_holdings": [
+            {
+              "squad_id": 4,
+              "x_meter": 4183.1,
+              "y_meter": 5157.56,
+              "x_norm": 0.69718,
+              "y_norm": 0.85959,
+              "holding_time_sec": 30,
+              "landmark_hint": "Spot (4183m, 5157m)",
+              "seed_id": 0,
+              "team_rank": 2
+            }
+          ]
+        },
+        "6": {
+          "phase": 6,
+          "zone_center_x_meter": 3919.5,
+          "zone_center_y_meter": 4907.3,
+          "zone_center_x_norm": 0.65324,
+          "zone_center_y_norm": 0.81788,
+          "zone_radius_meter": 195.9,
+          "zone_radius_norm": 0.03266,
+          "squad_holdings": [
+            {
+              "squad_id": 4,
+              "x_meter": 3844.64,
+              "y_meter": 5062.42,
+              "x_norm": 0.64077,
+              "y_norm": 0.84374,
+              "holding_time_sec": 52,
+              "landmark_hint": "Spot (3844m, 5062m)",
+              "seed_id": 0,
+              "team_rank": 2
+            },
+            {
+              "squad_id": 16,
+              "x_meter": 4106.48,
+              "y_meter": 4921.13,
+              "x_norm": 0.68441,
+              "y_norm": 0.82019,
+              "holding_time_sec": 40,
+              "landmark_hint": "Spot (4106m, 4921m)",
+              "seed_id": 0,
+              "team_rank": 3
+            },
+            {
+              "squad_id": 18,
+              "x_meter": 3947.26,
+              "y_meter": 4947.09,
+              "x_norm": 0.65788,
+              "y_norm": 0.82452,
+              "holding_time_sec": 30,
+              "landmark_hint": "Spot (3947m, 4947m)",
+              "seed_id": 0,
+              "team_rank": 4
+            }
+          ]
+        }
+      },
+      "platform": "steam",
+      "region": "na"
+    }
+  ],
+  "region_counts": {
+    "kakao": 0,
+    "as": 0,
+    "eu": 0,
+    "na": 2,
+    "sea": 0,
+    "oc": 0
+  }
+}

@@ -24,7 +24,7 @@
     {
       "spot_id": "deston_spot_008",
       "cluster_id": 7,
-      "spot_name": "Spot (5662m, 3637m)",
+      "spot_name": "Spot (5662m, 3640m)",
       "x_meter": 5662.3,
       "y_meter": 3637.8,
       "x_norm": 0.70779,
@@ -105,7 +105,7 @@
     {
       "spot_id": "deston_spot_002",
       "cluster_id": 1,
-      "spot_name": "Spot (3460m, 2734m)",
+      "spot_name": "Spot (3459m, 2735m)",
       "x_meter": 3460.0,
       "y_meter": 2734.8,
       "x_norm": 0.4325,
@@ -181,7 +181,7 @@
     {
       "spot_id": "deston_spot_007",
       "cluster_id": 6,
-      "spot_name": "Spot (3893m, 4663m)",
+      "spot_name": "Spot (3889m, 4655m)",
       "x_meter": 3891.5,
       "y_meter": 4659.8,
       "x_norm": 0.48643,
@@ -256,7 +256,7 @@
     {
       "spot_id": "deston_spot_012",
       "cluster_id": 11,
-      "spot_name": "Spot (3743m, 3639m)",
+      "spot_name": "Spot (3751m, 3643m)",
       "x_meter": 3745.9,
       "y_meter": 3643.3,
       "x_norm": 0.46824,
@@ -792,7 +792,7 @@
     {
       "spot_id": "deston_spot_013",
       "cluster_id": 12,
-      "spot_name": "Spot (4276m, 3657m)",
+      "spot_name": "Spot (4275m, 3660m)",
       "x_meter": 4276.1,
       "y_meter": 3659.3,
       "x_norm": 0.53451,
@@ -957,7 +957,7 @@
     {
       "spot_id": "deston_spot_009",
       "cluster_id": 8,
-      "spot_name": "Spot (3871m, 5250m)",
+      "spot_name": "Spot (3870m, 5253m)",
       "x_meter": 3870.7,
       "y_meter": 5252.2,
       "x_norm": 0.48384,
@@ -1172,5 +1172,13 @@
       }
     }
   ],
-  "cache_profile": "pro"
+  "cache_profile": "pro",
+  "region_counts": {
+    "kakao": 0,
+    "as": 0,
+    "eu": 0,
+    "na": 3,
+    "sea": 0,
+    "oc": 0
+  }
 }

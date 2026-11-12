@@ -59,6 +59,18 @@ PUBG_API_KEY: str = load_saved_api_key()
 PUBG_SHARD: str = os.environ.get("PUBG_SHARD", "steam").strip()  # steam, kakao, tournament
 DEFAULT_PRO_PLAYERS: List[str] = ["TGLTN", "hwinn", "Shrimzy"]
 
+# 서버(스배/카배) 및 권역별 필터 메타데이터
+PRO_REGION_META: Dict[str, Dict[str, str]] = {
+    "kakao": {"label": "💛 카배(한국)", "short": "카배", "platform": "kakao", "lb_shard": "pc-kakao", "api_shard": "kakao"},
+    "as":    {"label": "🌏 아시아(AS)", "short": "아시아", "platform": "steam", "lb_shard": "pc-as",    "api_shard": "steam"},
+    "eu":    {"label": "🇪🇺 유럽(EU)",   "short": "유럽",   "platform": "steam", "lb_shard": "pc-eu",    "api_shard": "steam"},
+    "na":    {"label": "🇺🇸 북미(NA)",   "short": "북미",   "platform": "steam", "lb_shard": "pc-na",    "api_shard": "steam"},
+    "sea":   {"label": "🌴 동남아(SEA)", "short": "동남아", "platform": "steam", "lb_shard": "pc-sea",   "api_shard": "steam"},
+    "oc":    {"label": "🦘 오세아니아(OC·SEA통합)", "short": "오세아니아", "platform": "steam", "lb_shard": "pc-sea", "api_shard": "steam"},
+}
+ALL_PRO_REGION_KEYS: List[str] = list(PRO_REGION_META.keys())
+STEAM_PRO_REGION_KEYS: List[str] = [k for k, v in PRO_REGION_META.items() if v["platform"] == "steam"]
+
 # ==============================================================================
 # 3. 핵심 전술 알고리즘 파라미터 (절대 하드코딩 금지 상수)
 # ==============================================================================

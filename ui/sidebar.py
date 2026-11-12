@@ -64,6 +64,87 @@ def render_bottom_controls(spots_data: Dict[str, Any]) -> None:
                     st.session_state["spot_tier_filter"] = val
                     st.rerun()
 
+    # 1-B. 서버(스배/카배) 및 국가·권역별 반영 데이터 선택 (단독 또는 다중 조합)
+    selected_regs = list(st.session_state.get("selected_regions", config.ALL_PRO_REGION_KEYS))
+    if not selected_regs:
+        selected_regs = list(config.ALL_PRO_REGION_KEYS)
+    reg_counts: Dict[str, int] = spots_data.get("region_counts") or {k: 0 for k in config.PRO_REGION_META}
+    cur_m = spots_data.get("total_matches", 0)
+    all_m = spots_data.get("total_all_region_matches", cur_m)
+
+    is_all_selected = set(selected_regs) >= set(config.ALL_PRO_REGION_KEYS)
+    is_steam_only = set(selected_regs) == set(config.STEAM_PRO_REGION_KEYS)
+    is_kakao_only = set(selected_regs) == {"kakao"}
+
+    st.caption(
+        f"🌏 **반영 데이터 선택 (스배 / 카배 / 국가별 조합)** — "
+        f"현재 반영: **{cur_m}판** / 전체 {all_m}판 *(버튼을 눌러 원하는 국가만 보거나 여러 개를 섞어볼 수 있습니다)*"
+    )
+    preset_cols = st.columns(3, gap="small")
+    with preset_cols[0]:
+        if st.button(
+            "🌐 전체 통합 (스배+카배)",
+            key="reg_preset_all",
+            type="primary" if is_all_selected else "secondary",
+            use_container_width=True,
+        ):
+            st.session_state["data_profile"] = "pro"
+            st.session_state["selected_regions"] = list(config.ALL_PRO_REGION_KEYS)
+            st.rerun()
+    with preset_cols[1]:
+        if st.button(
+            "🎮 스배 전체 (Steam)",
+            key="reg_preset_steam",
+            type="primary" if is_steam_only else "secondary",
+            use_container_width=True,
+        ):
+            st.session_state["data_profile"] = "pro"
+            st.session_state["selected_regions"] = list(config.STEAM_PRO_REGION_KEYS)
+            st.rerun()
+    with preset_cols[2]:
+        if st.button(
+            "💛 카배 전용 (Kakao)",
+            key="reg_preset_kakao",
+            type="primary" if is_kakao_only else "secondary",
+            use_container_width=True,
+        ):
+            st.session_state["data_profile"] = "pro"
+            st.session_state["selected_regions"] = ["kakao"]
+            st.rerun()
+
+    reg_cols = st.columns(len(config.ALL_PRO_REGION_KEYS), gap="small")
+    for idx, r_key in enumerate(config.ALL_PRO_REGION_KEYS):
+        r_meta = config.PRO_REGION_META[r_key]
+        r_cnt = int(reg_counts.get(r_key, 0))
+        is_on = r_key in selected_regs
+        with reg_cols[idx]:
+            if st.button(
+                f"{r_meta['label']} ({r_cnt}판)",
+                key=f"reg_toggle_{r_key}",
+                type="primary" if is_on else "secondary",
+                use_container_width=True,
+                help="전체 선택 상태에서 누르면 해당 국가만 단독 표시하고, 일부 선택 상태에서 누르면 조합에 추가/제외합니다.",
+            ):
+                st.session_state["data_profile"] = "pro"
+                # 전체가 다 켜진 상태에서 특정 국가 버튼을 누르면 -> 그 국가만 단독 선택!
+                # 일부만 켜진 상태에서 누르면 -> 다중 조합(켜기/끄기 토글)으로 동작!
+                if is_all_selected:
+                    new_regs = [r_key]
+                elif is_on and len(selected_regs) == 1:
+                    new_regs = list(config.ALL_PRO_REGION_KEYS)
+                elif is_on:
+                    new_regs = [k for k in selected_regs if k != r_key]
+                else:
+                    new_regs = selected_regs + [r_key]
+                st.session_state["selected_regions"] = new_regs
+                st.rerun()
+
+    if spots_data.get("region_empty"):
+        st.warning(
+            "선택한 서버/국가 조건에 해당하는 매치가 현재 이 맵에 0판입니다. "
+            "다른 국가를 함께 선택하거나 **`🔄 선수 최신 매치 추가`** 로 수집해 보세요."
+        )
+
     # 2. 데이터 모드: [🏆 프로 선수용 (좌)] vs [👤 일반 유저용 닉네임 검색 (우)] 나란히 배치
     col_pro, col_user = st.columns([4.6, 5.4], gap="small")
 

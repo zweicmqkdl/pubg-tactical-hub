@@ -2,4 +2,5 @@
 __pycache__/
 *.pyc
 data/raw/*.json
+!data/raw/*_pro_matches.json
 tools/
