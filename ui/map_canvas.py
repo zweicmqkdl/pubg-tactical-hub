@@ -91,8 +91,8 @@ def render_map_canvas(spots_data: Dict[str, Any]) -> None:
   }}
   .hub-layout {{
     display: grid;
-    grid-template-columns: minmax(520px, 1fr) 365px;
-    gap: 14px;
+    grid-template-columns: 1fr;
+    gap: 10px;
     width: 100%;
     height: 780px;
   }}
@@ -418,30 +418,6 @@ def render_map_canvas(spots_data: Dict[str, Any]) -> None:
         <div style="opacity:0.85;">| ⚪ 백색 원: 드래그 가능</div>
       </div>
     </div>
-  </div>
-
-  <!-- 우측: 자기장 내부 주요 거점 점유 확률(%) 실시간 순위 -->
-  <div class="side-panel">
-    <div class="side-header">
-      <div style="display:flex; justify-content:space-between; align-items:center;">
-        <span style="font-size:14.5px; font-weight:800;">📌 점유 확률(%) & Top4 생존율</span>
-        <span id="phaseBadge" style="font-size:11.5px; font-weight:800; padding:2px 8px; border-radius:999px; background:{theme['accent_soft']}; color:{theme['accent']}; border:1px solid {theme['accent']};">P3</span>
-      </div>
-      <div style="font-size:11.5px; color:{theme['text_secondary']}; margin-top:3px;" id="zoneCoordText">
-        중심: (3840m, 3840m) · 반경: 960m
-      </div>
-      <div class="side-summary-grid">
-        <div class="kpi-box">
-          <div class="kpi-label">🛡️ 생존 명당 (Top4 40%+)</div>
-          <div class="kpi-val" id="kpiSpotCount" style="color:#22C55E;">0곳</div>
-        </div>
-        <div class="kpi-box">
-          <div class="kpi-label">⚔️ 위험 교전지 (킬각)</div>
-          <div class="kpi-val" id="kpiHighProbCount" style="color:#EF4444;">0곳</div>
-        </div>
-      </div>
-    </div>
-    <div class="spot-list" id="spotListContainer"></div>
   </div>
 </div>
 
@@ -1235,4 +1211,36 @@ resizeCanvas();
 </body>
 </html>
     """
-    components.html(html_code, height=820, scrolling=False)
+    col_map, col_maps = st.columns([7.5, 2.5], gap="medium")
+    with col_map:
+        components.html(html_code, height=795, scrolling=False)
+    with col_maps:
+        st.markdown(
+            f"""
+            <div class="tactical-card" style="padding: 0.75rem 0.9rem !important; margin-bottom: 0.55rem !important;">
+                <div style="font-size:0.98rem; font-weight:800; color:{theme['text_primary']};">
+                    🗺️ 전장(Map) 선택
+                </div>
+                <div class="muted-text" style="font-size:0.78rem !important; margin-top:2px;">
+                    버튼을 클릭해 분석할 맵을 바로 전환하세요
+                </div>
+            </div>
+            """,
+            unsafe_allow_html=True,
+        )
+        for m_key, m_info in config.SUPPORTED_MAPS.items():
+            is_cur = (m_key == map_id)
+            btn_label = f"{'📍 ' if is_cur else ''}{m_info['name_ko']} ({m_info['name_en']}) · {m_info['category']}"
+            if st.button(
+                btn_label,
+                key=f"side_map_btn_{m_key}",
+                type="primary" if is_cur else "secondary",
+                use_container_width=True,
+            ):
+                if not is_cur:
+                    st.session_state["selected_map"] = m_key
+                    default_cx, default_cy = m_info["default_zone_center"]
+                    st.session_state["zone_center_x_norm"] = default_cx
+                    st.session_state["zone_center_y_norm"] = default_cy
+                    st.session_state["selected_spot_id"] = None
+                    st.rerun()

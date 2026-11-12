@@ -134,48 +134,25 @@ def inject_theme_css(theme_name: str) -> None:
 
 
 def render_navbar() -> None:
-    """상단 내비게이션 바 렌더링 (모바일 최상단 맵 선택 + 로고 + 다크/라이트 토글)"""
+    """상단 내비게이션 바 렌더링 (로고 + 다크/라이트 토글)"""
     theme_name = st.session_state.get("theme", "dark")
     theme = config.THEMES.get(theme_name, config.THEMES["dark"])
 
-    # 모바일에서 가장 먼저 맵 선택이 상단에 보이도록 맵 선택기를 첫 번째 컬럼/상단 행에 배치
-    col_map, col_logo, col_theme = st.columns([4.2, 4.0, 1.8], gap="small")
+    current_map = st.session_state.get("selected_map", "erangel")
+    map_meta = config.SUPPORTED_MAPS.get(current_map, config.SUPPORTED_MAPS["erangel"])
 
-    with col_map:
-        map_keys = list(config.SUPPORTED_MAPS.keys())
-        current_map = st.session_state.get("selected_map", "erangel")
-        if current_map not in map_keys:
-            current_map = "erangel"
-
-        def _format_map_option(m_key: str) -> str:
-            m = config.SUPPORTED_MAPS[m_key]
-            return f"🗺️ {m['name_ko']} ({m['name_en']}) · {m['category']}"
-
-        selected_map = st.selectbox(
-            "전장(Map) 선택",
-            options=map_keys,
-            index=map_keys.index(current_map),
-            format_func=_format_map_option,
-            key="navbar_map_select",
-            label_visibility="collapsed",
-        )
-        if selected_map != st.session_state.get("selected_map"):
-            st.session_state["selected_map"] = selected_map
-            default_cx, default_cy = config.SUPPORTED_MAPS[selected_map]["default_zone_center"]
-            st.session_state["zone_center_x_norm"] = default_cx
-            st.session_state["zone_center_y_norm"] = default_cy
-            st.session_state["selected_spot_id"] = None
-            st.rerun()
+    col_logo, col_theme = st.columns([8.2, 1.8], gap="small")
 
     with col_logo:
         st.markdown(
             f"""
             <div class="tactical-card" style="padding: 0.48rem 0.85rem !important; margin-bottom: 0 !important; display:flex; align-items:center; justify-content:space-between;">
-                <div style="display:flex; align-items:center; gap:7px; flex-wrap:wrap;">
-                    <span style="font-size:1.1rem;">🎯</span>
-                    <span style="font-size:1.0rem; font-weight:800; letter-spacing:-0.02em; color:{theme['text_primary']};">
+                <div style="display:flex; align-items:center; gap:8px; flex-wrap:wrap;">
+                    <span style="font-size:1.15rem;">🎯</span>
+                    <span style="font-size:1.05rem; font-weight:800; letter-spacing:-0.02em; color:{theme['text_primary']};">
                         PUBG Tactical Hub
                     </span>
+                    <span class="spot-badge" style="font-size:0.75rem;">현재 맵: {map_meta['name_ko']} ({map_meta['name_en']})</span>
                     <span class="spot-badge">DBSCAN {config.CLUSTER_RADIUS_METER}m</span>
                 </div>
             </div>
