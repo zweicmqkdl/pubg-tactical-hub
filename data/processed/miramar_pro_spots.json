@@ -1,0 +1,7688 @@
+{
+  "map_id": "miramar",
+  "map_name_ko": "미라마",
+  "map_name_en": "Miramar",
+  "data_source": "real_pubg_api",
+  "size_km": 8.0,
+  "size_meter": 8000.0,
+  "algorithm_params": {
+    "HOLDING_TIME_SEC": 30,
+    "CLUSTER_RADIUS_METER": 20,
+    "ZONE_SIMILARITY_RADIUS": 300,
+    "formula": "점유 확률(%) = (해당 포인트에 스쿼드가 고착한 매치 수 / 유사 자기장 전체 매치 수) * 100"
+  },
+  "default_zone": {
+    "phase": 3,
+    "center_x_norm": 0.5,
+    "center_y_norm": 0.48,
+    "center_x_meter": 4000.0,
+    "center_y_meter": 3840.0
+  },
+  "total_matches": 15,
+  "total_spots": 73,
+  "spots": [
+    {
+      "spot_id": "miramar_spot_010",
+      "cluster_id": 9,
+      "spot_name": "Spot (3639m, 4181m)",
+      "x_meter": 3637.9,
+      "y_meter": 4182.8,
+      "x_norm": 0.45473,
+      "y_norm": 0.52285,
+      "x_telemetry": 363787.6,
+      "y_telemetry": 418277.2,
+      "sample_count": 5,
+      "avg_holding_time_sec": 119.4,
+      "occupied_matches": 5,
+      "similar_zone_matches": 20,
+      "occupancy_prob_pct": 25.0,
+      "rank_sample_count": 2,
+      "top4_count": 0,
+      "top4_survival_pct": 0.0,
+      "spot_tier": "hot_zone",
+      "phase_stats": {
+        "1": {
+          "occupied_matches": 2,
+          "similar_zone_matches": 12,
+          "occupancy_prob_pct": 16.7,
+          "eligible_match_indices": [
+            0,
+            1,
+            2,
+            3,
+            5,
+            6,
+            7,
+            8,
+            11,
+            12,
+            13,
+            14
+          ],
+          "occupied_match_indices": [
+            0,
+            12
+          ]
+        },
+        "2": {
+          "occupied_matches": 1,
+          "similar_zone_matches": 6,
+          "occupancy_prob_pct": 16.7,
+          "eligible_match_indices": [
+            0,
+            3,
+            5,
+            6,
+            8,
+            10
+          ],
+          "occupied_match_indices": [
+            0
+          ]
+        },
+        "3": {
+          "occupied_matches": 1,
+          "similar_zone_matches": 1,
+          "occupancy_prob_pct": 100.0,
+          "eligible_match_indices": [
+            0
+          ],
+          "occupied_match_indices": [
+            0
+          ]
+        },
+        "4": {
+          "occupied_matches": 1,
+          "similar_zone_matches": 1,
+          "occupancy_prob_pct": 100.0,
+          "eligible_match_indices": [
+            0
+          ],
+          "occupied_match_indices": [
+            0
+          ]
+        },
+        "5": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 1,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            0
+          ],
+          "occupied_match_indices": []
+        },
+        "6": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 0,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [],
+          "occupied_match_indices": []
+        }
+      },
+      "rank": 1
+    },
+    {
+      "spot_id": "miramar_spot_003",
+      "cluster_id": 2,
+      "spot_name": "Spot (4387m, 2805m)",
+      "x_meter": 4384.6,
+      "y_meter": 2808.0,
+      "x_norm": 0.54808,
+      "y_norm": 0.35099,
+      "x_telemetry": 438463.0,
+      "y_telemetry": 280795.5,
+      "sample_count": 8,
+      "avg_holding_time_sec": 51.4,
+      "occupied_matches": 5,
+      "similar_zone_matches": 21,
+      "occupancy_prob_pct": 23.8,
+      "rank_sample_count": 8,
+      "top4_count": 1,
+      "top4_survival_pct": 12.5,
+      "spot_tier": "hot_zone",
+      "phase_stats": {
+        "1": {
+          "occupied_matches": 5,
+          "similar_zone_matches": 12,
+          "occupancy_prob_pct": 41.7,
+          "eligible_match_indices": [
+            0,
+            1,
+            2,
+            3,
+            5,
+            6,
+            7,
+            8,
+            11,
+            12,
+            13,
+            14
+          ],
+          "occupied_match_indices": [
+            0,
+            2,
+            3,
+            11,
+            14
+          ]
+        },
+        "2": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 7,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            1,
+            2,
+            6,
+            7,
+            9,
+            11,
+            13
+          ],
+          "occupied_match_indices": []
+        },
+        "3": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 1,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            6
+          ],
+          "occupied_match_indices": []
+        },
+        "4": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 1,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            6
+          ],
+          "occupied_match_indices": []
+        },
+        "5": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 0,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [],
+          "occupied_match_indices": []
+        },
+        "6": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 0,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [],
+          "occupied_match_indices": []
+        }
+      },
+      "rank": 2
+    },
+    {
+      "spot_id": "miramar_spot_066",
+      "cluster_id": 65,
+      "spot_name": "Spot (6385m, 4628m)",
+      "x_meter": 6382.2,
+      "y_meter": 4627.3,
+      "x_norm": 0.79778,
+      "y_norm": 0.57841,
+      "x_telemetry": 638224.0,
+      "y_telemetry": 462728.3,
+      "sample_count": 3,
+      "avg_holding_time_sec": 68.3,
+      "occupied_matches": 3,
+      "similar_zone_matches": 13,
+      "occupancy_prob_pct": 23.1,
+      "rank_sample_count": 3,
+      "top4_count": 0,
+      "top4_survival_pct": 0.0,
+      "spot_tier": "hot_zone",
+      "phase_stats": {
+        "1": {
+          "occupied_matches": 2,
+          "similar_zone_matches": 12,
+          "occupancy_prob_pct": 16.7,
+          "eligible_match_indices": [
+            0,
+            1,
+            2,
+            3,
+            5,
+            6,
+            7,
+            8,
+            11,
+            12,
+            13,
+            14
+          ],
+          "occupied_match_indices": [
+            12,
+            13
+          ]
+        },
+        "2": {
+          "occupied_matches": 1,
+          "similar_zone_matches": 1,
+          "occupancy_prob_pct": 100.0,
+          "eligible_match_indices": [
+            12
+          ],
+          "occupied_match_indices": [
+            12
+          ]
+        },
+        "3": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 0,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [],
+          "occupied_match_indices": []
+        },
+        "4": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 0,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [],
+          "occupied_match_indices": []
+        },
+        "5": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 0,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [],
+          "occupied_match_indices": []
+        },
+        "6": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 0,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [],
+          "occupied_match_indices": []
+        }
+      },
+      "rank": 3
+    },
+    {
+      "spot_id": "miramar_spot_011",
+      "cluster_id": 10,
+      "spot_name": "Spot (3660m, 4395m)",
+      "x_meter": 3661.6,
+      "y_meter": 4396.8,
+      "x_norm": 0.4577,
+      "y_norm": 0.5496,
+      "x_telemetry": 366161.3,
+      "y_telemetry": 439683.7,
+      "sample_count": 6,
+      "avg_holding_time_sec": 123.8,
+      "occupied_matches": 4,
+      "similar_zone_matches": 20,
+      "occupancy_prob_pct": 20.0,
+      "rank_sample_count": 6,
+      "top4_count": 1,
+      "top4_survival_pct": 16.7,
+      "spot_tier": "hot_zone",
+      "phase_stats": {
+        "1": {
+          "occupied_matches": 3,
+          "similar_zone_matches": 12,
+          "occupancy_prob_pct": 25.0,
+          "eligible_match_indices": [
+            0,
+            1,
+            2,
+            3,
+            5,
+            6,
+            7,
+            8,
+            11,
+            12,
+            13,
+            14
+          ],
+          "occupied_match_indices": [
+            0,
+            1,
+            12
+          ]
+        },
+        "2": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 5,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            0,
+            3,
+            5,
+            8,
+            10
+          ],
+          "occupied_match_indices": []
+        },
+        "3": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 2,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            0,
+            10
+          ],
+          "occupied_match_indices": []
+        },
+        "4": {
+          "occupied_matches": 1,
+          "similar_zone_matches": 1,
+          "occupancy_prob_pct": 100.0,
+          "eligible_match_indices": [
+            0
+          ],
+          "occupied_match_indices": [
+            0
+          ]
+        },
+        "5": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 1,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            0
+          ],
+          "occupied_match_indices": []
+        },
+        "6": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 0,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [],
+          "occupied_match_indices": []
+        }
+      },
+      "rank": 4
+    },
+    {
+      "spot_id": "miramar_spot_025",
+      "cluster_id": 24,
+      "spot_name": "Spot (3676m, 4243m)",
+      "x_meter": 3679.0,
+      "y_meter": 4234.5,
+      "x_norm": 0.45988,
+      "y_norm": 0.52931,
+      "x_telemetry": 367902.0,
+      "y_telemetry": 423448.5,
+      "sample_count": 4,
+      "avg_holding_time_sec": 56.2,
+      "occupied_matches": 4,
+      "similar_zone_matches": 20,
+      "occupancy_prob_pct": 20.0,
+      "rank_sample_count": 4,
+      "top4_count": 1,
+      "top4_survival_pct": 25.0,
+      "spot_tier": "neutral",
+      "phase_stats": {
+        "1": {
+          "occupied_matches": 4,
+          "similar_zone_matches": 12,
+          "occupancy_prob_pct": 33.3,
+          "eligible_match_indices": [
+            0,
+            1,
+            2,
+            3,
+            5,
+            6,
+            7,
+            8,
+            11,
+            12,
+            13,
+            14
+          ],
+          "occupied_match_indices": [
+            1,
+            2,
+            12,
+            14
+          ]
+        },
+        "2": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 5,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            0,
+            3,
+            5,
+            8,
+            10
+          ],
+          "occupied_match_indices": []
+        },
+        "3": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 2,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            0,
+            10
+          ],
+          "occupied_match_indices": []
+        },
+        "4": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 1,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            0
+          ],
+          "occupied_match_indices": []
+        },
+        "5": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 1,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            0
+          ],
+          "occupied_match_indices": []
+        },
+        "6": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 0,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [],
+          "occupied_match_indices": []
+        }
+      },
+      "rank": 5
+    },
+    {
+      "spot_id": "miramar_spot_021",
+      "cluster_id": 20,
+      "spot_name": "Spot (5299m, 3371m)",
+      "x_meter": 5301.3,
+      "y_meter": 3359.4,
+      "x_norm": 0.66267,
+      "y_norm": 0.41992,
+      "x_telemetry": 530134.7,
+      "y_telemetry": 335939.7,
+      "sample_count": 3,
+      "avg_holding_time_sec": 65.0,
+      "occupied_matches": 3,
+      "similar_zone_matches": 16,
+      "occupancy_prob_pct": 18.8,
+      "rank_sample_count": 1,
+      "top4_count": 0,
+      "top4_survival_pct": 0.0,
+      "spot_tier": "neutral",
+      "phase_stats": {
+        "1": {
+          "occupied_matches": 1,
+          "similar_zone_matches": 12,
+          "occupancy_prob_pct": 8.3,
+          "eligible_match_indices": [
+            0,
+            1,
+            2,
+            3,
+            5,
+            6,
+            7,
+            8,
+            11,
+            12,
+            13,
+            14
+          ],
+          "occupied_match_indices": [
+            1
+          ]
+        },
+        "2": {
+          "occupied_matches": 1,
+          "similar_zone_matches": 2,
+          "occupancy_prob_pct": 50.0,
+          "eligible_match_indices": [
+            1,
+            13
+          ],
+          "occupied_match_indices": [
+            1
+          ]
+        },
+        "3": {
+          "occupied_matches": 1,
+          "similar_zone_matches": 1,
+          "occupancy_prob_pct": 100.0,
+          "eligible_match_indices": [
+            1
+          ],
+          "occupied_match_indices": [
+            1
+          ]
+        },
+        "4": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 1,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            1
+          ],
+          "occupied_match_indices": []
+        },
+        "5": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 0,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [],
+          "occupied_match_indices": []
+        },
+        "6": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 0,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [],
+          "occupied_match_indices": []
+        }
+      },
+      "rank": 6
+    },
+    {
+      "spot_id": "miramar_spot_007",
+      "cluster_id": 6,
+      "spot_name": "Spot (4034m, 5136m)",
+      "x_meter": 4028.1,
+      "y_meter": 5140.0,
+      "x_norm": 0.50351,
+      "y_norm": 0.6425,
+      "x_telemetry": 402811.7,
+      "y_telemetry": 513996.7,
+      "sample_count": 3,
+      "avg_holding_time_sec": 62.3,
+      "occupied_matches": 3,
+      "similar_zone_matches": 17,
+      "occupancy_prob_pct": 17.6,
+      "rank_sample_count": 1,
+      "top4_count": 0,
+      "top4_survival_pct": 0.0,
+      "spot_tier": "neutral",
+      "phase_stats": {
+        "1": {
+          "occupied_matches": 1,
+          "similar_zone_matches": 12,
+          "occupancy_prob_pct": 8.3,
+          "eligible_match_indices": [
+            0,
+            1,
+            2,
+            3,
+            5,
+            6,
+            7,
+            8,
+            11,
+            12,
+            13,
+            14
+          ],
+          "occupied_match_indices": [
+            0
+          ]
+        },
+        "2": {
+          "occupied_matches": 1,
+          "similar_zone_matches": 4,
+          "occupancy_prob_pct": 25.0,
+          "eligible_match_indices": [
+            0,
+            3,
+            5,
+            10
+          ],
+          "occupied_match_indices": [
+            0
+          ]
+        },
+        "3": {
+          "occupied_matches": 1,
+          "similar_zone_matches": 1,
+          "occupancy_prob_pct": 100.0,
+          "eligible_match_indices": [
+            0
+          ],
+          "occupied_match_indices": [
+            0
+          ]
+        },
+        "4": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 0,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [],
+          "occupied_match_indices": []
+        },
+        "5": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 0,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [],
+          "occupied_match_indices": []
+        },
+        "6": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 0,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [],
+          "occupied_match_indices": []
+        }
+      },
+      "rank": 7
+    },
+    {
+      "spot_id": "miramar_spot_022",
+      "cluster_id": 21,
+      "spot_name": "Spot (5649m, 2928m)",
+      "x_meter": 5656.0,
+      "y_meter": 2929.2,
+      "x_norm": 0.707,
+      "y_norm": 0.36615,
+      "x_telemetry": 565601.6,
+      "y_telemetry": 292918.0,
+      "sample_count": 5,
+      "avg_holding_time_sec": 66.2,
+      "occupied_matches": 3,
+      "similar_zone_matches": 18,
+      "occupancy_prob_pct": 16.7,
+      "rank_sample_count": 3,
+      "top4_count": 0,
+      "top4_survival_pct": 0.0,
+      "spot_tier": "hot_zone",
+      "phase_stats": {
+        "1": {
+          "occupied_matches": 1,
+          "similar_zone_matches": 12,
+          "occupancy_prob_pct": 8.3,
+          "eligible_match_indices": [
+            0,
+            1,
+            2,
+            3,
+            5,
+            6,
+            7,
+            8,
+            11,
+            12,
+            13,
+            14
+          ],
+          "occupied_match_indices": [
+            1
+          ]
+        },
+        "2": {
+          "occupied_matches": 1,
+          "similar_zone_matches": 2,
+          "occupancy_prob_pct": 50.0,
+          "eligible_match_indices": [
+            1,
+            13
+          ],
+          "occupied_match_indices": [
+            1
+          ]
+        },
+        "3": {
+          "occupied_matches": 1,
+          "similar_zone_matches": 2,
+          "occupancy_prob_pct": 50.0,
+          "eligible_match_indices": [
+            1,
+            13
+          ],
+          "occupied_match_indices": [
+            1
+          ]
+        },
+        "4": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 2,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            1,
+            13
+          ],
+          "occupied_match_indices": []
+        },
+        "5": {
+          "occupied_matches": 1,
+          "similar_zone_matches": 2,
+          "occupancy_prob_pct": 50.0,
+          "eligible_match_indices": [
+            1,
+            13
+          ],
+          "occupied_match_indices": [
+            1
+          ]
+        },
+        "6": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 0,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [],
+          "occupied_match_indices": []
+        }
+      },
+      "rank": 8
+    },
+    {
+      "spot_id": "miramar_spot_008",
+      "cluster_id": 7,
+      "spot_name": "Spot (3780m, 4273m)",
+      "x_meter": 3777.3,
+      "y_meter": 4280.0,
+      "x_norm": 0.47216,
+      "y_norm": 0.535,
+      "x_telemetry": 377727.0,
+      "y_telemetry": 427999.7,
+      "sample_count": 3,
+      "avg_holding_time_sec": 142.7,
+      "occupied_matches": 3,
+      "similar_zone_matches": 18,
+      "occupancy_prob_pct": 16.7,
+      "rank_sample_count": 2,
+      "top4_count": 0,
+      "top4_survival_pct": 0.0,
+      "spot_tier": "hot_zone",
+      "phase_stats": {
+        "1": {
+          "occupied_matches": 2,
+          "similar_zone_matches": 12,
+          "occupancy_prob_pct": 16.7,
+          "eligible_match_indices": [
+            0,
+            1,
+            2,
+            3,
+            5,
+            6,
+            7,
+            8,
+            11,
+            12,
+            13,
+            14
+          ],
+          "occupied_match_indices": [
+            0,
+            2
+          ]
+        },
+        "2": {
+          "occupied_matches": 1,
+          "similar_zone_matches": 4,
+          "occupancy_prob_pct": 25.0,
+          "eligible_match_indices": [
+            0,
+            3,
+            5,
+            10
+          ],
+          "occupied_match_indices": [
+            0
+          ]
+        },
+        "3": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 1,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            0
+          ],
+          "occupied_match_indices": []
+        },
+        "4": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 1,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            0
+          ],
+          "occupied_match_indices": []
+        },
+        "5": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 1,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            0
+          ],
+          "occupied_match_indices": []
+        },
+        "6": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 0,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [],
+          "occupied_match_indices": []
+        }
+      },
+      "rank": 9
+    },
+    {
+      "spot_id": "miramar_spot_027",
+      "cluster_id": 26,
+      "spot_name": "Spot (5628m, 2540m)",
+      "x_meter": 5624.5,
+      "y_meter": 2544.8,
+      "x_norm": 0.70307,
+      "y_norm": 0.3181,
+      "x_telemetry": 562452.0,
+      "y_telemetry": 254480.3,
+      "sample_count": 3,
+      "avg_holding_time_sec": 36.3,
+      "occupied_matches": 3,
+      "similar_zone_matches": 19,
+      "occupancy_prob_pct": 15.8,
+      "rank_sample_count": 2,
+      "top4_count": 0,
+      "top4_survival_pct": 0.0,
+      "spot_tier": "hot_zone",
+      "phase_stats": {
+        "1": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 12,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            0,
+            1,
+            2,
+            3,
+            5,
+            6,
+            7,
+            8,
+            11,
+            12,
+            13,
+            14
+          ],
+          "occupied_match_indices": []
+        },
+        "2": {
+          "occupied_matches": 1,
+          "similar_zone_matches": 3,
+          "occupancy_prob_pct": 33.3,
+          "eligible_match_indices": [
+            1,
+            9,
+            13
+          ],
+          "occupied_match_indices": [
+            1
+          ]
+        },
+        "3": {
+          "occupied_matches": 1,
+          "similar_zone_matches": 2,
+          "occupancy_prob_pct": 50.0,
+          "eligible_match_indices": [
+            1,
+            13
+          ],
+          "occupied_match_indices": [
+            1
+          ]
+        },
+        "4": {
+          "occupied_matches": 1,
+          "similar_zone_matches": 2,
+          "occupancy_prob_pct": 50.0,
+          "eligible_match_indices": [
+            1,
+            13
+          ],
+          "occupied_match_indices": [
+            1
+          ]
+        },
+        "5": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 1,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            13
+          ],
+          "occupied_match_indices": []
+        },
+        "6": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 1,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            13
+          ],
+          "occupied_match_indices": []
+        }
+      },
+      "rank": 10
+    },
+    {
+      "spot_id": "miramar_spot_006",
+      "cluster_id": 5,
+      "spot_name": "Spot (3749m, 2924m)",
+      "x_meter": 3744.8,
+      "y_meter": 2931.1,
+      "x_norm": 0.4681,
+      "y_norm": 0.36639,
+      "x_telemetry": 374484.0,
+      "y_telemetry": 293113.8,
+      "sample_count": 4,
+      "avg_holding_time_sec": 84.5,
+      "occupied_matches": 3,
+      "similar_zone_matches": 21,
+      "occupancy_prob_pct": 14.3,
+      "rank_sample_count": 4,
+      "top4_count": 0,
+      "top4_survival_pct": 0.0,
+      "spot_tier": "hot_zone",
+      "phase_stats": {
+        "1": {
+          "occupied_matches": 3,
+          "similar_zone_matches": 12,
+          "occupancy_prob_pct": 25.0,
+          "eligible_match_indices": [
+            0,
+            1,
+            2,
+            3,
+            5,
+            6,
+            7,
+            8,
+            11,
+            12,
+            13,
+            14
+          ],
+          "occupied_match_indices": [
+            0,
+            2,
+            3
+          ]
+        },
+        "2": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 5,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            2,
+            6,
+            7,
+            11,
+            13
+          ],
+          "occupied_match_indices": []
+        },
+        "3": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 3,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            2,
+            6,
+            11
+          ],
+          "occupied_match_indices": []
+        },
+        "4": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 1,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            6
+          ],
+          "occupied_match_indices": []
+        },
+        "5": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 1,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            6
+          ],
+          "occupied_match_indices": []
+        },
+        "6": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 1,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            6
+          ],
+          "occupied_match_indices": []
+        }
+      },
+      "rank": 11
+    },
+    {
+      "spot_id": "miramar_spot_048",
+      "cluster_id": 47,
+      "spot_name": "Spot (3671m, 2902m)",
+      "x_meter": 3667.8,
+      "y_meter": 2899.3,
+      "x_norm": 0.45847,
+      "y_norm": 0.36241,
+      "x_telemetry": 366776.0,
+      "y_telemetry": 289929.8,
+      "sample_count": 4,
+      "avg_holding_time_sec": 106.0,
+      "occupied_matches": 3,
+      "similar_zone_matches": 21,
+      "occupancy_prob_pct": 14.3,
+      "rank_sample_count": 3,
+      "top4_count": 0,
+      "top4_survival_pct": 0.0,
+      "spot_tier": "hot_zone",
+      "phase_stats": {
+        "1": {
+          "occupied_matches": 1,
+          "similar_zone_matches": 12,
+          "occupancy_prob_pct": 8.3,
+          "eligible_match_indices": [
+            0,
+            1,
+            2,
+            3,
+            5,
+            6,
+            7,
+            8,
+            11,
+            12,
+            13,
+            14
+          ],
+          "occupied_match_indices": [
+            11
+          ]
+        },
+        "2": {
+          "occupied_matches": 1,
+          "similar_zone_matches": 5,
+          "occupancy_prob_pct": 20.0,
+          "eligible_match_indices": [
+            2,
+            6,
+            7,
+            11,
+            13
+          ],
+          "occupied_match_indices": [
+            6
+          ]
+        },
+        "3": {
+          "occupied_matches": 1,
+          "similar_zone_matches": 3,
+          "occupancy_prob_pct": 33.3,
+          "eligible_match_indices": [
+            2,
+            6,
+            11
+          ],
+          "occupied_match_indices": [
+            6
+          ]
+        },
+        "4": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 1,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            6
+          ],
+          "occupied_match_indices": []
+        },
+        "5": {
+          "occupied_matches": 1,
+          "similar_zone_matches": 1,
+          "occupancy_prob_pct": 100.0,
+          "eligible_match_indices": [
+            6
+          ],
+          "occupied_match_indices": [
+            6
+          ]
+        },
+        "6": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 0,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [],
+          "occupied_match_indices": []
+        }
+      },
+      "rank": 12
+    },
+    {
+      "spot_id": "miramar_spot_005",
+      "cluster_id": 4,
+      "spot_name": "Spot (5151m, 3502m)",
+      "x_meter": 5156.9,
+      "y_meter": 3508.0,
+      "x_norm": 0.64462,
+      "y_norm": 0.4385,
+      "x_telemetry": 515694.0,
+      "y_telemetry": 350800.5,
+      "sample_count": 2,
+      "avg_holding_time_sec": 78.0,
+      "occupied_matches": 2,
+      "similar_zone_matches": 14,
+      "occupancy_prob_pct": 14.3,
+      "rank_sample_count": 2,
+      "top4_count": 0,
+      "top4_survival_pct": 0.0,
+      "spot_tier": "hot_zone",
+      "phase_stats": {
+        "1": {
+          "occupied_matches": 2,
+          "similar_zone_matches": 12,
+          "occupancy_prob_pct": 16.7,
+          "eligible_match_indices": [
+            0,
+            1,
+            2,
+            3,
+            5,
+            6,
+            7,
+            8,
+            11,
+            12,
+            13,
+            14
+          ],
+          "occupied_match_indices": [
+            0,
+            2
+          ]
+        },
+        "2": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 2,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            1,
+            13
+          ],
+          "occupied_match_indices": []
+        },
+        "3": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 0,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [],
+          "occupied_match_indices": []
+        },
+        "4": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 0,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [],
+          "occupied_match_indices": []
+        },
+        "5": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 0,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [],
+          "occupied_match_indices": []
+        },
+        "6": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 0,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [],
+          "occupied_match_indices": []
+        }
+      },
+      "rank": 13
+    },
+    {
+      "spot_id": "miramar_spot_033",
+      "cluster_id": 32,
+      "spot_name": "Spot (4943m, 4334m)",
+      "x_meter": 4940.8,
+      "y_meter": 4330.9,
+      "x_norm": 0.6176,
+      "y_norm": 0.54137,
+      "x_telemetry": 494081.5,
+      "y_telemetry": 433094.0,
+      "sample_count": 2,
+      "avg_holding_time_sec": 61.5,
+      "occupied_matches": 2,
+      "similar_zone_matches": 14,
+      "occupancy_prob_pct": 14.3,
+      "rank_sample_count": 2,
+      "top4_count": 0,
+      "top4_survival_pct": 0.0,
+      "spot_tier": "hot_zone",
+      "phase_stats": {
+        "1": {
+          "occupied_matches": 2,
+          "similar_zone_matches": 12,
+          "occupancy_prob_pct": 16.7,
+          "eligible_match_indices": [
+            0,
+            1,
+            2,
+            3,
+            5,
+            6,
+            7,
+            8,
+            11,
+            12,
+            13,
+            14
+          ],
+          "occupied_match_indices": [
+            2,
+            13
+          ]
+        },
+        "2": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 2,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            0,
+            12
+          ],
+          "occupied_match_indices": []
+        },
+        "3": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 0,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [],
+          "occupied_match_indices": []
+        },
+        "4": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 0,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [],
+          "occupied_match_indices": []
+        },
+        "5": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 0,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [],
+          "occupied_match_indices": []
+        },
+        "6": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 0,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [],
+          "occupied_match_indices": []
+        }
+      },
+      "rank": 14
+    },
+    {
+      "spot_id": "miramar_spot_002",
+      "cluster_id": 1,
+      "spot_name": "Spot (2779m, 5291m)",
+      "x_meter": 2779.5,
+      "y_meter": 5289.4,
+      "x_norm": 0.34744,
+      "y_norm": 0.66117,
+      "x_telemetry": 277952.7,
+      "y_telemetry": 528939.0,
+      "sample_count": 3,
+      "avg_holding_time_sec": 59.7,
+      "occupied_matches": 3,
+      "similar_zone_matches": 23,
+      "occupancy_prob_pct": 13.0,
+      "rank_sample_count": 3,
+      "top4_count": 1,
+      "top4_survival_pct": 33.3,
+      "spot_tier": "neutral",
+      "phase_stats": {
+        "1": {
+          "occupied_matches": 1,
+          "similar_zone_matches": 12,
+          "occupancy_prob_pct": 8.3,
+          "eligible_match_indices": [
+            0,
+            1,
+            2,
+            3,
+            5,
+            6,
+            7,
+            8,
+            11,
+            12,
+            13,
+            14
+          ],
+          "occupied_match_indices": [
+            0
+          ]
+        },
+        "2": {
+          "occupied_matches": 1,
+          "similar_zone_matches": 5,
+          "occupancy_prob_pct": 20.0,
+          "eligible_match_indices": [
+            0,
+            3,
+            5,
+            8,
+            10
+          ],
+          "occupied_match_indices": [
+            0
+          ]
+        },
+        "3": {
+          "occupied_matches": 1,
+          "similar_zone_matches": 3,
+          "occupancy_prob_pct": 33.3,
+          "eligible_match_indices": [
+            3,
+            5,
+            10
+          ],
+          "occupied_match_indices": [
+            5
+          ]
+        },
+        "4": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 3,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            3,
+            5,
+            10
+          ],
+          "occupied_match_indices": []
+        },
+        "5": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 0,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [],
+          "occupied_match_indices": []
+        },
+        "6": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 0,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [],
+          "occupied_match_indices": []
+        }
+      },
+      "rank": 15
+    },
+    {
+      "spot_id": "miramar_spot_035",
+      "cluster_id": 34,
+      "spot_name": "Spot (3087m, 2907m)",
+      "x_meter": 3075.1,
+      "y_meter": 2912.3,
+      "x_norm": 0.38439,
+      "y_norm": 0.36404,
+      "x_telemetry": 307512.0,
+      "y_telemetry": 291229.8,
+      "sample_count": 6,
+      "avg_holding_time_sec": 76.2,
+      "occupied_matches": 3,
+      "similar_zone_matches": 24,
+      "occupancy_prob_pct": 12.5,
+      "rank_sample_count": 3,
+      "top4_count": 1,
+      "top4_survival_pct": 33.3,
+      "spot_tier": "neutral",
+      "phase_stats": {
+        "1": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 12,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            0,
+            1,
+            2,
+            3,
+            5,
+            6,
+            7,
+            8,
+            11,
+            12,
+            13,
+            14
+          ],
+          "occupied_match_indices": []
+        },
+        "2": {
+          "occupied_matches": 1,
+          "similar_zone_matches": 6,
+          "occupancy_prob_pct": 16.7,
+          "eligible_match_indices": [
+            2,
+            6,
+            7,
+            8,
+            11,
+            14
+          ],
+          "occupied_match_indices": [
+            2
+          ]
+        },
+        "3": {
+          "occupied_matches": 1,
+          "similar_zone_matches": 4,
+          "occupancy_prob_pct": 25.0,
+          "eligible_match_indices": [
+            2,
+            6,
+            7,
+            11
+          ],
+          "occupied_match_indices": [
+            2
+          ]
+        },
+        "4": {
+          "occupied_matches": 1,
+          "similar_zone_matches": 2,
+          "occupancy_prob_pct": 50.0,
+          "eligible_match_indices": [
+            2,
+            11
+          ],
+          "occupied_match_indices": [
+            2
+          ]
+        },
+        "5": {
+          "occupied_matches": 2,
+          "similar_zone_matches": 2,
+          "occupancy_prob_pct": 100.0,
+          "eligible_match_indices": [
+            2,
+            11
+          ],
+          "occupied_match_indices": [
+            2,
+            11
+          ]
+        },
+        "6": {
+          "occupied_matches": 1,
+          "similar_zone_matches": 1,
+          "occupancy_prob_pct": 100.0,
+          "eligible_match_indices": [
+            11
+          ],
+          "occupied_match_indices": [
+            11
+          ]
+        }
+      },
+      "rank": 16
+    },
+    {
+      "spot_id": "miramar_spot_038",
+      "cluster_id": 37,
+      "spot_name": "Spot (2978m, 3139m)",
+      "x_meter": 2985.2,
+      "y_meter": 3138.5,
+      "x_norm": 0.37316,
+      "y_norm": 0.39231,
+      "x_telemetry": 298524.5,
+      "y_telemetry": 313848.0,
+      "sample_count": 6,
+      "avg_holding_time_sec": 80.5,
+      "occupied_matches": 3,
+      "similar_zone_matches": 25,
+      "occupancy_prob_pct": 12.0,
+      "rank_sample_count": 2,
+      "top4_count": 1,
+      "top4_survival_pct": 50.0,
+      "spot_tier": "safe_spot",
+      "phase_stats": {
+        "1": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 12,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            0,
+            1,
+            2,
+            3,
+            5,
+            6,
+            7,
+            8,
+            11,
+            12,
+            13,
+            14
+          ],
+          "occupied_match_indices": []
+        },
+        "2": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 7,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            2,
+            5,
+            6,
+            7,
+            8,
+            11,
+            14
+          ],
+          "occupied_match_indices": []
+        },
+        "3": {
+          "occupied_matches": 1,
+          "similar_zone_matches": 4,
+          "occupancy_prob_pct": 25.0,
+          "eligible_match_indices": [
+            2,
+            6,
+            7,
+            11
+          ],
+          "occupied_match_indices": [
+            2
+          ]
+        },
+        "4": {
+          "occupied_matches": 2,
+          "similar_zone_matches": 2,
+          "occupancy_prob_pct": 100.0,
+          "eligible_match_indices": [
+            2,
+            11
+          ],
+          "occupied_match_indices": [
+            2,
+            11
+          ]
+        },
+        "5": {
+          "occupied_matches": 2,
+          "similar_zone_matches": 2,
+          "occupancy_prob_pct": 100.0,
+          "eligible_match_indices": [
+            2,
+            11
+          ],
+          "occupied_match_indices": [
+            2,
+            11
+          ]
+        },
+        "6": {
+          "occupied_matches": 1,
+          "similar_zone_matches": 2,
+          "occupancy_prob_pct": 50.0,
+          "eligible_match_indices": [
+            2,
+            11
+          ],
+          "occupied_match_indices": [
+            11
+          ]
+        }
+      },
+      "rank": 17
+    },
+    {
+      "spot_id": "miramar_spot_067",
+      "cluster_id": 66,
+      "spot_name": "Spot (5435m, 5014m)",
+      "x_meter": 5437.2,
+      "y_meter": 5013.4,
+      "x_norm": 0.67965,
+      "y_norm": 0.62668,
+      "x_telemetry": 543719.0,
+      "y_telemetry": 501345.0,
+      "sample_count": 2,
+      "avg_holding_time_sec": 42.5,
+      "occupied_matches": 2,
+      "similar_zone_matches": 17,
+      "occupancy_prob_pct": 11.8,
+      "rank_sample_count": 2,
+      "top4_count": 1,
+      "top4_survival_pct": 50.0,
+      "spot_tier": "safe_spot",
+      "phase_stats": {
+        "1": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 12,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            0,
+            1,
+            2,
+            3,
+            5,
+            6,
+            7,
+            8,
+            11,
+            12,
+            13,
+            14
+          ],
+          "occupied_match_indices": []
+        },
+        "2": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 3,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            0,
+            4,
+            12
+          ],
+          "occupied_match_indices": []
+        },
+        "3": {
+          "occupied_matches": 1,
+          "similar_zone_matches": 1,
+          "occupancy_prob_pct": 100.0,
+          "eligible_match_indices": [
+            12
+          ],
+          "occupied_match_indices": [
+            12
+          ]
+        },
+        "4": {
+          "occupied_matches": 1,
+          "similar_zone_matches": 1,
+          "occupancy_prob_pct": 100.0,
+          "eligible_match_indices": [
+            12
+          ],
+          "occupied_match_indices": [
+            12
+          ]
+        },
+        "5": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 1,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            12
+          ],
+          "occupied_match_indices": []
+        },
+        "6": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 0,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [],
+          "occupied_match_indices": []
+        }
+      },
+      "rank": 18
+    },
+    {
+      "spot_id": "miramar_spot_013",
+      "cluster_id": 12,
+      "spot_name": "Spot (3836m, 4386m)",
+      "x_meter": 3830.2,
+      "y_meter": 4388.8,
+      "x_norm": 0.47878,
+      "y_norm": 0.5486,
+      "x_telemetry": 383020.4,
+      "y_telemetry": 438879.2,
+      "sample_count": 5,
+      "avg_holding_time_sec": 69.2,
+      "occupied_matches": 2,
+      "similar_zone_matches": 18,
+      "occupancy_prob_pct": 11.1,
+      "rank_sample_count": 4,
+      "top4_count": 2,
+      "top4_survival_pct": 50.0,
+      "spot_tier": "safe_spot",
+      "phase_stats": {
+        "1": {
+          "occupied_matches": 1,
+          "similar_zone_matches": 12,
+          "occupancy_prob_pct": 8.3,
+          "eligible_match_indices": [
+            0,
+            1,
+            2,
+            3,
+            5,
+            6,
+            7,
+            8,
+            11,
+            12,
+            13,
+            14
+          ],
+          "occupied_match_indices": [
+            2
+          ]
+        },
+        "2": {
+          "occupied_matches": 1,
+          "similar_zone_matches": 4,
+          "occupancy_prob_pct": 25.0,
+          "eligible_match_indices": [
+            0,
+            3,
+            5,
+            10
+          ],
+          "occupied_match_indices": [
+            0
+          ]
+        },
+        "3": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 1,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            0
+          ],
+          "occupied_match_indices": []
+        },
+        "4": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 1,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            0
+          ],
+          "occupied_match_indices": []
+        },
+        "5": {
+          "occupied_matches": 1,
+          "similar_zone_matches": 1,
+          "occupancy_prob_pct": 100.0,
+          "eligible_match_indices": [
+            0
+          ],
+          "occupied_match_indices": [
+            0
+          ]
+        },
+        "6": {
+          "occupied_matches": 1,
+          "similar_zone_matches": 1,
+          "occupancy_prob_pct": 100.0,
+          "eligible_match_indices": [
+            0
+          ],
+          "occupied_match_indices": [
+            0
+          ]
+        }
+      },
+      "rank": 19
+    },
+    {
+      "spot_id": "miramar_spot_057",
+      "cluster_id": 56,
+      "spot_name": "Spot (1899m, 4239m)",
+      "x_meter": 1899.9,
+      "y_meter": 4242.0,
+      "x_norm": 0.23748,
+      "y_norm": 0.53025,
+      "x_telemetry": 189986.2,
+      "y_telemetry": 424203.6,
+      "sample_count": 5,
+      "avg_holding_time_sec": 138.0,
+      "occupied_matches": 2,
+      "similar_zone_matches": 18,
+      "occupancy_prob_pct": 11.1,
+      "rank_sample_count": 2,
+      "top4_count": 1,
+      "top4_survival_pct": 50.0,
+      "spot_tier": "safe_spot",
+      "phase_stats": {
+        "1": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 12,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            0,
+            1,
+            2,
+            3,
+            5,
+            6,
+            7,
+            8,
+            11,
+            12,
+            13,
+            14
+          ],
+          "occupied_match_indices": []
+        },
+        "2": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 4,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            3,
+            5,
+            8,
+            14
+          ],
+          "occupied_match_indices": []
+        },
+        "3": {
+          "occupied_matches": 1,
+          "similar_zone_matches": 1,
+          "occupancy_prob_pct": 100.0,
+          "eligible_match_indices": [
+            8
+          ],
+          "occupied_match_indices": [
+            8
+          ]
+        },
+        "4": {
+          "occupied_matches": 1,
+          "similar_zone_matches": 1,
+          "occupancy_prob_pct": 100.0,
+          "eligible_match_indices": [
+            8
+          ],
+          "occupied_match_indices": [
+            8
+          ]
+        },
+        "5": {
+          "occupied_matches": 1,
+          "similar_zone_matches": 1,
+          "occupancy_prob_pct": 100.0,
+          "eligible_match_indices": [
+            8
+          ],
+          "occupied_match_indices": [
+            8
+          ]
+        },
+        "6": {
+          "occupied_matches": 1,
+          "similar_zone_matches": 1,
+          "occupancy_prob_pct": 100.0,
+          "eligible_match_indices": [
+            8
+          ],
+          "occupied_match_indices": [
+            8
+          ]
+        }
+      },
+      "rank": 20
+    },
+    {
+      "spot_id": "miramar_spot_068",
+      "cluster_id": 67,
+      "spot_name": "Spot (5552m, 5442m)",
+      "x_meter": 5553.1,
+      "y_meter": 5442.1,
+      "x_norm": 0.69414,
+      "y_norm": 0.68027,
+      "x_telemetry": 555308.5,
+      "y_telemetry": 544213.5,
+      "sample_count": 2,
+      "avg_holding_time_sec": 164.0,
+      "occupied_matches": 2,
+      "similar_zone_matches": 18,
+      "occupancy_prob_pct": 11.1,
+      "rank_sample_count": 1,
+      "top4_count": 0,
+      "top4_survival_pct": 0.0,
+      "spot_tier": "neutral",
+      "phase_stats": {
+        "1": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 12,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            0,
+            1,
+            2,
+            3,
+            5,
+            6,
+            7,
+            8,
+            11,
+            12,
+            13,
+            14
+          ],
+          "occupied_match_indices": []
+        },
+        "2": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 3,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            0,
+            4,
+            12
+          ],
+          "occupied_match_indices": []
+        },
+        "3": {
+          "occupied_matches": 1,
+          "similar_zone_matches": 2,
+          "occupancy_prob_pct": 50.0,
+          "eligible_match_indices": [
+            4,
+            12
+          ],
+          "occupied_match_indices": [
+            12
+          ]
+        },
+        "4": {
+          "occupied_matches": 1,
+          "similar_zone_matches": 1,
+          "occupancy_prob_pct": 100.0,
+          "eligible_match_indices": [
+            12
+          ],
+          "occupied_match_indices": [
+            12
+          ]
+        },
+        "5": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 1,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            12
+          ],
+          "occupied_match_indices": []
+        },
+        "6": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 0,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [],
+          "occupied_match_indices": []
+        }
+      },
+      "rank": 21
+    },
+    {
+      "spot_id": "miramar_spot_017",
+      "cluster_id": 16,
+      "spot_name": "Spot (3780m, 4460m)",
+      "x_meter": 3778.8,
+      "y_meter": 4459.8,
+      "x_norm": 0.47235,
+      "y_norm": 0.55747,
+      "x_telemetry": 377879.0,
+      "y_telemetry": 445979.0,
+      "sample_count": 3,
+      "avg_holding_time_sec": 160.7,
+      "occupied_matches": 2,
+      "similar_zone_matches": 19,
+      "occupancy_prob_pct": 10.5,
+      "rank_sample_count": 1,
+      "top4_count": 1,
+      "top4_survival_pct": 100.0,
+      "spot_tier": "neutral",
+      "phase_stats": {
+        "1": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 12,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            0,
+            1,
+            2,
+            3,
+            5,
+            6,
+            7,
+            8,
+            11,
+            12,
+            13,
+            14
+          ],
+          "occupied_match_indices": []
+        },
+        "2": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 4,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            0,
+            3,
+            5,
+            10
+          ],
+          "occupied_match_indices": []
+        },
+        "3": {
+          "occupied_matches": 1,
+          "similar_zone_matches": 2,
+          "occupancy_prob_pct": 50.0,
+          "eligible_match_indices": [
+            0,
+            10
+          ],
+          "occupied_match_indices": [
+            0
+          ]
+        },
+        "4": {
+          "occupied_matches": 1,
+          "similar_zone_matches": 1,
+          "occupancy_prob_pct": 100.0,
+          "eligible_match_indices": [
+            0
+          ],
+          "occupied_match_indices": [
+            0
+          ]
+        },
+        "5": {
+          "occupied_matches": 1,
+          "similar_zone_matches": 1,
+          "occupancy_prob_pct": 100.0,
+          "eligible_match_indices": [
+            0
+          ],
+          "occupied_match_indices": [
+            0
+          ]
+        },
+        "6": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 1,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            0
+          ],
+          "occupied_match_indices": []
+        }
+      },
+      "rank": 22
+    },
+    {
+      "spot_id": "miramar_spot_058",
+      "cluster_id": 57,
+      "spot_name": "Spot (1957m, 4418m)",
+      "x_meter": 1957.6,
+      "y_meter": 4418.3,
+      "x_norm": 0.2447,
+      "y_norm": 0.55228,
+      "x_telemetry": 195758.0,
+      "y_telemetry": 441828.0,
+      "sample_count": 2,
+      "avg_holding_time_sec": 75.5,
+      "occupied_matches": 2,
+      "similar_zone_matches": 19,
+      "occupancy_prob_pct": 10.5,
+      "rank_sample_count": 1,
+      "top4_count": 0,
+      "top4_survival_pct": 0.0,
+      "spot_tier": "neutral",
+      "phase_stats": {
+        "1": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 12,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            0,
+            1,
+            2,
+            3,
+            5,
+            6,
+            7,
+            8,
+            11,
+            12,
+            13,
+            14
+          ],
+          "occupied_match_indices": []
+        },
+        "2": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 5,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            3,
+            5,
+            8,
+            10,
+            14
+          ],
+          "occupied_match_indices": []
+        },
+        "3": {
+          "occupied_matches": 1,
+          "similar_zone_matches": 1,
+          "occupancy_prob_pct": 100.0,
+          "eligible_match_indices": [
+            8
+          ],
+          "occupied_match_indices": [
+            8
+          ]
+        },
+        "4": {
+          "occupied_matches": 1,
+          "similar_zone_matches": 1,
+          "occupancy_prob_pct": 100.0,
+          "eligible_match_indices": [
+            8
+          ],
+          "occupied_match_indices": [
+            8
+          ]
+        },
+        "5": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 1,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            8
+          ],
+          "occupied_match_indices": []
+        },
+        "6": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 0,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [],
+          "occupied_match_indices": []
+        }
+      },
+      "rank": 23
+    },
+    {
+      "spot_id": "miramar_spot_012",
+      "cluster_id": 11,
+      "spot_name": "Spot (3855m, 3906m)",
+      "x_meter": 3851.7,
+      "y_meter": 3905.7,
+      "x_norm": 0.48146,
+      "y_norm": 0.48822,
+      "x_telemetry": 385169.0,
+      "y_telemetry": 390573.8,
+      "sample_count": 4,
+      "avg_holding_time_sec": 47.8,
+      "occupied_matches": 2,
+      "similar_zone_matches": 20,
+      "occupancy_prob_pct": 10.0,
+      "rank_sample_count": 3,
+      "top4_count": 0,
+      "top4_survival_pct": 0.0,
+      "spot_tier": "hot_zone",
+      "phase_stats": {
+        "1": {
+          "occupied_matches": 1,
+          "similar_zone_matches": 12,
+          "occupancy_prob_pct": 8.3,
+          "eligible_match_indices": [
+            0,
+            1,
+            2,
+            3,
+            5,
+            6,
+            7,
+            8,
+            11,
+            12,
+            13,
+            14
+          ],
+          "occupied_match_indices": [
+            1
+          ]
+        },
+        "2": {
+          "occupied_matches": 1,
+          "similar_zone_matches": 7,
+          "occupancy_prob_pct": 14.3,
+          "eligible_match_indices": [
+            0,
+            2,
+            3,
+            5,
+            6,
+            10,
+            11
+          ],
+          "occupied_match_indices": [
+            0
+          ]
+        },
+        "3": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 1,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            0
+          ],
+          "occupied_match_indices": []
+        },
+        "4": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 0,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [],
+          "occupied_match_indices": []
+        },
+        "5": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 0,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [],
+          "occupied_match_indices": []
+        },
+        "6": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 0,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [],
+          "occupied_match_indices": []
+        }
+      },
+      "rank": 24
+    },
+    {
+      "spot_id": "miramar_spot_015",
+      "cluster_id": 14,
+      "spot_name": "Spot (3592m, 4609m)",
+      "x_meter": 3599.4,
+      "y_meter": 4606.8,
+      "x_norm": 0.44993,
+      "y_norm": 0.57584,
+      "x_telemetry": 359943.0,
+      "y_telemetry": 460675.0,
+      "sample_count": 2,
+      "avg_holding_time_sec": 163.5,
+      "occupied_matches": 2,
+      "similar_zone_matches": 20,
+      "occupancy_prob_pct": 10.0,
+      "rank_sample_count": 2,
+      "top4_count": 0,
+      "top4_survival_pct": 0.0,
+      "spot_tier": "hot_zone",
+      "phase_stats": {
+        "1": {
+          "occupied_matches": 1,
+          "similar_zone_matches": 12,
+          "occupancy_prob_pct": 8.3,
+          "eligible_match_indices": [
+            0,
+            1,
+            2,
+            3,
+            5,
+            6,
+            7,
+            8,
+            11,
+            12,
+            13,
+            14
+          ],
+          "occupied_match_indices": [
+            12
+          ]
+        },
+        "2": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 5,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            0,
+            3,
+            5,
+            8,
+            10
+          ],
+          "occupied_match_indices": []
+        },
+        "3": {
+          "occupied_matches": 1,
+          "similar_zone_matches": 2,
+          "occupancy_prob_pct": 50.0,
+          "eligible_match_indices": [
+            0,
+            10
+          ],
+          "occupied_match_indices": [
+            0
+          ]
+        },
+        "4": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 1,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            0
+          ],
+          "occupied_match_indices": []
+        },
+        "5": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 1,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            0
+          ],
+          "occupied_match_indices": []
+        },
+        "6": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 0,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [],
+          "occupied_match_indices": []
+        }
+      },
+      "rank": 25
+    },
+    {
+      "spot_id": "miramar_spot_034",
+      "cluster_id": 33,
+      "spot_name": "Spot (4026m, 3499m)",
+      "x_meter": 4024.9,
+      "y_meter": 3501.6,
+      "x_norm": 0.50311,
+      "y_norm": 0.43769,
+      "x_telemetry": 402490.5,
+      "y_telemetry": 350155.0,
+      "sample_count": 2,
+      "avg_holding_time_sec": 87.0,
+      "occupied_matches": 2,
+      "similar_zone_matches": 21,
+      "occupancy_prob_pct": 9.5,
+      "rank_sample_count": 1,
+      "top4_count": 0,
+      "top4_survival_pct": 0.0,
+      "spot_tier": "neutral",
+      "phase_stats": {
+        "1": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 12,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            0,
+            1,
+            2,
+            3,
+            5,
+            6,
+            7,
+            8,
+            11,
+            12,
+            13,
+            14
+          ],
+          "occupied_match_indices": []
+        },
+        "2": {
+          "occupied_matches": 1,
+          "similar_zone_matches": 6,
+          "occupancy_prob_pct": 16.7,
+          "eligible_match_indices": [
+            0,
+            2,
+            5,
+            6,
+            11,
+            13
+          ],
+          "occupied_match_indices": [
+            2
+          ]
+        },
+        "3": {
+          "occupied_matches": 1,
+          "similar_zone_matches": 2,
+          "occupancy_prob_pct": 50.0,
+          "eligible_match_indices": [
+            2,
+            6
+          ],
+          "occupied_match_indices": [
+            2
+          ]
+        },
+        "4": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 1,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            6
+          ],
+          "occupied_match_indices": []
+        },
+        "5": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 0,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [],
+          "occupied_match_indices": []
+        },
+        "6": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 0,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [],
+          "occupied_match_indices": []
+        }
+      },
+      "rank": 26
+    },
+    {
+      "spot_id": "miramar_spot_072",
+      "cluster_id": 71,
+      "spot_name": "Spot (2029m, 2417m)",
+      "x_meter": 2028.8,
+      "y_meter": 2416.1,
+      "x_norm": 0.25359,
+      "y_norm": 0.30202,
+      "x_telemetry": 202875.5,
+      "y_telemetry": 241612.5,
+      "sample_count": 2,
+      "avg_holding_time_sec": 58.5,
+      "occupied_matches": 2,
+      "similar_zone_matches": 21,
+      "occupancy_prob_pct": 9.5,
+      "rank_sample_count": 1,
+      "top4_count": 0,
+      "top4_survival_pct": 0.0,
+      "spot_tier": "neutral",
+      "phase_stats": {
+        "1": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 12,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            0,
+            1,
+            2,
+            3,
+            5,
+            6,
+            7,
+            8,
+            11,
+            12,
+            13,
+            14
+          ],
+          "occupied_match_indices": []
+        },
+        "2": {
+          "occupied_matches": 1,
+          "similar_zone_matches": 5,
+          "occupancy_prob_pct": 20.0,
+          "eligible_match_indices": [
+            2,
+            6,
+            7,
+            11,
+            14
+          ],
+          "occupied_match_indices": [
+            14
+          ]
+        },
+        "3": {
+          "occupied_matches": 1,
+          "similar_zone_matches": 2,
+          "occupancy_prob_pct": 50.0,
+          "eligible_match_indices": [
+            7,
+            14
+          ],
+          "occupied_match_indices": [
+            14
+          ]
+        },
+        "4": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 2,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            7,
+            14
+          ],
+          "occupied_match_indices": []
+        },
+        "5": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 1,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            14
+          ],
+          "occupied_match_indices": []
+        },
+        "6": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 0,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [],
+          "occupied_match_indices": []
+        }
+      },
+      "rank": 27
+    },
+    {
+      "spot_id": "miramar_spot_051",
+      "cluster_id": 50,
+      "spot_name": "Spot (2737m, 2361m)",
+      "x_meter": 2742.1,
+      "y_meter": 2362.9,
+      "x_norm": 0.34276,
+      "y_norm": 0.29536,
+      "x_telemetry": 274207.8,
+      "y_telemetry": 236286.7,
+      "sample_count": 4,
+      "avg_holding_time_sec": 65.5,
+      "occupied_matches": 2,
+      "similar_zone_matches": 22,
+      "occupancy_prob_pct": 9.1,
+      "rank_sample_count": 2,
+      "top4_count": 0,
+      "top4_survival_pct": 0.0,
+      "spot_tier": "hot_zone",
+      "phase_stats": {
+        "1": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 12,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            0,
+            1,
+            2,
+            3,
+            5,
+            6,
+            7,
+            8,
+            11,
+            12,
+            13,
+            14
+          ],
+          "occupied_match_indices": []
+        },
+        "2": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 5,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            2,
+            6,
+            7,
+            11,
+            14
+          ],
+          "occupied_match_indices": []
+        },
+        "3": {
+          "occupied_matches": 1,
+          "similar_zone_matches": 4,
+          "occupancy_prob_pct": 25.0,
+          "eligible_match_indices": [
+            2,
+            7,
+            11,
+            14
+          ],
+          "occupied_match_indices": [
+            7
+          ]
+        },
+        "4": {
+          "occupied_matches": 1,
+          "similar_zone_matches": 1,
+          "occupancy_prob_pct": 100.0,
+          "eligible_match_indices": [
+            7
+          ],
+          "occupied_match_indices": [
+            7
+          ]
+        },
+        "5": {
+          "occupied_matches": 1,
+          "similar_zone_matches": 1,
+          "occupancy_prob_pct": 100.0,
+          "eligible_match_indices": [
+            7
+          ],
+          "occupied_match_indices": [
+            7
+          ]
+        },
+        "6": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 0,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [],
+          "occupied_match_indices": []
+        }
+      },
+      "rank": 28
+    },
+    {
+      "spot_id": "miramar_spot_001",
+      "cluster_id": 0,
+      "spot_name": "Spot (2781m, 5201m)",
+      "x_meter": 2776.4,
+      "y_meter": 5204.0,
+      "x_norm": 0.34706,
+      "y_norm": 0.6505,
+      "x_telemetry": 277645.0,
+      "y_telemetry": 520403.5,
+      "sample_count": 2,
+      "avg_holding_time_sec": 172.0,
+      "occupied_matches": 2,
+      "similar_zone_matches": 22,
+      "occupancy_prob_pct": 9.1,
+      "rank_sample_count": 2,
+      "top4_count": 0,
+      "top4_survival_pct": 0.0,
+      "spot_tier": "hot_zone",
+      "phase_stats": {
+        "1": {
+          "occupied_matches": 2,
+          "similar_zone_matches": 12,
+          "occupancy_prob_pct": 16.7,
+          "eligible_match_indices": [
+            0,
+            1,
+            2,
+            3,
+            5,
+            6,
+            7,
+            8,
+            11,
+            12,
+            13,
+            14
+          ],
+          "occupied_match_indices": [
+            0,
+            14
+          ]
+        },
+        "2": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 5,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            0,
+            3,
+            5,
+            8,
+            10
+          ],
+          "occupied_match_indices": []
+        },
+        "3": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 3,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            3,
+            5,
+            10
+          ],
+          "occupied_match_indices": []
+        },
+        "4": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 2,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            5,
+            10
+          ],
+          "occupied_match_indices": []
+        },
+        "5": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 0,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [],
+          "occupied_match_indices": []
+        },
+        "6": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 0,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [],
+          "occupied_match_indices": []
+        }
+      },
+      "rank": 29
+    },
+    {
+      "spot_id": "miramar_spot_052",
+      "cluster_id": 51,
+      "spot_name": "Spot (2388m, 2195m)",
+      "x_meter": 2391.3,
+      "y_meter": 2200.1,
+      "x_norm": 0.29891,
+      "y_norm": 0.27502,
+      "x_telemetry": 239125.5,
+      "y_telemetry": 220012.5,
+      "sample_count": 2,
+      "avg_holding_time_sec": 126.0,
+      "occupied_matches": 2,
+      "similar_zone_matches": 22,
+      "occupancy_prob_pct": 9.1,
+      "rank_sample_count": 1,
+      "top4_count": 0,
+      "top4_survival_pct": 0.0,
+      "spot_tier": "neutral",
+      "phase_stats": {
+        "1": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 12,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            0,
+            1,
+            2,
+            3,
+            5,
+            6,
+            7,
+            8,
+            11,
+            12,
+            13,
+            14
+          ],
+          "occupied_match_indices": []
+        },
+        "2": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 5,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            2,
+            6,
+            7,
+            11,
+            14
+          ],
+          "occupied_match_indices": []
+        },
+        "3": {
+          "occupied_matches": 1,
+          "similar_zone_matches": 3,
+          "occupancy_prob_pct": 33.3,
+          "eligible_match_indices": [
+            7,
+            11,
+            14
+          ],
+          "occupied_match_indices": [
+            7
+          ]
+        },
+        "4": {
+          "occupied_matches": 1,
+          "similar_zone_matches": 2,
+          "occupancy_prob_pct": 50.0,
+          "eligible_match_indices": [
+            7,
+            14
+          ],
+          "occupied_match_indices": [
+            7
+          ]
+        },
+        "5": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 0,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [],
+          "occupied_match_indices": []
+        },
+        "6": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 0,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [],
+          "occupied_match_indices": []
+        }
+      },
+      "rank": 30
+    },
+    {
+      "spot_id": "miramar_spot_053",
+      "cluster_id": 52,
+      "spot_name": "Spot (2433m, 1997m)",
+      "x_meter": 2434.0,
+      "y_meter": 1997.0,
+      "x_norm": 0.30424,
+      "y_norm": 0.24963,
+      "x_telemetry": 243396.0,
+      "y_telemetry": 199704.0,
+      "sample_count": 2,
+      "avg_holding_time_sec": 97.5,
+      "occupied_matches": 2,
+      "similar_zone_matches": 22,
+      "occupancy_prob_pct": 9.1,
+      "rank_sample_count": 1,
+      "top4_count": 0,
+      "top4_survival_pct": 0.0,
+      "spot_tier": "neutral",
+      "phase_stats": {
+        "1": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 12,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            0,
+            1,
+            2,
+            3,
+            5,
+            6,
+            7,
+            8,
+            11,
+            12,
+            13,
+            14
+          ],
+          "occupied_match_indices": []
+        },
+        "2": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 5,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            2,
+            6,
+            7,
+            11,
+            14
+          ],
+          "occupied_match_indices": []
+        },
+        "3": {
+          "occupied_matches": 1,
+          "similar_zone_matches": 3,
+          "occupancy_prob_pct": 33.3,
+          "eligible_match_indices": [
+            7,
+            11,
+            14
+          ],
+          "occupied_match_indices": [
+            7
+          ]
+        },
+        "4": {
+          "occupied_matches": 1,
+          "similar_zone_matches": 2,
+          "occupancy_prob_pct": 50.0,
+          "eligible_match_indices": [
+            7,
+            14
+          ],
+          "occupied_match_indices": [
+            7
+          ]
+        },
+        "5": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 0,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [],
+          "occupied_match_indices": []
+        },
+        "6": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 0,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [],
+          "occupied_match_indices": []
+        }
+      },
+      "rank": 31
+    },
+    {
+      "spot_id": "miramar_spot_049",
+      "cluster_id": 48,
+      "spot_name": "Spot (3998m, 2828m)",
+      "x_meter": 3999.1,
+      "y_meter": 2827.9,
+      "x_norm": 0.49989,
+      "y_norm": 0.35349,
+      "x_telemetry": 399913.7,
+      "y_telemetry": 282791.7,
+      "sample_count": 3,
+      "avg_holding_time_sec": 130.7,
+      "occupied_matches": 2,
+      "similar_zone_matches": 23,
+      "occupancy_prob_pct": 8.7,
+      "rank_sample_count": 1,
+      "top4_count": 0,
+      "top4_survival_pct": 0.0,
+      "spot_tier": "neutral",
+      "phase_stats": {
+        "1": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 12,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            0,
+            1,
+            2,
+            3,
+            5,
+            6,
+            7,
+            8,
+            11,
+            12,
+            13,
+            14
+          ],
+          "occupied_match_indices": []
+        },
+        "2": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 7,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            1,
+            2,
+            6,
+            7,
+            9,
+            11,
+            13
+          ],
+          "occupied_match_indices": []
+        },
+        "3": {
+          "occupied_matches": 1,
+          "similar_zone_matches": 3,
+          "occupancy_prob_pct": 33.3,
+          "eligible_match_indices": [
+            2,
+            6,
+            11
+          ],
+          "occupied_match_indices": [
+            6
+          ]
+        },
+        "4": {
+          "occupied_matches": 1,
+          "similar_zone_matches": 1,
+          "occupancy_prob_pct": 100.0,
+          "eligible_match_indices": [
+            6
+          ],
+          "occupied_match_indices": [
+            6
+          ]
+        },
+        "5": {
+          "occupied_matches": 1,
+          "similar_zone_matches": 1,
+          "occupancy_prob_pct": 100.0,
+          "eligible_match_indices": [
+            6
+          ],
+          "occupied_match_indices": [
+            6
+          ]
+        },
+        "6": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 0,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [],
+          "occupied_match_indices": []
+        }
+      },
+      "rank": 32
+    },
+    {
+      "spot_id": "miramar_spot_009",
+      "cluster_id": 8,
+      "spot_name": "Spot (2783m, 2489m)",
+      "x_meter": 2785.2,
+      "y_meter": 2490.2,
+      "x_norm": 0.34816,
+      "y_norm": 0.31128,
+      "x_telemetry": 278524.5,
+      "y_telemetry": 249021.0,
+      "sample_count": 2,
+      "avg_holding_time_sec": 69.0,
+      "occupied_matches": 2,
+      "similar_zone_matches": 23,
+      "occupancy_prob_pct": 8.7,
+      "rank_sample_count": 2,
+      "top4_count": 1,
+      "top4_survival_pct": 50.0,
+      "spot_tier": "safe_spot",
+      "phase_stats": {
+        "1": {
+          "occupied_matches": 1,
+          "similar_zone_matches": 12,
+          "occupancy_prob_pct": 8.3,
+          "eligible_match_indices": [
+            0,
+            1,
+            2,
+            3,
+            5,
+            6,
+            7,
+            8,
+            11,
+            12,
+            13,
+            14
+          ],
+          "occupied_match_indices": [
+            0
+          ]
+        },
+        "2": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 5,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            2,
+            6,
+            7,
+            11,
+            14
+          ],
+          "occupied_match_indices": []
+        },
+        "3": {
+          "occupied_matches": 1,
+          "similar_zone_matches": 3,
+          "occupancy_prob_pct": 33.3,
+          "eligible_match_indices": [
+            2,
+            7,
+            11
+          ],
+          "occupied_match_indices": [
+            2
+          ]
+        },
+        "4": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 3,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            2,
+            7,
+            11
+          ],
+          "occupied_match_indices": []
+        },
+        "5": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 1,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            7
+          ],
+          "occupied_match_indices": []
+        },
+        "6": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 0,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [],
+          "occupied_match_indices": []
+        }
+      },
+      "rank": 33
+    },
+    {
+      "spot_id": "miramar_spot_037",
+      "cluster_id": 36,
+      "spot_name": "Spot (2949m, 2993m)",
+      "x_meter": 2950.0,
+      "y_meter": 2994.8,
+      "x_norm": 0.36875,
+      "y_norm": 0.37435,
+      "x_telemetry": 295004.0,
+      "y_telemetry": 299478.3,
+      "sample_count": 3,
+      "avg_holding_time_sec": 141.3,
+      "occupied_matches": 2,
+      "similar_zone_matches": 24,
+      "occupancy_prob_pct": 8.3,
+      "rank_sample_count": 1,
+      "top4_count": 0,
+      "top4_survival_pct": 0.0,
+      "spot_tier": "neutral",
+      "phase_stats": {
+        "1": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 12,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            0,
+            1,
+            2,
+            3,
+            5,
+            6,
+            7,
+            8,
+            11,
+            12,
+            13,
+            14
+          ],
+          "occupied_match_indices": []
+        },
+        "2": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 6,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            2,
+            6,
+            7,
+            8,
+            11,
+            14
+          ],
+          "occupied_match_indices": []
+        },
+        "3": {
+          "occupied_matches": 1,
+          "similar_zone_matches": 4,
+          "occupancy_prob_pct": 25.0,
+          "eligible_match_indices": [
+            2,
+            6,
+            7,
+            11
+          ],
+          "occupied_match_indices": [
+            2
+          ]
+        },
+        "4": {
+          "occupied_matches": 1,
+          "similar_zone_matches": 2,
+          "occupancy_prob_pct": 50.0,
+          "eligible_match_indices": [
+            2,
+            11
+          ],
+          "occupied_match_indices": [
+            2
+          ]
+        },
+        "5": {
+          "occupied_matches": 1,
+          "similar_zone_matches": 2,
+          "occupancy_prob_pct": 50.0,
+          "eligible_match_indices": [
+            2,
+            11
+          ],
+          "occupied_match_indices": [
+            2
+          ]
+        },
+        "6": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 2,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            2,
+            11
+          ],
+          "occupied_match_indices": []
+        }
+      },
+      "rank": 34
+    },
+    {
+      "spot_id": "miramar_spot_036",
+      "cluster_id": 35,
+      "spot_name": "Spot (3444m, 2739m)",
+      "x_meter": 3438.6,
+      "y_meter": 2737.0,
+      "x_norm": 0.42982,
+      "y_norm": 0.34213,
+      "x_telemetry": 343856.5,
+      "y_telemetry": 273700.5,
+      "sample_count": 2,
+      "avg_holding_time_sec": 56.5,
+      "occupied_matches": 2,
+      "similar_zone_matches": 24,
+      "occupancy_prob_pct": 8.3,
+      "rank_sample_count": 1,
+      "top4_count": 0,
+      "top4_survival_pct": 0.0,
+      "spot_tier": "neutral",
+      "phase_stats": {
+        "1": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 12,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            0,
+            1,
+            2,
+            3,
+            5,
+            6,
+            7,
+            8,
+            11,
+            12,
+            13,
+            14
+          ],
+          "occupied_match_indices": []
+        },
+        "2": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 5,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            2,
+            6,
+            7,
+            11,
+            14
+          ],
+          "occupied_match_indices": []
+        },
+        "3": {
+          "occupied_matches": 1,
+          "similar_zone_matches": 4,
+          "occupancy_prob_pct": 25.0,
+          "eligible_match_indices": [
+            2,
+            6,
+            7,
+            11
+          ],
+          "occupied_match_indices": [
+            2
+          ]
+        },
+        "4": {
+          "occupied_matches": 1,
+          "similar_zone_matches": 3,
+          "occupancy_prob_pct": 33.3,
+          "eligible_match_indices": [
+            2,
+            6,
+            11
+          ],
+          "occupied_match_indices": [
+            2
+          ]
+        },
+        "5": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 0,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [],
+          "occupied_match_indices": []
+        },
+        "6": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 0,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [],
+          "occupied_match_indices": []
+        }
+      },
+      "rank": 35
+    },
+    {
+      "spot_id": "miramar_spot_039",
+      "cluster_id": 38,
+      "spot_name": "Spot (3056m, 2641m)",
+      "x_meter": 3056.3,
+      "y_meter": 2645.4,
+      "x_norm": 0.38203,
+      "y_norm": 0.33068,
+      "x_telemetry": 305625.5,
+      "y_telemetry": 264541.0,
+      "sample_count": 2,
+      "avg_holding_time_sec": 53.0,
+      "occupied_matches": 2,
+      "similar_zone_matches": 24,
+      "occupancy_prob_pct": 8.3,
+      "rank_sample_count": 2,
+      "top4_count": 0,
+      "top4_survival_pct": 0.0,
+      "spot_tier": "hot_zone",
+      "phase_stats": {
+        "1": {
+          "occupied_matches": 1,
+          "similar_zone_matches": 12,
+          "occupancy_prob_pct": 8.3,
+          "eligible_match_indices": [
+            0,
+            1,
+            2,
+            3,
+            5,
+            6,
+            7,
+            8,
+            11,
+            12,
+            13,
+            14
+          ],
+          "occupied_match_indices": [
+            14
+          ]
+        },
+        "2": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 5,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            2,
+            6,
+            7,
+            11,
+            14
+          ],
+          "occupied_match_indices": []
+        },
+        "3": {
+          "occupied_matches": 1,
+          "similar_zone_matches": 4,
+          "occupancy_prob_pct": 25.0,
+          "eligible_match_indices": [
+            2,
+            6,
+            7,
+            11
+          ],
+          "occupied_match_indices": [
+            2
+          ]
+        },
+        "4": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 3,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            2,
+            7,
+            11
+          ],
+          "occupied_match_indices": []
+        },
+        "5": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 1,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            11
+          ],
+          "occupied_match_indices": []
+        },
+        "6": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 0,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [],
+          "occupied_match_indices": []
+        }
+      },
+      "rank": 36
+    },
+    {
+      "spot_id": "miramar_spot_040",
+      "cluster_id": 39,
+      "spot_name": "Spot (3020m, 2662m)",
+      "x_meter": 3020.4,
+      "y_meter": 2659.6,
+      "x_norm": 0.37755,
+      "y_norm": 0.33245,
+      "x_telemetry": 302040.5,
+      "y_telemetry": 265961.5,
+      "sample_count": 2,
+      "avg_holding_time_sec": 51.0,
+      "occupied_matches": 2,
+      "similar_zone_matches": 24,
+      "occupancy_prob_pct": 8.3,
+      "rank_sample_count": 2,
+      "top4_count": 0,
+      "top4_survival_pct": 0.0,
+      "spot_tier": "hot_zone",
+      "phase_stats": {
+        "1": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 12,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            0,
+            1,
+            2,
+            3,
+            5,
+            6,
+            7,
+            8,
+            11,
+            12,
+            13,
+            14
+          ],
+          "occupied_match_indices": []
+        },
+        "2": {
+          "occupied_matches": 1,
+          "similar_zone_matches": 5,
+          "occupancy_prob_pct": 20.0,
+          "eligible_match_indices": [
+            2,
+            6,
+            7,
+            11,
+            14
+          ],
+          "occupied_match_indices": [
+            11
+          ]
+        },
+        "3": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 4,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            2,
+            6,
+            7,
+            11
+          ],
+          "occupied_match_indices": []
+        },
+        "4": {
+          "occupied_matches": 1,
+          "similar_zone_matches": 3,
+          "occupancy_prob_pct": 33.3,
+          "eligible_match_indices": [
+            2,
+            7,
+            11
+          ],
+          "occupied_match_indices": [
+            2
+          ]
+        },
+        "5": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 1,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            11
+          ],
+          "occupied_match_indices": []
+        },
+        "6": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 0,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [],
+          "occupied_match_indices": []
+        }
+      },
+      "rank": 37
+    },
+    {
+      "spot_id": "miramar_spot_063",
+      "cluster_id": 62,
+      "spot_name": "Spot (2912m, 3068m)",
+      "x_meter": 2913.6,
+      "y_meter": 3069.0,
+      "x_norm": 0.36419,
+      "y_norm": 0.38363,
+      "x_telemetry": 291356.0,
+      "y_telemetry": 306903.0,
+      "sample_count": 4,
+      "avg_holding_time_sec": 136.0,
+      "occupied_matches": 2,
+      "similar_zone_matches": 25,
+      "occupancy_prob_pct": 8.0,
+      "rank_sample_count": 1,
+      "top4_count": 1,
+      "top4_survival_pct": 100.0,
+      "spot_tier": "neutral",
+      "phase_stats": {
+        "1": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 12,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            0,
+            1,
+            2,
+            3,
+            5,
+            6,
+            7,
+            8,
+            11,
+            12,
+            13,
+            14
+          ],
+          "occupied_match_indices": []
+        },
+        "2": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 7,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            2,
+            5,
+            6,
+            7,
+            8,
+            11,
+            14
+          ],
+          "occupied_match_indices": []
+        },
+        "3": {
+          "occupied_matches": 1,
+          "similar_zone_matches": 4,
+          "occupancy_prob_pct": 25.0,
+          "eligible_match_indices": [
+            2,
+            6,
+            7,
+            11
+          ],
+          "occupied_match_indices": [
+            11
+          ]
+        },
+        "4": {
+          "occupied_matches": 1,
+          "similar_zone_matches": 2,
+          "occupancy_prob_pct": 50.0,
+          "eligible_match_indices": [
+            2,
+            11
+          ],
+          "occupied_match_indices": [
+            11
+          ]
+        },
+        "5": {
+          "occupied_matches": 1,
+          "similar_zone_matches": 2,
+          "occupancy_prob_pct": 50.0,
+          "eligible_match_indices": [
+            2,
+            11
+          ],
+          "occupied_match_indices": [
+            11
+          ]
+        },
+        "6": {
+          "occupied_matches": 1,
+          "similar_zone_matches": 2,
+          "occupancy_prob_pct": 50.0,
+          "eligible_match_indices": [
+            2,
+            11
+          ],
+          "occupied_match_indices": [
+            11
+          ]
+        }
+      },
+      "rank": 38
+    },
+    {
+      "spot_id": "miramar_spot_065",
+      "cluster_id": 64,
+      "spot_name": "Spot (6409m, 4674m)",
+      "x_meter": 6417.1,
+      "y_meter": 4675.9,
+      "x_norm": 0.80214,
+      "y_norm": 0.58449,
+      "x_telemetry": 641711.5,
+      "y_telemetry": 467590.5,
+      "sample_count": 2,
+      "avg_holding_time_sec": 50.0,
+      "occupied_matches": 1,
+      "similar_zone_matches": 13,
+      "occupancy_prob_pct": 7.7,
+      "rank_sample_count": 2,
+      "top4_count": 0,
+      "top4_survival_pct": 0.0,
+      "spot_tier": "hot_zone",
+      "phase_stats": {
+        "1": {
+          "occupied_matches": 1,
+          "similar_zone_matches": 12,
+          "occupancy_prob_pct": 8.3,
+          "eligible_match_indices": [
+            0,
+            1,
+            2,
+            3,
+            5,
+            6,
+            7,
+            8,
+            11,
+            12,
+            13,
+            14
+          ],
+          "occupied_match_indices": [
+            12
+          ]
+        },
+        "2": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 1,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            12
+          ],
+          "occupied_match_indices": []
+        },
+        "3": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 0,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [],
+          "occupied_match_indices": []
+        },
+        "4": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 0,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [],
+          "occupied_match_indices": []
+        },
+        "5": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 0,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [],
+          "occupied_match_indices": []
+        },
+        "6": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 0,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [],
+          "occupied_match_indices": []
+        }
+      },
+      "rank": 39
+    },
+    {
+      "spot_id": "miramar_spot_032",
+      "cluster_id": 31,
+      "spot_name": "Spot (5118m, 3475m)",
+      "x_meter": 5119.2,
+      "y_meter": 3474.9,
+      "x_norm": 0.6399,
+      "y_norm": 0.43436,
+      "x_telemetry": 511920.5,
+      "y_telemetry": 347491.0,
+      "sample_count": 2,
+      "avg_holding_time_sec": 53.5,
+      "occupied_matches": 1,
+      "similar_zone_matches": 14,
+      "occupancy_prob_pct": 7.1,
+      "rank_sample_count": 2,
+      "top4_count": 0,
+      "top4_survival_pct": 0.0,
+      "spot_tier": "hot_zone",
+      "phase_stats": {
+        "1": {
+          "occupied_matches": 1,
+          "similar_zone_matches": 12,
+          "occupancy_prob_pct": 8.3,
+          "eligible_match_indices": [
+            0,
+            1,
+            2,
+            3,
+            5,
+            6,
+            7,
+            8,
+            11,
+            12,
+            13,
+            14
+          ],
+          "occupied_match_indices": [
+            2
+          ]
+        },
+        "2": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 2,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            1,
+            13
+          ],
+          "occupied_match_indices": []
+        },
+        "3": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 0,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [],
+          "occupied_match_indices": []
+        },
+        "4": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 0,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [],
+          "occupied_match_indices": []
+        },
+        "5": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 0,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [],
+          "occupied_match_indices": []
+        },
+        "6": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 0,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [],
+          "occupied_match_indices": []
+        }
+      },
+      "rank": 40
+    },
+    {
+      "spot_id": "miramar_spot_069",
+      "cluster_id": 68,
+      "spot_name": "Spot (5934m, 4677m)",
+      "x_meter": 5936.8,
+      "y_meter": 4677.4,
+      "x_norm": 0.7421,
+      "y_norm": 0.58467,
+      "x_telemetry": 593681.5,
+      "y_telemetry": 467738.0,
+      "sample_count": 2,
+      "avg_holding_time_sec": 44.0,
+      "occupied_matches": 1,
+      "similar_zone_matches": 14,
+      "occupancy_prob_pct": 7.1,
+      "rank_sample_count": 1,
+      "top4_count": 0,
+      "top4_survival_pct": 0.0,
+      "spot_tier": "neutral",
+      "phase_stats": {
+        "1": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 12,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            0,
+            1,
+            2,
+            3,
+            5,
+            6,
+            7,
+            8,
+            11,
+            12,
+            13,
+            14
+          ],
+          "occupied_match_indices": []
+        },
+        "2": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 1,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            12
+          ],
+          "occupied_match_indices": []
+        },
+        "3": {
+          "occupied_matches": 1,
+          "similar_zone_matches": 1,
+          "occupancy_prob_pct": 100.0,
+          "eligible_match_indices": [
+            12
+          ],
+          "occupied_match_indices": [
+            12
+          ]
+        },
+        "4": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 0,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [],
+          "occupied_match_indices": []
+        },
+        "5": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 0,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [],
+          "occupied_match_indices": []
+        },
+        "6": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 0,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [],
+          "occupied_match_indices": []
+        }
+      },
+      "rank": 41
+    },
+    {
+      "spot_id": "miramar_spot_031",
+      "cluster_id": 30,
+      "spot_name": "Spot (4813m, 5397m)",
+      "x_meter": 4814.8,
+      "y_meter": 5397.4,
+      "x_norm": 0.60185,
+      "y_norm": 0.67468,
+      "x_telemetry": 481482.7,
+      "y_telemetry": 539743.3,
+      "sample_count": 3,
+      "avg_holding_time_sec": 79.3,
+      "occupied_matches": 1,
+      "similar_zone_matches": 16,
+      "occupancy_prob_pct": 6.2,
+      "rank_sample_count": 3,
+      "top4_count": 1,
+      "top4_survival_pct": 33.3,
+      "spot_tier": "neutral",
+      "phase_stats": {
+        "1": {
+          "occupied_matches": 1,
+          "similar_zone_matches": 12,
+          "occupancy_prob_pct": 8.3,
+          "eligible_match_indices": [
+            0,
+            1,
+            2,
+            3,
+            5,
+            6,
+            7,
+            8,
+            11,
+            12,
+            13,
+            14
+          ],
+          "occupied_match_indices": [
+            2
+          ]
+        },
+        "2": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 4,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            0,
+            4,
+            10,
+            12
+          ],
+          "occupied_match_indices": []
+        },
+        "3": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 0,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [],
+          "occupied_match_indices": []
+        },
+        "4": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 0,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [],
+          "occupied_match_indices": []
+        },
+        "5": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 0,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [],
+          "occupied_match_indices": []
+        },
+        "6": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 0,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [],
+          "occupied_match_indices": []
+        }
+      },
+      "rank": 42
+    },
+    {
+      "spot_id": "miramar_spot_070",
+      "cluster_id": 69,
+      "spot_name": "Spot (5778m, 5093m)",
+      "x_meter": 5785.4,
+      "y_meter": 5091.2,
+      "x_norm": 0.72318,
+      "y_norm": 0.63639,
+      "x_telemetry": 578544.0,
+      "y_telemetry": 509115.3,
+      "sample_count": 3,
+      "avg_holding_time_sec": 103.7,
+      "occupied_matches": 1,
+      "similar_zone_matches": 17,
+      "occupancy_prob_pct": 5.9,
+      "rank_sample_count": 2,
+      "top4_count": 1,
+      "top4_survival_pct": 50.0,
+      "spot_tier": "safe_spot",
+      "phase_stats": {
+        "1": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 12,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            0,
+            1,
+            2,
+            3,
+            5,
+            6,
+            7,
+            8,
+            11,
+            12,
+            13,
+            14
+          ],
+          "occupied_match_indices": []
+        },
+        "2": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 3,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            0,
+            4,
+            12
+          ],
+          "occupied_match_indices": []
+        },
+        "3": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 1,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            12
+          ],
+          "occupied_match_indices": []
+        },
+        "4": {
+          "occupied_matches": 1,
+          "similar_zone_matches": 1,
+          "occupancy_prob_pct": 100.0,
+          "eligible_match_indices": [
+            12
+          ],
+          "occupied_match_indices": [
+            12
+          ]
+        },
+        "5": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 1,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            12
+          ],
+          "occupied_match_indices": []
+        },
+        "6": {
+          "occupied_matches": 1,
+          "similar_zone_matches": 1,
+          "occupancy_prob_pct": 100.0,
+          "eligible_match_indices": [
+            12
+          ],
+          "occupied_match_indices": [
+            12
+          ]
+        }
+      },
+      "rank": 43
+    },
+    {
+      "spot_id": "miramar_spot_004",
+      "cluster_id": 3,
+      "spot_name": "Spot (1433m, 2908m)",
+      "x_meter": 1432.5,
+      "y_meter": 2913.6,
+      "x_norm": 0.17906,
+      "y_norm": 0.3642,
+      "x_telemetry": 143246.0,
+      "y_telemetry": 291362.5,
+      "sample_count": 2,
+      "avg_holding_time_sec": 78.0,
+      "occupied_matches": 1,
+      "similar_zone_matches": 17,
+      "occupancy_prob_pct": 5.9,
+      "rank_sample_count": 2,
+      "top4_count": 0,
+      "top4_survival_pct": 0.0,
+      "spot_tier": "hot_zone",
+      "phase_stats": {
+        "1": {
+          "occupied_matches": 1,
+          "similar_zone_matches": 12,
+          "occupancy_prob_pct": 8.3,
+          "eligible_match_indices": [
+            0,
+            1,
+            2,
+            3,
+            5,
+            6,
+            7,
+            8,
+            11,
+            12,
+            13,
+            14
+          ],
+          "occupied_match_indices": [
+            0
+          ]
+        },
+        "2": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 4,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            2,
+            7,
+            8,
+            14
+          ],
+          "occupied_match_indices": []
+        },
+        "3": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 1,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            14
+          ],
+          "occupied_match_indices": []
+        },
+        "4": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 0,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [],
+          "occupied_match_indices": []
+        },
+        "5": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 0,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [],
+          "occupied_match_indices": []
+        },
+        "6": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 0,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [],
+          "occupied_match_indices": []
+        }
+      },
+      "rank": 44
+    },
+    {
+      "spot_id": "miramar_spot_028",
+      "cluster_id": 27,
+      "spot_name": "Spot (5822m, 3635m)",
+      "x_meter": 5821.3,
+      "y_meter": 3636.1,
+      "x_norm": 0.72767,
+      "y_norm": 0.45451,
+      "x_telemetry": 582133.0,
+      "y_telemetry": 363611.5,
+      "sample_count": 2,
+      "avg_holding_time_sec": 47.0,
+      "occupied_matches": 1,
+      "similar_zone_matches": 17,
+      "occupancy_prob_pct": 5.9,
+      "rank_sample_count": 2,
+      "top4_count": 1,
+      "top4_survival_pct": 50.0,
+      "spot_tier": "safe_spot",
+      "phase_stats": {
+        "1": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 12,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            0,
+            1,
+            2,
+            3,
+            5,
+            6,
+            7,
+            8,
+            11,
+            12,
+            13,
+            14
+          ],
+          "occupied_match_indices": []
+        },
+        "2": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 3,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            1,
+            12,
+            13
+          ],
+          "occupied_match_indices": []
+        },
+        "3": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 1,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            1
+          ],
+          "occupied_match_indices": []
+        },
+        "4": {
+          "occupied_matches": 1,
+          "similar_zone_matches": 1,
+          "occupancy_prob_pct": 100.0,
+          "eligible_match_indices": [
+            1
+          ],
+          "occupied_match_indices": [
+            1
+          ]
+        },
+        "5": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 0,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [],
+          "occupied_match_indices": []
+        },
+        "6": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 0,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [],
+          "occupied_match_indices": []
+        }
+      },
+      "rank": 45
+    },
+    {
+      "spot_id": "miramar_spot_029",
+      "cluster_id": 28,
+      "spot_name": "Spot (5625m, 3219m)",
+      "x_meter": 5621.0,
+      "y_meter": 3216.7,
+      "x_norm": 0.70262,
+      "y_norm": 0.40209,
+      "x_telemetry": 562096.0,
+      "y_telemetry": 321672.0,
+      "sample_count": 2,
+      "avg_holding_time_sec": 69.0,
+      "occupied_matches": 1,
+      "similar_zone_matches": 17,
+      "occupancy_prob_pct": 5.9,
+      "rank_sample_count": 1,
+      "top4_count": 1,
+      "top4_survival_pct": 100.0,
+      "spot_tier": "neutral",
+      "phase_stats": {
+        "1": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 12,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            0,
+            1,
+            2,
+            3,
+            5,
+            6,
+            7,
+            8,
+            11,
+            12,
+            13,
+            14
+          ],
+          "occupied_match_indices": []
+        },
+        "2": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 2,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            1,
+            13
+          ],
+          "occupied_match_indices": []
+        },
+        "3": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 2,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            1,
+            13
+          ],
+          "occupied_match_indices": []
+        },
+        "4": {
+          "occupied_matches": 1,
+          "similar_zone_matches": 1,
+          "occupancy_prob_pct": 100.0,
+          "eligible_match_indices": [
+            1
+          ],
+          "occupied_match_indices": [
+            1
+          ]
+        },
+        "5": {
+          "occupied_matches": 1,
+          "similar_zone_matches": 1,
+          "occupancy_prob_pct": 100.0,
+          "eligible_match_indices": [
+            1
+          ],
+          "occupied_match_indices": [
+            1
+          ]
+        },
+        "6": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 0,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [],
+          "occupied_match_indices": []
+        }
+      },
+      "rank": 46
+    },
+    {
+      "spot_id": "miramar_spot_043",
+      "cluster_id": 42,
+      "spot_name": "Spot (5242m, 6276m)",
+      "x_meter": 5252.4,
+      "y_meter": 6278.5,
+      "x_norm": 0.65655,
+      "y_norm": 0.78482,
+      "x_telemetry": 525242.2,
+      "y_telemetry": 627855.0,
+      "sample_count": 4,
+      "avg_holding_time_sec": 141.5,
+      "occupied_matches": 1,
+      "similar_zone_matches": 18,
+      "occupancy_prob_pct": 5.6,
+      "rank_sample_count": 2,
+      "top4_count": 1,
+      "top4_survival_pct": 50.0,
+      "spot_tier": "safe_spot",
+      "phase_stats": {
+        "1": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 12,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            0,
+            1,
+            2,
+            3,
+            5,
+            6,
+            7,
+            8,
+            11,
+            12,
+            13,
+            14
+          ],
+          "occupied_match_indices": []
+        },
+        "2": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 3,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            0,
+            4,
+            12
+          ],
+          "occupied_match_indices": []
+        },
+        "3": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 2,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            4,
+            12
+          ],
+          "occupied_match_indices": []
+        },
+        "4": {
+          "occupied_matches": 1,
+          "similar_zone_matches": 1,
+          "occupancy_prob_pct": 100.0,
+          "eligible_match_indices": [
+            4
+          ],
+          "occupied_match_indices": [
+            4
+          ]
+        },
+        "5": {
+          "occupied_matches": 1,
+          "similar_zone_matches": 1,
+          "occupancy_prob_pct": 100.0,
+          "eligible_match_indices": [
+            4
+          ],
+          "occupied_match_indices": [
+            4
+          ]
+        },
+        "6": {
+          "occupied_matches": 1,
+          "similar_zone_matches": 1,
+          "occupancy_prob_pct": 100.0,
+          "eligible_match_indices": [
+            4
+          ],
+          "occupied_match_indices": [
+            4
+          ]
+        }
+      },
+      "rank": 47
+    },
+    {
+      "spot_id": "miramar_spot_059",
+      "cluster_id": 58,
+      "spot_name": "Spot (1989m, 4137m)",
+      "x_meter": 1989.9,
+      "y_meter": 4136.2,
+      "x_norm": 0.24873,
+      "y_norm": 0.51702,
+      "x_telemetry": 198985.0,
+      "y_telemetry": 413617.3,
+      "sample_count": 3,
+      "avg_holding_time_sec": 120.0,
+      "occupied_matches": 1,
+      "similar_zone_matches": 18,
+      "occupancy_prob_pct": 5.6,
+      "rank_sample_count": 1,
+      "top4_count": 1,
+      "top4_survival_pct": 100.0,
+      "spot_tier": "neutral",
+      "phase_stats": {
+        "1": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 12,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            0,
+            1,
+            2,
+            3,
+            5,
+            6,
+            7,
+            8,
+            11,
+            12,
+            13,
+            14
+          ],
+          "occupied_match_indices": []
+        },
+        "2": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 4,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            3,
+            5,
+            8,
+            14
+          ],
+          "occupied_match_indices": []
+        },
+        "3": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 1,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            8
+          ],
+          "occupied_match_indices": []
+        },
+        "4": {
+          "occupied_matches": 1,
+          "similar_zone_matches": 1,
+          "occupancy_prob_pct": 100.0,
+          "eligible_match_indices": [
+            8
+          ],
+          "occupied_match_indices": [
+            8
+          ]
+        },
+        "5": {
+          "occupied_matches": 1,
+          "similar_zone_matches": 1,
+          "occupancy_prob_pct": 100.0,
+          "eligible_match_indices": [
+            8
+          ],
+          "occupied_match_indices": [
+            8
+          ]
+        },
+        "6": {
+          "occupied_matches": 1,
+          "similar_zone_matches": 1,
+          "occupancy_prob_pct": 100.0,
+          "eligible_match_indices": [
+            8
+          ],
+          "occupied_match_indices": [
+            8
+          ]
+        }
+      },
+      "rank": 48
+    },
+    {
+      "spot_id": "miramar_spot_060",
+      "cluster_id": 59,
+      "spot_name": "Spot (1771m, 4006m)",
+      "x_meter": 1772.3,
+      "y_meter": 4006.1,
+      "x_norm": 0.22154,
+      "y_norm": 0.50076,
+      "x_telemetry": 177228.7,
+      "y_telemetry": 400610.3,
+      "sample_count": 3,
+      "avg_holding_time_sec": 70.3,
+      "occupied_matches": 1,
+      "similar_zone_matches": 18,
+      "occupancy_prob_pct": 5.6,
+      "rank_sample_count": 2,
+      "top4_count": 0,
+      "top4_survival_pct": 0.0,
+      "spot_tier": "hot_zone",
+      "phase_stats": {
+        "1": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 12,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            0,
+            1,
+            2,
+            3,
+            5,
+            6,
+            7,
+            8,
+            11,
+            12,
+            13,
+            14
+          ],
+          "occupied_match_indices": []
+        },
+        "2": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 4,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            3,
+            5,
+            8,
+            14
+          ],
+          "occupied_match_indices": []
+        },
+        "3": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 1,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            8
+          ],
+          "occupied_match_indices": []
+        },
+        "4": {
+          "occupied_matches": 1,
+          "similar_zone_matches": 1,
+          "occupancy_prob_pct": 100.0,
+          "eligible_match_indices": [
+            8
+          ],
+          "occupied_match_indices": [
+            8
+          ]
+        },
+        "5": {
+          "occupied_matches": 1,
+          "similar_zone_matches": 1,
+          "occupancy_prob_pct": 100.0,
+          "eligible_match_indices": [
+            8
+          ],
+          "occupied_match_indices": [
+            8
+          ]
+        },
+        "6": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 0,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [],
+          "occupied_match_indices": []
+        }
+      },
+      "rank": 49
+    },
+    {
+      "spot_id": "miramar_spot_019",
+      "cluster_id": 18,
+      "spot_name": "Spot (3976m, 4622m)",
+      "x_meter": 3979.6,
+      "y_meter": 4627.4,
+      "x_norm": 0.49746,
+      "y_norm": 0.57843,
+      "x_telemetry": 397964.0,
+      "y_telemetry": 462743.0,
+      "sample_count": 2,
+      "avg_holding_time_sec": 50.5,
+      "occupied_matches": 1,
+      "similar_zone_matches": 18,
+      "occupancy_prob_pct": 5.6,
+      "rank_sample_count": 2,
+      "top4_count": 1,
+      "top4_survival_pct": 50.0,
+      "spot_tier": "safe_spot",
+      "phase_stats": {
+        "1": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 12,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            0,
+            1,
+            2,
+            3,
+            5,
+            6,
+            7,
+            8,
+            11,
+            12,
+            13,
+            14
+          ],
+          "occupied_match_indices": []
+        },
+        "2": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 4,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            0,
+            3,
+            5,
+            10
+          ],
+          "occupied_match_indices": []
+        },
+        "3": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 1,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            0
+          ],
+          "occupied_match_indices": []
+        },
+        "4": {
+          "occupied_matches": 1,
+          "similar_zone_matches": 1,
+          "occupancy_prob_pct": 100.0,
+          "eligible_match_indices": [
+            0
+          ],
+          "occupied_match_indices": [
+            0
+          ]
+        },
+        "5": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 1,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            0
+          ],
+          "occupied_match_indices": []
+        },
+        "6": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 0,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [],
+          "occupied_match_indices": []
+        }
+      },
+      "rank": 50
+    },
+    {
+      "spot_id": "miramar_spot_044",
+      "cluster_id": 43,
+      "spot_name": "Spot (5330m, 6112m)",
+      "x_meter": 5334.3,
+      "y_meter": 6113.9,
+      "x_norm": 0.66679,
+      "y_norm": 0.76424,
+      "x_telemetry": 533428.0,
+      "y_telemetry": 611393.0,
+      "sample_count": 2,
+      "avg_holding_time_sec": 42.0,
+      "occupied_matches": 1,
+      "similar_zone_matches": 18,
+      "occupancy_prob_pct": 5.6,
+      "rank_sample_count": 1,
+      "top4_count": 1,
+      "top4_survival_pct": 100.0,
+      "spot_tier": "neutral",
+      "phase_stats": {
+        "1": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 12,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            0,
+            1,
+            2,
+            3,
+            5,
+            6,
+            7,
+            8,
+            11,
+            12,
+            13,
+            14
+          ],
+          "occupied_match_indices": []
+        },
+        "2": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 3,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            0,
+            4,
+            12
+          ],
+          "occupied_match_indices": []
+        },
+        "3": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 2,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            4,
+            12
+          ],
+          "occupied_match_indices": []
+        },
+        "4": {
+          "occupied_matches": 1,
+          "similar_zone_matches": 1,
+          "occupancy_prob_pct": 100.0,
+          "eligible_match_indices": [
+            4
+          ],
+          "occupied_match_indices": [
+            4
+          ]
+        },
+        "5": {
+          "occupied_matches": 1,
+          "similar_zone_matches": 1,
+          "occupancy_prob_pct": 100.0,
+          "eligible_match_indices": [
+            4
+          ],
+          "occupied_match_indices": [
+            4
+          ]
+        },
+        "6": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 0,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [],
+          "occupied_match_indices": []
+        }
+      },
+      "rank": 51
+    },
+    {
+      "spot_id": "miramar_spot_061",
+      "cluster_id": 60,
+      "spot_name": "Spot (4347m, 1061m)",
+      "x_meter": 4343.9,
+      "y_meter": 1060.6,
+      "x_norm": 0.54298,
+      "y_norm": 0.13258,
+      "x_telemetry": 434386.5,
+      "y_telemetry": 106064.0,
+      "sample_count": 2,
+      "avg_holding_time_sec": 70.5,
+      "occupied_matches": 1,
+      "similar_zone_matches": 18,
+      "occupancy_prob_pct": 5.6,
+      "rank_sample_count": 1,
+      "top4_count": 0,
+      "top4_survival_pct": 0.0,
+      "spot_tier": "neutral",
+      "phase_stats": {
+        "1": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 12,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            0,
+            1,
+            2,
+            3,
+            5,
+            6,
+            7,
+            8,
+            11,
+            12,
+            13,
+            14
+          ],
+          "occupied_match_indices": []
+        },
+        "2": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 4,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            2,
+            9,
+            11,
+            13
+          ],
+          "occupied_match_indices": []
+        },
+        "3": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 1,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            9
+          ],
+          "occupied_match_indices": []
+        },
+        "4": {
+          "occupied_matches": 1,
+          "similar_zone_matches": 1,
+          "occupancy_prob_pct": 100.0,
+          "eligible_match_indices": [
+            9
+          ],
+          "occupied_match_indices": [
+            9
+          ]
+        },
+        "5": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 0,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [],
+          "occupied_match_indices": []
+        },
+        "6": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 0,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [],
+          "occupied_match_indices": []
+        }
+      },
+      "rank": 52
+    },
+    {
+      "spot_id": "miramar_spot_071",
+      "cluster_id": 70,
+      "spot_name": "Spot (5759m, 2749m)",
+      "x_meter": 5758.6,
+      "y_meter": 2748.1,
+      "x_norm": 0.71983,
+      "y_norm": 0.34351,
+      "x_telemetry": 575862.5,
+      "y_telemetry": 274805.5,
+      "sample_count": 2,
+      "avg_holding_time_sec": 64.5,
+      "occupied_matches": 1,
+      "similar_zone_matches": 18,
+      "occupancy_prob_pct": 5.6,
+      "rank_sample_count": 1,
+      "top4_count": 1,
+      "top4_survival_pct": 100.0,
+      "spot_tier": "neutral",
+      "phase_stats": {
+        "1": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 12,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            0,
+            1,
+            2,
+            3,
+            5,
+            6,
+            7,
+            8,
+            11,
+            12,
+            13,
+            14
+          ],
+          "occupied_match_indices": []
+        },
+        "2": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 2,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            1,
+            13
+          ],
+          "occupied_match_indices": []
+        },
+        "3": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 2,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            1,
+            13
+          ],
+          "occupied_match_indices": []
+        },
+        "4": {
+          "occupied_matches": 1,
+          "similar_zone_matches": 2,
+          "occupancy_prob_pct": 50.0,
+          "eligible_match_indices": [
+            1,
+            13
+          ],
+          "occupied_match_indices": [
+            13
+          ]
+        },
+        "5": {
+          "occupied_matches": 1,
+          "similar_zone_matches": 1,
+          "occupancy_prob_pct": 100.0,
+          "eligible_match_indices": [
+            13
+          ],
+          "occupied_match_indices": [
+            13
+          ]
+        },
+        "6": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 1,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            13
+          ],
+          "occupied_match_indices": []
+        }
+      },
+      "rank": 53
+    },
+    {
+      "spot_id": "miramar_spot_016",
+      "cluster_id": 15,
+      "spot_name": "Spot (3818m, 4864m)",
+      "x_meter": 3821.9,
+      "y_meter": 4864.3,
+      "x_norm": 0.47774,
+      "y_norm": 0.60804,
+      "x_telemetry": 382190.5,
+      "y_telemetry": 486430.0,
+      "sample_count": 2,
+      "avg_holding_time_sec": 50.5,
+      "occupied_matches": 1,
+      "similar_zone_matches": 19,
+      "occupancy_prob_pct": 5.3,
+      "rank_sample_count": 2,
+      "top4_count": 0,
+      "top4_survival_pct": 0.0,
+      "spot_tier": "hot_zone",
+      "phase_stats": {
+        "1": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 12,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            0,
+            1,
+            2,
+            3,
+            5,
+            6,
+            7,
+            8,
+            11,
+            12,
+            13,
+            14
+          ],
+          "occupied_match_indices": []
+        },
+        "2": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 4,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            0,
+            3,
+            5,
+            10
+          ],
+          "occupied_match_indices": []
+        },
+        "3": {
+          "occupied_matches": 1,
+          "similar_zone_matches": 2,
+          "occupancy_prob_pct": 50.0,
+          "eligible_match_indices": [
+            0,
+            10
+          ],
+          "occupied_match_indices": [
+            0
+          ]
+        },
+        "4": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 1,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            0
+          ],
+          "occupied_match_indices": []
+        },
+        "5": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 0,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [],
+          "occupied_match_indices": []
+        },
+        "6": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 0,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [],
+          "occupied_match_indices": []
+        }
+      },
+      "rank": 54
+    },
+    {
+      "spot_id": "miramar_spot_024",
+      "cluster_id": 23,
+      "spot_name": "Spot (3958m, 4891m)",
+      "x_meter": 3958.7,
+      "y_meter": 4892.1,
+      "x_norm": 0.49484,
+      "y_norm": 0.61151,
+      "x_telemetry": 395873.5,
+      "y_telemetry": 489207.0,
+      "sample_count": 2,
+      "avg_holding_time_sec": 92.5,
+      "occupied_matches": 1,
+      "similar_zone_matches": 19,
+      "occupancy_prob_pct": 5.3,
+      "rank_sample_count": 1,
+      "top4_count": 1,
+      "top4_survival_pct": 100.0,
+      "spot_tier": "neutral",
+      "phase_stats": {
+        "1": {
+          "occupied_matches": 1,
+          "similar_zone_matches": 12,
+          "occupancy_prob_pct": 8.3,
+          "eligible_match_indices": [
+            0,
+            1,
+            2,
+            3,
+            5,
+            6,
+            7,
+            8,
+            11,
+            12,
+            13,
+            14
+          ],
+          "occupied_match_indices": [
+            1
+          ]
+        },
+        "2": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 4,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            0,
+            3,
+            5,
+            10
+          ],
+          "occupied_match_indices": []
+        },
+        "3": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 2,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            0,
+            10
+          ],
+          "occupied_match_indices": []
+        },
+        "4": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 1,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            0
+          ],
+          "occupied_match_indices": []
+        },
+        "5": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 0,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [],
+          "occupied_match_indices": []
+        },
+        "6": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 0,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [],
+          "occupied_match_indices": []
+        }
+      },
+      "rank": 55
+    },
+    {
+      "spot_id": "miramar_spot_018",
+      "cluster_id": 17,
+      "spot_name": "Spot (3637m, 4346m)",
+      "x_meter": 3636.7,
+      "y_meter": 4350.4,
+      "x_norm": 0.45459,
+      "y_norm": 0.5438,
+      "x_telemetry": 363670.5,
+      "y_telemetry": 435043.0,
+      "sample_count": 2,
+      "avg_holding_time_sec": 74.0,
+      "occupied_matches": 1,
+      "similar_zone_matches": 20,
+      "occupancy_prob_pct": 5.0,
+      "rank_sample_count": 1,
+      "top4_count": 0,
+      "top4_survival_pct": 0.0,
+      "spot_tier": "neutral",
+      "phase_stats": {
+        "1": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 12,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            0,
+            1,
+            2,
+            3,
+            5,
+            6,
+            7,
+            8,
+            11,
+            12,
+            13,
+            14
+          ],
+          "occupied_match_indices": []
+        },
+        "2": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 5,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            0,
+            3,
+            5,
+            8,
+            10
+          ],
+          "occupied_match_indices": []
+        },
+        "3": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 2,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            0,
+            10
+          ],
+          "occupied_match_indices": []
+        },
+        "4": {
+          "occupied_matches": 1,
+          "similar_zone_matches": 1,
+          "occupancy_prob_pct": 100.0,
+          "eligible_match_indices": [
+            0
+          ],
+          "occupied_match_indices": [
+            0
+          ]
+        },
+        "5": {
+          "occupied_matches": 1,
+          "similar_zone_matches": 1,
+          "occupancy_prob_pct": 100.0,
+          "eligible_match_indices": [
+            0
+          ],
+          "occupied_match_indices": [
+            0
+          ]
+        },
+        "6": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 0,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [],
+          "occupied_match_indices": []
+        }
+      },
+      "rank": 56
+    },
+    {
+      "spot_id": "miramar_spot_014",
+      "cluster_id": 13,
+      "spot_name": "Spot (2852m, 4821m)",
+      "x_meter": 2849.9,
+      "y_meter": 4824.8,
+      "x_norm": 0.35624,
+      "y_norm": 0.6031,
+      "x_telemetry": 284989.4,
+      "y_telemetry": 482482.8,
+      "sample_count": 5,
+      "avg_holding_time_sec": 69.8,
+      "occupied_matches": 1,
+      "similar_zone_matches": 21,
+      "occupancy_prob_pct": 4.8,
+      "rank_sample_count": 3,
+      "top4_count": 1,
+      "top4_survival_pct": 33.3,
+      "spot_tier": "neutral",
+      "phase_stats": {
+        "1": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 12,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            0,
+            1,
+            2,
+            3,
+            5,
+            6,
+            7,
+            8,
+            11,
+            12,
+            13,
+            14
+          ],
+          "occupied_match_indices": []
+        },
+        "2": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 5,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            0,
+            3,
+            5,
+            8,
+            10
+          ],
+          "occupied_match_indices": []
+        },
+        "3": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 3,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            3,
+            5,
+            10
+          ],
+          "occupied_match_indices": []
+        },
+        "4": {
+          "occupied_matches": 1,
+          "similar_zone_matches": 1,
+          "occupancy_prob_pct": 100.0,
+          "eligible_match_indices": [
+            10
+          ],
+          "occupied_match_indices": [
+            10
+          ]
+        },
+        "5": {
+          "occupied_matches": 1,
+          "similar_zone_matches": 1,
+          "occupancy_prob_pct": 100.0,
+          "eligible_match_indices": [
+            10
+          ],
+          "occupied_match_indices": [
+            10
+          ]
+        },
+        "6": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 0,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [],
+          "occupied_match_indices": []
+        }
+      },
+      "rank": 57
+    },
+    {
+      "spot_id": "miramar_spot_042",
+      "cluster_id": 41,
+      "spot_name": "Spot (3727m, 2845m)",
+      "x_meter": 3732.1,
+      "y_meter": 2847.3,
+      "x_norm": 0.46651,
+      "y_norm": 0.35591,
+      "x_telemetry": 373207.3,
+      "y_telemetry": 284729.0,
+      "sample_count": 3,
+      "avg_holding_time_sec": 100.7,
+      "occupied_matches": 1,
+      "similar_zone_matches": 21,
+      "occupancy_prob_pct": 4.8,
+      "rank_sample_count": 2,
+      "top4_count": 0,
+      "top4_survival_pct": 0.0,
+      "spot_tier": "hot_zone",
+      "phase_stats": {
+        "1": {
+          "occupied_matches": 1,
+          "similar_zone_matches": 12,
+          "occupancy_prob_pct": 8.3,
+          "eligible_match_indices": [
+            0,
+            1,
+            2,
+            3,
+            5,
+            6,
+            7,
+            8,
+            11,
+            12,
+            13,
+            14
+          ],
+          "occupied_match_indices": [
+            3
+          ]
+        },
+        "2": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 5,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            2,
+            6,
+            7,
+            11,
+            13
+          ],
+          "occupied_match_indices": []
+        },
+        "3": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 3,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            2,
+            6,
+            11
+          ],
+          "occupied_match_indices": []
+        },
+        "4": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 1,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            6
+          ],
+          "occupied_match_indices": []
+        },
+        "5": {
+          "occupied_matches": 1,
+          "similar_zone_matches": 1,
+          "occupancy_prob_pct": 100.0,
+          "eligible_match_indices": [
+            6
+          ],
+          "occupied_match_indices": [
+            6
+          ]
+        },
+        "6": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 0,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [],
+          "occupied_match_indices": []
+        }
+      },
+      "rank": 58
+    },
+    {
+      "spot_id": "miramar_spot_050",
+      "cluster_id": 49,
+      "spot_name": "Spot (3733m, 2988m)",
+      "x_meter": 3736.8,
+      "y_meter": 2986.4,
+      "x_norm": 0.4671,
+      "y_norm": 0.3733,
+      "x_telemetry": 373677.5,
+      "y_telemetry": 298643.5,
+      "sample_count": 2,
+      "avg_holding_time_sec": 54.0,
+      "occupied_matches": 1,
+      "similar_zone_matches": 21,
+      "occupancy_prob_pct": 4.8,
+      "rank_sample_count": 1,
+      "top4_count": 1,
+      "top4_survival_pct": 100.0,
+      "spot_tier": "neutral",
+      "phase_stats": {
+        "1": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 12,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            0,
+            1,
+            2,
+            3,
+            5,
+            6,
+            7,
+            8,
+            11,
+            12,
+            13,
+            14
+          ],
+          "occupied_match_indices": []
+        },
+        "2": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 5,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            2,
+            6,
+            7,
+            11,
+            13
+          ],
+          "occupied_match_indices": []
+        },
+        "3": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 3,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            2,
+            6,
+            11
+          ],
+          "occupied_match_indices": []
+        },
+        "4": {
+          "occupied_matches": 1,
+          "similar_zone_matches": 1,
+          "occupancy_prob_pct": 100.0,
+          "eligible_match_indices": [
+            6
+          ],
+          "occupied_match_indices": [
+            6
+          ]
+        },
+        "5": {
+          "occupied_matches": 1,
+          "similar_zone_matches": 1,
+          "occupancy_prob_pct": 100.0,
+          "eligible_match_indices": [
+            6
+          ],
+          "occupied_match_indices": [
+            6
+          ]
+        },
+        "6": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 1,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            6
+          ],
+          "occupied_match_indices": []
+        }
+      },
+      "rank": 59
+    },
+    {
+      "spot_id": "miramar_spot_023",
+      "cluster_id": 22,
+      "spot_name": "Spot (2655m, 5490m)",
+      "x_meter": 2656.2,
+      "y_meter": 5495.9,
+      "x_norm": 0.33203,
+      "y_norm": 0.68699,
+      "x_telemetry": 265620.5,
+      "y_telemetry": 549592.0,
+      "sample_count": 2,
+      "avg_holding_time_sec": 82.0,
+      "occupied_matches": 1,
+      "similar_zone_matches": 22,
+      "occupancy_prob_pct": 4.5,
+      "rank_sample_count": 2,
+      "top4_count": 0,
+      "top4_survival_pct": 0.0,
+      "spot_tier": "hot_zone",
+      "phase_stats": {
+        "1": {
+          "occupied_matches": 1,
+          "similar_zone_matches": 12,
+          "occupancy_prob_pct": 8.3,
+          "eligible_match_indices": [
+            0,
+            1,
+            2,
+            3,
+            5,
+            6,
+            7,
+            8,
+            11,
+            12,
+            13,
+            14
+          ],
+          "occupied_match_indices": [
+            1
+          ]
+        },
+        "2": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 5,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            0,
+            3,
+            5,
+            8,
+            10
+          ],
+          "occupied_match_indices": []
+        },
+        "3": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 3,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            3,
+            5,
+            10
+          ],
+          "occupied_match_indices": []
+        },
+        "4": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 2,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            3,
+            5
+          ],
+          "occupied_match_indices": []
+        },
+        "5": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 1,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            5
+          ],
+          "occupied_match_indices": []
+        },
+        "6": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 0,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [],
+          "occupied_match_indices": []
+        }
+      },
+      "rank": 60
+    },
+    {
+      "spot_id": "miramar_spot_026",
+      "cluster_id": 25,
+      "spot_name": "Spot (2570m, 5260m)",
+      "x_meter": 2561.8,
+      "y_meter": 5262.1,
+      "x_norm": 0.32023,
+      "y_norm": 0.65776,
+      "x_telemetry": 256181.0,
+      "y_telemetry": 526211.0,
+      "sample_count": 2,
+      "avg_holding_time_sec": 67.5,
+      "occupied_matches": 1,
+      "similar_zone_matches": 22,
+      "occupancy_prob_pct": 4.5,
+      "rank_sample_count": 2,
+      "top4_count": 0,
+      "top4_survival_pct": 0.0,
+      "spot_tier": "hot_zone",
+      "phase_stats": {
+        "1": {
+          "occupied_matches": 1,
+          "similar_zone_matches": 12,
+          "occupancy_prob_pct": 8.3,
+          "eligible_match_indices": [
+            0,
+            1,
+            2,
+            3,
+            5,
+            6,
+            7,
+            8,
+            11,
+            12,
+            13,
+            14
+          ],
+          "occupied_match_indices": [
+            1
+          ]
+        },
+        "2": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 5,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            0,
+            3,
+            5,
+            8,
+            10
+          ],
+          "occupied_match_indices": []
+        },
+        "3": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 3,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            3,
+            5,
+            10
+          ],
+          "occupied_match_indices": []
+        },
+        "4": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 2,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            3,
+            5
+          ],
+          "occupied_match_indices": []
+        },
+        "5": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 0,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [],
+          "occupied_match_indices": []
+        },
+        "6": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 0,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [],
+          "occupied_match_indices": []
+        }
+      },
+      "rank": 61
+    },
+    {
+      "spot_id": "miramar_spot_046",
+      "cluster_id": 45,
+      "spot_name": "Spot (2483m, 5414m)",
+      "x_meter": 2484.6,
+      "y_meter": 5412.5,
+      "x_norm": 0.31057,
+      "y_norm": 0.67657,
+      "x_telemetry": 248458.0,
+      "y_telemetry": 541254.5,
+      "sample_count": 2,
+      "avg_holding_time_sec": 116.0,
+      "occupied_matches": 1,
+      "similar_zone_matches": 22,
+      "occupancy_prob_pct": 4.5,
+      "rank_sample_count": 2,
+      "top4_count": 1,
+      "top4_survival_pct": 50.0,
+      "spot_tier": "safe_spot",
+      "phase_stats": {
+        "1": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 12,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            0,
+            1,
+            2,
+            3,
+            5,
+            6,
+            7,
+            8,
+            11,
+            12,
+            13,
+            14
+          ],
+          "occupied_match_indices": []
+        },
+        "2": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 5,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            0,
+            3,
+            5,
+            8,
+            10
+          ],
+          "occupied_match_indices": []
+        },
+        "3": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 3,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            3,
+            5,
+            10
+          ],
+          "occupied_match_indices": []
+        },
+        "4": {
+          "occupied_matches": 1,
+          "similar_zone_matches": 2,
+          "occupancy_prob_pct": 50.0,
+          "eligible_match_indices": [
+            3,
+            5
+          ],
+          "occupied_match_indices": [
+            5
+          ]
+        },
+        "5": {
+          "occupied_matches": 1,
+          "similar_zone_matches": 1,
+          "occupancy_prob_pct": 100.0,
+          "eligible_match_indices": [
+            5
+          ],
+          "occupied_match_indices": [
+            5
+          ]
+        },
+        "6": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 0,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [],
+          "occupied_match_indices": []
+        }
+      },
+      "rank": 62
+    },
+    {
+      "spot_id": "miramar_spot_054",
+      "cluster_id": 53,
+      "spot_name": "Spot (2519m, 2582m)",
+      "x_meter": 2519.5,
+      "y_meter": 2582.9,
+      "x_norm": 0.31494,
+      "y_norm": 0.32286,
+      "x_telemetry": 251954.3,
+      "y_telemetry": 258288.3,
+      "sample_count": 3,
+      "avg_holding_time_sec": 136.7,
+      "occupied_matches": 1,
+      "similar_zone_matches": 23,
+      "occupancy_prob_pct": 4.3,
+      "rank_sample_count": 1,
+      "top4_count": 1,
+      "top4_survival_pct": 100.0,
+      "spot_tier": "neutral",
+      "phase_stats": {
+        "1": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 12,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            0,
+            1,
+            2,
+            3,
+            5,
+            6,
+            7,
+            8,
+            11,
+            12,
+            13,
+            14
+          ],
+          "occupied_match_indices": []
+        },
+        "2": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 5,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            2,
+            6,
+            7,
+            11,
+            14
+          ],
+          "occupied_match_indices": []
+        },
+        "3": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 4,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            2,
+            7,
+            11,
+            14
+          ],
+          "occupied_match_indices": []
+        },
+        "4": {
+          "occupied_matches": 1,
+          "similar_zone_matches": 2,
+          "occupancy_prob_pct": 50.0,
+          "eligible_match_indices": [
+            7,
+            14
+          ],
+          "occupied_match_indices": [
+            7
+          ]
+        },
+        "5": {
+          "occupied_matches": 1,
+          "similar_zone_matches": 1,
+          "occupancy_prob_pct": 100.0,
+          "eligible_match_indices": [
+            7
+          ],
+          "occupied_match_indices": [
+            7
+          ]
+        },
+        "6": {
+          "occupied_matches": 1,
+          "similar_zone_matches": 1,
+          "occupancy_prob_pct": 100.0,
+          "eligible_match_indices": [
+            7
+          ],
+          "occupied_match_indices": [
+            7
+          ]
+        }
+      },
+      "rank": 63
+    },
+    {
+      "spot_id": "miramar_spot_055",
+      "cluster_id": 54,
+      "spot_name": "Spot (2676m, 2629m)",
+      "x_meter": 2676.8,
+      "y_meter": 2631.7,
+      "x_norm": 0.33461,
+      "y_norm": 0.32897,
+      "x_telemetry": 267684.0,
+      "y_telemetry": 263172.0,
+      "sample_count": 2,
+      "avg_holding_time_sec": 165.0,
+      "occupied_matches": 1,
+      "similar_zone_matches": 24,
+      "occupancy_prob_pct": 4.2,
+      "rank_sample_count": 1,
+      "top4_count": 0,
+      "top4_survival_pct": 0.0,
+      "spot_tier": "neutral",
+      "phase_stats": {
+        "1": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 12,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            0,
+            1,
+            2,
+            3,
+            5,
+            6,
+            7,
+            8,
+            11,
+            12,
+            13,
+            14
+          ],
+          "occupied_match_indices": []
+        },
+        "2": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 5,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            2,
+            6,
+            7,
+            11,
+            14
+          ],
+          "occupied_match_indices": []
+        },
+        "3": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 4,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            2,
+            7,
+            11,
+            14
+          ],
+          "occupied_match_indices": []
+        },
+        "4": {
+          "occupied_matches": 1,
+          "similar_zone_matches": 3,
+          "occupancy_prob_pct": 33.3,
+          "eligible_match_indices": [
+            2,
+            7,
+            11
+          ],
+          "occupied_match_indices": [
+            7
+          ]
+        },
+        "5": {
+          "occupied_matches": 1,
+          "similar_zone_matches": 1,
+          "occupancy_prob_pct": 100.0,
+          "eligible_match_indices": [
+            7
+          ],
+          "occupied_match_indices": [
+            7
+          ]
+        },
+        "6": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 1,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            7
+          ],
+          "occupied_match_indices": []
+        }
+      },
+      "rank": 64
+    },
+    {
+      "spot_id": "miramar_spot_041",
+      "cluster_id": 40,
+      "spot_name": "Spot (2960m, 3293m)",
+      "x_meter": 2957.5,
+      "y_meter": 3297.1,
+      "x_norm": 0.36969,
+      "y_norm": 0.41213,
+      "x_telemetry": 295752.2,
+      "y_telemetry": 329705.5,
+      "sample_count": 4,
+      "avg_holding_time_sec": 85.0,
+      "occupied_matches": 1,
+      "similar_zone_matches": 25,
+      "occupancy_prob_pct": 4.0,
+      "rank_sample_count": 2,
+      "top4_count": 2,
+      "top4_survival_pct": 100.0,
+      "spot_tier": "safe_spot",
+      "phase_stats": {
+        "1": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 12,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            0,
+            1,
+            2,
+            3,
+            5,
+            6,
+            7,
+            8,
+            11,
+            12,
+            13,
+            14
+          ],
+          "occupied_match_indices": []
+        },
+        "2": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 7,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            2,
+            5,
+            6,
+            7,
+            8,
+            11,
+            14
+          ],
+          "occupied_match_indices": []
+        },
+        "3": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 4,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            2,
+            6,
+            7,
+            11
+          ],
+          "occupied_match_indices": []
+        },
+        "4": {
+          "occupied_matches": 1,
+          "similar_zone_matches": 2,
+          "occupancy_prob_pct": 50.0,
+          "eligible_match_indices": [
+            2,
+            11
+          ],
+          "occupied_match_indices": [
+            11
+          ]
+        },
+        "5": {
+          "occupied_matches": 2,
+          "similar_zone_matches": 2,
+          "occupancy_prob_pct": 100.0,
+          "eligible_match_indices": [
+            2,
+            11
+          ],
+          "occupied_match_indices": [
+            2,
+            11
+          ]
+        },
+        "6": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 0,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [],
+          "occupied_match_indices": []
+        }
+      },
+      "rank": 65
+    },
+    {
+      "spot_id": "miramar_spot_064",
+      "cluster_id": 63,
+      "spot_name": "Spot (2907m, 2928m)",
+      "x_meter": 2904.0,
+      "y_meter": 2932.7,
+      "x_norm": 0.363,
+      "y_norm": 0.36659,
+      "x_telemetry": 290399.0,
+      "y_telemetry": 293272.0,
+      "sample_count": 2,
+      "avg_holding_time_sec": 35.5,
+      "occupied_matches": 1,
+      "similar_zone_matches": 25,
+      "occupancy_prob_pct": 4.0,
+      "rank_sample_count": 1,
+      "top4_count": 0,
+      "top4_survival_pct": 0.0,
+      "spot_tier": "neutral",
+      "phase_stats": {
+        "1": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 12,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            0,
+            1,
+            2,
+            3,
+            5,
+            6,
+            7,
+            8,
+            11,
+            12,
+            13,
+            14
+          ],
+          "occupied_match_indices": []
+        },
+        "2": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 6,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            2,
+            6,
+            7,
+            8,
+            11,
+            14
+          ],
+          "occupied_match_indices": []
+        },
+        "3": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 4,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            2,
+            6,
+            7,
+            11
+          ],
+          "occupied_match_indices": []
+        },
+        "4": {
+          "occupied_matches": 1,
+          "similar_zone_matches": 3,
+          "occupancy_prob_pct": 33.3,
+          "eligible_match_indices": [
+            2,
+            7,
+            11
+          ],
+          "occupied_match_indices": [
+            11
+          ]
+        },
+        "5": {
+          "occupied_matches": 1,
+          "similar_zone_matches": 2,
+          "occupancy_prob_pct": 50.0,
+          "eligible_match_indices": [
+            2,
+            11
+          ],
+          "occupied_match_indices": [
+            11
+          ]
+        },
+        "6": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 0,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [],
+          "occupied_match_indices": []
+        }
+      },
+      "rank": 66
+    },
+    {
+      "spot_id": "miramar_spot_020",
+      "cluster_id": 19,
+      "spot_name": "Spot (3711m, 4688m)",
+      "x_meter": 3711.2,
+      "y_meter": 4687.6,
+      "x_norm": 0.4639,
+      "y_norm": 0.58595,
+      "x_telemetry": 371123.5,
+      "y_telemetry": 468759.0,
+      "sample_count": 2,
+      "avg_holding_time_sec": 60.0,
+      "occupied_matches": 0,
+      "similar_zone_matches": 19,
+      "occupancy_prob_pct": 0.0,
+      "rank_sample_count": 1,
+      "top4_count": 0,
+      "top4_survival_pct": 0.0,
+      "spot_tier": "neutral",
+      "phase_stats": {
+        "1": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 12,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            0,
+            1,
+            2,
+            3,
+            5,
+            6,
+            7,
+            8,
+            11,
+            12,
+            13,
+            14
+          ],
+          "occupied_match_indices": []
+        },
+        "2": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 4,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            0,
+            3,
+            5,
+            10
+          ],
+          "occupied_match_indices": []
+        },
+        "3": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 2,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            0,
+            10
+          ],
+          "occupied_match_indices": []
+        },
+        "4": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 1,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            0
+          ],
+          "occupied_match_indices": []
+        },
+        "5": {
+          "occupied_matches": 1,
+          "similar_zone_matches": 1,
+          "occupancy_prob_pct": 100.0,
+          "eligible_match_indices": [
+            0
+          ],
+          "occupied_match_indices": [
+            0
+          ]
+        },
+        "6": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 0,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [],
+          "occupied_match_indices": []
+        }
+      },
+      "rank": 67
+    },
+    {
+      "spot_id": "miramar_spot_030",
+      "cluster_id": 29,
+      "spot_name": "Spot (5821m, 3399m)",
+      "x_meter": 5815.2,
+      "y_meter": 3400.8,
+      "x_norm": 0.7269,
+      "y_norm": 0.42509,
+      "x_telemetry": 581521.0,
+      "y_telemetry": 340075.0,
+      "sample_count": 2,
+      "avg_holding_time_sec": 35.0,
+      "occupied_matches": 0,
+      "similar_zone_matches": 16,
+      "occupancy_prob_pct": 0.0,
+      "rank_sample_count": 2,
+      "top4_count": 2,
+      "top4_survival_pct": 100.0,
+      "spot_tier": "safe_spot",
+      "phase_stats": {
+        "1": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 12,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            0,
+            1,
+            2,
+            3,
+            5,
+            6,
+            7,
+            8,
+            11,
+            12,
+            13,
+            14
+          ],
+          "occupied_match_indices": []
+        },
+        "2": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 2,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            1,
+            13
+          ],
+          "occupied_match_indices": []
+        },
+        "3": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 1,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            1
+          ],
+          "occupied_match_indices": []
+        },
+        "4": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 1,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            1
+          ],
+          "occupied_match_indices": []
+        },
+        "5": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 1,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            1
+          ],
+          "occupied_match_indices": []
+        },
+        "6": {
+          "occupied_matches": 1,
+          "similar_zone_matches": 1,
+          "occupancy_prob_pct": 100.0,
+          "eligible_match_indices": [
+            1
+          ],
+          "occupied_match_indices": [
+            1
+          ]
+        }
+      },
+      "rank": 68
+    },
+    {
+      "spot_id": "miramar_spot_045",
+      "cluster_id": 44,
+      "spot_name": "Spot (5175m, 6321m)",
+      "x_meter": 5176.4,
+      "y_meter": 6320.1,
+      "x_norm": 0.64705,
+      "y_norm": 0.79001,
+      "x_telemetry": 517643.5,
+      "y_telemetry": 632005.5,
+      "sample_count": 2,
+      "avg_holding_time_sec": 132.5,
+      "occupied_matches": 0,
+      "similar_zone_matches": 17,
+      "occupancy_prob_pct": 0.0,
+      "rank_sample_count": 1,
+      "top4_count": 1,
+      "top4_survival_pct": 100.0,
+      "spot_tier": "neutral",
+      "phase_stats": {
+        "1": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 12,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            0,
+            1,
+            2,
+            3,
+            5,
+            6,
+            7,
+            8,
+            11,
+            12,
+            13,
+            14
+          ],
+          "occupied_match_indices": []
+        },
+        "2": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 3,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            0,
+            4,
+            12
+          ],
+          "occupied_match_indices": []
+        },
+        "3": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 1,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            4
+          ],
+          "occupied_match_indices": []
+        },
+        "4": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 1,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            4
+          ],
+          "occupied_match_indices": []
+        },
+        "5": {
+          "occupied_matches": 1,
+          "similar_zone_matches": 1,
+          "occupancy_prob_pct": 100.0,
+          "eligible_match_indices": [
+            4
+          ],
+          "occupied_match_indices": [
+            4
+          ]
+        },
+        "6": {
+          "occupied_matches": 1,
+          "similar_zone_matches": 1,
+          "occupancy_prob_pct": 100.0,
+          "eligible_match_indices": [
+            4
+          ],
+          "occupied_match_indices": [
+            4
+          ]
+        }
+      },
+      "rank": 69
+    },
+    {
+      "spot_id": "miramar_spot_047",
+      "cluster_id": 46,
+      "spot_name": "Spot (2396m, 5582m)",
+      "x_meter": 2396.5,
+      "y_meter": 5581.9,
+      "x_norm": 0.29956,
+      "y_norm": 0.69774,
+      "x_telemetry": 239651.5,
+      "y_telemetry": 558189.0,
+      "sample_count": 2,
+      "avg_holding_time_sec": 137.5,
+      "occupied_matches": 0,
+      "similar_zone_matches": 22,
+      "occupancy_prob_pct": 0.0,
+      "rank_sample_count": 1,
+      "top4_count": 0,
+      "top4_survival_pct": 0.0,
+      "spot_tier": "neutral",
+      "phase_stats": {
+        "1": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 12,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            0,
+            1,
+            2,
+            3,
+            5,
+            6,
+            7,
+            8,
+            11,
+            12,
+            13,
+            14
+          ],
+          "occupied_match_indices": []
+        },
+        "2": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 5,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            0,
+            3,
+            5,
+            8,
+            10
+          ],
+          "occupied_match_indices": []
+        },
+        "3": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 3,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            3,
+            5,
+            10
+          ],
+          "occupied_match_indices": []
+        },
+        "4": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 2,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            3,
+            5
+          ],
+          "occupied_match_indices": []
+        },
+        "5": {
+          "occupied_matches": 1,
+          "similar_zone_matches": 1,
+          "occupancy_prob_pct": 100.0,
+          "eligible_match_indices": [
+            5
+          ],
+          "occupied_match_indices": [
+            5
+          ]
+        },
+        "6": {
+          "occupied_matches": 1,
+          "similar_zone_matches": 1,
+          "occupancy_prob_pct": 100.0,
+          "eligible_match_indices": [
+            5
+          ],
+          "occupied_match_indices": [
+            5
+          ]
+        }
+      },
+      "rank": 70
+    },
+    {
+      "spot_id": "miramar_spot_056",
+      "cluster_id": 55,
+      "spot_name": "Spot (2491m, 2339m)",
+      "x_meter": 2499.0,
+      "y_meter": 2344.7,
+      "x_norm": 0.31237,
+      "y_norm": 0.29309,
+      "x_telemetry": 249895.5,
+      "y_telemetry": 234474.0,
+      "sample_count": 2,
+      "avg_holding_time_sec": 73.0,
+      "occupied_matches": 0,
+      "similar_zone_matches": 23,
+      "occupancy_prob_pct": 0.0,
+      "rank_sample_count": 1,
+      "top4_count": 0,
+      "top4_survival_pct": 0.0,
+      "spot_tier": "neutral",
+      "phase_stats": {
+        "1": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 12,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            0,
+            1,
+            2,
+            3,
+            5,
+            6,
+            7,
+            8,
+            11,
+            12,
+            13,
+            14
+          ],
+          "occupied_match_indices": []
+        },
+        "2": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 5,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            2,
+            6,
+            7,
+            11,
+            14
+          ],
+          "occupied_match_indices": []
+        },
+        "3": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 4,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            2,
+            7,
+            11,
+            14
+          ],
+          "occupied_match_indices": []
+        },
+        "4": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 2,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            7,
+            14
+          ],
+          "occupied_match_indices": []
+        },
+        "5": {
+          "occupied_matches": 1,
+          "similar_zone_matches": 1,
+          "occupancy_prob_pct": 100.0,
+          "eligible_match_indices": [
+            7
+          ],
+          "occupied_match_indices": [
+            7
+          ]
+        },
+        "6": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 0,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [],
+          "occupied_match_indices": []
+        }
+      },
+      "rank": 71
+    },
+    {
+      "spot_id": "miramar_spot_062",
+      "cluster_id": 61,
+      "spot_name": "Spot (3133m, 4800m)",
+      "x_meter": 3133.2,
+      "y_meter": 4800.8,
+      "x_norm": 0.39165,
+      "y_norm": 0.6001,
+      "x_telemetry": 313323.0,
+      "y_telemetry": 480082.5,
+      "sample_count": 2,
+      "avg_holding_time_sec": 82.0,
+      "occupied_matches": 0,
+      "similar_zone_matches": 22,
+      "occupancy_prob_pct": 0.0,
+      "rank_sample_count": 1,
+      "top4_count": 0,
+      "top4_survival_pct": 0.0,
+      "spot_tier": "neutral",
+      "phase_stats": {
+        "1": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 12,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            0,
+            1,
+            2,
+            3,
+            5,
+            6,
+            7,
+            8,
+            11,
+            12,
+            13,
+            14
+          ],
+          "occupied_match_indices": []
+        },
+        "2": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 5,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            0,
+            3,
+            5,
+            8,
+            10
+          ],
+          "occupied_match_indices": []
+        },
+        "3": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 4,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            0,
+            3,
+            5,
+            10
+          ],
+          "occupied_match_indices": []
+        },
+        "4": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 1,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            10
+          ],
+          "occupied_match_indices": []
+        },
+        "5": {
+          "occupied_matches": 1,
+          "similar_zone_matches": 1,
+          "occupancy_prob_pct": 100.0,
+          "eligible_match_indices": [
+            10
+          ],
+          "occupied_match_indices": [
+            10
+          ]
+        },
+        "6": {
+          "occupied_matches": 1,
+          "similar_zone_matches": 1,
+          "occupancy_prob_pct": 100.0,
+          "eligible_match_indices": [
+            10
+          ],
+          "occupied_match_indices": [
+            10
+          ]
+        }
+      },
+      "rank": 72
+    },
+    {
+      "spot_id": "miramar_spot_073",
+      "cluster_id": 72,
+      "spot_name": "Spot (1746m, 2320m)",
+      "x_meter": 1743.2,
+      "y_meter": 2321.0,
+      "x_norm": 0.2179,
+      "y_norm": 0.29012,
+      "x_telemetry": 174324.0,
+      "y_telemetry": 232097.5,
+      "sample_count": 2,
+      "avg_holding_time_sec": 60.0,
+      "occupied_matches": 0,
+      "similar_zone_matches": 20,
+      "occupancy_prob_pct": 0.0,
+      "rank_sample_count": 1,
+      "top4_count": 1,
+      "top4_survival_pct": 100.0,
+      "spot_tier": "neutral",
+      "phase_stats": {
+        "1": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 12,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            0,
+            1,
+            2,
+            3,
+            5,
+            6,
+            7,
+            8,
+            11,
+            12,
+            13,
+            14
+          ],
+          "occupied_match_indices": []
+        },
+        "2": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 5,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            2,
+            6,
+            7,
+            11,
+            14
+          ],
+          "occupied_match_indices": []
+        },
+        "3": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 2,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            7,
+            14
+          ],
+          "occupied_match_indices": []
+        },
+        "4": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 1,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            14
+          ],
+          "occupied_match_indices": []
+        },
+        "5": {
+          "occupied_matches": 1,
+          "similar_zone_matches": 1,
+          "occupancy_prob_pct": 100.0,
+          "eligible_match_indices": [
+            14
+          ],
+          "occupied_match_indices": [
+            14
+          ]
+        },
+        "6": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 0,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [],
+          "occupied_match_indices": []
+        }
+      },
+      "rank": 73
+    }
+  ],
+  "match_zones": [
+    {
+      "match_index": 0,
+      "match_id": "4a21c256-1fa8-453b-bab4-57182854d832",
+      "phases": {
+        "1": {
+          "cx_meter": 4074.4,
+          "cy_meter": 4146.3,
+          "cx_norm": 0.5093,
+          "cy_norm": 0.51829,
+          "radius_meter": 5530.7
+        },
+        "2": {
+          "cx_meter": 3989.8,
+          "cy_meter": 4963.3,
+          "cx_norm": 0.49873,
+          "cy_norm": 0.62041,
+          "radius_meter": 1790.9
+        },
+        "3": {
+          "cx_meter": 3884.5,
+          "cy_meter": 4854.8,
+          "cx_norm": 0.48557,
+          "cy_norm": 0.60685,
+          "radius_meter": 992.9
+        },
+        "4": {
+          "cx_meter": 3782.4,
+          "cy_meter": 4550.3,
+          "cx_norm": 0.4728,
+          "cy_norm": 0.56879,
+          "radius_meter": 595.7
+        },
+        "5": {
+          "cx_meter": 3888.2,
+          "cy_meter": 4476.9,
+          "cx_norm": 0.48602,
+          "cy_norm": 0.55961,
+          "radius_meter": 380.0
+        },
+        "6": {
+          "cx_meter": 3833.1,
+          "cy_meter": 4527.6,
+          "cx_norm": 0.47914,
+          "cy_norm": 0.56595,
+          "radius_meter": 160.7
+        }
+      }
+    },
+    {
+      "match_index": 1,
+      "match_id": "95f86a8e-6be2-420f-8e95-7e82f17f12bb",
+      "phases": {
+        "1": {
+          "cx_meter": 4197.3,
+          "cy_meter": 3966.5,
+          "cx_norm": 0.52467,
+          "cy_norm": 0.49581,
+          "radius_meter": 5530.9
+        },
+        "2": {
+          "cx_meter": 5697.8,
+          "cy_meter": 2561.3,
+          "cx_norm": 0.71223,
+          "cy_norm": 0.32016,
+          "radius_meter": 1790.5
+        },
+        "3": {
+          "cx_meter": 5886.7,
+          "cy_meter": 2692.4,
+          "cx_norm": 0.73583,
+          "cy_norm": 0.33655,
+          "radius_meter": 992.9
+        },
+        "4": {
+          "cx_meter": 5822.1,
+          "cy_meter": 3056.3,
+          "cx_norm": 0.72776,
+          "cy_norm": 0.38203,
+          "radius_meter": 595.7
+        },
+        "5": {
+          "cx_meter": 5766.0,
+          "cy_meter": 3198.8,
+          "cx_norm": 0.72076,
+          "cy_norm": 0.39986,
+          "radius_meter": 379.9
+        },
+        "6": {
+          "cx_meter": 5802.0,
+          "cy_meter": 3331.0,
+          "cx_norm": 0.72525,
+          "cy_norm": 0.41637,
+          "radius_meter": 136.7
+        }
+      }
+    },
+    {
+      "match_index": 2,
+      "match_id": "fb8b39a2-9c0c-4d38-80be-06b26bea57ce",
+      "phases": {
+        "1": {
+          "cx_meter": 4003.7,
+          "cy_meter": 3944.5,
+          "cx_norm": 0.50047,
+          "cy_norm": 0.49306,
+          "radius_meter": 5530.8
+        },
+        "2": {
+          "cx_meter": 3098.4,
+          "cy_meter": 2331.5,
+          "cx_norm": 0.3873,
+          "cy_norm": 0.29144,
+          "radius_meter": 1791.4
+        },
+        "3": {
+          "cx_meter": 3319.0,
+          "cy_meter": 2803.8,
+          "cx_norm": 0.41488,
+          "cy_norm": 0.35047,
+          "radius_meter": 993.5
+        },
+        "4": {
+          "cx_meter": 3037.4,
+          "cy_meter": 2945.8,
+          "cx_norm": 0.37968,
+          "cy_norm": 0.36822,
+          "radius_meter": 596.1
+        },
+        "5": {
+          "cx_meter": 2912.0,
+          "cy_meter": 3092.4,
+          "cx_norm": 0.364,
+          "cy_norm": 0.38655,
+          "radius_meter": 380.3
+        },
+        "6": {
+          "cx_meter": 2957.7,
+          "cy_meter": 3109.0,
+          "cx_norm": 0.36971,
+          "cy_norm": 0.38863,
+          "radius_meter": 122.8
+        }
+      }
+    },
+    {
+      "match_index": 3,
+      "match_id": "de039899-70cb-49b2-940b-d11a179f3019",
+      "phases": {
+        "1": {
+          "cx_meter": 3996.8,
+          "cy_meter": 4161.8,
+          "cx_norm": 0.4996,
+          "cy_norm": 0.52022,
+          "radius_meter": 5530.9
+        },
+        "2": {
+          "cx_meter": 2944.1,
+          "cy_meter": 5268.4,
+          "cx_norm": 0.36802,
+          "cy_norm": 0.65855,
+          "radius_meter": 1790.8
+        },
+        "3": {
+          "cx_meter": 2819.2,
+          "cy_meter": 5761.9,
+          "cx_norm": 0.35239,
+          "cy_norm": 0.72023,
+          "radius_meter": 992.8
+        },
+        "4": {
+          "cx_meter": 2596.6,
+          "cy_meter": 5824.7,
+          "cx_norm": 0.32458,
+          "cy_norm": 0.72809,
+          "radius_meter": 595.7
+        },
+        "5": {
+          "cx_meter": 2749.8,
+          "cy_meter": 5898.6,
+          "cx_norm": 0.34373,
+          "cy_norm": 0.73733,
+          "radius_meter": 380.0
+        },
+        "6": {
+          "cx_meter": 2635.7,
+          "cy_meter": 5879.4,
+          "cx_norm": 0.32946,
+          "cy_norm": 0.73493,
+          "radius_meter": 160.7
+        }
+      }
+    },
+    {
+      "match_index": 4,
+      "match_id": "80fdfdb2-50c1-4568-945f-5c44d3ffc38c",
+      "phases": {
+        "1": {
+          "cx_meter": 4202.2,
+          "cy_meter": 4266.0,
+          "cx_norm": 0.52528,
+          "cy_norm": 0.53324,
+          "radius_meter": 5531.0
+        },
+        "2": {
+          "cx_meter": 5715.8,
+          "cy_meter": 6571.9,
+          "cx_norm": 0.71448,
+          "cy_norm": 0.82149,
+          "radius_meter": 1790.8
+        },
+        "3": {
+          "cx_meter": 5584.0,
+          "cy_meter": 6453.4,
+          "cx_norm": 0.698,
+          "cy_norm": 0.80668,
+          "radius_meter": 992.9
+        },
+        "4": {
+          "cx_meter": 5279.3,
+          "cy_meter": 6363.3,
+          "cx_norm": 0.65992,
+          "cy_norm": 0.79541,
+          "radius_meter": 595.8
+        },
+        "5": {
+          "cx_meter": 5283.1,
+          "cy_meter": 6447.1,
+          "cx_norm": 0.66039,
+          "cy_norm": 0.80588,
+          "radius_meter": 380.0
+        },
+        "6": {
+          "cx_meter": 5221.6,
+          "cy_meter": 6418.0,
+          "cx_norm": 0.6527,
+          "cy_norm": 0.80225,
+          "radius_meter": 160.7
+        }
+      }
+    },
+    {
+      "match_index": 5,
+      "match_id": "b3d8bfef-1869-4947-a96e-b582b602a020",
+      "phases": {
+        "1": {
+          "cx_meter": 3918.9,
+          "cy_meter": 4137.6,
+          "cx_norm": 0.48987,
+          "cy_norm": 0.5172,
+          "radius_meter": 5251.3
+        },
+        "2": {
+          "cx_meter": 2909.9,
+          "cy_meter": 4700.6,
+          "cx_norm": 0.36374,
+          "cy_norm": 0.58757,
+          "radius_meter": 1668.3
+        },
+        "3": {
+          "cx_meter": 2722.3,
+          "cy_meter": 5360.6,
+          "cx_norm": 0.34029,
+          "cy_norm": 0.67007,
+          "radius_meter": 932.9
+        },
+        "4": {
+          "cx_meter": 2608.4,
+          "cy_meter": 5657.4,
+          "cx_norm": 0.32605,
+          "cy_norm": 0.70718,
+          "radius_meter": 559.8
+        },
+        "5": {
+          "cx_meter": 2492.6,
+          "cy_meter": 5682.1,
+          "cx_norm": 0.31158,
+          "cy_norm": 0.71026,
+          "radius_meter": 341.4
+        },
+        "6": {
+          "cx_meter": 2497.2,
+          "cy_meter": 5617.8,
+          "cx_norm": 0.31215,
+          "cy_norm": 0.70222,
+          "radius_meter": 160.7
+        }
+      }
+    },
+    {
+      "match_index": 6,
+      "match_id": "b0b436bb-4075-4374-a62b-012f2a161f97",
+      "phases": {
+        "1": {
+          "cx_meter": 3971.9,
+          "cy_meter": 3831.8,
+          "cx_norm": 0.49649,
+          "cy_norm": 0.47897,
+          "radius_meter": 5251.0
+        },
+        "2": {
+          "cx_meter": 3427.5,
+          "cy_meter": 2513.7,
+          "cx_norm": 0.42844,
+          "cy_norm": 0.31421,
+          "radius_meter": 1668.1
+        },
+        "3": {
+          "cx_meter": 3718.9,
+          "cy_meter": 2872.4,
+          "cx_norm": 0.46486,
+          "cy_norm": 0.35905,
+          "radius_meter": 932.9
+        },
+        "4": {
+          "cx_meter": 3917.3,
+          "cy_meter": 2995.7,
+          "cx_norm": 0.48966,
+          "cy_norm": 0.37447,
+          "radius_meter": 559.7
+        },
+        "5": {
+          "cx_meter": 3918.1,
+          "cy_meter": 3088.5,
+          "cx_norm": 0.48976,
+          "cy_norm": 0.38607,
+          "radius_meter": 341.4
+        },
+        "6": {
+          "cx_meter": 3856.2,
+          "cy_meter": 3041.1,
+          "cx_norm": 0.48203,
+          "cy_norm": 0.38014,
+          "radius_meter": 154.4
+        }
+      }
+    },
+    {
+      "match_index": 7,
+      "match_id": "3d0f93a7-0f00-4b14-887a-5b1d8f7447b9",
+      "phases": {
+        "1": {
+          "cx_meter": 3898.0,
+          "cy_meter": 3800.4,
+          "cx_norm": 0.48725,
+          "cy_norm": 0.47506,
+          "radius_meter": 5250.9
+        },
+        "2": {
+          "cx_meter": 2768.0,
+          "cy_meter": 2339.0,
+          "cx_norm": 0.34601,
+          "cy_norm": 0.29238,
+          "radius_meter": 1668.0
+        },
+        "3": {
+          "cx_meter": 2594.2,
+          "cy_meter": 2696.5,
+          "cx_norm": 0.32428,
+          "cy_norm": 0.33706,
+          "radius_meter": 933.0
+        },
+        "4": {
+          "cx_meter": 2577.3,
+          "cy_meter": 2541.5,
+          "cx_norm": 0.32217,
+          "cy_norm": 0.31769,
+          "radius_meter": 559.8
+        },
+        "5": {
+          "cx_meter": 2620.3,
+          "cy_meter": 2558.0,
+          "cx_norm": 0.32753,
+          "cy_norm": 0.31975,
+          "radius_meter": 341.4
+        },
+        "6": {
+          "cx_meter": 2565.1,
+          "cy_meter": 2553.8,
+          "cx_norm": 0.32063,
+          "cy_norm": 0.31923,
+          "radius_meter": 167.9
+        }
+      }
+    },
+    {
+      "match_index": 8,
+      "match_id": "2f4eb8fb-8c8c-49bc-986a-f947aa81b0be",
+      "phases": {
+        "1": {
+          "cx_meter": 3810.2,
+          "cy_meter": 4114.6,
+          "cx_norm": 0.47627,
+          "cy_norm": 0.51432,
+          "radius_meter": 5251.3
+        },
+        "2": {
+          "cx_meter": 2004.0,
+          "cy_meter": 4219.4,
+          "cx_norm": 0.2505,
+          "cy_norm": 0.52742,
+          "radius_meter": 1668.3
+        },
+        "3": {
+          "cx_meter": 1502.8,
+          "cy_meter": 4082.0,
+          "cx_norm": 0.18784,
+          "cy_norm": 0.51025,
+          "radius_meter": 933.0
+        },
+        "4": {
+          "cx_meter": 1676.3,
+          "cy_meter": 4309.1,
+          "cx_norm": 0.20954,
+          "cy_norm": 0.53863,
+          "radius_meter": 559.8
+        },
+        "5": {
+          "cx_meter": 1842.4,
+          "cy_meter": 4244.7,
+          "cx_norm": 0.2303,
+          "cy_norm": 0.53059,
+          "radius_meter": 341.4
+        },
+        "6": {
+          "cx_meter": 1911.1,
+          "cy_meter": 4128.7,
+          "cx_norm": 0.23889,
+          "cy_norm": 0.51609,
+          "radius_meter": 135.7
+        }
+      }
+    },
+    {
+      "match_index": 9,
+      "match_id": "6ceacfac-4134-4701-a7b9-8660de65b9cf",
+      "phases": {
+        "1": {
+          "cx_meter": 4151.1,
+          "cy_meter": 3659.0,
+          "cx_norm": 0.51889,
+          "cy_norm": 0.45738,
+          "radius_meter": 5250.9
+        },
+        "2": {
+          "cx_meter": 4514.8,
+          "cy_meter": 1313.9,
+          "cx_norm": 0.56435,
+          "cy_norm": 0.16424,
+          "radius_meter": 1668.5
+        },
+        "3": {
+          "cx_meter": 4343.2,
+          "cy_meter": 1555.7,
+          "cx_norm": 0.5429,
+          "cy_norm": 0.19447,
+          "radius_meter": 933.0
+        },
+        "4": {
+          "cx_meter": 4265.3,
+          "cy_meter": 1440.2,
+          "cx_norm": 0.53316,
+          "cy_norm": 0.18002,
+          "radius_meter": 559.8
+        },
+        "5": {
+          "cx_meter": 4349.6,
+          "cy_meter": 1458.1,
+          "cx_norm": 0.54369,
+          "cy_norm": 0.18226,
+          "radius_meter": 341.4
+        },
+        "6": {
+          "cx_meter": 4398.1,
+          "cy_meter": 1468.6,
+          "cx_norm": 0.54976,
+          "cy_norm": 0.18358,
+          "radius_meter": 151.4
+        }
+      }
+    },
+    {
+      "match_index": 10,
+      "match_id": "644508f6-ad93-403a-931a-377c8785834d",
+      "phases": {
+        "1": {
+          "cx_meter": 3977.1,
+          "cy_meter": 4282.1,
+          "cx_norm": 0.49714,
+          "cy_norm": 0.53526,
+          "radius_meter": 5250.9
+        },
+        "2": {
+          "cx_meter": 3276.1,
+          "cy_meter": 5309.4,
+          "cx_norm": 0.40951,
+          "cy_norm": 0.66368,
+          "radius_meter": 1668.5
+        },
+        "3": {
+          "cx_meter": 3021.0,
+          "cy_meter": 4919.4,
+          "cx_norm": 0.37762,
+          "cy_norm": 0.61493,
+          "radius_meter": 932.9
+        },
+        "4": {
+          "cx_meter": 2995.1,
+          "cy_meter": 4845.6,
+          "cx_norm": 0.37439,
+          "cy_norm": 0.6057,
+          "radius_meter": 559.8
+        },
+        "5": {
+          "cx_meter": 3028.3,
+          "cy_meter": 4743.2,
+          "cx_norm": 0.37854,
+          "cy_norm": 0.59289,
+          "radius_meter": 341.4
+        },
+        "6": {
+          "cx_meter": 3107.4,
+          "cy_meter": 4745.8,
+          "cx_norm": 0.38843,
+          "cy_norm": 0.59322,
+          "radius_meter": 160.7
+        }
+      }
+    },
+    {
+      "match_index": 11,
+      "match_id": "060c7486-eec2-4402-a413-6e5fcfaf144b",
+      "phases": {
+        "1": {
+          "cx_meter": 4023.2,
+          "cy_meter": 3933.5,
+          "cx_norm": 0.50289,
+          "cy_norm": 0.49169,
+          "radius_meter": 5530.3
+        },
+        "2": {
+          "cx_meter": 3283.7,
+          "cy_meter": 2201.8,
+          "cx_norm": 0.41047,
+          "cy_norm": 0.27523,
+          "radius_meter": 1790.7
+        },
+        "3": {
+          "cx_meter": 3090.1,
+          "cy_meter": 2764.9,
+          "cx_norm": 0.38626,
+          "cy_norm": 0.34561,
+          "radius_meter": 992.8
+        },
+        "4": {
+          "cx_meter": 2997.0,
+          "cy_meter": 2976.1,
+          "cx_norm": 0.37463,
+          "cy_norm": 0.37201,
+          "radius_meter": 595.7
+        },
+        "5": {
+          "cx_meter": 3030.8,
+          "cy_meter": 3003.5,
+          "cx_norm": 0.37885,
+          "cy_norm": 0.37543,
+          "radius_meter": 380.2
+        },
+        "6": {
+          "cx_meter": 3035.3,
+          "cy_meter": 3051.5,
+          "cx_norm": 0.37942,
+          "cy_norm": 0.38144,
+          "radius_meter": 160.7
+        }
+      }
+    },
+    {
+      "match_index": 12,
+      "match_id": "c6498b68-9e59-41e5-aea9-20c49478629c",
+      "phases": {
+        "1": {
+          "cx_meter": 4233.3,
+          "cy_meter": 4165.2,
+          "cx_norm": 0.52916,
+          "cy_norm": 0.52065,
+          "radius_meter": 5531.0
+        },
+        "2": {
+          "cx_meter": 6105.6,
+          "cy_meter": 5276.3,
+          "cx_norm": 0.7632,
+          "cy_norm": 0.65954,
+          "radius_meter": 1791.6
+        },
+        "3": {
+          "cx_meter": 5848.2,
+          "cy_meter": 5518.5,
+          "cx_norm": 0.73103,
+          "cy_norm": 0.68981,
+          "radius_meter": 993.4
+        },
+        "4": {
+          "cx_meter": 5761.5,
+          "cy_meter": 5337.2,
+          "cx_norm": 0.72018,
+          "cy_norm": 0.66715,
+          "radius_meter": 596.0
+        },
+        "5": {
+          "cx_meter": 5778.2,
+          "cy_meter": 5153.7,
+          "cx_norm": 0.72227,
+          "cy_norm": 0.64421,
+          "radius_meter": 380.0
+        },
+        "6": {
+          "cx_meter": 5704.9,
+          "cy_meter": 5098.3,
+          "cx_norm": 0.71311,
+          "cy_norm": 0.63729,
+          "radius_meter": 160.7
+        }
+      }
+    },
+    {
+      "match_index": 13,
+      "match_id": "053091e5-3c84-4753-bc88-b7b3154c20c6",
+      "phases": {
+        "1": {
+          "cx_meter": 4168.6,
+          "cy_meter": 3965.5,
+          "cx_norm": 0.52107,
+          "cy_norm": 0.49569,
+          "radius_meter": 5530.9
+        },
+        "2": {
+          "cx_meter": 5378.2,
+          "cy_meter": 2499.4,
+          "cx_norm": 0.67228,
+          "cy_norm": 0.31243,
+          "radius_meter": 1791.4
+        },
+        "3": {
+          "cx_meter": 5942.9,
+          "cy_meter": 2296.1,
+          "cx_norm": 0.74286,
+          "cy_norm": 0.28702,
+          "radius_meter": 993.3
+        },
+        "4": {
+          "cx_meter": 5793.4,
+          "cy_meter": 2363.5,
+          "cx_norm": 0.72418,
+          "cy_norm": 0.29544,
+          "radius_meter": 596.0
+        },
+        "5": {
+          "cx_meter": 5697.6,
+          "cy_meter": 2555.6,
+          "cx_norm": 0.71219,
+          "cy_norm": 0.31945,
+          "radius_meter": 380.0
+        },
+        "6": {
+          "cx_meter": 5758.5,
+          "cy_meter": 2568.6,
+          "cx_norm": 0.71981,
+          "cy_norm": 0.32107,
+          "radius_meter": 203.3
+        }
+      }
+    },
+    {
+      "match_index": 14,
+      "match_id": "5f9a610f-b8ff-4a03-9be9-3c957593d1fc",
+      "phases": {
+        "1": {
+          "cx_meter": 3901.6,
+          "cy_meter": 3980.4,
+          "cx_norm": 0.4877,
+          "cy_norm": 0.49755,
+          "radius_meter": 5530.8
+        },
+        "2": {
+          "cx_meter": 1694.4,
+          "cy_meter": 2629.6,
+          "cx_norm": 0.2118,
+          "cy_norm": 0.3287,
+          "radius_meter": 1790.7
+        },
+        "3": {
+          "cx_meter": 1853.4,
+          "cy_meter": 2055.2,
+          "cx_norm": 0.23167,
+          "cy_norm": 0.2569,
+          "radius_meter": 992.9
+        },
+        "4": {
+          "cx_meter": 2102.7,
+          "cy_meter": 2223.9,
+          "cx_norm": 0.26284,
+          "cy_norm": 0.27799,
+          "radius_meter": 608.4
+        },
+        "5": {
+          "cx_meter": 1940.7,
+          "cy_meter": 2082.6,
+          "cx_norm": 0.24259,
+          "cy_norm": 0.26032,
+          "radius_meter": 380.1
+        },
+        "6": {
+          "cx_meter": 1859.4,
+          "cy_meter": 2184.1,
+          "cx_norm": 0.23243,
+          "cy_norm": 0.27301,
+          "radius_meter": 160.7
+        }
+      }
+    }
+  ],
+  "cache_profile": "pro"
+}

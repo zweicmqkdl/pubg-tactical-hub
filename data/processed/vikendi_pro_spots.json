@@ -1,0 +1,430 @@
+{
+  "map_id": "vikendi",
+  "map_name_ko": "비켄디",
+  "map_name_en": "Vikendi",
+  "data_source": "real_pubg_api",
+  "size_km": 6.0,
+  "size_meter": 6000.0,
+  "algorithm_params": {
+    "HOLDING_TIME_SEC": 30,
+    "CLUSTER_RADIUS_METER": 20,
+    "ZONE_SIMILARITY_RADIUS": 300,
+    "formula": "점유 확률(%) = (해당 포인트에 스쿼드가 고착한 매치 수 / 유사 자기장 전체 매치 수) * 100"
+  },
+  "default_zone": {
+    "phase": 3,
+    "center_x_norm": 0.5,
+    "center_y_norm": 0.5,
+    "center_x_meter": 3000.0,
+    "center_y_meter": 3000.0
+  },
+  "total_matches": 2,
+  "total_spots": 4,
+  "spots": [
+    {
+      "spot_id": "vikendi_spot_003",
+      "cluster_id": 2,
+      "spot_name": "Spot (3810m, 4019m)",
+      "x_meter": 3815.8,
+      "y_meter": 4018.1,
+      "x_norm": 0.63596,
+      "y_norm": 0.66968,
+      "x_telemetry": 381575.3,
+      "y_telemetry": 401810.0,
+      "sample_count": 3,
+      "avg_holding_time_sec": 42.7,
+      "occupied_matches": 2,
+      "similar_zone_matches": 4,
+      "occupancy_prob_pct": 50.0,
+      "rank_sample_count": 2,
+      "top4_count": 1,
+      "top4_survival_pct": 50.0,
+      "spot_tier": "safe_spot",
+      "phase_stats": {
+        "1": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 2,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            0,
+            1
+          ],
+          "occupied_match_indices": []
+        },
+        "2": {
+          "occupied_matches": 1,
+          "similar_zone_matches": 1,
+          "occupancy_prob_pct": 100.0,
+          "eligible_match_indices": [
+            1
+          ],
+          "occupied_match_indices": [
+            1
+          ]
+        },
+        "3": {
+          "occupied_matches": 1,
+          "similar_zone_matches": 1,
+          "occupancy_prob_pct": 100.0,
+          "eligible_match_indices": [
+            1
+          ],
+          "occupied_match_indices": [
+            1
+          ]
+        },
+        "4": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 0,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [],
+          "occupied_match_indices": []
+        },
+        "5": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 0,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [],
+          "occupied_match_indices": []
+        },
+        "6": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 0,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [],
+          "occupied_match_indices": []
+        }
+      },
+      "rank": 1
+    },
+    {
+      "spot_id": "vikendi_spot_002",
+      "cluster_id": 1,
+      "spot_name": "Spot (4353m, 5141m)",
+      "x_meter": 4354.7,
+      "y_meter": 5141.4,
+      "x_norm": 0.72579,
+      "y_norm": 0.8569,
+      "x_telemetry": 435471.5,
+      "y_telemetry": 514142.0,
+      "sample_count": 2,
+      "avg_holding_time_sec": 113.0,
+      "occupied_matches": 2,
+      "similar_zone_matches": 5,
+      "occupancy_prob_pct": 40.0,
+      "rank_sample_count": 2,
+      "top4_count": 0,
+      "top4_survival_pct": 0.0,
+      "spot_tier": "hot_zone",
+      "phase_stats": {
+        "1": {
+          "occupied_matches": 1,
+          "similar_zone_matches": 2,
+          "occupancy_prob_pct": 50.0,
+          "eligible_match_indices": [
+            0,
+            1
+          ],
+          "occupied_match_indices": [
+            1
+          ]
+        },
+        "2": {
+          "occupied_matches": 1,
+          "similar_zone_matches": 1,
+          "occupancy_prob_pct": 100.0,
+          "eligible_match_indices": [
+            1
+          ],
+          "occupied_match_indices": [
+            1
+          ]
+        },
+        "3": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 1,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            1
+          ],
+          "occupied_match_indices": []
+        },
+        "4": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 1,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            1
+          ],
+          "occupied_match_indices": []
+        },
+        "5": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 0,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [],
+          "occupied_match_indices": []
+        },
+        "6": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 0,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [],
+          "occupied_match_indices": []
+        }
+      },
+      "rank": 2
+    },
+    {
+      "spot_id": "vikendi_spot_004",
+      "cluster_id": 3,
+      "spot_name": "Spot (4436m, 4708m)",
+      "x_meter": 4436.0,
+      "y_meter": 4708.4,
+      "x_norm": 0.73934,
+      "y_norm": 0.78473,
+      "x_telemetry": 443602.5,
+      "y_telemetry": 470835.0,
+      "sample_count": 2,
+      "avg_holding_time_sec": 112.0,
+      "occupied_matches": 2,
+      "similar_zone_matches": 5,
+      "occupancy_prob_pct": 40.0,
+      "rank_sample_count": 1,
+      "top4_count": 0,
+      "top4_survival_pct": 0.0,
+      "spot_tier": "neutral",
+      "phase_stats": {
+        "1": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 2,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            0,
+            1
+          ],
+          "occupied_match_indices": []
+        },
+        "2": {
+          "occupied_matches": 1,
+          "similar_zone_matches": 1,
+          "occupancy_prob_pct": 100.0,
+          "eligible_match_indices": [
+            1
+          ],
+          "occupied_match_indices": [
+            1
+          ]
+        },
+        "3": {
+          "occupied_matches": 1,
+          "similar_zone_matches": 1,
+          "occupancy_prob_pct": 100.0,
+          "eligible_match_indices": [
+            1
+          ],
+          "occupied_match_indices": [
+            1
+          ]
+        },
+        "4": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 1,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            1
+          ],
+          "occupied_match_indices": []
+        },
+        "5": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 0,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [],
+          "occupied_match_indices": []
+        },
+        "6": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 0,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [],
+          "occupied_match_indices": []
+        }
+      },
+      "rank": 3
+    },
+    {
+      "spot_id": "vikendi_spot_001",
+      "cluster_id": 0,
+      "spot_name": "Spot (3807m, 1365m)",
+      "x_meter": 3810.7,
+      "y_meter": 1371.2,
+      "x_norm": 0.63512,
+      "y_norm": 0.22853,
+      "x_telemetry": 381071.7,
+      "y_telemetry": 137116.0,
+      "sample_count": 3,
+      "avg_holding_time_sec": 42.7,
+      "occupied_matches": 1,
+      "similar_zone_matches": 4,
+      "occupancy_prob_pct": 25.0,
+      "rank_sample_count": 3,
+      "top4_count": 1,
+      "top4_survival_pct": 33.3,
+      "spot_tier": "neutral",
+      "phase_stats": {
+        "1": {
+          "occupied_matches": 1,
+          "similar_zone_matches": 2,
+          "occupancy_prob_pct": 50.0,
+          "eligible_match_indices": [
+            0,
+            1
+          ],
+          "occupied_match_indices": [
+            0
+          ]
+        },
+        "2": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 1,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            0
+          ],
+          "occupied_match_indices": []
+        },
+        "3": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 1,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            0
+          ],
+          "occupied_match_indices": []
+        },
+        "4": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 0,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [],
+          "occupied_match_indices": []
+        },
+        "5": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 0,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [],
+          "occupied_match_indices": []
+        },
+        "6": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 0,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [],
+          "occupied_match_indices": []
+        }
+      },
+      "rank": 4
+    }
+  ],
+  "match_zones": [
+    {
+      "match_index": 0,
+      "match_id": "e414ff4c-7b9c-45f7-bbf1-c677a1230089",
+      "phases": {
+        "1": {
+          "cx_meter": 4092.9,
+          "cy_meter": 3868.6,
+          "cx_norm": 0.68215,
+          "cy_norm": 0.64477,
+          "radius_meter": 5531.0
+        },
+        "2": {
+          "cx_meter": 4209.0,
+          "cy_meter": 1110.2,
+          "cx_norm": 0.70149,
+          "cy_norm": 0.18503,
+          "radius_meter": 1791.4
+        },
+        "3": {
+          "cx_meter": 3928.6,
+          "cy_meter": 458.5,
+          "cx_norm": 0.65477,
+          "cy_norm": 0.07641,
+          "radius_meter": 993.2
+        },
+        "4": {
+          "cx_meter": 3799.9,
+          "cy_meter": 536.8,
+          "cx_norm": 0.63331,
+          "cy_norm": 0.08946,
+          "radius_meter": 595.9
+        },
+        "5": {
+          "cx_meter": 3909.9,
+          "cy_meter": 465.4,
+          "cx_norm": 0.65166,
+          "cy_norm": 0.07757,
+          "radius_meter": 380.3
+        },
+        "6": {
+          "cx_meter": 3909.9,
+          "cy_meter": 465.4,
+          "cx_norm": 0.65166,
+          "cy_norm": 0.07757,
+          "radius_meter": 168.0
+        }
+      }
+    },
+    {
+      "match_index": 1,
+      "match_id": "c63b084a-f459-4c90-8938-07cada15468d",
+      "phases": {
+        "1": {
+          "cx_meter": 4090.6,
+          "cy_meter": 4155.9,
+          "cx_norm": 0.68177,
+          "cy_norm": 0.69264,
+          "radius_meter": 5531.1
+        },
+        "2": {
+          "cx_meter": 4180.5,
+          "cy_meter": 5021.4,
+          "cx_norm": 0.69675,
+          "cy_norm": 0.8369,
+          "radius_meter": 1790.9
+        },
+        "3": {
+          "cx_meter": 3948.1,
+          "cy_meter": 4571.4,
+          "cx_norm": 0.65802,
+          "cy_norm": 0.7619,
+          "radius_meter": 993.0
+        },
+        "4": {
+          "cx_meter": 3995.6,
+          "cy_meter": 4693.3,
+          "cx_norm": 0.66594,
+          "cy_norm": 0.78222,
+          "radius_meter": 608.4
+        },
+        "5": {
+          "cx_meter": 4005.0,
+          "cy_meter": 4917.0,
+          "cx_norm": 0.66751,
+          "cy_norm": 0.8195,
+          "radius_meter": 380.1
+        },
+        "6": {
+          "cx_meter": 3919.5,
+          "cy_meter": 4907.3,
+          "cx_norm": 0.65324,
+          "cy_norm": 0.81788,
+          "radius_meter": 195.9
+        }
+      }
+    }
+  ],
+  "cache_profile": "pro"
+}

@@ -1,0 +1,83 @@
+{
+  "schema_version": "1.0",
+  "default_map": "erangel",
+  "categories": {
+    "large": "대형",
+    "medium": "중형",
+    "small": "소형"
+  },
+  "maps": [
+    {
+      "map_id": "erangel",
+      "name_ko": "에란겔",
+      "name_en": "Erangel",
+      "category": "large",
+      "file": "erangel_tactics.json",
+      "has_data": true
+    },
+    {
+      "map_id": "miramar",
+      "name_ko": "미라마",
+      "name_en": "Miramar",
+      "category": "large",
+      "file": "miramar_tactics.json",
+      "has_data": false
+    },
+    {
+      "map_id": "taego",
+      "name_ko": "태이고",
+      "name_en": "Taego",
+      "category": "large",
+      "file": "taego_tactics.json",
+      "has_data": false
+    },
+    {
+      "map_id": "rondo",
+      "name_ko": "론도",
+      "name_en": "Rondo",
+      "category": "large",
+      "file": "rondo_tactics.json",
+      "has_data": false
+    },
+    {
+      "map_id": "deston",
+      "name_ko": "데스턴",
+      "name_en": "Deston",
+      "category": "large",
+      "file": "deston_tactics.json",
+      "has_data": false
+    },
+    {
+      "map_id": "vikendi",
+      "name_ko": "비켄디",
+      "name_en": "Vikendi",
+      "category": "medium",
+      "file": "vikendi_tactics.json",
+      "has_data": false
+    },
+    {
+      "map_id": "sanhok",
+      "name_ko": "사녹",
+      "name_en": "Sanhok",
+      "category": "medium",
+      "file": "sanhok_tactics.json",
+      "has_data": false
+    },
+    {
+      "map_id": "paramo",
+      "name_ko": "파라모",
+      "name_en": "Paramo",
+      "category": "small",
+      "file": "paramo_tactics.json",
+      "has_data": false
+    },
+    {
+      "map_id": "haven",
+      "name_ko": "헤이븐",
+      "name_en": "Haven",
+      "category": "small",
+      "file": "haven_tactics.json",
+      "has_data": false
+    }
+  ]
+}

@@ -1,0 +1,4172 @@
+{
+  "map_id": "taego",
+  "map_name_ko": "태이고",
+  "map_name_en": "Taego",
+  "data_source": "real_pubg_api",
+  "size_km": 8.0,
+  "size_meter": 8000.0,
+  "algorithm_params": {
+    "HOLDING_TIME_SEC": 30,
+    "CLUSTER_RADIUS_METER": 20,
+    "ZONE_SIMILARITY_RADIUS": 300,
+    "formula": "점유 확률(%) = (해당 포인트에 스쿼드가 고착한 매치 수 / 유사 자기장 전체 매치 수) * 100"
+  },
+  "default_zone": {
+    "phase": 3,
+    "center_x_norm": 0.5,
+    "center_y_norm": 0.5,
+    "center_x_meter": 4000.0,
+    "center_y_meter": 4000.0
+  },
+  "total_matches": 11,
+  "total_spots": 42,
+  "spots": [
+    {
+      "spot_id": "taego_spot_013",
+      "cluster_id": 12,
+      "spot_name": "Spot (4774m, 4763m)",
+      "x_meter": 4774.3,
+      "y_meter": 4763.7,
+      "x_norm": 0.59679,
+      "y_norm": 0.59547,
+      "x_telemetry": 477433.0,
+      "y_telemetry": 476374.7,
+      "sample_count": 7,
+      "avg_holding_time_sec": 97.1,
+      "occupied_matches": 6,
+      "similar_zone_matches": 19,
+      "occupancy_prob_pct": 31.6,
+      "rank_sample_count": 3,
+      "top4_count": 1,
+      "top4_survival_pct": 33.3,
+      "spot_tier": "neutral",
+      "phase_stats": {
+        "1": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 7,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            8,
+            10
+          ],
+          "occupied_match_indices": []
+        },
+        "2": {
+          "occupied_matches": 1,
+          "similar_zone_matches": 6,
+          "occupancy_prob_pct": 16.7,
+          "eligible_match_indices": [
+            0,
+            1,
+            3,
+            4,
+            7,
+            10
+          ],
+          "occupied_match_indices": [
+            4
+          ]
+        },
+        "3": {
+          "occupied_matches": 3,
+          "similar_zone_matches": 4,
+          "occupancy_prob_pct": 75.0,
+          "eligible_match_indices": [
+            1,
+            4,
+            7,
+            10
+          ],
+          "occupied_match_indices": [
+            1,
+            4,
+            10
+          ]
+        },
+        "4": {
+          "occupied_matches": 2,
+          "similar_zone_matches": 2,
+          "occupancy_prob_pct": 100.0,
+          "eligible_match_indices": [
+            4,
+            10
+          ],
+          "occupied_match_indices": [
+            4,
+            10
+          ]
+        },
+        "5": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 0,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [],
+          "occupied_match_indices": []
+        },
+        "6": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 0,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [],
+          "occupied_match_indices": []
+        }
+      },
+      "rank": 1
+    },
+    {
+      "spot_id": "taego_spot_010",
+      "cluster_id": 9,
+      "spot_name": "Spot (4784m, 3506m)",
+      "x_meter": 4777.8,
+      "y_meter": 3495.5,
+      "x_norm": 0.59722,
+      "y_norm": 0.43693,
+      "x_telemetry": 477776.2,
+      "y_telemetry": 349546.8,
+      "sample_count": 4,
+      "avg_holding_time_sec": 62.0,
+      "occupied_matches": 2,
+      "similar_zone_matches": 10,
+      "occupancy_prob_pct": 20.0,
+      "rank_sample_count": 3,
+      "top4_count": 0,
+      "top4_survival_pct": 0.0,
+      "spot_tier": "hot_zone",
+      "phase_stats": {
+        "1": {
+          "occupied_matches": 1,
+          "similar_zone_matches": 7,
+          "occupancy_prob_pct": 14.3,
+          "eligible_match_indices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            8,
+            10
+          ],
+          "occupied_match_indices": [
+            1
+          ]
+        },
+        "2": {
+          "occupied_matches": 1,
+          "similar_zone_matches": 3,
+          "occupancy_prob_pct": 33.3,
+          "eligible_match_indices": [
+            1,
+            4,
+            10
+          ],
+          "occupied_match_indices": [
+            1
+          ]
+        },
+        "3": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 0,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [],
+          "occupied_match_indices": []
+        },
+        "4": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 0,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [],
+          "occupied_match_indices": []
+        },
+        "5": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 0,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [],
+          "occupied_match_indices": []
+        },
+        "6": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 0,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [],
+          "occupied_match_indices": []
+        }
+      },
+      "rank": 2
+    },
+    {
+      "spot_id": "taego_spot_011",
+      "cluster_id": 10,
+      "spot_name": "Spot (4735m, 3613m)",
+      "x_meter": 4736.4,
+      "y_meter": 3606.7,
+      "x_norm": 0.59205,
+      "y_norm": 0.45084,
+      "x_telemetry": 473638.7,
+      "y_telemetry": 360670.0,
+      "sample_count": 3,
+      "avg_holding_time_sec": 95.3,
+      "occupied_matches": 2,
+      "similar_zone_matches": 10,
+      "occupancy_prob_pct": 20.0,
+      "rank_sample_count": 3,
+      "top4_count": 0,
+      "top4_survival_pct": 0.0,
+      "spot_tier": "hot_zone",
+      "phase_stats": {
+        "1": {
+          "occupied_matches": 2,
+          "similar_zone_matches": 7,
+          "occupancy_prob_pct": 28.6,
+          "eligible_match_indices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            8,
+            10
+          ],
+          "occupied_match_indices": [
+            1,
+            3
+          ]
+        },
+        "2": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 3,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            1,
+            4,
+            10
+          ],
+          "occupied_match_indices": []
+        },
+        "3": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 0,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [],
+          "occupied_match_indices": []
+        },
+        "4": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 0,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [],
+          "occupied_match_indices": []
+        },
+        "5": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 0,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [],
+          "occupied_match_indices": []
+        },
+        "6": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 0,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [],
+          "occupied_match_indices": []
+        }
+      },
+      "rank": 3
+    },
+    {
+      "spot_id": "taego_spot_028",
+      "cluster_id": 27,
+      "spot_name": "Spot (1844m, 4932m)",
+      "x_meter": 1844.6,
+      "y_meter": 4932.5,
+      "x_norm": 0.23058,
+      "y_norm": 0.61656,
+      "x_telemetry": 184462.0,
+      "y_telemetry": 493250.0,
+      "sample_count": 2,
+      "avg_holding_time_sec": 121.0,
+      "occupied_matches": 2,
+      "similar_zone_matches": 10,
+      "occupancy_prob_pct": 20.0,
+      "rank_sample_count": 1,
+      "top4_count": 0,
+      "top4_survival_pct": 0.0,
+      "spot_tier": "neutral",
+      "phase_stats": {
+        "1": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 7,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            8,
+            10
+          ],
+          "occupied_match_indices": []
+        },
+        "2": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 1,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            5
+          ],
+          "occupied_match_indices": []
+        },
+        "3": {
+          "occupied_matches": 1,
+          "similar_zone_matches": 1,
+          "occupancy_prob_pct": 100.0,
+          "eligible_match_indices": [
+            5
+          ],
+          "occupied_match_indices": [
+            5
+          ]
+        },
+        "4": {
+          "occupied_matches": 1,
+          "similar_zone_matches": 1,
+          "occupancy_prob_pct": 100.0,
+          "eligible_match_indices": [
+            5
+          ],
+          "occupied_match_indices": [
+            5
+          ]
+        },
+        "5": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 0,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [],
+          "occupied_match_indices": []
+        },
+        "6": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 0,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [],
+          "occupied_match_indices": []
+        }
+      },
+      "rank": 4
+    },
+    {
+      "spot_id": "taego_spot_031",
+      "cluster_id": 30,
+      "spot_name": "Spot (6664m, 4938m)",
+      "x_meter": 6663.2,
+      "y_meter": 4945.9,
+      "x_norm": 0.8329,
+      "y_norm": 0.61823,
+      "x_telemetry": 666317.7,
+      "y_telemetry": 494587.0,
+      "sample_count": 3,
+      "avg_holding_time_sec": 43.3,
+      "occupied_matches": 2,
+      "similar_zone_matches": 12,
+      "occupancy_prob_pct": 16.7,
+      "rank_sample_count": 1,
+      "top4_count": 0,
+      "top4_survival_pct": 0.0,
+      "spot_tier": "neutral",
+      "phase_stats": {
+        "1": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 7,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            8,
+            10
+          ],
+          "occupied_match_indices": []
+        },
+        "2": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 3,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            1,
+            4,
+            6
+          ],
+          "occupied_match_indices": []
+        },
+        "3": {
+          "occupied_matches": 1,
+          "similar_zone_matches": 1,
+          "occupancy_prob_pct": 100.0,
+          "eligible_match_indices": [
+            6
+          ],
+          "occupied_match_indices": [
+            6
+          ]
+        },
+        "4": {
+          "occupied_matches": 1,
+          "similar_zone_matches": 1,
+          "occupancy_prob_pct": 100.0,
+          "eligible_match_indices": [
+            6
+          ],
+          "occupied_match_indices": [
+            6
+          ]
+        },
+        "5": {
+          "occupied_matches": 1,
+          "similar_zone_matches": 1,
+          "occupancy_prob_pct": 100.0,
+          "eligible_match_indices": [
+            6
+          ],
+          "occupied_match_indices": [
+            6
+          ]
+        },
+        "6": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 0,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [],
+          "occupied_match_indices": []
+        }
+      },
+      "rank": 5
+    },
+    {
+      "spot_id": "taego_spot_040",
+      "cluster_id": 39,
+      "spot_name": "Spot (3600m, 961m)",
+      "x_meter": 3603.8,
+      "y_meter": 954.9,
+      "x_norm": 0.45048,
+      "y_norm": 0.11936,
+      "x_telemetry": 360380.5,
+      "y_telemetry": 95486.0,
+      "sample_count": 4,
+      "avg_holding_time_sec": 65.0,
+      "occupied_matches": 2,
+      "similar_zone_matches": 13,
+      "occupancy_prob_pct": 15.4,
+      "rank_sample_count": 4,
+      "top4_count": 0,
+      "top4_survival_pct": 0.0,
+      "spot_tier": "hot_zone",
+      "phase_stats": {
+        "1": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 8,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            8,
+            10
+          ],
+          "occupied_match_indices": []
+        },
+        "2": {
+          "occupied_matches": 1,
+          "similar_zone_matches": 2,
+          "occupancy_prob_pct": 50.0,
+          "eligible_match_indices": [
+            2,
+            9
+          ],
+          "occupied_match_indices": [
+            9
+          ]
+        },
+        "3": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 2,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            2,
+            9
+          ],
+          "occupied_match_indices": []
+        },
+        "4": {
+          "occupied_matches": 1,
+          "similar_zone_matches": 1,
+          "occupancy_prob_pct": 100.0,
+          "eligible_match_indices": [
+            9
+          ],
+          "occupied_match_indices": [
+            9
+          ]
+        },
+        "5": {
+          "occupied_matches": 1,
+          "similar_zone_matches": 1,
+          "occupancy_prob_pct": 100.0,
+          "eligible_match_indices": [
+            9
+          ],
+          "occupied_match_indices": [
+            9
+          ]
+        },
+        "6": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 0,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [],
+          "occupied_match_indices": []
+        }
+      },
+      "rank": 6
+    },
+    {
+      "spot_id": "taego_spot_007",
+      "cluster_id": 6,
+      "spot_name": "Spot (4179m, 5380m)",
+      "x_meter": 4184.1,
+      "y_meter": 5382.3,
+      "x_norm": 0.52302,
+      "y_norm": 0.67279,
+      "x_telemetry": 418412.0,
+      "y_telemetry": 538229.3,
+      "sample_count": 3,
+      "avg_holding_time_sec": 99.7,
+      "occupied_matches": 3,
+      "similar_zone_matches": 20,
+      "occupancy_prob_pct": 15.0,
+      "rank_sample_count": 1,
+      "top4_count": 1,
+      "top4_survival_pct": 100.0,
+      "spot_tier": "neutral",
+      "phase_stats": {
+        "1": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 7,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            8,
+            10
+          ],
+          "occupied_match_indices": []
+        },
+        "2": {
+          "occupied_matches": 1,
+          "similar_zone_matches": 6,
+          "occupancy_prob_pct": 16.7,
+          "eligible_match_indices": [
+            0,
+            1,
+            3,
+            4,
+            7,
+            10
+          ],
+          "occupied_match_indices": [
+            0
+          ]
+        },
+        "3": {
+          "occupied_matches": 1,
+          "similar_zone_matches": 4,
+          "occupancy_prob_pct": 25.0,
+          "eligible_match_indices": [
+            0,
+            3,
+            7,
+            10
+          ],
+          "occupied_match_indices": [
+            0
+          ]
+        },
+        "4": {
+          "occupied_matches": 1,
+          "similar_zone_matches": 3,
+          "occupancy_prob_pct": 33.3,
+          "eligible_match_indices": [
+            0,
+            7,
+            10
+          ],
+          "occupied_match_indices": [
+            0
+          ]
+        },
+        "5": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 1,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            7
+          ],
+          "occupied_match_indices": []
+        },
+        "6": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 1,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            7
+          ],
+          "occupied_match_indices": []
+        }
+      },
+      "rank": 7
+    },
+    {
+      "spot_id": "taego_spot_025",
+      "cluster_id": 24,
+      "spot_name": "Spot (5176m, 4126m)",
+      "x_meter": 5180.0,
+      "y_meter": 4127.3,
+      "x_norm": 0.64751,
+      "y_norm": 0.51591,
+      "x_telemetry": 518005.0,
+      "y_telemetry": 412727.5,
+      "sample_count": 2,
+      "avg_holding_time_sec": 58.5,
+      "occupied_matches": 2,
+      "similar_zone_matches": 14,
+      "occupancy_prob_pct": 14.3,
+      "rank_sample_count": 1,
+      "top4_count": 0,
+      "top4_survival_pct": 0.0,
+      "spot_tier": "neutral",
+      "phase_stats": {
+        "1": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 7,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            8,
+            10
+          ],
+          "occupied_match_indices": []
+        },
+        "2": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 4,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            1,
+            4,
+            7,
+            10
+          ],
+          "occupied_match_indices": []
+        },
+        "3": {
+          "occupied_matches": 1,
+          "similar_zone_matches": 2,
+          "occupancy_prob_pct": 50.0,
+          "eligible_match_indices": [
+            1,
+            4
+          ],
+          "occupied_match_indices": [
+            4
+          ]
+        },
+        "4": {
+          "occupied_matches": 1,
+          "similar_zone_matches": 1,
+          "occupancy_prob_pct": 100.0,
+          "eligible_match_indices": [
+            4
+          ],
+          "occupied_match_indices": [
+            4
+          ]
+        },
+        "5": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 0,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [],
+          "occupied_match_indices": []
+        },
+        "6": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 0,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [],
+          "occupied_match_indices": []
+        }
+      },
+      "rank": 8
+    },
+    {
+      "spot_id": "taego_spot_004",
+      "cluster_id": 3,
+      "spot_name": "Spot (3658m, 6012m)",
+      "x_meter": 3660.3,
+      "y_meter": 6002.2,
+      "x_norm": 0.45754,
+      "y_norm": 0.75027,
+      "x_telemetry": 366029.8,
+      "y_telemetry": 600215.2,
+      "sample_count": 6,
+      "avg_holding_time_sec": 66.7,
+      "occupied_matches": 2,
+      "similar_zone_matches": 15,
+      "occupancy_prob_pct": 13.3,
+      "rank_sample_count": 5,
+      "top4_count": 0,
+      "top4_survival_pct": 0.0,
+      "spot_tier": "hot_zone",
+      "phase_stats": {
+        "1": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 7,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            8,
+            10
+          ],
+          "occupied_match_indices": []
+        },
+        "2": {
+          "occupied_matches": 1,
+          "similar_zone_matches": 4,
+          "occupancy_prob_pct": 25.0,
+          "eligible_match_indices": [
+            0,
+            3,
+            7,
+            10
+          ],
+          "occupied_match_indices": [
+            0
+          ]
+        },
+        "3": {
+          "occupied_matches": 1,
+          "similar_zone_matches": 3,
+          "occupancy_prob_pct": 33.3,
+          "eligible_match_indices": [
+            0,
+            3,
+            7
+          ],
+          "occupied_match_indices": [
+            0
+          ]
+        },
+        "4": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 1,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            0
+          ],
+          "occupied_match_indices": []
+        },
+        "5": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 0,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [],
+          "occupied_match_indices": []
+        },
+        "6": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 0,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [],
+          "occupied_match_indices": []
+        }
+      },
+      "rank": 9
+    },
+    {
+      "spot_id": "taego_spot_020",
+      "cluster_id": 19,
+      "spot_name": "Spot (3333m, 5231m)",
+      "x_meter": 3333.7,
+      "y_meter": 5229.0,
+      "x_norm": 0.41671,
+      "y_norm": 0.65363,
+      "x_telemetry": 333367.7,
+      "y_telemetry": 522900.3,
+      "sample_count": 3,
+      "avg_holding_time_sec": 97.3,
+      "occupied_matches": 2,
+      "similar_zone_matches": 15,
+      "occupancy_prob_pct": 13.3,
+      "rank_sample_count": 1,
+      "top4_count": 1,
+      "top4_survival_pct": 100.0,
+      "spot_tier": "neutral",
+      "phase_stats": {
+        "1": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 7,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            8,
+            10
+          ],
+          "occupied_match_indices": []
+        },
+        "2": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 5,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            0,
+            3,
+            5,
+            7,
+            10
+          ],
+          "occupied_match_indices": []
+        },
+        "3": {
+          "occupied_matches": 1,
+          "similar_zone_matches": 2,
+          "occupancy_prob_pct": 50.0,
+          "eligible_match_indices": [
+            0,
+            3
+          ],
+          "occupied_match_indices": [
+            3
+          ]
+        },
+        "4": {
+          "occupied_matches": 1,
+          "similar_zone_matches": 1,
+          "occupancy_prob_pct": 100.0,
+          "eligible_match_indices": [
+            3
+          ],
+          "occupied_match_indices": [
+            3
+          ]
+        },
+        "5": {
+          "occupied_matches": 1,
+          "similar_zone_matches": 1,
+          "occupancy_prob_pct": 100.0,
+          "eligible_match_indices": [
+            3
+          ],
+          "occupied_match_indices": [
+            3
+          ]
+        },
+        "6": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 1,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            3
+          ],
+          "occupied_match_indices": []
+        }
+      },
+      "rank": 10
+    },
+    {
+      "spot_id": "taego_spot_012",
+      "cluster_id": 11,
+      "spot_name": "Spot (6077m, 4921m)",
+      "x_meter": 6078.0,
+      "y_meter": 4921.6,
+      "x_norm": 0.75975,
+      "y_norm": 0.6152,
+      "x_telemetry": 607801.5,
+      "y_telemetry": 492158.0,
+      "sample_count": 2,
+      "avg_holding_time_sec": 160.0,
+      "occupied_matches": 2,
+      "similar_zone_matches": 15,
+      "occupancy_prob_pct": 13.3,
+      "rank_sample_count": 1,
+      "top4_count": 0,
+      "top4_survival_pct": 0.0,
+      "spot_tier": "neutral",
+      "phase_stats": {
+        "1": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 7,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            8,
+            10
+          ],
+          "occupied_match_indices": []
+        },
+        "2": {
+          "occupied_matches": 1,
+          "similar_zone_matches": 4,
+          "occupancy_prob_pct": 25.0,
+          "eligible_match_indices": [
+            1,
+            4,
+            6,
+            10
+          ],
+          "occupied_match_indices": [
+            1
+          ]
+        },
+        "3": {
+          "occupied_matches": 1,
+          "similar_zone_matches": 3,
+          "occupancy_prob_pct": 33.3,
+          "eligible_match_indices": [
+            1,
+            4,
+            6
+          ],
+          "occupied_match_indices": [
+            1
+          ]
+        },
+        "4": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 1,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            6
+          ],
+          "occupied_match_indices": []
+        },
+        "5": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 0,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [],
+          "occupied_match_indices": []
+        },
+        "6": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 0,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [],
+          "occupied_match_indices": []
+        }
+      },
+      "rank": 11
+    },
+    {
+      "spot_id": "taego_spot_030",
+      "cluster_id": 29,
+      "spot_name": "Spot (6101m, 4878m)",
+      "x_meter": 6101.3,
+      "y_meter": 4879.4,
+      "x_norm": 0.76267,
+      "y_norm": 0.60992,
+      "x_telemetry": 610132.5,
+      "y_telemetry": 487936.0,
+      "sample_count": 2,
+      "avg_holding_time_sec": 132.0,
+      "occupied_matches": 2,
+      "similar_zone_matches": 15,
+      "occupancy_prob_pct": 13.3,
+      "rank_sample_count": 1,
+      "top4_count": 1,
+      "top4_survival_pct": 100.0,
+      "spot_tier": "neutral",
+      "phase_stats": {
+        "1": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 7,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            8,
+            10
+          ],
+          "occupied_match_indices": []
+        },
+        "2": {
+          "occupied_matches": 1,
+          "similar_zone_matches": 4,
+          "occupancy_prob_pct": 25.0,
+          "eligible_match_indices": [
+            1,
+            4,
+            6,
+            10
+          ],
+          "occupied_match_indices": [
+            6
+          ]
+        },
+        "3": {
+          "occupied_matches": 1,
+          "similar_zone_matches": 3,
+          "occupancy_prob_pct": 33.3,
+          "eligible_match_indices": [
+            1,
+            4,
+            6
+          ],
+          "occupied_match_indices": [
+            6
+          ]
+        },
+        "4": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 1,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            6
+          ],
+          "occupied_match_indices": []
+        },
+        "5": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 0,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [],
+          "occupied_match_indices": []
+        },
+        "6": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 0,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [],
+          "occupied_match_indices": []
+        }
+      },
+      "rank": 12
+    },
+    {
+      "spot_id": "taego_spot_003",
+      "cluster_id": 2,
+      "spot_name": "Spot (4776m, 3623m)",
+      "x_meter": 4777.5,
+      "y_meter": 3617.8,
+      "x_norm": 0.59718,
+      "y_norm": 0.45222,
+      "x_telemetry": 477746.0,
+      "y_telemetry": 361778.5,
+      "sample_count": 2,
+      "avg_holding_time_sec": 69.0,
+      "occupied_matches": 1,
+      "similar_zone_matches": 10,
+      "occupancy_prob_pct": 10.0,
+      "rank_sample_count": 2,
+      "top4_count": 1,
+      "top4_survival_pct": 50.0,
+      "spot_tier": "safe_spot",
+      "phase_stats": {
+        "1": {
+          "occupied_matches": 1,
+          "similar_zone_matches": 7,
+          "occupancy_prob_pct": 14.3,
+          "eligible_match_indices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            8,
+            10
+          ],
+          "occupied_match_indices": [
+            0
+          ]
+        },
+        "2": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 3,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            1,
+            4,
+            10
+          ],
+          "occupied_match_indices": []
+        },
+        "3": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 0,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [],
+          "occupied_match_indices": []
+        },
+        "4": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 0,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [],
+          "occupied_match_indices": []
+        },
+        "5": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 0,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [],
+          "occupied_match_indices": []
+        },
+        "6": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 0,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [],
+          "occupied_match_indices": []
+        }
+      },
+      "rank": 13
+    },
+    {
+      "spot_id": "taego_spot_002",
+      "cluster_id": 1,
+      "spot_name": "Spot (5689m, 6016m)",
+      "x_meter": 5692.2,
+      "y_meter": 6017.1,
+      "x_norm": 0.71153,
+      "y_norm": 0.75214,
+      "x_telemetry": 569224.0,
+      "y_telemetry": 601714.0,
+      "sample_count": 2,
+      "avg_holding_time_sec": 39.5,
+      "occupied_matches": 1,
+      "similar_zone_matches": 11,
+      "occupancy_prob_pct": 9.1,
+      "rank_sample_count": 2,
+      "top4_count": 1,
+      "top4_survival_pct": 50.0,
+      "spot_tier": "safe_spot",
+      "phase_stats": {
+        "1": {
+          "occupied_matches": 1,
+          "similar_zone_matches": 7,
+          "occupancy_prob_pct": 14.3,
+          "eligible_match_indices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            8,
+            10
+          ],
+          "occupied_match_indices": [
+            0
+          ]
+        },
+        "2": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 4,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            0,
+            1,
+            4,
+            6
+          ],
+          "occupied_match_indices": []
+        },
+        "3": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 0,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [],
+          "occupied_match_indices": []
+        },
+        "4": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 0,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [],
+          "occupied_match_indices": []
+        },
+        "5": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 0,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [],
+          "occupied_match_indices": []
+        },
+        "6": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 0,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [],
+          "occupied_match_indices": []
+        }
+      },
+      "rank": 14
+    },
+    {
+      "spot_id": "taego_spot_042",
+      "cluster_id": 41,
+      "spot_name": "Spot (3892m, 1157m)",
+      "x_meter": 3883.4,
+      "y_meter": 1157.7,
+      "x_norm": 0.48543,
+      "y_norm": 0.14471,
+      "x_telemetry": 388342.5,
+      "y_telemetry": 115769.5,
+      "sample_count": 2,
+      "avg_holding_time_sec": 61.5,
+      "occupied_matches": 1,
+      "similar_zone_matches": 12,
+      "occupancy_prob_pct": 8.3,
+      "rank_sample_count": 2,
+      "top4_count": 0,
+      "top4_survival_pct": 0.0,
+      "spot_tier": "hot_zone",
+      "phase_stats": {
+        "1": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 7,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            8,
+            10
+          ],
+          "occupied_match_indices": []
+        },
+        "2": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 2,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            2,
+            9
+          ],
+          "occupied_match_indices": []
+        },
+        "3": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 2,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            2,
+            9
+          ],
+          "occupied_match_indices": []
+        },
+        "4": {
+          "occupied_matches": 1,
+          "similar_zone_matches": 1,
+          "occupancy_prob_pct": 100.0,
+          "eligible_match_indices": [
+            9
+          ],
+          "occupied_match_indices": [
+            9
+          ]
+        },
+        "5": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 1,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            9
+          ],
+          "occupied_match_indices": []
+        },
+        "6": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 0,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [],
+          "occupied_match_indices": []
+        }
+      },
+      "rank": 15
+    },
+    {
+      "spot_id": "taego_spot_017",
+      "cluster_id": 16,
+      "spot_name": "Spot (6528m, 4521m)",
+      "x_meter": 6529.0,
+      "y_meter": 4517.1,
+      "x_norm": 0.81612,
+      "y_norm": 0.56464,
+      "x_telemetry": 652896.7,
+      "y_telemetry": 451712.3,
+      "sample_count": 3,
+      "avg_holding_time_sec": 86.0,
+      "occupied_matches": 1,
+      "similar_zone_matches": 13,
+      "occupancy_prob_pct": 7.7,
+      "rank_sample_count": 3,
+      "top4_count": 0,
+      "top4_survival_pct": 0.0,
+      "spot_tier": "hot_zone",
+      "phase_stats": {
+        "1": {
+          "occupied_matches": 1,
+          "similar_zone_matches": 7,
+          "occupancy_prob_pct": 14.3,
+          "eligible_match_indices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            8,
+            10
+          ],
+          "occupied_match_indices": [
+            2
+          ]
+        },
+        "2": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 3,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            1,
+            4,
+            6
+          ],
+          "occupied_match_indices": []
+        },
+        "3": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 2,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            1,
+            6
+          ],
+          "occupied_match_indices": []
+        },
+        "4": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 1,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            6
+          ],
+          "occupied_match_indices": []
+        },
+        "5": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 0,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [],
+          "occupied_match_indices": []
+        },
+        "6": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 0,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [],
+          "occupied_match_indices": []
+        }
+      },
+      "rank": 16
+    },
+    {
+      "spot_id": "taego_spot_032",
+      "cluster_id": 31,
+      "spot_name": "Spot (6337m, 4910m)",
+      "x_meter": 6336.5,
+      "y_meter": 4908.8,
+      "x_norm": 0.79206,
+      "y_norm": 0.6136,
+      "x_telemetry": 633651.5,
+      "y_telemetry": 490877.0,
+      "sample_count": 2,
+      "avg_holding_time_sec": 50.0,
+      "occupied_matches": 1,
+      "similar_zone_matches": 13,
+      "occupancy_prob_pct": 7.7,
+      "rank_sample_count": 2,
+      "top4_count": 1,
+      "top4_survival_pct": 50.0,
+      "spot_tier": "safe_spot",
+      "phase_stats": {
+        "1": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 7,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            8,
+            10
+          ],
+          "occupied_match_indices": []
+        },
+        "2": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 3,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            1,
+            4,
+            6
+          ],
+          "occupied_match_indices": []
+        },
+        "3": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 2,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            1,
+            6
+          ],
+          "occupied_match_indices": []
+        },
+        "4": {
+          "occupied_matches": 1,
+          "similar_zone_matches": 1,
+          "occupancy_prob_pct": 100.0,
+          "eligible_match_indices": [
+            6
+          ],
+          "occupied_match_indices": [
+            6
+          ]
+        },
+        "5": {
+          "occupied_matches": 1,
+          "similar_zone_matches": 1,
+          "occupancy_prob_pct": 100.0,
+          "eligible_match_indices": [
+            6
+          ],
+          "occupied_match_indices": [
+            6
+          ]
+        },
+        "6": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 0,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [],
+          "occupied_match_indices": []
+        }
+      },
+      "rank": 17
+    },
+    {
+      "spot_id": "taego_spot_041",
+      "cluster_id": 40,
+      "spot_name": "Spot (3526m, 988m)",
+      "x_meter": 3527.1,
+      "y_meter": 987.5,
+      "x_norm": 0.44088,
+      "y_norm": 0.12344,
+      "x_telemetry": 352706.0,
+      "y_telemetry": 98751.0,
+      "sample_count": 2,
+      "avg_holding_time_sec": 44.5,
+      "occupied_matches": 1,
+      "similar_zone_matches": 13,
+      "occupancy_prob_pct": 7.7,
+      "rank_sample_count": 1,
+      "top4_count": 0,
+      "top4_survival_pct": 0.0,
+      "spot_tier": "neutral",
+      "phase_stats": {
+        "1": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 8,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            8,
+            10
+          ],
+          "occupied_match_indices": []
+        },
+        "2": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 2,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            2,
+            9
+          ],
+          "occupied_match_indices": []
+        },
+        "3": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 2,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            2,
+            9
+          ],
+          "occupied_match_indices": []
+        },
+        "4": {
+          "occupied_matches": 1,
+          "similar_zone_matches": 1,
+          "occupancy_prob_pct": 100.0,
+          "eligible_match_indices": [
+            9
+          ],
+          "occupied_match_indices": [
+            9
+          ]
+        },
+        "5": {
+          "occupied_matches": 1,
+          "similar_zone_matches": 1,
+          "occupancy_prob_pct": 100.0,
+          "eligible_match_indices": [
+            9
+          ],
+          "occupied_match_indices": [
+            9
+          ]
+        },
+        "6": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 0,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [],
+          "occupied_match_indices": []
+        }
+      },
+      "rank": 18
+    },
+    {
+      "spot_id": "taego_spot_005",
+      "cluster_id": 4,
+      "spot_name": "Spot (4679m, 4387m)",
+      "x_meter": 4678.6,
+      "y_meter": 4384.8,
+      "x_norm": 0.58483,
+      "y_norm": 0.5481,
+      "x_telemetry": 467860.0,
+      "y_telemetry": 438481.0,
+      "sample_count": 2,
+      "avg_holding_time_sec": 35.0,
+      "occupied_matches": 1,
+      "similar_zone_matches": 14,
+      "occupancy_prob_pct": 7.1,
+      "rank_sample_count": 1,
+      "top4_count": 0,
+      "top4_survival_pct": 0.0,
+      "spot_tier": "neutral",
+      "phase_stats": {
+        "1": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 7,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            8,
+            10
+          ],
+          "occupied_match_indices": []
+        },
+        "2": {
+          "occupied_matches": 1,
+          "similar_zone_matches": 5,
+          "occupancy_prob_pct": 20.0,
+          "eligible_match_indices": [
+            0,
+            1,
+            4,
+            7,
+            10
+          ],
+          "occupied_match_indices": [
+            0
+          ]
+        },
+        "3": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 2,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            4,
+            10
+          ],
+          "occupied_match_indices": []
+        },
+        "4": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 0,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [],
+          "occupied_match_indices": []
+        },
+        "5": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 0,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [],
+          "occupied_match_indices": []
+        },
+        "6": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 0,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [],
+          "occupied_match_indices": []
+        }
+      },
+      "rank": 19
+    },
+    {
+      "spot_id": "taego_spot_015",
+      "cluster_id": 14,
+      "spot_name": "Spot (5787m, 4742m)",
+      "x_meter": 5787.4,
+      "y_meter": 4744.2,
+      "x_norm": 0.72342,
+      "y_norm": 0.59302,
+      "x_telemetry": 578739.5,
+      "y_telemetry": 474419.5,
+      "sample_count": 2,
+      "avg_holding_time_sec": 70.0,
+      "occupied_matches": 1,
+      "similar_zone_matches": 14,
+      "occupancy_prob_pct": 7.1,
+      "rank_sample_count": 2,
+      "top4_count": 1,
+      "top4_survival_pct": 50.0,
+      "spot_tier": "safe_spot",
+      "phase_stats": {
+        "1": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 7,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            8,
+            10
+          ],
+          "occupied_match_indices": []
+        },
+        "2": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 4,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            1,
+            4,
+            6,
+            10
+          ],
+          "occupied_match_indices": []
+        },
+        "3": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 2,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            1,
+            4
+          ],
+          "occupied_match_indices": []
+        },
+        "4": {
+          "occupied_matches": 1,
+          "similar_zone_matches": 1,
+          "occupancy_prob_pct": 100.0,
+          "eligible_match_indices": [
+            1
+          ],
+          "occupied_match_indices": [
+            1
+          ]
+        },
+        "5": {
+          "occupied_matches": 1,
+          "similar_zone_matches": 1,
+          "occupancy_prob_pct": 100.0,
+          "eligible_match_indices": [
+            1
+          ],
+          "occupied_match_indices": [
+            1
+          ]
+        },
+        "6": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 0,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [],
+          "occupied_match_indices": []
+        }
+      },
+      "rank": 20
+    },
+    {
+      "spot_id": "taego_spot_022",
+      "cluster_id": 21,
+      "spot_name": "Spot (3333m, 5259m)",
+      "x_meter": 3334.1,
+      "y_meter": 5258.7,
+      "x_norm": 0.41676,
+      "y_norm": 0.65734,
+      "x_telemetry": 333407.5,
+      "y_telemetry": 525872.0,
+      "sample_count": 2,
+      "avg_holding_time_sec": 136.0,
+      "occupied_matches": 1,
+      "similar_zone_matches": 14,
+      "occupancy_prob_pct": 7.1,
+      "rank_sample_count": 1,
+      "top4_count": 0,
+      "top4_survival_pct": 0.0,
+      "spot_tier": "neutral",
+      "phase_stats": {
+        "1": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 7,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            8,
+            10
+          ],
+          "occupied_match_indices": []
+        },
+        "2": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 4,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            0,
+            3,
+            7,
+            10
+          ],
+          "occupied_match_indices": []
+        },
+        "3": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 2,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            0,
+            3
+          ],
+          "occupied_match_indices": []
+        },
+        "4": {
+          "occupied_matches": 1,
+          "similar_zone_matches": 1,
+          "occupancy_prob_pct": 100.0,
+          "eligible_match_indices": [
+            3
+          ],
+          "occupied_match_indices": [
+            3
+          ]
+        },
+        "5": {
+          "occupied_matches": 1,
+          "similar_zone_matches": 1,
+          "occupancy_prob_pct": 100.0,
+          "eligible_match_indices": [
+            3
+          ],
+          "occupied_match_indices": [
+            3
+          ]
+        },
+        "6": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 1,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            3
+          ],
+          "occupied_match_indices": []
+        }
+      },
+      "rank": 21
+    },
+    {
+      "spot_id": "taego_spot_021",
+      "cluster_id": 20,
+      "spot_name": "Spot (3424m, 5236m)",
+      "x_meter": 3424.5,
+      "y_meter": 5242.4,
+      "x_norm": 0.42807,
+      "y_norm": 0.6553,
+      "x_telemetry": 342455.0,
+      "y_telemetry": 524243.3,
+      "sample_count": 3,
+      "avg_holding_time_sec": 41.0,
+      "occupied_matches": 1,
+      "similar_zone_matches": 15,
+      "occupancy_prob_pct": 6.7,
+      "rank_sample_count": 2,
+      "top4_count": 1,
+      "top4_survival_pct": 50.0,
+      "spot_tier": "safe_spot",
+      "phase_stats": {
+        "1": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 7,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            8,
+            10
+          ],
+          "occupied_match_indices": []
+        },
+        "2": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 4,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            0,
+            3,
+            7,
+            10
+          ],
+          "occupied_match_indices": []
+        },
+        "3": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 3,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            0,
+            3,
+            7
+          ],
+          "occupied_match_indices": []
+        },
+        "4": {
+          "occupied_matches": 1,
+          "similar_zone_matches": 1,
+          "occupancy_prob_pct": 100.0,
+          "eligible_match_indices": [
+            3
+          ],
+          "occupied_match_indices": [
+            3
+          ]
+        },
+        "5": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 1,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            3
+          ],
+          "occupied_match_indices": []
+        },
+        "6": {
+          "occupied_matches": 1,
+          "similar_zone_matches": 1,
+          "occupancy_prob_pct": 100.0,
+          "eligible_match_indices": [
+            3
+          ],
+          "occupied_match_indices": [
+            3
+          ]
+        }
+      },
+      "rank": 22
+    },
+    {
+      "spot_id": "taego_spot_024",
+      "cluster_id": 23,
+      "spot_name": "Spot (5614m, 4378m)",
+      "x_meter": 5615.0,
+      "y_meter": 4378.9,
+      "x_norm": 0.70188,
+      "y_norm": 0.54736,
+      "x_telemetry": 561500.5,
+      "y_telemetry": 437888.0,
+      "sample_count": 2,
+      "avg_holding_time_sec": 53.0,
+      "occupied_matches": 1,
+      "similar_zone_matches": 15,
+      "occupancy_prob_pct": 6.7,
+      "rank_sample_count": 2,
+      "top4_count": 0,
+      "top4_survival_pct": 0.0,
+      "spot_tier": "hot_zone",
+      "phase_stats": {
+        "1": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 7,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            8,
+            10
+          ],
+          "occupied_match_indices": []
+        },
+        "2": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 4,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            1,
+            4,
+            6,
+            10
+          ],
+          "occupied_match_indices": []
+        },
+        "3": {
+          "occupied_matches": 1,
+          "similar_zone_matches": 2,
+          "occupancy_prob_pct": 50.0,
+          "eligible_match_indices": [
+            1,
+            4
+          ],
+          "occupied_match_indices": [
+            4
+          ]
+        },
+        "4": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 2,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            1,
+            4
+          ],
+          "occupied_match_indices": []
+        },
+        "5": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 1,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            1
+          ],
+          "occupied_match_indices": []
+        },
+        "6": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 1,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            1
+          ],
+          "occupied_match_indices": []
+        }
+      },
+      "rank": 23
+    },
+    {
+      "spot_id": "taego_spot_008",
+      "cluster_id": 7,
+      "spot_name": "Spot (3891m, 5929m)",
+      "x_meter": 3889.9,
+      "y_meter": 5932.0,
+      "x_norm": 0.48624,
+      "y_norm": 0.7415,
+      "x_telemetry": 388989.5,
+      "y_telemetry": 593201.0,
+      "sample_count": 2,
+      "avg_holding_time_sec": 32.0,
+      "occupied_matches": 1,
+      "similar_zone_matches": 16,
+      "occupancy_prob_pct": 6.2,
+      "rank_sample_count": 2,
+      "top4_count": 1,
+      "top4_survival_pct": 50.0,
+      "spot_tier": "safe_spot",
+      "phase_stats": {
+        "1": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 7,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            8,
+            10
+          ],
+          "occupied_match_indices": []
+        },
+        "2": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 5,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            0,
+            1,
+            3,
+            7,
+            10
+          ],
+          "occupied_match_indices": []
+        },
+        "3": {
+          "occupied_matches": 1,
+          "similar_zone_matches": 3,
+          "occupancy_prob_pct": 33.3,
+          "eligible_match_indices": [
+            0,
+            3,
+            7
+          ],
+          "occupied_match_indices": [
+            0
+          ]
+        },
+        "4": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 1,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            0
+          ],
+          "occupied_match_indices": []
+        },
+        "5": {
+          "occupied_matches": 1,
+          "similar_zone_matches": 1,
+          "occupancy_prob_pct": 100.0,
+          "eligible_match_indices": [
+            0
+          ],
+          "occupied_match_indices": [
+            0
+          ]
+        },
+        "6": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 0,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [],
+          "occupied_match_indices": []
+        }
+      },
+      "rank": 24
+    },
+    {
+      "spot_id": "taego_spot_009",
+      "cluster_id": 8,
+      "spot_name": "Spot (4004m, 5730m)",
+      "x_meter": 4004.9,
+      "y_meter": 5730.0,
+      "x_norm": 0.50061,
+      "y_norm": 0.71625,
+      "x_telemetry": 400489.0,
+      "y_telemetry": 573003.0,
+      "sample_count": 2,
+      "avg_holding_time_sec": 88.5,
+      "occupied_matches": 1,
+      "similar_zone_matches": 18,
+      "occupancy_prob_pct": 5.6,
+      "rank_sample_count": 2,
+      "top4_count": 0,
+      "top4_survival_pct": 0.0,
+      "spot_tier": "hot_zone",
+      "phase_stats": {
+        "1": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 7,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            8,
+            10
+          ],
+          "occupied_match_indices": []
+        },
+        "2": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 6,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            0,
+            1,
+            3,
+            4,
+            7,
+            10
+          ],
+          "occupied_match_indices": []
+        },
+        "3": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 3,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            0,
+            3,
+            7
+          ],
+          "occupied_match_indices": []
+        },
+        "4": {
+          "occupied_matches": 1,
+          "similar_zone_matches": 2,
+          "occupancy_prob_pct": 50.0,
+          "eligible_match_indices": [
+            0,
+            7
+          ],
+          "occupied_match_indices": [
+            0
+          ]
+        },
+        "5": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 1,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            0
+          ],
+          "occupied_match_indices": []
+        },
+        "6": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 0,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [],
+          "occupied_match_indices": []
+        }
+      },
+      "rank": 25
+    },
+    {
+      "spot_id": "taego_spot_001",
+      "cluster_id": 0,
+      "spot_name": "Spot (5167m, 5186m)",
+      "x_meter": 5174.0,
+      "y_meter": 5181.3,
+      "x_norm": 0.64675,
+      "y_norm": 0.64766,
+      "x_telemetry": 517404.0,
+      "y_telemetry": 518128.5,
+      "sample_count": 2,
+      "avg_holding_time_sec": 68.5,
+      "occupied_matches": 1,
+      "similar_zone_matches": 19,
+      "occupancy_prob_pct": 5.3,
+      "rank_sample_count": 2,
+      "top4_count": 0,
+      "top4_survival_pct": 0.0,
+      "spot_tier": "hot_zone",
+      "phase_stats": {
+        "1": {
+          "occupied_matches": 1,
+          "similar_zone_matches": 7,
+          "occupancy_prob_pct": 14.3,
+          "eligible_match_indices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            8,
+            10
+          ],
+          "occupied_match_indices": [
+            0
+          ]
+        },
+        "2": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 6,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            0,
+            1,
+            4,
+            6,
+            7,
+            10
+          ],
+          "occupied_match_indices": []
+        },
+        "3": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 4,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            1,
+            4,
+            7,
+            10
+          ],
+          "occupied_match_indices": []
+        },
+        "4": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 2,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            1,
+            4
+          ],
+          "occupied_match_indices": []
+        },
+        "5": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 0,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [],
+          "occupied_match_indices": []
+        },
+        "6": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 0,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [],
+          "occupied_match_indices": []
+        }
+      },
+      "rank": 26
+    },
+    {
+      "spot_id": "taego_spot_026",
+      "cluster_id": 25,
+      "spot_name": "Spot (4921m, 4604m)",
+      "x_meter": 4921.8,
+      "y_meter": 4605.3,
+      "x_norm": 0.61522,
+      "y_norm": 0.57566,
+      "x_telemetry": 492176.5,
+      "y_telemetry": 460525.5,
+      "sample_count": 2,
+      "avg_holding_time_sec": 58.0,
+      "occupied_matches": 1,
+      "similar_zone_matches": 19,
+      "occupancy_prob_pct": 5.3,
+      "rank_sample_count": 1,
+      "top4_count": 0,
+      "top4_survival_pct": 0.0,
+      "spot_tier": "neutral",
+      "phase_stats": {
+        "1": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 7,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            8,
+            10
+          ],
+          "occupied_match_indices": []
+        },
+        "2": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 5,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            0,
+            1,
+            4,
+            7,
+            10
+          ],
+          "occupied_match_indices": []
+        },
+        "3": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 4,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            1,
+            4,
+            7,
+            10
+          ],
+          "occupied_match_indices": []
+        },
+        "4": {
+          "occupied_matches": 1,
+          "similar_zone_matches": 3,
+          "occupancy_prob_pct": 33.3,
+          "eligible_match_indices": [
+            1,
+            4,
+            10
+          ],
+          "occupied_match_indices": [
+            4
+          ]
+        },
+        "5": {
+          "occupied_matches": 1,
+          "similar_zone_matches": 1,
+          "occupancy_prob_pct": 100.0,
+          "eligible_match_indices": [
+            4
+          ],
+          "occupied_match_indices": [
+            4
+          ]
+        },
+        "6": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 0,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [],
+          "occupied_match_indices": []
+        }
+      },
+      "rank": 27
+    },
+    {
+      "spot_id": "taego_spot_016",
+      "cluster_id": 15,
+      "spot_name": "Spot (5231m, 4355m)",
+      "x_meter": 5229.8,
+      "y_meter": 4357.0,
+      "x_norm": 0.65373,
+      "y_norm": 0.54462,
+      "x_telemetry": 522983.7,
+      "y_telemetry": 435695.7,
+      "sample_count": 3,
+      "avg_holding_time_sec": 66.3,
+      "occupied_matches": 0,
+      "similar_zone_matches": 18,
+      "occupancy_prob_pct": 0.0,
+      "rank_sample_count": 2,
+      "top4_count": 1,
+      "top4_survival_pct": 50.0,
+      "spot_tier": "safe_spot",
+      "phase_stats": {
+        "1": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 7,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            8,
+            10
+          ],
+          "occupied_match_indices": []
+        },
+        "2": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 6,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            0,
+            1,
+            4,
+            6,
+            7,
+            10
+          ],
+          "occupied_match_indices": []
+        },
+        "3": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 3,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            1,
+            4,
+            10
+          ],
+          "occupied_match_indices": []
+        },
+        "4": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 2,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            1,
+            4
+          ],
+          "occupied_match_indices": []
+        },
+        "5": {
+          "occupied_matches": 1,
+          "similar_zone_matches": 2,
+          "occupancy_prob_pct": 50.0,
+          "eligible_match_indices": [
+            1,
+            4
+          ],
+          "occupied_match_indices": [
+            1
+          ]
+        },
+        "6": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 1,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            4
+          ],
+          "occupied_match_indices": []
+        }
+      },
+      "rank": 28
+    },
+    {
+      "spot_id": "taego_spot_019",
+      "cluster_id": 18,
+      "spot_name": "Spot (5836m, 7582m)",
+      "x_meter": 5839.0,
+      "y_meter": 7584.6,
+      "x_norm": 0.72987,
+      "y_norm": 0.94807,
+      "x_telemetry": 583896.3,
+      "y_telemetry": 758457.0,
+      "sample_count": 3,
+      "avg_holding_time_sec": 96.0,
+      "occupied_matches": 0,
+      "similar_zone_matches": 7,
+      "occupancy_prob_pct": 0.0,
+      "rank_sample_count": 1,
+      "top4_count": 0,
+      "top4_survival_pct": 0.0,
+      "spot_tier": "neutral",
+      "phase_stats": {
+        "1": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 7,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            8,
+            10
+          ],
+          "occupied_match_indices": []
+        },
+        "2": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 0,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [],
+          "occupied_match_indices": []
+        },
+        "3": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 0,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [],
+          "occupied_match_indices": []
+        },
+        "4": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 0,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [],
+          "occupied_match_indices": []
+        },
+        "5": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 0,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [],
+          "occupied_match_indices": []
+        },
+        "6": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 0,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [],
+          "occupied_match_indices": []
+        }
+      },
+      "rank": 29
+    },
+    {
+      "spot_id": "taego_spot_039",
+      "cluster_id": 38,
+      "spot_name": "Spot (4020m, 6791m)",
+      "x_meter": 4016.0,
+      "y_meter": 6797.4,
+      "x_norm": 0.502,
+      "y_norm": 0.84968,
+      "x_telemetry": 401602.0,
+      "y_telemetry": 679742.7,
+      "sample_count": 3,
+      "avg_holding_time_sec": 50.0,
+      "occupied_matches": 0,
+      "similar_zone_matches": 9,
+      "occupancy_prob_pct": 0.0,
+      "rank_sample_count": 3,
+      "top4_count": 0,
+      "top4_survival_pct": 0.0,
+      "spot_tier": "hot_zone",
+      "phase_stats": {
+        "1": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 7,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            8,
+            10
+          ],
+          "occupied_match_indices": []
+        },
+        "2": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 2,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            0,
+            3
+          ],
+          "occupied_match_indices": []
+        },
+        "3": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 0,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [],
+          "occupied_match_indices": []
+        },
+        "4": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 0,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [],
+          "occupied_match_indices": []
+        },
+        "5": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 0,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [],
+          "occupied_match_indices": []
+        },
+        "6": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 0,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [],
+          "occupied_match_indices": []
+        }
+      },
+      "rank": 30
+    },
+    {
+      "spot_id": "taego_spot_006",
+      "cluster_id": 5,
+      "spot_name": "Spot (4679m, 3578m)",
+      "x_meter": 4680.2,
+      "y_meter": 3577.5,
+      "x_norm": 0.58503,
+      "y_norm": 0.44719,
+      "x_telemetry": 468024.0,
+      "y_telemetry": 357748.5,
+      "sample_count": 2,
+      "avg_holding_time_sec": 69.0,
+      "occupied_matches": 0,
+      "similar_zone_matches": 10,
+      "occupancy_prob_pct": 0.0,
+      "rank_sample_count": 1,
+      "top4_count": 1,
+      "top4_survival_pct": 100.0,
+      "spot_tier": "neutral",
+      "phase_stats": {
+        "1": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 7,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            8,
+            10
+          ],
+          "occupied_match_indices": []
+        },
+        "2": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 3,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            1,
+            4,
+            10
+          ],
+          "occupied_match_indices": []
+        },
+        "3": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 0,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [],
+          "occupied_match_indices": []
+        },
+        "4": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 0,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [],
+          "occupied_match_indices": []
+        },
+        "5": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 0,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [],
+          "occupied_match_indices": []
+        },
+        "6": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 0,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [],
+          "occupied_match_indices": []
+        }
+      },
+      "rank": 31
+    },
+    {
+      "spot_id": "taego_spot_014",
+      "cluster_id": 13,
+      "spot_name": "Spot (6203m, 1504m)",
+      "x_meter": 6203.9,
+      "y_meter": 1504.2,
+      "x_norm": 0.77549,
+      "y_norm": 0.18802,
+      "x_telemetry": 620392.5,
+      "y_telemetry": 150420.0,
+      "sample_count": 2,
+      "avg_holding_time_sec": 130.0,
+      "occupied_matches": 0,
+      "similar_zone_matches": 8,
+      "occupancy_prob_pct": 0.0,
+      "rank_sample_count": 1,
+      "top4_count": 0,
+      "top4_survival_pct": 0.0,
+      "spot_tier": "neutral",
+      "phase_stats": {
+        "1": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 7,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            8,
+            10
+          ],
+          "occupied_match_indices": []
+        },
+        "2": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 1,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            2
+          ],
+          "occupied_match_indices": []
+        },
+        "3": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 0,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [],
+          "occupied_match_indices": []
+        },
+        "4": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 0,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [],
+          "occupied_match_indices": []
+        },
+        "5": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 0,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [],
+          "occupied_match_indices": []
+        },
+        "6": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 0,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [],
+          "occupied_match_indices": []
+        }
+      },
+      "rank": 32
+    },
+    {
+      "spot_id": "taego_spot_018",
+      "cluster_id": 17,
+      "spot_name": "Spot (6418m, 4469m)",
+      "x_meter": 6419.6,
+      "y_meter": 4468.5,
+      "x_norm": 0.80245,
+      "y_norm": 0.55857,
+      "x_telemetry": 641959.0,
+      "y_telemetry": 446853.5,
+      "sample_count": 2,
+      "avg_holding_time_sec": 70.0,
+      "occupied_matches": 0,
+      "similar_zone_matches": 12,
+      "occupancy_prob_pct": 0.0,
+      "rank_sample_count": 2,
+      "top4_count": 0,
+      "top4_survival_pct": 0.0,
+      "spot_tier": "hot_zone",
+      "phase_stats": {
+        "1": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 7,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            8,
+            10
+          ],
+          "occupied_match_indices": []
+        },
+        "2": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 3,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            1,
+            4,
+            6
+          ],
+          "occupied_match_indices": []
+        },
+        "3": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 2,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            1,
+            6
+          ],
+          "occupied_match_indices": []
+        },
+        "4": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 0,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [],
+          "occupied_match_indices": []
+        },
+        "5": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 0,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [],
+          "occupied_match_indices": []
+        },
+        "6": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 0,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [],
+          "occupied_match_indices": []
+        }
+      },
+      "rank": 33
+    },
+    {
+      "spot_id": "taego_spot_023",
+      "cluster_id": 22,
+      "spot_name": "Spot (1317m, 3078m)",
+      "x_meter": 1317.1,
+      "y_meter": 3078.6,
+      "x_norm": 0.16464,
+      "y_norm": 0.38482,
+      "x_telemetry": 131714.5,
+      "y_telemetry": 307855.0,
+      "sample_count": 2,
+      "avg_holding_time_sec": 109.0,
+      "occupied_matches": 0,
+      "similar_zone_matches": 9,
+      "occupancy_prob_pct": 0.0,
+      "rank_sample_count": 1,
+      "top4_count": 0,
+      "top4_survival_pct": 0.0,
+      "spot_tier": "neutral",
+      "phase_stats": {
+        "1": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 7,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            8,
+            10
+          ],
+          "occupied_match_indices": []
+        },
+        "2": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 2,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            5,
+            8
+          ],
+          "occupied_match_indices": []
+        },
+        "3": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 0,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [],
+          "occupied_match_indices": []
+        },
+        "4": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 0,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [],
+          "occupied_match_indices": []
+        },
+        "5": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 0,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [],
+          "occupied_match_indices": []
+        },
+        "6": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 0,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [],
+          "occupied_match_indices": []
+        }
+      },
+      "rank": 34
+    },
+    {
+      "spot_id": "taego_spot_027",
+      "cluster_id": 26,
+      "spot_name": "Spot (5387m, 4543m)",
+      "x_meter": 5387.2,
+      "y_meter": 4543.3,
+      "x_norm": 0.6734,
+      "y_norm": 0.56791,
+      "x_telemetry": 538722.5,
+      "y_telemetry": 454328.5,
+      "sample_count": 2,
+      "avg_holding_time_sec": 161.0,
+      "occupied_matches": 0,
+      "similar_zone_matches": 18,
+      "occupancy_prob_pct": 0.0,
+      "rank_sample_count": 1,
+      "top4_count": 1,
+      "top4_survival_pct": 100.0,
+      "spot_tier": "neutral",
+      "phase_stats": {
+        "1": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 7,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            8,
+            10
+          ],
+          "occupied_match_indices": []
+        },
+        "2": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 6,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            0,
+            1,
+            4,
+            6,
+            7,
+            10
+          ],
+          "occupied_match_indices": []
+        },
+        "3": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 3,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            1,
+            4,
+            10
+          ],
+          "occupied_match_indices": []
+        },
+        "4": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 2,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            1,
+            4
+          ],
+          "occupied_match_indices": []
+        },
+        "5": {
+          "occupied_matches": 1,
+          "similar_zone_matches": 2,
+          "occupancy_prob_pct": 50.0,
+          "eligible_match_indices": [
+            1,
+            4
+          ],
+          "occupied_match_indices": [
+            4
+          ]
+        },
+        "6": {
+          "occupied_matches": 1,
+          "similar_zone_matches": 1,
+          "occupancy_prob_pct": 100.0,
+          "eligible_match_indices": [
+            4
+          ],
+          "occupied_match_indices": [
+            4
+          ]
+        }
+      },
+      "rank": 35
+    },
+    {
+      "spot_id": "taego_spot_029",
+      "cluster_id": 28,
+      "spot_name": "Spot (1432m, 4727m)",
+      "x_meter": 1427.9,
+      "y_meter": 4727.5,
+      "x_norm": 0.17849,
+      "y_norm": 0.59094,
+      "x_telemetry": 142792.5,
+      "y_telemetry": 472751.5,
+      "sample_count": 2,
+      "avg_holding_time_sec": 63.5,
+      "occupied_matches": 0,
+      "similar_zone_matches": 10,
+      "occupancy_prob_pct": 0.0,
+      "rank_sample_count": 1,
+      "top4_count": 0,
+      "top4_survival_pct": 0.0,
+      "spot_tier": "neutral",
+      "phase_stats": {
+        "1": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 7,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            8,
+            10
+          ],
+          "occupied_match_indices": []
+        },
+        "2": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 1,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            5
+          ],
+          "occupied_match_indices": []
+        },
+        "3": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 1,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            5
+          ],
+          "occupied_match_indices": []
+        },
+        "4": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 1,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            5
+          ],
+          "occupied_match_indices": []
+        },
+        "5": {
+          "occupied_matches": 1,
+          "similar_zone_matches": 1,
+          "occupancy_prob_pct": 100.0,
+          "eligible_match_indices": [
+            5
+          ],
+          "occupied_match_indices": [
+            5
+          ]
+        },
+        "6": {
+          "occupied_matches": 1,
+          "similar_zone_matches": 1,
+          "occupancy_prob_pct": 100.0,
+          "eligible_match_indices": [
+            5
+          ],
+          "occupied_match_indices": [
+            5
+          ]
+        }
+      },
+      "rank": 36
+    },
+    {
+      "spot_id": "taego_spot_033",
+      "cluster_id": 32,
+      "spot_name": "Spot (6426m, 5078m)",
+      "x_meter": 6427.3,
+      "y_meter": 5077.2,
+      "x_norm": 0.80341,
+      "y_norm": 0.63466,
+      "x_telemetry": 642725.5,
+      "y_telemetry": 507724.5,
+      "sample_count": 2,
+      "avg_holding_time_sec": 280.5,
+      "occupied_matches": 0,
+      "similar_zone_matches": 13,
+      "occupancy_prob_pct": 0.0,
+      "rank_sample_count": 1,
+      "top4_count": 1,
+      "top4_survival_pct": 100.0,
+      "spot_tier": "neutral",
+      "phase_stats": {
+        "1": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 7,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            8,
+            10
+          ],
+          "occupied_match_indices": []
+        },
+        "2": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 3,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            1,
+            4,
+            6
+          ],
+          "occupied_match_indices": []
+        },
+        "3": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 2,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            1,
+            6
+          ],
+          "occupied_match_indices": []
+        },
+        "4": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 1,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            6
+          ],
+          "occupied_match_indices": []
+        },
+        "5": {
+          "occupied_matches": 1,
+          "similar_zone_matches": 1,
+          "occupancy_prob_pct": 100.0,
+          "eligible_match_indices": [
+            6
+          ],
+          "occupied_match_indices": [
+            6
+          ]
+        },
+        "6": {
+          "occupied_matches": 1,
+          "similar_zone_matches": 1,
+          "occupancy_prob_pct": 100.0,
+          "eligible_match_indices": [
+            6
+          ],
+          "occupied_match_indices": [
+            6
+          ]
+        }
+      },
+      "rank": 37
+    },
+    {
+      "spot_id": "taego_spot_034",
+      "cluster_id": 33,
+      "spot_name": "Spot (5809m, 5880m)",
+      "x_meter": 5810.2,
+      "y_meter": 5880.4,
+      "x_norm": 0.72627,
+      "y_norm": 0.73505,
+      "x_telemetry": 581015.5,
+      "y_telemetry": 588039.0,
+      "sample_count": 2,
+      "avg_holding_time_sec": 99.5,
+      "occupied_matches": 0,
+      "similar_zone_matches": 11,
+      "occupancy_prob_pct": 0.0,
+      "rank_sample_count": 2,
+      "top4_count": 0,
+      "top4_survival_pct": 0.0,
+      "spot_tier": "hot_zone",
+      "phase_stats": {
+        "1": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 7,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            8,
+            10
+          ],
+          "occupied_match_indices": []
+        },
+        "2": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 4,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            0,
+            1,
+            4,
+            6
+          ],
+          "occupied_match_indices": []
+        },
+        "3": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 0,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [],
+          "occupied_match_indices": []
+        },
+        "4": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 0,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [],
+          "occupied_match_indices": []
+        },
+        "5": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 0,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [],
+          "occupied_match_indices": []
+        },
+        "6": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 0,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [],
+          "occupied_match_indices": []
+        }
+      },
+      "rank": 38
+    },
+    {
+      "spot_id": "taego_spot_035",
+      "cluster_id": 34,
+      "spot_name": "Spot (4940m, 5106m)",
+      "x_meter": 4936.1,
+      "y_meter": 5110.9,
+      "x_norm": 0.61701,
+      "y_norm": 0.63887,
+      "x_telemetry": 493612.0,
+      "y_telemetry": 511092.5,
+      "sample_count": 2,
+      "avg_holding_time_sec": 70.0,
+      "occupied_matches": 0,
+      "similar_zone_matches": 21,
+      "occupancy_prob_pct": 0.0,
+      "rank_sample_count": 2,
+      "top4_count": 0,
+      "top4_survival_pct": 0.0,
+      "spot_tier": "hot_zone",
+      "phase_stats": {
+        "1": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 7,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            8,
+            10
+          ],
+          "occupied_match_indices": []
+        },
+        "2": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 6,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            0,
+            1,
+            3,
+            4,
+            7,
+            10
+          ],
+          "occupied_match_indices": []
+        },
+        "3": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 5,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            0,
+            1,
+            4,
+            7,
+            10
+          ],
+          "occupied_match_indices": []
+        },
+        "4": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 3,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            4,
+            7,
+            10
+          ],
+          "occupied_match_indices": []
+        },
+        "5": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 1,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            10
+          ],
+          "occupied_match_indices": []
+        },
+        "6": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 0,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [],
+          "occupied_match_indices": []
+        }
+      },
+      "rank": 39
+    },
+    {
+      "spot_id": "taego_spot_036",
+      "cluster_id": 35,
+      "spot_name": "Spot (5519m, 6509m)",
+      "x_meter": 5517.7,
+      "y_meter": 6509.8,
+      "x_norm": 0.68971,
+      "y_norm": 0.81373,
+      "x_telemetry": 551769.0,
+      "y_telemetry": 650982.0,
+      "sample_count": 2,
+      "avg_holding_time_sec": 249.0,
+      "occupied_matches": 0,
+      "similar_zone_matches": 9,
+      "occupancy_prob_pct": 0.0,
+      "rank_sample_count": 2,
+      "top4_count": 0,
+      "top4_survival_pct": 0.0,
+      "spot_tier": "hot_zone",
+      "phase_stats": {
+        "1": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 7,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            8,
+            10
+          ],
+          "occupied_match_indices": []
+        },
+        "2": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 2,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            0,
+            1
+          ],
+          "occupied_match_indices": []
+        },
+        "3": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 0,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [],
+          "occupied_match_indices": []
+        },
+        "4": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 0,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [],
+          "occupied_match_indices": []
+        },
+        "5": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 0,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [],
+          "occupied_match_indices": []
+        },
+        "6": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 0,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [],
+          "occupied_match_indices": []
+        }
+      },
+      "rank": 40
+    },
+    {
+      "spot_id": "taego_spot_037",
+      "cluster_id": 36,
+      "spot_name": "Spot (4753m, 6058m)",
+      "x_meter": 4748.0,
+      "y_meter": 6065.1,
+      "x_norm": 0.5935,
+      "y_norm": 0.75814,
+      "x_telemetry": 474802.5,
+      "y_telemetry": 606511.5,
+      "sample_count": 2,
+      "avg_holding_time_sec": 40.0,
+      "occupied_matches": 0,
+      "similar_zone_matches": 15,
+      "occupancy_prob_pct": 0.0,
+      "rank_sample_count": 2,
+      "top4_count": 0,
+      "top4_survival_pct": 0.0,
+      "spot_tier": "hot_zone",
+      "phase_stats": {
+        "1": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 7,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            8,
+            10
+          ],
+          "occupied_match_indices": []
+        },
+        "2": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 6,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            0,
+            1,
+            3,
+            4,
+            7,
+            10
+          ],
+          "occupied_match_indices": []
+        },
+        "3": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 2,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            0,
+            7
+          ],
+          "occupied_match_indices": []
+        },
+        "4": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 0,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [],
+          "occupied_match_indices": []
+        },
+        "5": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 0,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [],
+          "occupied_match_indices": []
+        },
+        "6": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 0,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [],
+          "occupied_match_indices": []
+        }
+      },
+      "rank": 41
+    },
+    {
+      "spot_id": "taego_spot_038",
+      "cluster_id": 37,
+      "spot_name": "Spot (4914m, 6067m)",
+      "x_meter": 4913.1,
+      "y_meter": 6066.8,
+      "x_norm": 0.61414,
+      "y_norm": 0.75834,
+      "x_telemetry": 491314.0,
+      "y_telemetry": 606675.5,
+      "sample_count": 2,
+      "avg_holding_time_sec": 79.5,
+      "occupied_matches": 0,
+      "similar_zone_matches": 15,
+      "occupancy_prob_pct": 0.0,
+      "rank_sample_count": 2,
+      "top4_count": 0,
+      "top4_survival_pct": 0.0,
+      "spot_tier": "hot_zone",
+      "phase_stats": {
+        "1": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 7,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            8,
+            10
+          ],
+          "occupied_match_indices": []
+        },
+        "2": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 6,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            0,
+            1,
+            3,
+            4,
+            7,
+            10
+          ],
+          "occupied_match_indices": []
+        },
+        "3": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 2,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            0,
+            7
+          ],
+          "occupied_match_indices": []
+        },
+        "4": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 0,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [],
+          "occupied_match_indices": []
+        },
+        "5": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 0,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [],
+          "occupied_match_indices": []
+        },
+        "6": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 0,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [],
+          "occupied_match_indices": []
+        }
+      },
+      "rank": 42
+    }
+  ],
+  "match_zones": [
+    {
+      "match_index": 0,
+      "match_id": "1046f305-2b31-44d4-b4e4-ad8fe6a2fac4",
+      "phases": {
+        "1": {
+          "cx_meter": 4073.0,
+          "cy_meter": 4201.4,
+          "cx_norm": 0.50912,
+          "cy_norm": 0.52517,
+          "radius_meter": 5530.6
+        },
+        "2": {
+          "cx_meter": 4007.3,
+          "cy_meter": 5707.8,
+          "cx_norm": 0.50091,
+          "cy_norm": 0.71347,
+          "radius_meter": 1791.1
+        },
+        "3": {
+          "cx_meter": 4128.8,
+          "cy_meter": 5710.1,
+          "cx_norm": 0.5161,
+          "cy_norm": 0.71376,
+          "radius_meter": 993.3
+        },
+        "4": {
+          "cx_meter": 4100.5,
+          "cy_meter": 5941.9,
+          "cx_norm": 0.51256,
+          "cy_norm": 0.74274,
+          "radius_meter": 596.0
+        },
+        "5": {
+          "cx_meter": 4008.9,
+          "cy_meter": 5786.1,
+          "cx_norm": 0.50112,
+          "cy_norm": 0.72326,
+          "radius_meter": 380.1
+        },
+        "6": {
+          "cx_meter": 4066.8,
+          "cy_meter": 5845.4,
+          "cx_norm": 0.50835,
+          "cy_norm": 0.73068,
+          "radius_meter": 127.4
+        }
+      }
+    },
+    {
+      "match_index": 1,
+      "match_id": "cdd7eac6-25d3-4bb3-a687-1f47cc7271ff",
+      "phases": {
+        "1": {
+          "cx_meter": 4166.4,
+          "cy_meter": 4161.6,
+          "cx_norm": 0.5208,
+          "cy_norm": 0.5202,
+          "radius_meter": 5531.0
+        },
+        "2": {
+          "cx_meter": 5313.7,
+          "cy_meter": 5105.9,
+          "cx_norm": 0.66422,
+          "cy_norm": 0.63823,
+          "radius_meter": 1792.0
+        },
+        "3": {
+          "cx_meter": 5670.7,
+          "cy_meter": 4678.4,
+          "cx_norm": 0.70884,
+          "cy_norm": 0.5848,
+          "radius_meter": 993.6
+        },
+        "4": {
+          "cx_meter": 5497.1,
+          "cy_meter": 4681.7,
+          "cx_norm": 0.68714,
+          "cy_norm": 0.58522,
+          "radius_meter": 596.3
+        },
+        "5": {
+          "cx_meter": 5533.1,
+          "cy_meter": 4519.7,
+          "cx_norm": 0.69163,
+          "cy_norm": 0.56496,
+          "radius_meter": 380.3
+        },
+        "6": {
+          "cx_meter": 5530.0,
+          "cy_meter": 4409.8,
+          "cx_norm": 0.69125,
+          "cy_norm": 0.55122,
+          "radius_meter": 160.7
+        }
+      }
+    },
+    {
+      "match_index": 2,
+      "match_id": "179a642b-9118-4477-a6d2-09b24db4373e",
+      "phases": {
+        "1": {
+          "cx_meter": 4103.1,
+          "cy_meter": 3895.1,
+          "cx_norm": 0.51288,
+          "cy_norm": 0.48689,
+          "radius_meter": 5530.8
+        },
+        "2": {
+          "cx_meter": 4404.2,
+          "cy_meter": 1502.8,
+          "cx_norm": 0.55052,
+          "cy_norm": 0.18785,
+          "radius_meter": 1791.7
+        },
+        "3": {
+          "cx_meter": 4505.0,
+          "cy_meter": 1070.6,
+          "cx_norm": 0.56312,
+          "cy_norm": 0.13382,
+          "radius_meter": 993.6
+        },
+        "4": {
+          "cx_meter": 4638.2,
+          "cy_meter": 1338.4,
+          "cx_norm": 0.57977,
+          "cy_norm": 0.1673,
+          "radius_meter": 596.2
+        },
+        "5": {
+          "cx_meter": 4566.0,
+          "cy_meter": 1258.4,
+          "cx_norm": 0.57075,
+          "cy_norm": 0.1573,
+          "radius_meter": 380.3
+        },
+        "6": {
+          "cx_meter": 4596.0,
+          "cy_meter": 1332.3,
+          "cx_norm": 0.57451,
+          "cy_norm": 0.16653,
+          "radius_meter": 247.0
+        }
+      }
+    },
+    {
+      "match_index": 3,
+      "match_id": "41ddf08a-276d-44de-90bd-1e5dd8480837",
+      "phases": {
+        "1": {
+          "cx_meter": 4031.1,
+          "cy_meter": 4227.7,
+          "cx_norm": 0.50389,
+          "cy_norm": 0.52846,
+          "radius_meter": 5531.3
+        },
+        "2": {
+          "cx_meter": 3467.8,
+          "cy_meter": 5975.7,
+          "cx_norm": 0.43347,
+          "cy_norm": 0.74696,
+          "radius_meter": 1791.8
+        },
+        "3": {
+          "cx_meter": 3705.6,
+          "cy_meter": 5401.6,
+          "cx_norm": 0.4632,
+          "cy_norm": 0.67519,
+          "radius_meter": 993.6
+        },
+        "4": {
+          "cx_meter": 3494.2,
+          "cy_meter": 5326.0,
+          "cx_norm": 0.43678,
+          "cy_norm": 0.66576,
+          "radius_meter": 596.2
+        },
+        "5": {
+          "cx_meter": 3418.5,
+          "cy_meter": 5238.9,
+          "cx_norm": 0.42732,
+          "cy_norm": 0.65487,
+          "radius_meter": 380.3
+        },
+        "6": {
+          "cx_meter": 3434.7,
+          "cy_meter": 5255.5,
+          "cx_norm": 0.42933,
+          "cy_norm": 0.65694,
+          "radius_meter": 118.1
+        }
+      }
+    },
+    {
+      "match_index": 4,
+      "match_id": "a19055ac-9f37-4733-93ef-164f219393c8",
+      "phases": {
+        "1": {
+          "cx_meter": 4233.8,
+          "cy_meter": 4136.5,
+          "cx_norm": 0.52923,
+          "cy_norm": 0.51707,
+          "radius_meter": 5250.6
+        },
+        "2": {
+          "cx_meter": 5171.7,
+          "cy_meter": 4509.2,
+          "cx_norm": 0.64646,
+          "cy_norm": 0.56365,
+          "radius_meter": 1668.2
+        },
+        "3": {
+          "cx_meter": 5242.1,
+          "cy_meter": 4636.0,
+          "cx_norm": 0.65526,
+          "cy_norm": 0.5795,
+          "radius_meter": 933.0
+        },
+        "4": {
+          "cx_meter": 5212.6,
+          "cy_meter": 4651.0,
+          "cx_norm": 0.65157,
+          "cy_norm": 0.58138,
+          "radius_meter": 559.8
+        },
+        "5": {
+          "cx_meter": 5252.9,
+          "cy_meter": 4527.6,
+          "cx_norm": 0.65662,
+          "cy_norm": 0.56595,
+          "radius_meter": 341.4
+        },
+        "6": {
+          "cx_meter": 5273.9,
+          "cy_meter": 4455.2,
+          "cx_norm": 0.65924,
+          "cy_norm": 0.5569,
+          "radius_meter": 157.5
+        }
+      }
+    },
+    {
+      "match_index": 5,
+      "match_id": "419a04d5-72f2-4276-a338-4f7b1c14be0c",
+      "phases": {
+        "1": {
+          "cx_meter": 3814.9,
+          "cy_meter": 4040.0,
+          "cx_norm": 0.47686,
+          "cy_norm": 0.505,
+          "radius_meter": 5250.8
+        },
+        "2": {
+          "cx_meter": 2168.2,
+          "cy_meter": 4015.7,
+          "cx_norm": 0.27102,
+          "cy_norm": 0.50197,
+          "radius_meter": 1668.3
+        },
+        "3": {
+          "cx_meter": 1847.9,
+          "cy_meter": 4596.9,
+          "cx_norm": 0.23099,
+          "cy_norm": 0.57462,
+          "radius_meter": 933.0
+        },
+        "4": {
+          "cx_meter": 1614.6,
+          "cy_meter": 4772.7,
+          "cx_norm": 0.20182,
+          "cy_norm": 0.59659,
+          "radius_meter": 559.7
+        },
+        "5": {
+          "cx_meter": 1552.3,
+          "cy_meter": 4742.7,
+          "cx_norm": 0.19404,
+          "cy_norm": 0.59284,
+          "radius_meter": 341.4
+        },
+        "6": {
+          "cx_meter": 1532.4,
+          "cy_meter": 4627.8,
+          "cx_norm": 0.19155,
+          "cy_norm": 0.57848,
+          "radius_meter": 182.3
+        }
+      }
+    },
+    {
+      "match_index": 6,
+      "match_id": "9a6638d7-ae3d-4533-878b-eba26ac8e4aa",
+      "phases": {
+        "1": {
+          "cx_meter": 4450.9,
+          "cy_meter": 4251.7,
+          "cx_norm": 0.55636,
+          "cy_norm": 0.53146,
+          "radius_meter": 5251.1
+        },
+        "2": {
+          "cx_meter": 6669.8,
+          "cy_meter": 5244.2,
+          "cx_norm": 0.83373,
+          "cy_norm": 0.65553,
+          "radius_meter": 1668.3
+        },
+        "3": {
+          "cx_meter": 6701.9,
+          "cy_meter": 5177.3,
+          "cx_norm": 0.83774,
+          "cy_norm": 0.64716,
+          "radius_meter": 933.0
+        },
+        "4": {
+          "cx_meter": 6497.7,
+          "cy_meter": 5072.4,
+          "cx_norm": 0.81222,
+          "cy_norm": 0.63405,
+          "radius_meter": 559.8
+        },
+        "5": {
+          "cx_meter": 6484.2,
+          "cy_meter": 5056.3,
+          "cx_norm": 0.81053,
+          "cy_norm": 0.63203,
+          "radius_meter": 341.4
+        },
+        "6": {
+          "cx_meter": 6481.6,
+          "cy_meter": 5072.2,
+          "cx_norm": 0.81019,
+          "cy_norm": 0.63402,
+          "radius_meter": 145.0
+        }
+      }
+    },
+    {
+      "match_index": 7,
+      "match_id": "3dda8aeb-737a-4927-90da-c9ff3b372835",
+      "phases": {
+        "1": {
+          "cx_meter": 4328.3,
+          "cy_meter": 5299.5,
+          "cx_norm": 0.54104,
+          "cy_norm": 0.66244,
+          "radius_meter": 4169.2
+        },
+        "2": {
+          "cx_meter": 4328.3,
+          "cy_meter": 5299.5,
+          "cx_norm": 0.54104,
+          "cy_norm": 0.66244,
+          "radius_meter": 1480.0
+        },
+        "3": {
+          "cx_meter": 4328.3,
+          "cy_meter": 5299.5,
+          "cx_norm": 0.54104,
+          "cy_norm": 0.66244,
+          "radius_meter": 960.0
+        },
+        "4": {
+          "cx_meter": 4328.3,
+          "cy_meter": 5299.5,
+          "cx_norm": 0.54104,
+          "cy_norm": 0.66244,
+          "radius_meter": 624.0
+        },
+        "5": {
+          "cx_meter": 4328.3,
+          "cy_meter": 5299.5,
+          "cx_norm": 0.54104,
+          "cy_norm": 0.66244,
+          "radius_meter": 384.0
+        },
+        "6": {
+          "cx_meter": 4328.3,
+          "cy_meter": 5299.5,
+          "cx_norm": 0.54104,
+          "cy_norm": 0.66244,
+          "radius_meter": 224.0
+        }
+      }
+    },
+    {
+      "match_index": 8,
+      "match_id": "f70ee0a3-01ba-4f5d-804a-a0a72a439f30",
+      "phases": {
+        "1": {
+          "cx_meter": 3863.6,
+          "cy_meter": 3975.2,
+          "cx_norm": 0.48295,
+          "cy_norm": 0.4969,
+          "radius_meter": 5251.0
+        },
+        "2": {
+          "cx_meter": 2730.2,
+          "cy_meter": 3211.2,
+          "cx_norm": 0.34128,
+          "cy_norm": 0.40141,
+          "radius_meter": 1668.4
+        },
+        "3": {
+          "cx_meter": 3029.3,
+          "cy_meter": 2915.1,
+          "cx_norm": 0.37866,
+          "cy_norm": 0.36439,
+          "radius_meter": 933.0
+        },
+        "4": {
+          "cx_meter": 2954.9,
+          "cy_meter": 3062.8,
+          "cx_norm": 0.36936,
+          "cy_norm": 0.38285,
+          "radius_meter": 559.8
+        },
+        "5": {
+          "cx_meter": 2929.4,
+          "cy_meter": 3003.7,
+          "cx_norm": 0.36617,
+          "cy_norm": 0.37546,
+          "radius_meter": 341.4
+        },
+        "6": {
+          "cx_meter": 2987.6,
+          "cy_meter": 2983.2,
+          "cx_norm": 0.37345,
+          "cy_norm": 0.3729,
+          "radius_meter": 207.5
+        }
+      }
+    },
+    {
+      "match_index": 9,
+      "match_id": "9d23ec86-fc99-4df9-a4a3-bd5d2018794a",
+      "phases": {
+        "1": {
+          "cx_meter": 3906.1,
+          "cy_meter": 3690.1,
+          "cx_norm": 0.48826,
+          "cy_norm": 0.46127,
+          "radius_meter": 5251.2
+        },
+        "2": {
+          "cx_meter": 3098.5,
+          "cy_meter": 1272.7,
+          "cx_norm": 0.38731,
+          "cy_norm": 0.15909,
+          "radius_meter": 1668.3
+        },
+        "3": {
+          "cx_meter": 3714.7,
+          "cy_meter": 950.2,
+          "cx_norm": 0.46434,
+          "cy_norm": 0.11877,
+          "radius_meter": 933.0
+        },
+        "4": {
+          "cx_meter": 3896.9,
+          "cy_meter": 959.1,
+          "cx_norm": 0.48711,
+          "cy_norm": 0.11988,
+          "radius_meter": 559.8
+        },
+        "5": {
+          "cx_meter": 3749.5,
+          "cy_meter": 945.8,
+          "cx_norm": 0.46868,
+          "cy_norm": 0.11822,
+          "radius_meter": 341.4
+        },
+        "6": {
+          "cx_meter": 3872.3,
+          "cy_meter": 939.2,
+          "cx_norm": 0.48404,
+          "cy_norm": 0.1174,
+          "radius_meter": 167.9
+        }
+      }
+    },
+    {
+      "match_index": 10,
+      "match_id": "276014e9-60cf-46b9-a0fa-951fdc83a499",
+      "phases": {
+        "1": {
+          "cx_meter": 4150.6,
+          "cy_meter": 4147.8,
+          "cx_norm": 0.51883,
+          "cy_norm": 0.51848,
+          "radius_meter": 5251.0
+        },
+        "2": {
+          "cx_meter": 4540.8,
+          "cy_meter": 4597.0,
+          "cx_norm": 0.5676,
+          "cy_norm": 0.57462,
+          "radius_meter": 1668.3
+        },
+        "3": {
+          "cx_meter": 4507.1,
+          "cy_meter": 4807.3,
+          "cx_norm": 0.56339,
+          "cy_norm": 0.60091,
+          "radius_meter": 933.0
+        },
+        "4": {
+          "cx_meter": 4614.4,
+          "cy_meter": 5046.0,
+          "cx_norm": 0.5768,
+          "cy_norm": 0.63075,
+          "radius_meter": 559.7
+        },
+        "5": {
+          "cx_meter": 4734.3,
+          "cy_meter": 5125.2,
+          "cx_norm": 0.59179,
+          "cy_norm": 0.64065,
+          "radius_meter": 341.4
+        },
+        "6": {
+          "cx_meter": 4746.6,
+          "cy_meter": 5083.3,
+          "cx_norm": 0.59333,
+          "cy_norm": 0.63541,
+          "radius_meter": 160.7
+        }
+      }
+    }
+  ],
+  "cache_profile": "pro"
+}

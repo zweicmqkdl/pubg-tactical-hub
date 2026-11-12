@@ -1,0 +1,1176 @@
+{
+  "map_id": "deston",
+  "map_name_ko": "데스턴",
+  "map_name_en": "Deston",
+  "data_source": "real_pubg_api",
+  "size_km": 8.0,
+  "size_meter": 8000.0,
+  "algorithm_params": {
+    "HOLDING_TIME_SEC": 30,
+    "CLUSTER_RADIUS_METER": 20,
+    "ZONE_SIMILARITY_RADIUS": 300,
+    "formula": "점유 확률(%) = (해당 포인트에 스쿼드가 고착한 매치 수 / 유사 자기장 전체 매치 수) * 100"
+  },
+  "default_zone": {
+    "phase": 3,
+    "center_x_norm": 0.5,
+    "center_y_norm": 0.5,
+    "center_x_meter": 4000.0,
+    "center_y_meter": 4000.0
+  },
+  "total_matches": 3,
+  "total_spots": 13,
+  "spots": [
+    {
+      "spot_id": "deston_spot_008",
+      "cluster_id": 7,
+      "spot_name": "Spot (5662m, 3637m)",
+      "x_meter": 5662.3,
+      "y_meter": 3637.8,
+      "x_norm": 0.70779,
+      "y_norm": 0.45473,
+      "x_telemetry": 566231.0,
+      "y_telemetry": 363784.3,
+      "sample_count": 3,
+      "avg_holding_time_sec": 99.3,
+      "occupied_matches": 3,
+      "similar_zone_matches": 6,
+      "occupancy_prob_pct": 50.0,
+      "rank_sample_count": 1,
+      "top4_count": 0,
+      "top4_survival_pct": 0.0,
+      "spot_tier": "neutral",
+      "phase_stats": {
+        "1": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 3,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            0,
+            1,
+            2
+          ],
+          "occupied_match_indices": []
+        },
+        "2": {
+          "occupied_matches": 1,
+          "similar_zone_matches": 1,
+          "occupancy_prob_pct": 100.0,
+          "eligible_match_indices": [
+            1
+          ],
+          "occupied_match_indices": [
+            1
+          ]
+        },
+        "3": {
+          "occupied_matches": 1,
+          "similar_zone_matches": 1,
+          "occupancy_prob_pct": 100.0,
+          "eligible_match_indices": [
+            1
+          ],
+          "occupied_match_indices": [
+            1
+          ]
+        },
+        "4": {
+          "occupied_matches": 1,
+          "similar_zone_matches": 1,
+          "occupancy_prob_pct": 100.0,
+          "eligible_match_indices": [
+            1
+          ],
+          "occupied_match_indices": [
+            1
+          ]
+        },
+        "5": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 0,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [],
+          "occupied_match_indices": []
+        },
+        "6": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 0,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [],
+          "occupied_match_indices": []
+        }
+      },
+      "rank": 1
+    },
+    {
+      "spot_id": "deston_spot_002",
+      "cluster_id": 1,
+      "spot_name": "Spot (3460m, 2734m)",
+      "x_meter": 3460.0,
+      "y_meter": 2734.8,
+      "x_norm": 0.4325,
+      "y_norm": 0.34185,
+      "x_telemetry": 346003.5,
+      "y_telemetry": 273476.5,
+      "sample_count": 2,
+      "avg_holding_time_sec": 39.5,
+      "occupied_matches": 2,
+      "similar_zone_matches": 5,
+      "occupancy_prob_pct": 40.0,
+      "rank_sample_count": 1,
+      "top4_count": 0,
+      "top4_survival_pct": 0.0,
+      "spot_tier": "neutral",
+      "phase_stats": {
+        "1": {
+          "occupied_matches": 1,
+          "similar_zone_matches": 3,
+          "occupancy_prob_pct": 33.3,
+          "eligible_match_indices": [
+            0,
+            1,
+            2
+          ],
+          "occupied_match_indices": [
+            0
+          ]
+        },
+        "2": {
+          "occupied_matches": 1,
+          "similar_zone_matches": 2,
+          "occupancy_prob_pct": 50.0,
+          "eligible_match_indices": [
+            0,
+            2
+          ],
+          "occupied_match_indices": [
+            0
+          ]
+        },
+        "3": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 0,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [],
+          "occupied_match_indices": []
+        },
+        "4": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 0,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [],
+          "occupied_match_indices": []
+        },
+        "5": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 0,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [],
+          "occupied_match_indices": []
+        },
+        "6": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 0,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [],
+          "occupied_match_indices": []
+        }
+      },
+      "rank": 2
+    },
+    {
+      "spot_id": "deston_spot_007",
+      "cluster_id": 6,
+      "spot_name": "Spot (3893m, 4663m)",
+      "x_meter": 3891.5,
+      "y_meter": 4659.8,
+      "x_norm": 0.48643,
+      "y_norm": 0.58247,
+      "x_telemetry": 389146.0,
+      "y_telemetry": 465978.5,
+      "sample_count": 2,
+      "avg_holding_time_sec": 98.0,
+      "occupied_matches": 2,
+      "similar_zone_matches": 5,
+      "occupancy_prob_pct": 40.0,
+      "rank_sample_count": 2,
+      "top4_count": 1,
+      "top4_survival_pct": 50.0,
+      "spot_tier": "safe_spot",
+      "phase_stats": {
+        "1": {
+          "occupied_matches": 2,
+          "similar_zone_matches": 3,
+          "occupancy_prob_pct": 66.7,
+          "eligible_match_indices": [
+            0,
+            1,
+            2
+          ],
+          "occupied_match_indices": [
+            1,
+            2
+          ]
+        },
+        "2": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 2,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            1,
+            2
+          ],
+          "occupied_match_indices": []
+        },
+        "3": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 0,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [],
+          "occupied_match_indices": []
+        },
+        "4": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 0,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [],
+          "occupied_match_indices": []
+        },
+        "5": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 0,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [],
+          "occupied_match_indices": []
+        },
+        "6": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 0,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [],
+          "occupied_match_indices": []
+        }
+      },
+      "rank": 3
+    },
+    {
+      "spot_id": "deston_spot_012",
+      "cluster_id": 11,
+      "spot_name": "Spot (3743m, 3639m)",
+      "x_meter": 3745.9,
+      "y_meter": 3643.3,
+      "x_norm": 0.46824,
+      "y_norm": 0.45541,
+      "x_telemetry": 374592.7,
+      "y_telemetry": 364330.3,
+      "sample_count": 3,
+      "avg_holding_time_sec": 83.3,
+      "occupied_matches": 2,
+      "similar_zone_matches": 7,
+      "occupancy_prob_pct": 28.6,
+      "rank_sample_count": 1,
+      "top4_count": 0,
+      "top4_survival_pct": 0.0,
+      "spot_tier": "neutral",
+      "phase_stats": {
+        "1": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 3,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            0,
+            1,
+            2
+          ],
+          "occupied_match_indices": []
+        },
+        "2": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 2,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            1,
+            2
+          ],
+          "occupied_match_indices": []
+        },
+        "3": {
+          "occupied_matches": 1,
+          "similar_zone_matches": 1,
+          "occupancy_prob_pct": 100.0,
+          "eligible_match_indices": [
+            2
+          ],
+          "occupied_match_indices": [
+            2
+          ]
+        },
+        "4": {
+          "occupied_matches": 1,
+          "similar_zone_matches": 1,
+          "occupancy_prob_pct": 100.0,
+          "eligible_match_indices": [
+            2
+          ],
+          "occupied_match_indices": [
+            2
+          ]
+        },
+        "5": {
+          "occupied_matches": 1,
+          "similar_zone_matches": 1,
+          "occupancy_prob_pct": 100.0,
+          "eligible_match_indices": [
+            2
+          ],
+          "occupied_match_indices": [
+            2
+          ]
+        },
+        "6": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 0,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [],
+          "occupied_match_indices": []
+        }
+      },
+      "rank": 4
+    },
+    {
+      "spot_id": "deston_spot_005",
+      "cluster_id": 4,
+      "spot_name": "Spot (4163m, 5638m)",
+      "x_meter": 4163.3,
+      "y_meter": 5639.7,
+      "x_norm": 0.52041,
+      "y_norm": 0.70496,
+      "x_telemetry": 416331.0,
+      "y_telemetry": 563965.5,
+      "sample_count": 2,
+      "avg_holding_time_sec": 45.5,
+      "occupied_matches": 1,
+      "similar_zone_matches": 4,
+      "occupancy_prob_pct": 25.0,
+      "rank_sample_count": 2,
+      "top4_count": 1,
+      "top4_survival_pct": 50.0,
+      "spot_tier": "safe_spot",
+      "phase_stats": {
+        "1": {
+          "occupied_matches": 1,
+          "similar_zone_matches": 3,
+          "occupancy_prob_pct": 33.3,
+          "eligible_match_indices": [
+            0,
+            1,
+            2
+          ],
+          "occupied_match_indices": [
+            1
+          ]
+        },
+        "2": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 1,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            2
+          ],
+          "occupied_match_indices": []
+        },
+        "3": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 0,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [],
+          "occupied_match_indices": []
+        },
+        "4": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 0,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [],
+          "occupied_match_indices": []
+        },
+        "5": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 0,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [],
+          "occupied_match_indices": []
+        },
+        "6": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 0,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [],
+          "occupied_match_indices": []
+        }
+      },
+      "rank": 5
+    },
+    {
+      "spot_id": "deston_spot_006",
+      "cluster_id": 5,
+      "spot_name": "Spot (3725m, 5648m)",
+      "x_meter": 3723.4,
+      "y_meter": 5645.2,
+      "x_norm": 0.46542,
+      "y_norm": 0.70564,
+      "x_telemetry": 372338.5,
+      "y_telemetry": 564515.5,
+      "sample_count": 2,
+      "avg_holding_time_sec": 179.5,
+      "occupied_matches": 1,
+      "similar_zone_matches": 4,
+      "occupancy_prob_pct": 25.0,
+      "rank_sample_count": 2,
+      "top4_count": 0,
+      "top4_survival_pct": 0.0,
+      "spot_tier": "hot_zone",
+      "phase_stats": {
+        "1": {
+          "occupied_matches": 1,
+          "similar_zone_matches": 3,
+          "occupancy_prob_pct": 33.3,
+          "eligible_match_indices": [
+            0,
+            1,
+            2
+          ],
+          "occupied_match_indices": [
+            1
+          ]
+        },
+        "2": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 1,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            2
+          ],
+          "occupied_match_indices": []
+        },
+        "3": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 0,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [],
+          "occupied_match_indices": []
+        },
+        "4": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 0,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [],
+          "occupied_match_indices": []
+        },
+        "5": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 0,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [],
+          "occupied_match_indices": []
+        },
+        "6": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 0,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [],
+          "occupied_match_indices": []
+        }
+      },
+      "rank": 6
+    },
+    {
+      "spot_id": "deston_spot_011",
+      "cluster_id": 10,
+      "spot_name": "Spot (2852m, 591m)",
+      "x_meter": 2851.6,
+      "y_meter": 593.6,
+      "x_norm": 0.35645,
+      "y_norm": 0.0742,
+      "x_telemetry": 285160.5,
+      "y_telemetry": 59359.0,
+      "sample_count": 2,
+      "avg_holding_time_sec": 35.0,
+      "occupied_matches": 1,
+      "similar_zone_matches": 4,
+      "occupancy_prob_pct": 25.0,
+      "rank_sample_count": 2,
+      "top4_count": 0,
+      "top4_survival_pct": 0.0,
+      "spot_tier": "hot_zone",
+      "phase_stats": {
+        "1": {
+          "occupied_matches": 1,
+          "similar_zone_matches": 3,
+          "occupancy_prob_pct": 33.3,
+          "eligible_match_indices": [
+            0,
+            1,
+            2
+          ],
+          "occupied_match_indices": [
+            2
+          ]
+        },
+        "2": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 1,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            0
+          ],
+          "occupied_match_indices": []
+        },
+        "3": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 0,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [],
+          "occupied_match_indices": []
+        },
+        "4": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 0,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [],
+          "occupied_match_indices": []
+        },
+        "5": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 0,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [],
+          "occupied_match_indices": []
+        },
+        "6": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 0,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [],
+          "occupied_match_indices": []
+        }
+      },
+      "rank": 7
+    },
+    {
+      "spot_id": "deston_spot_001",
+      "cluster_id": 0,
+      "spot_name": "Spot (3105m, 3862m)",
+      "x_meter": 3105.7,
+      "y_meter": 3862.3,
+      "x_norm": 0.38821,
+      "y_norm": 0.48279,
+      "x_telemetry": 310570.0,
+      "y_telemetry": 386232.0,
+      "sample_count": 4,
+      "avg_holding_time_sec": 162.8,
+      "occupied_matches": 1,
+      "similar_zone_matches": 5,
+      "occupancy_prob_pct": 20.0,
+      "rank_sample_count": 1,
+      "top4_count": 0,
+      "top4_survival_pct": 0.0,
+      "spot_tier": "neutral",
+      "phase_stats": {
+        "1": {
+          "occupied_matches": 1,
+          "similar_zone_matches": 3,
+          "occupancy_prob_pct": 33.3,
+          "eligible_match_indices": [
+            0,
+            1,
+            2
+          ],
+          "occupied_match_indices": [
+            0
+          ]
+        },
+        "2": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 1,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            2
+          ],
+          "occupied_match_indices": []
+        },
+        "3": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 1,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            2
+          ],
+          "occupied_match_indices": []
+        },
+        "4": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 0,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [],
+          "occupied_match_indices": []
+        },
+        "5": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 0,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [],
+          "occupied_match_indices": []
+        },
+        "6": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 0,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [],
+          "occupied_match_indices": []
+        }
+      },
+      "rank": 8
+    },
+    {
+      "spot_id": "deston_spot_003",
+      "cluster_id": 2,
+      "spot_name": "Spot (3693m, 4174m)",
+      "x_meter": 3693.0,
+      "y_meter": 4174.1,
+      "x_norm": 0.46163,
+      "y_norm": 0.52176,
+      "x_telemetry": 369301.5,
+      "y_telemetry": 417406.0,
+      "sample_count": 2,
+      "avg_holding_time_sec": 108.5,
+      "occupied_matches": 1,
+      "similar_zone_matches": 6,
+      "occupancy_prob_pct": 16.7,
+      "rank_sample_count": 1,
+      "top4_count": 0,
+      "top4_survival_pct": 0.0,
+      "spot_tier": "neutral",
+      "phase_stats": {
+        "1": {
+          "occupied_matches": 1,
+          "similar_zone_matches": 3,
+          "occupancy_prob_pct": 33.3,
+          "eligible_match_indices": [
+            0,
+            1,
+            2
+          ],
+          "occupied_match_indices": [
+            0
+          ]
+        },
+        "2": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 2,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            1,
+            2
+          ],
+          "occupied_match_indices": []
+        },
+        "3": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 1,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            2
+          ],
+          "occupied_match_indices": []
+        },
+        "4": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 0,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [],
+          "occupied_match_indices": []
+        },
+        "5": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 0,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [],
+          "occupied_match_indices": []
+        },
+        "6": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 0,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [],
+          "occupied_match_indices": []
+        }
+      },
+      "rank": 9
+    },
+    {
+      "spot_id": "deston_spot_010",
+      "cluster_id": 9,
+      "spot_name": "Spot (5605m, 4231m)",
+      "x_meter": 5606.1,
+      "y_meter": 4231.5,
+      "x_norm": 0.70076,
+      "y_norm": 0.52893,
+      "x_telemetry": 560606.7,
+      "y_telemetry": 423148.0,
+      "sample_count": 3,
+      "avg_holding_time_sec": 63.7,
+      "occupied_matches": 1,
+      "similar_zone_matches": 7,
+      "occupancy_prob_pct": 14.3,
+      "rank_sample_count": 2,
+      "top4_count": 1,
+      "top4_survival_pct": 50.0,
+      "spot_tier": "safe_spot",
+      "phase_stats": {
+        "1": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 3,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            0,
+            1,
+            2
+          ],
+          "occupied_match_indices": []
+        },
+        "2": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 2,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            1,
+            2
+          ],
+          "occupied_match_indices": []
+        },
+        "3": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 1,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            1
+          ],
+          "occupied_match_indices": []
+        },
+        "4": {
+          "occupied_matches": 1,
+          "similar_zone_matches": 1,
+          "occupancy_prob_pct": 100.0,
+          "eligible_match_indices": [
+            1
+          ],
+          "occupied_match_indices": [
+            1
+          ]
+        },
+        "5": {
+          "occupied_matches": 1,
+          "similar_zone_matches": 1,
+          "occupancy_prob_pct": 100.0,
+          "eligible_match_indices": [
+            1
+          ],
+          "occupied_match_indices": [
+            1
+          ]
+        },
+        "6": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 0,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [],
+          "occupied_match_indices": []
+        }
+      },
+      "rank": 10
+    },
+    {
+      "spot_id": "deston_spot_013",
+      "cluster_id": 12,
+      "spot_name": "Spot (4276m, 3657m)",
+      "x_meter": 4276.1,
+      "y_meter": 3659.3,
+      "x_norm": 0.53451,
+      "y_norm": 0.45741,
+      "x_telemetry": 427610.5,
+      "y_telemetry": 365930.0,
+      "sample_count": 2,
+      "avg_holding_time_sec": 50.0,
+      "occupied_matches": 1,
+      "similar_zone_matches": 7,
+      "occupancy_prob_pct": 14.3,
+      "rank_sample_count": 1,
+      "top4_count": 1,
+      "top4_survival_pct": 100.0,
+      "spot_tier": "neutral",
+      "phase_stats": {
+        "1": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 3,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            0,
+            1,
+            2
+          ],
+          "occupied_match_indices": []
+        },
+        "2": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 2,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            1,
+            2
+          ],
+          "occupied_match_indices": []
+        },
+        "3": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 1,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            2
+          ],
+          "occupied_match_indices": []
+        },
+        "4": {
+          "occupied_matches": 1,
+          "similar_zone_matches": 1,
+          "occupancy_prob_pct": 100.0,
+          "eligible_match_indices": [
+            2
+          ],
+          "occupied_match_indices": [
+            2
+          ]
+        },
+        "5": {
+          "occupied_matches": 1,
+          "similar_zone_matches": 1,
+          "occupancy_prob_pct": 100.0,
+          "eligible_match_indices": [
+            2
+          ],
+          "occupied_match_indices": [
+            2
+          ]
+        },
+        "6": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 0,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [],
+          "occupied_match_indices": []
+        }
+      },
+      "rank": 11
+    },
+    {
+      "spot_id": "deston_spot_004",
+      "cluster_id": 3,
+      "spot_name": "Spot (2058m, 2200m)",
+      "x_meter": 2056.9,
+      "y_meter": 2199.9,
+      "x_norm": 0.25712,
+      "y_norm": 0.27499,
+      "x_telemetry": 205694.5,
+      "y_telemetry": 219992.5,
+      "sample_count": 2,
+      "avg_holding_time_sec": 99.5,
+      "occupied_matches": 0,
+      "similar_zone_matches": 6,
+      "occupancy_prob_pct": 0.0,
+      "rank_sample_count": 1,
+      "top4_count": 1,
+      "top4_survival_pct": 100.0,
+      "spot_tier": "neutral",
+      "phase_stats": {
+        "1": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 3,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            0,
+            1,
+            2
+          ],
+          "occupied_match_indices": []
+        },
+        "2": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 1,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            0
+          ],
+          "occupied_match_indices": []
+        },
+        "3": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 1,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            0
+          ],
+          "occupied_match_indices": []
+        },
+        "4": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 1,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            0
+          ],
+          "occupied_match_indices": []
+        },
+        "5": {
+          "occupied_matches": 1,
+          "similar_zone_matches": 1,
+          "occupancy_prob_pct": 100.0,
+          "eligible_match_indices": [
+            0
+          ],
+          "occupied_match_indices": [
+            0
+          ]
+        },
+        "6": {
+          "occupied_matches": 1,
+          "similar_zone_matches": 1,
+          "occupancy_prob_pct": 100.0,
+          "eligible_match_indices": [
+            0
+          ],
+          "occupied_match_indices": [
+            0
+          ]
+        }
+      },
+      "rank": 12
+    },
+    {
+      "spot_id": "deston_spot_009",
+      "cluster_id": 8,
+      "spot_name": "Spot (3871m, 5250m)",
+      "x_meter": 3870.7,
+      "y_meter": 5252.2,
+      "x_norm": 0.48384,
+      "y_norm": 0.65652,
+      "x_telemetry": 387071.0,
+      "y_telemetry": 525216.0,
+      "sample_count": 2,
+      "avg_holding_time_sec": 64.0,
+      "occupied_matches": 0,
+      "similar_zone_matches": 4,
+      "occupancy_prob_pct": 0.0,
+      "rank_sample_count": 2,
+      "top4_count": 0,
+      "top4_survival_pct": 0.0,
+      "spot_tier": "hot_zone",
+      "phase_stats": {
+        "1": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 3,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            0,
+            1,
+            2
+          ],
+          "occupied_match_indices": []
+        },
+        "2": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 1,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [
+            2
+          ],
+          "occupied_match_indices": []
+        },
+        "3": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 0,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [],
+          "occupied_match_indices": []
+        },
+        "4": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 0,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [],
+          "occupied_match_indices": []
+        },
+        "5": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 0,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [],
+          "occupied_match_indices": []
+        },
+        "6": {
+          "occupied_matches": 0,
+          "similar_zone_matches": 0,
+          "occupancy_prob_pct": 0.0,
+          "eligible_match_indices": [],
+          "occupied_match_indices": []
+        }
+      },
+      "rank": 13
+    }
+  ],
+  "match_zones": [
+    {
+      "match_index": 0,
+      "match_id": "d43d1ebf-1213-47d6-aa5f-dd289685e830",
+      "phases": {
+        "1": {
+          "cx_meter": 3930.8,
+          "cy_meter": 3921.1,
+          "cx_norm": 0.49135,
+          "cy_norm": 0.49014,
+          "radius_meter": 5531.1
+        },
+        "2": {
+          "cx_meter": 2134.6,
+          "cy_meter": 1964.0,
+          "cx_norm": 0.26683,
+          "cy_norm": 0.2455,
+          "radius_meter": 1791.3
+        },
+        "3": {
+          "cx_meter": 2468.7,
+          "cy_meter": 2133.6,
+          "cx_norm": 0.30858,
+          "cy_norm": 0.2667,
+          "radius_meter": 993.3
+        },
+        "4": {
+          "cx_meter": 2123.1,
+          "cy_meter": 2179.2,
+          "cx_norm": 0.26538,
+          "cy_norm": 0.2724,
+          "radius_meter": 596.0
+        },
+        "5": {
+          "cx_meter": 2017.1,
+          "cy_meter": 2282.2,
+          "cx_norm": 0.25214,
+          "cy_norm": 0.28527,
+          "radius_meter": 380.1
+        },
+        "6": {
+          "cx_meter": 2130.0,
+          "cy_meter": 2198.0,
+          "cx_norm": 0.26625,
+          "cy_norm": 0.27475,
+          "radius_meter": 189.0
+        }
+      }
+    },
+    {
+      "match_index": 1,
+      "match_id": "cf2d748f-4c88-4c0d-8168-a0beb6ab657f",
+      "phases": {
+        "1": {
+          "cx_meter": 4170.2,
+          "cy_meter": 4090.7,
+          "cx_norm": 0.52128,
+          "cy_norm": 0.51133,
+          "radius_meter": 5531.0
+        },
+        "2": {
+          "cx_meter": 5404.5,
+          "cy_meter": 4199.3,
+          "cx_norm": 0.67556,
+          "cy_norm": 0.52491,
+          "radius_meter": 1791.7
+        },
+        "3": {
+          "cx_meter": 6003.8,
+          "cy_meter": 4056.0,
+          "cx_norm": 0.75047,
+          "cy_norm": 0.507,
+          "radius_meter": 993.6
+        },
+        "4": {
+          "cx_meter": 5939.1,
+          "cy_meter": 4056.5,
+          "cx_norm": 0.74239,
+          "cy_norm": 0.50706,
+          "radius_meter": 596.2
+        },
+        "5": {
+          "cx_meter": 5919.7,
+          "cy_meter": 4116.6,
+          "cx_norm": 0.73996,
+          "cy_norm": 0.51457,
+          "radius_meter": 380.3
+        },
+        "6": {
+          "cx_meter": 5796.3,
+          "cy_meter": 4169.8,
+          "cx_norm": 0.72454,
+          "cy_norm": 0.52122,
+          "radius_meter": 132.2
+        }
+      }
+    },
+    {
+      "match_index": 2,
+      "match_id": "e3996339-cd05-4b72-bd02-7508115ad82d",
+      "phases": {
+        "1": {
+          "cx_meter": 4055.8,
+          "cy_meter": 4071.9,
+          "cx_norm": 0.50698,
+          "cy_norm": 0.50899,
+          "radius_meter": 5531.1
+        },
+        "2": {
+          "cx_meter": 3807.5,
+          "cy_meter": 3919.7,
+          "cx_norm": 0.47593,
+          "cy_norm": 0.48996,
+          "radius_meter": 1791.7
+        },
+        "3": {
+          "cx_meter": 4069.5,
+          "cy_meter": 3616.6,
+          "cx_norm": 0.50868,
+          "cy_norm": 0.45208,
+          "radius_meter": 993.6
+        },
+        "4": {
+          "cx_meter": 3828.9,
+          "cy_meter": 3547.5,
+          "cx_norm": 0.47861,
+          "cy_norm": 0.44344,
+          "radius_meter": 596.2
+        },
+        "5": {
+          "cx_meter": 3964.5,
+          "cy_meter": 3473.0,
+          "cx_norm": 0.49556,
+          "cy_norm": 0.43412,
+          "radius_meter": 380.3
+        },
+        "6": {
+          "cx_meter": 3876.9,
+          "cy_meter": 3380.4,
+          "cx_norm": 0.48461,
+          "cy_norm": 0.42256,
+          "radius_meter": 247.2
+        }
+      }
+    }
+  ],
+  "cache_profile": "pro"
+}
