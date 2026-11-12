@@ -120,7 +120,9 @@
               "landmark_hint": "Spot (1856m, 1871m)",
               "seed_id": 0
             }
-          ]
+          ],
+          "alive_teams_start": 30,
+          "alive_teams_end": 14
         },
         "2": {
           "phase": 2,
@@ -153,7 +155,9 @@
               "landmark_hint": "Spot (2123m, 2078m)",
               "seed_id": 0
             }
-          ]
+          ],
+          "alive_teams_start": 13,
+          "alive_teams_end": 7
         },
         "3": {
           "phase": 3,
@@ -186,7 +190,9 @@
               "landmark_hint": "Spot (1853m, 2732m)",
               "seed_id": 0
             }
-          ]
+          ],
+          "alive_teams_start": 7,
+          "alive_teams_end": 5
         },
         "4": {
           "phase": 4,
@@ -208,7 +214,9 @@
               "landmark_hint": "Spot (1857m, 2736m)",
               "seed_id": 0
             }
-          ]
+          ],
+          "alive_teams_start": 5,
+          "alive_teams_end": 4
         },
         "5": {
           "phase": 5,
@@ -241,7 +249,9 @@
               "landmark_hint": "Spot (2357m, 2312m)",
               "seed_id": 0
             }
-          ]
+          ],
+          "alive_teams_start": 4,
+          "alive_teams_end": 3
         },
         "6": {
           "phase": 6,
@@ -251,11 +261,1713 @@
           "zone_center_y_norm": 0.63547,
           "zone_radius_meter": 147.6,
           "zone_radius_norm": 0.03691,
-          "squad_holdings": []
+          "squad_holdings": [],
+          "alive_teams_start": 3,
+          "alive_teams_end": 2
         }
       },
       "platform": "steam",
-      "region": "as"
+      "region": "as",
+      "kills": [
+        {
+          "phase": 0,
+          "t": null,
+          "weapon": "WeapAUG_C",
+          "reason": "ArmShot",
+          "dist_m": 2,
+          "wall": false,
+          "victim_team": 13,
+          "killer_team": 21,
+          "victim_xy": [
+            1952,
+            1971
+          ],
+          "killer_xy": [
+            1969,
+            1971
+          ]
+        },
+        {
+          "phase": 0,
+          "t": null,
+          "weapon": "WeapUMP_C",
+          "reason": "LegShot",
+          "dist_m": 22,
+          "wall": false,
+          "victim_team": 23,
+          "killer_team": 3,
+          "victim_xy": [
+            1977,
+            1941
+          ],
+          "killer_xy": [
+            1994,
+            1927
+          ]
+        },
+        {
+          "phase": 0,
+          "t": null,
+          "weapon": "WeapM9_C",
+          "reason": "TorsoShot",
+          "dist_m": 3,
+          "wall": false,
+          "victim_team": 24,
+          "killer_team": 2,
+          "victim_xy": [
+            1929,
+            2769
+          ],
+          "killer_xy": [
+            1930,
+            2771
+          ]
+        },
+        {
+          "phase": 0,
+          "t": null,
+          "weapon": "WeapUMP_C",
+          "reason": "TorsoShot",
+          "dist_m": 10,
+          "wall": false,
+          "victim_team": 10,
+          "killer_team": 21,
+          "victim_xy": [
+            1945,
+            1967
+          ],
+          "killer_xy": [
+            1946,
+            1978
+          ]
+        },
+        {
+          "phase": 0,
+          "t": null,
+          "weapon": "PanzerFaust100M_Projectile_C",
+          "reason": "NonSpecific",
+          "dist_m": 4,
+          "wall": false,
+          "victim_team": 23,
+          "killer_team": 5,
+          "victim_xy": [
+            1958,
+            1940
+          ],
+          "killer_xy": [
+            1966,
+            1941
+          ]
+        },
+        {
+          "phase": 0,
+          "t": null,
+          "weapon": "WeapSaiga12_C",
+          "reason": "TorsoShot",
+          "dist_m": 6,
+          "wall": false,
+          "victim_team": 4,
+          "killer_team": 2,
+          "victim_xy": [
+            1943,
+            2028
+          ],
+          "killer_xy": [
+            1944,
+            2024
+          ]
+        },
+        {
+          "phase": 0,
+          "t": null,
+          "weapon": "WeapWinchester_C",
+          "reason": "PelvisShot",
+          "dist_m": 9,
+          "wall": false,
+          "victim_team": 22,
+          "killer_team": 18,
+          "victim_xy": [
+            2001,
+            2001
+          ],
+          "killer_xy": [
+            1999,
+            1998
+          ]
+        },
+        {
+          "phase": 0,
+          "t": null,
+          "weapon": "WeapRPD_C",
+          "reason": "TorsoShot",
+          "dist_m": 1,
+          "wall": false,
+          "victim_team": 22,
+          "killer_team": 30,
+          "victim_xy": [
+            2023,
+            1967
+          ],
+          "killer_xy": [
+            2022,
+            1965
+          ]
+        },
+        {
+          "phase": 0,
+          "t": null,
+          "weapon": "WeapUMP_C",
+          "reason": "ArmShot",
+          "dist_m": 19,
+          "wall": false,
+          "victim_team": 5,
+          "killer_team": 21,
+          "victim_xy": [
+            1919,
+            1958
+          ],
+          "killer_xy": [
+            1934,
+            1970
+          ]
+        },
+        {
+          "phase": 0,
+          "t": null,
+          "weapon": "WeapUMP_C",
+          "reason": "PelvisShot",
+          "dist_m": 19,
+          "wall": false,
+          "victim_team": 23,
+          "killer_team": 5,
+          "victim_xy": [
+            1966,
+            1946
+          ],
+          "killer_xy": [
+            1944,
+            1943
+          ]
+        },
+        {
+          "phase": 0,
+          "t": null,
+          "weapon": "WeapMP5K_C",
+          "reason": "TorsoShot",
+          "dist_m": 8,
+          "wall": false,
+          "victim_team": 23,
+          "killer_team": 21,
+          "victim_xy": [
+            1940,
+            1948
+          ],
+          "killer_xy": [
+            1947,
+            1952
+          ]
+        },
+        {
+          "phase": 1,
+          "t": null,
+          "weapon": "WeapBerreta686_C",
+          "reason": "ArmShot",
+          "dist_m": 6,
+          "wall": false,
+          "victim_team": 2,
+          "killer_team": 32,
+          "victim_xy": [
+            1947,
+            2030
+          ],
+          "killer_xy": [
+            1943,
+            2033
+          ]
+        },
+        {
+          "phase": 1,
+          "t": null,
+          "weapon": "WeapAUG_C",
+          "reason": "PelvisShot",
+          "dist_m": 19,
+          "wall": false,
+          "victim_team": 13,
+          "killer_team": 21,
+          "victim_xy": [
+            1949,
+            1949
+          ],
+          "killer_xy": [
+            1949,
+            1968
+          ]
+        },
+        {
+          "phase": 1,
+          "t": null,
+          "weapon": "WeapMP5K_C",
+          "reason": "TorsoShot",
+          "dist_m": 8,
+          "wall": false,
+          "victim_team": 2,
+          "killer_team": 32,
+          "victim_xy": [
+            1948,
+            2030
+          ],
+          "killer_xy": [
+            1945,
+            2024
+          ]
+        },
+        {
+          "phase": 1,
+          "t": null,
+          "weapon": "WeapUMP_C",
+          "reason": "TorsoShot",
+          "dist_m": 11,
+          "wall": false,
+          "victim_team": 5,
+          "killer_team": 21,
+          "victim_xy": [
+            1950,
+            1938
+          ],
+          "killer_xy": [
+            1945,
+            1948
+          ]
+        },
+        {
+          "phase": 1,
+          "t": null,
+          "weapon": "WeapRPD_C",
+          "reason": "TorsoShot",
+          "dist_m": 12,
+          "wall": false,
+          "victim_team": 22,
+          "killer_team": 30,
+          "victim_xy": [
+            2012,
+            1993
+          ],
+          "killer_xy": [
+            2004,
+            1985
+          ]
+        },
+        {
+          "phase": 1,
+          "t": null,
+          "weapon": "WeapWinchester_C",
+          "reason": "HeadShot",
+          "dist_m": 6,
+          "wall": false,
+          "victim_team": 22,
+          "killer_team": 18,
+          "victim_xy": [
+            2009,
+            2005
+          ],
+          "killer_xy": [
+            2003,
+            2005
+          ]
+        },
+        {
+          "phase": 1,
+          "t": null,
+          "weapon": "WeapRPD_C",
+          "reason": "LegShot",
+          "dist_m": 12,
+          "wall": false,
+          "victim_team": 18,
+          "killer_team": 30,
+          "victim_xy": [
+            2005,
+            2002
+          ],
+          "killer_xy": [
+            2009,
+            1991
+          ]
+        },
+        {
+          "phase": 1,
+          "t": null,
+          "weapon": "WeapRPD_C",
+          "reason": "TorsoShot",
+          "dist_m": 11,
+          "wall": false,
+          "victim_team": 18,
+          "killer_team": 30,
+          "victim_xy": [
+            2005,
+            2001
+          ],
+          "killer_xy": [
+            2010,
+            1991
+          ]
+        },
+        {
+          "phase": 1,
+          "t": null,
+          "weapon": "WeapSaiga12_C",
+          "reason": "TorsoShot",
+          "dist_m": 4,
+          "wall": false,
+          "victim_team": 11,
+          "killer_team": 16,
+          "victim_xy": [
+            3339,
+            2894
+          ],
+          "killer_xy": [
+            3341,
+            2891
+          ]
+        },
+        {
+          "phase": 1,
+          "t": null,
+          "weapon": "WeapMk47Mutant_C",
+          "reason": "ArmShot",
+          "dist_m": 12,
+          "wall": false,
+          "victim_team": 5,
+          "killer_team": 23,
+          "victim_xy": [
+            1972,
+            1938
+          ],
+          "killer_xy": [
+            1966,
+            1946
+          ]
+        },
+        {
+          "phase": 1,
+          "t": null,
+          "weapon": "WeapHK416_C",
+          "reason": "ArmShot",
+          "dist_m": 3,
+          "wall": false,
+          "victim_team": 2,
+          "killer_team": 24,
+          "victim_xy": [
+            1902,
+            2764
+          ],
+          "killer_xy": [
+            1903,
+            2763
+          ]
+        },
+        {
+          "phase": 1,
+          "t": null,
+          "weapon": "PanzerFaust100M_Projectile_C",
+          "reason": "NonSpecific",
+          "dist_m": 33,
+          "wall": false,
+          "victim_team": 4,
+          "killer_team": 32,
+          "victim_xy": [
+            1904,
+            2024
+          ],
+          "killer_xy": [
+            1900,
+            2028
+          ]
+        },
+        {
+          "phase": 1,
+          "t": null,
+          "weapon": "ProjGrenade_C",
+          "reason": "NonSpecific",
+          "dist_m": 24,
+          "wall": false,
+          "victim_team": 27,
+          "killer_team": 32,
+          "victim_xy": [
+            1878,
+            2013
+          ],
+          "killer_xy": [
+            1895,
+            2029
+          ]
+        },
+        {
+          "phase": 1,
+          "t": null,
+          "weapon": "WeapUZI_C",
+          "reason": "HeadShot",
+          "dist_m": 23,
+          "wall": false,
+          "victim_team": 4,
+          "killer_team": 32,
+          "victim_xy": [
+            1914,
+            2009
+          ],
+          "killer_xy": [
+            1905,
+            2037
+          ]
+        },
+        {
+          "phase": 1,
+          "t": null,
+          "weapon": "WeapBerreta686_C",
+          "reason": "TorsoShot",
+          "dist_m": 5,
+          "wall": false,
+          "victim_team": 4,
+          "killer_team": 32,
+          "victim_xy": [
+            1909,
+            2040
+          ],
+          "killer_xy": [
+            1905,
+            2037
+          ]
+        },
+        {
+          "phase": 1,
+          "t": null,
+          "weapon": "WeapUMP_C",
+          "reason": "HeadShot",
+          "dist_m": 6,
+          "wall": false,
+          "victim_team": 5,
+          "killer_team": 3,
+          "victim_xy": [
+            1960,
+            1936
+          ],
+          "killer_xy": [
+            1963,
+            1939
+          ]
+        },
+        {
+          "phase": 1,
+          "t": null,
+          "weapon": "WeapHK416_C",
+          "reason": "HeadShot",
+          "dist_m": 29,
+          "wall": false,
+          "victim_team": 9,
+          "killer_team": 7,
+          "victim_xy": [
+            1267,
+            1126
+          ],
+          "killer_xy": [
+            1271,
+            1147
+          ]
+        },
+        {
+          "phase": 1,
+          "t": null,
+          "weapon": "WeapVector_C",
+          "reason": "LegShot",
+          "dist_m": 2,
+          "wall": false,
+          "victim_team": 2,
+          "killer_team": 24,
+          "victim_xy": [
+            1920,
+            2794
+          ],
+          "killer_xy": [
+            1919,
+            2792
+          ]
+        },
+        {
+          "phase": 1,
+          "t": null,
+          "weapon": "PanzerFaust100M_Projectile_C",
+          "reason": "NonSpecific",
+          "dist_m": 32,
+          "wall": false,
+          "victim_team": 21,
+          "killer_team": 3,
+          "victim_xy": [
+            1950,
+            1948
+          ],
+          "killer_xy": [
+            1917,
+            1952
+          ]
+        },
+        {
+          "phase": 1,
+          "t": null,
+          "weapon": "PanzerFaust100M_Projectile_C",
+          "reason": "NonSpecific",
+          "dist_m": 35,
+          "wall": false,
+          "victim_team": 21,
+          "killer_team": 3,
+          "victim_xy": [
+            1952,
+            1948
+          ],
+          "killer_xy": [
+            1917,
+            1952
+          ]
+        },
+        {
+          "phase": 1,
+          "t": null,
+          "weapon": "WeapUMP_C",
+          "reason": "LegShot",
+          "dist_m": 8,
+          "wall": false,
+          "victim_team": 21,
+          "killer_team": 3,
+          "victim_xy": [
+            1921,
+            1958
+          ],
+          "killer_xy": [
+            1917,
+            1952
+          ]
+        },
+        {
+          "phase": 1,
+          "t": null,
+          "weapon": "WeapWinchester_C",
+          "reason": "HeadShot",
+          "dist_m": 7,
+          "wall": false,
+          "victim_team": 17,
+          "killer_team": 12,
+          "victim_xy": [
+            3508,
+            1739
+          ],
+          "killer_xy": [
+            3510,
+            1743
+          ]
+        },
+        {
+          "phase": 1,
+          "t": null,
+          "weapon": "WeapWinchester_C",
+          "reason": "ArmShot",
+          "dist_m": 3,
+          "wall": false,
+          "victim_team": 17,
+          "killer_team": 12,
+          "victim_xy": [
+            3511,
+            1742
+          ],
+          "killer_xy": [
+            3510,
+            1743
+          ]
+        },
+        {
+          "phase": 1,
+          "t": null,
+          "weapon": "WeapWinchester_C",
+          "reason": "TorsoShot",
+          "dist_m": 1,
+          "wall": false,
+          "victim_team": 17,
+          "killer_team": 12,
+          "victim_xy": [
+            3510,
+            1743
+          ],
+          "killer_xy": [
+            3510,
+            1743
+          ]
+        },
+        {
+          "phase": 1,
+          "t": null,
+          "weapon": "WeapUMP_C",
+          "reason": "TorsoShot",
+          "dist_m": 17,
+          "wall": false,
+          "victim_team": 3,
+          "killer_team": 30,
+          "victim_xy": [
+            1953,
+            1969
+          ],
+          "killer_xy": [
+            1964,
+            1972
+          ]
+        },
+        {
+          "phase": 1,
+          "t": null,
+          "weapon": "WeapUMP_C",
+          "reason": "TorsoShot",
+          "dist_m": 14,
+          "wall": false,
+          "victim_team": 10,
+          "killer_team": 3,
+          "victim_xy": [
+            1951,
+            1936
+          ],
+          "killer_xy": [
+            1943,
+            1948
+          ]
+        },
+        {
+          "phase": 1,
+          "t": null,
+          "weapon": "WeapSawnoff_C",
+          "reason": "ArmShot",
+          "dist_m": 14,
+          "wall": false,
+          "victim_team": 7,
+          "killer_team": 1,
+          "victim_xy": [
+            1261,
+            1144
+          ],
+          "killer_xy": [
+            1247,
+            1135
+          ]
+        },
+        {
+          "phase": 1,
+          "t": null,
+          "weapon": "WeapAK47_C",
+          "reason": "PelvisShot",
+          "dist_m": 14,
+          "wall": false,
+          "victim_team": 7,
+          "killer_team": 1,
+          "victim_xy": [
+            1248,
+            1152
+          ],
+          "killer_xy": [
+            1249,
+            1150
+          ]
+        },
+        {
+          "phase": 1,
+          "t": null,
+          "weapon": "WeapWinchester_C",
+          "reason": "LegShot",
+          "dist_m": 19,
+          "wall": false,
+          "victim_team": 3,
+          "killer_team": 30,
+          "victim_xy": [
+            1946,
+            1951
+          ],
+          "killer_xy": [
+            1940,
+            1954
+          ]
+        },
+        {
+          "phase": 1,
+          "t": null,
+          "weapon": "WeapWinchester_C",
+          "reason": "ArmShot",
+          "dist_m": 7,
+          "wall": false,
+          "victim_team": 3,
+          "killer_team": 30,
+          "victim_xy": [
+            1944,
+            1952
+          ],
+          "killer_xy": [
+            1948,
+            1953
+          ]
+        },
+        {
+          "phase": 1,
+          "t": null,
+          "weapon": "WeapBerylM762_C",
+          "reason": "HeadShot",
+          "dist_m": 25,
+          "wall": false,
+          "victim_team": 7,
+          "killer_team": 9,
+          "victim_xy": [
+            1330,
+            1087
+          ],
+          "killer_xy": [
+            1350,
+            1076
+          ]
+        },
+        {
+          "phase": 1,
+          "t": null,
+          "weapon": "WeapRPD_C",
+          "reason": "HeadShot",
+          "dist_m": 1,
+          "wall": false,
+          "victim_team": 7,
+          "killer_team": 1,
+          "victim_xy": [
+            1272,
+            1170
+          ],
+          "killer_xy": [
+            1272,
+            1171
+          ]
+        },
+        {
+          "phase": 1,
+          "t": null,
+          "weapon": "WeapUZI_C",
+          "reason": "LegShot",
+          "dist_m": 11,
+          "wall": false,
+          "victim_team": 29,
+          "killer_team": 32,
+          "victim_xy": [
+            1861,
+            1871
+          ],
+          "killer_xy": [
+            1851,
+            1876
+          ]
+        },
+        {
+          "phase": 1,
+          "t": null,
+          "weapon": "WeapAUG_C",
+          "reason": "TorsoShot",
+          "dist_m": 26,
+          "wall": false,
+          "victim_team": 32,
+          "killer_team": 29,
+          "victim_xy": [
+            1885,
+            1876
+          ],
+          "killer_xy": [
+            1880,
+            1866
+          ]
+        },
+        {
+          "phase": 1,
+          "t": null,
+          "weapon": "WeapUMP_C",
+          "reason": "TorsoShot",
+          "dist_m": 3,
+          "wall": false,
+          "victim_team": 3,
+          "killer_team": 30,
+          "victim_xy": [
+            1951,
+            1956
+          ],
+          "killer_xy": [
+            1949,
+            1958
+          ]
+        },
+        {
+          "phase": 1,
+          "t": null,
+          "weapon": "WeapBerreta686_C",
+          "reason": "HeadShot",
+          "dist_m": 24,
+          "wall": false,
+          "victim_team": 29,
+          "killer_team": 32,
+          "victim_xy": [
+            1882,
+            1864
+          ],
+          "killer_xy": [
+            1858,
+            1868
+          ]
+        },
+        {
+          "phase": 1,
+          "t": null,
+          "weapon": "WeapRPD_C",
+          "reason": "HeadShot",
+          "dist_m": 10,
+          "wall": false,
+          "victim_team": 6,
+          "killer_team": 26,
+          "victim_xy": [
+            2503,
+            1460
+          ],
+          "killer_xy": [
+            2511,
+            1461
+          ]
+        },
+        {
+          "phase": 1,
+          "t": null,
+          "weapon": "WeapBerylM762_C",
+          "reason": "TorsoShot",
+          "dist_m": 51,
+          "wall": false,
+          "victim_team": 9,
+          "killer_team": 1,
+          "victim_xy": [
+            1343,
+            1144
+          ],
+          "killer_xy": [
+            1299,
+            1126
+          ]
+        },
+        {
+          "phase": 1,
+          "t": null,
+          "weapon": "WeapVector_C",
+          "reason": "TorsoShot",
+          "dist_m": 7,
+          "wall": false,
+          "victim_team": 1,
+          "killer_team": 9,
+          "victim_xy": [
+            1351,
+            1150
+          ],
+          "killer_xy": [
+            1343,
+            1144
+          ]
+        },
+        {
+          "phase": 1,
+          "t": null,
+          "weapon": "WeapQBZ95_C",
+          "reason": "HeadShot",
+          "dist_m": 29,
+          "wall": false,
+          "victim_team": 26,
+          "killer_team": 6,
+          "victim_xy": [
+            2505,
+            1460
+          ],
+          "killer_xy": [
+            2484,
+            1460
+          ]
+        },
+        {
+          "phase": 1,
+          "t": null,
+          "weapon": "WeapQBZ95_C",
+          "reason": "HeadShot",
+          "dist_m": 20,
+          "wall": false,
+          "victim_team": 26,
+          "killer_team": 6,
+          "victim_xy": [
+            2501,
+            1452
+          ],
+          "killer_xy": [
+            2484,
+            1460
+          ]
+        },
+        {
+          "phase": 1,
+          "t": null,
+          "weapon": "WeapUMP_C",
+          "reason": "TorsoShot",
+          "dist_m": 18,
+          "wall": false,
+          "victim_team": 26,
+          "killer_team": 6,
+          "victim_xy": [
+            2500,
+            1460
+          ],
+          "killer_xy": [
+            2482,
+            1461
+          ]
+        },
+        {
+          "phase": 1,
+          "t": null,
+          "weapon": "WeapUMP_C",
+          "reason": "ArmShot",
+          "dist_m": 29,
+          "wall": false,
+          "victim_team": 1,
+          "killer_team": 9,
+          "victim_xy": [
+            1290,
+            1133
+          ],
+          "killer_xy": [
+            1293,
+            1132
+          ]
+        },
+        {
+          "phase": 1,
+          "t": null,
+          "weapon": "ProjGrenade_C",
+          "reason": "NonSpecific",
+          "dist_m": 45,
+          "wall": false,
+          "victim_team": 1,
+          "killer_team": 9,
+          "victim_xy": [
+            1351,
+            1151
+          ],
+          "killer_xy": [
+            1349,
+            1149
+          ]
+        },
+        {
+          "phase": 1,
+          "t": null,
+          "weapon": "WeapAUG_C",
+          "reason": "HeadShot",
+          "dist_m": 31,
+          "wall": false,
+          "victim_team": 32,
+          "killer_team": 30,
+          "victim_xy": [
+            1877,
+            1885
+          ],
+          "killer_xy": [
+            1901,
+            1896
+          ]
+        },
+        {
+          "phase": 1,
+          "t": null,
+          "weapon": "WeapBerylM762_C",
+          "reason": "TorsoShot",
+          "dist_m": 2,
+          "wall": false,
+          "victim_team": 6,
+          "killer_team": 25,
+          "victim_xy": [
+            2483,
+            1456
+          ],
+          "killer_xy": [
+            2483,
+            1457
+          ]
+        },
+        {
+          "phase": 1,
+          "t": null,
+          "weapon": "WeapHK416_C",
+          "reason": "TorsoShot",
+          "dist_m": 22,
+          "wall": false,
+          "victim_team": 16,
+          "killer_team": 19,
+          "victim_xy": [
+            3456,
+            2877
+          ],
+          "killer_xy": [
+            3450,
+            2895
+          ]
+        },
+        {
+          "phase": 1,
+          "t": null,
+          "weapon": "WeapWinchester_C",
+          "reason": "ArmShot",
+          "dist_m": 14,
+          "wall": false,
+          "victim_team": 32,
+          "killer_team": 30,
+          "victim_xy": [
+            1914,
+            1901
+          ],
+          "killer_xy": [
+            1897,
+            1892
+          ]
+        },
+        {
+          "phase": 1,
+          "t": null,
+          "weapon": "WeapWinchester_C",
+          "reason": "ArmShot",
+          "dist_m": 6,
+          "wall": false,
+          "victim_team": 32,
+          "killer_team": 30,
+          "victim_xy": [
+            1893,
+            1893
+          ],
+          "killer_xy": [
+            1897,
+            1892
+          ]
+        },
+        {
+          "phase": 1,
+          "t": null,
+          "weapon": "WeapBerylM762_C",
+          "reason": "TorsoShot",
+          "dist_m": 41,
+          "wall": false,
+          "victim_team": 1,
+          "killer_team": 9,
+          "victim_xy": [
+            1349,
+            1156
+          ],
+          "killer_xy": [
+            1381,
+            1130
+          ]
+        },
+        {
+          "phase": 2,
+          "t": null,
+          "weapon": "WeapBerylM762_C",
+          "reason": "HeadShot",
+          "dist_m": 2,
+          "wall": false,
+          "victim_team": 6,
+          "killer_team": 25,
+          "victim_xy": [
+            2504,
+            1460
+          ],
+          "killer_xy": [
+            2502,
+            1461
+          ]
+        },
+        {
+          "phase": 2,
+          "t": null,
+          "weapon": "WeapACE32_C",
+          "reason": "TorsoShot",
+          "dist_m": 64,
+          "wall": false,
+          "victim_team": 24,
+          "killer_team": 28,
+          "victim_xy": [
+            1868,
+            2711
+          ],
+          "killer_xy": [
+            1876,
+            2724
+          ]
+        },
+        {
+          "phase": 2,
+          "t": null,
+          "weapon": "WeapAUG_C",
+          "reason": "PelvisShot",
+          "dist_m": 36,
+          "wall": false,
+          "victim_team": 200,
+          "killer_team": 30,
+          "victim_xy": [
+            2073,
+            1992
+          ],
+          "killer_xy": [
+            2072,
+            1988
+          ]
+        },
+        {
+          "phase": 2,
+          "t": null,
+          "weapon": "WeapAUG_C",
+          "reason": "TorsoShot",
+          "dist_m": 95,
+          "wall": false,
+          "victim_team": 200,
+          "killer_team": 30,
+          "victim_xy": [
+            2052,
+            1951
+          ],
+          "killer_xy": [
+            2053,
+            1955
+          ]
+        },
+        {
+          "phase": 2,
+          "t": null,
+          "weapon": "WeapVSS_C",
+          "reason": "HeadShot",
+          "dist_m": 124,
+          "wall": false,
+          "victim_team": 31,
+          "killer_team": 20,
+          "victim_xy": [
+            1746,
+            2700
+          ],
+          "killer_xy": [
+            1738,
+            2820
+          ]
+        },
+        {
+          "phase": 2,
+          "t": null,
+          "weapon": "WeapM24_C",
+          "reason": "HeadShot",
+          "dist_m": 89,
+          "wall": false,
+          "victim_team": 31,
+          "killer_team": 28,
+          "victim_xy": [
+            1737,
+            2732
+          ],
+          "killer_xy": [
+            1803,
+            2675
+          ]
+        },
+        {
+          "phase": 2,
+          "t": null,
+          "weapon": "WeapMini14_C",
+          "reason": "TorsoShot",
+          "dist_m": 75,
+          "wall": false,
+          "victim_team": 31,
+          "killer_team": 20,
+          "victim_xy": [
+            1691,
+            2768
+          ],
+          "killer_xy": [
+            1713,
+            2836
+          ]
+        },
+        {
+          "phase": 2,
+          "t": null,
+          "weapon": "",
+          "reason": "",
+          "dist_m": 0,
+          "wall": false,
+          "victim_team": 8,
+          "killer_team": 0,
+          "victim_xy": [
+            596,
+            1512
+          ],
+          "killer_xy": null
+        },
+        {
+          "phase": 2,
+          "t": null,
+          "weapon": "",
+          "reason": "",
+          "dist_m": 0,
+          "wall": false,
+          "victim_team": 15,
+          "killer_team": 0,
+          "victim_xy": [
+            593,
+            1519
+          ],
+          "killer_xy": null
+        },
+        {
+          "phase": 2,
+          "t": null,
+          "weapon": "WeapACE32_C",
+          "reason": "ArmShot",
+          "dist_m": 25,
+          "wall": false,
+          "victim_team": 19,
+          "killer_team": 16,
+          "victim_xy": [
+            3180,
+            2855
+          ],
+          "killer_xy": [
+            3183,
+            2839
+          ]
+        },
+        {
+          "phase": 2,
+          "t": null,
+          "weapon": "WeapM24_C",
+          "reason": "HeadShot",
+          "dist_m": 97,
+          "wall": false,
+          "victim_team": 19,
+          "killer_team": 16,
+          "victim_xy": [
+            3444,
+            2936
+          ],
+          "killer_xy": [
+            3494,
+            2960
+          ]
+        },
+        {
+          "phase": 2,
+          "t": null,
+          "weapon": "WeapWinchester_C",
+          "reason": "TorsoShot",
+          "dist_m": 5,
+          "wall": false,
+          "victim_team": 200,
+          "killer_team": 30,
+          "victim_xy": [
+            2131,
+            2087
+          ],
+          "killer_xy": [
+            2135,
+            2084
+          ]
+        },
+        {
+          "phase": 2,
+          "t": null,
+          "weapon": "WeapQBZ95_C",
+          "reason": "TorsoShot",
+          "dist_m": 3,
+          "wall": false,
+          "victim_team": 19,
+          "killer_team": 16,
+          "victim_xy": [
+            3419,
+            2938
+          ],
+          "killer_xy": [
+            3420,
+            2941
+          ]
+        },
+        {
+          "phase": 2,
+          "t": null,
+          "weapon": "WeapHK416_C",
+          "reason": "TorsoShot",
+          "dist_m": 22,
+          "wall": false,
+          "victim_team": 28,
+          "killer_team": 24,
+          "victim_xy": [
+            1839,
+            2715
+          ],
+          "killer_xy": [
+            1847,
+            2695
+          ]
+        },
+        {
+          "phase": 2,
+          "t": null,
+          "weapon": "WeapM249_C",
+          "reason": "HeadShot",
+          "dist_m": 5,
+          "wall": false,
+          "victim_team": 28,
+          "killer_team": 20,
+          "victim_xy": [
+            1849,
+            2726
+          ],
+          "killer_xy": [
+            1847,
+            2731
+          ]
+        },
+        {
+          "phase": 3,
+          "t": null,
+          "weapon": "WeapUMP_C",
+          "reason": "TorsoShot",
+          "dist_m": 32,
+          "wall": false,
+          "victim_team": 12,
+          "killer_team": 25,
+          "victim_xy": [
+            2380,
+            1752
+          ],
+          "killer_xy": [
+            2412,
+            1760
+          ]
+        },
+        {
+          "phase": 3,
+          "t": null,
+          "weapon": "ProjGrenade_C",
+          "reason": "NonSpecific",
+          "dist_m": 13,
+          "wall": false,
+          "victim_team": 20,
+          "killer_team": 24,
+          "victim_xy": [
+            1863,
+            2736
+          ],
+          "killer_xy": [
+            1860,
+            2733
+          ]
+        },
+        {
+          "phase": 3,
+          "t": null,
+          "weapon": "ProjGrenade_C",
+          "reason": "NonSpecific",
+          "dist_m": 25,
+          "wall": false,
+          "victim_team": 24,
+          "killer_team": 20,
+          "victim_xy": [
+            1846,
+            2724
+          ],
+          "killer_xy": [
+            1833,
+            2707
+          ]
+        },
+        {
+          "phase": 3,
+          "t": null,
+          "weapon": "WeapBerylM762_C",
+          "reason": "TorsoShot",
+          "dist_m": 16,
+          "wall": false,
+          "victim_team": 30,
+          "killer_team": 25,
+          "victim_xy": [
+            2331,
+            1648
+          ],
+          "killer_xy": [
+            2346,
+            1644
+          ]
+        },
+        {
+          "phase": 3,
+          "t": null,
+          "weapon": "ProjGrenade_C",
+          "reason": "NonSpecific",
+          "dist_m": 26,
+          "wall": false,
+          "victim_team": 24,
+          "killer_team": 20,
+          "victim_xy": [
+            1854,
+            2730
+          ],
+          "killer_xy": [
+            1847,
+            2727
+          ]
+        },
+        {
+          "phase": 3,
+          "t": null,
+          "weapon": "ProjGrenade_C",
+          "reason": "NonSpecific",
+          "dist_m": 12,
+          "wall": false,
+          "victim_team": 20,
+          "killer_team": 24,
+          "victim_xy": [
+            1876,
+            2732
+          ],
+          "killer_xy": [
+            1853,
+            2738
+          ]
+        },
+        {
+          "phase": 4,
+          "t": null,
+          "weapon": "WeapM24_C",
+          "reason": "HeadShot",
+          "dist_m": 86,
+          "wall": false,
+          "victim_team": 16,
+          "killer_team": 25,
+          "victim_xy": [
+            2346,
+            2007
+          ],
+          "killer_xy": [
+            2388,
+            1926
+          ]
+        },
+        {
+          "phase": 4,
+          "t": null,
+          "weapon": "WeapAUG_C",
+          "reason": "TorsoShot",
+          "dist_m": 55,
+          "wall": false,
+          "victim_team": 16,
+          "killer_team": 25,
+          "victim_xy": [
+            2276,
+            2083
+          ],
+          "killer_xy": [
+            2251,
+            2038
+          ]
+        },
+        {
+          "phase": 4,
+          "t": null,
+          "weapon": "WeapQBZ95_C",
+          "reason": "TorsoShot",
+          "dist_m": 6,
+          "wall": false,
+          "victim_team": 24,
+          "killer_team": 20,
+          "victim_xy": [
+            1858,
+            2736
+          ],
+          "killer_xy": [
+            1855,
+            2731
+          ]
+        },
+        {
+          "phase": 4,
+          "t": null,
+          "weapon": "WeapRPD_C",
+          "reason": "HeadShot",
+          "dist_m": 34,
+          "wall": false,
+          "victim_team": 25,
+          "killer_team": 16,
+          "victim_xy": [
+            2391,
+            2089
+          ],
+          "killer_xy": [
+            2431,
+            2186
+          ]
+        },
+        {
+          "phase": 4,
+          "t": null,
+          "weapon": "WeapRPD_C",
+          "reason": "TorsoShot",
+          "dist_m": 71,
+          "wall": false,
+          "victim_team": 25,
+          "killer_team": 16,
+          "victim_xy": [
+            2402,
+            2065
+          ],
+          "killer_xy": [
+            2441,
+            2201
+          ]
+        },
+        {
+          "phase": 4,
+          "t": null,
+          "weapon": "WeapBerylM762_C",
+          "reason": "TorsoShot",
+          "dist_m": 6,
+          "wall": false,
+          "victim_team": 16,
+          "killer_team": 25,
+          "victim_xy": [
+            2413,
+            2166
+          ],
+          "killer_xy": [
+            2409,
+            2169
+          ]
+        },
+        {
+          "phase": 4,
+          "t": null,
+          "weapon": "WeapRPD_C",
+          "reason": "TorsoShot",
+          "dist_m": 21,
+          "wall": false,
+          "victim_team": 25,
+          "killer_team": 16,
+          "victim_xy": [
+            2349,
+            2197
+          ],
+          "killer_xy": [
+            2344,
+            2206
+          ]
+        },
+        {
+          "phase": 5,
+          "t": null,
+          "weapon": "",
+          "reason": "",
+          "dist_m": 0,
+          "wall": false,
+          "victim_team": 25,
+          "killer_team": 0,
+          "victim_xy": [
+            2347,
+            2315
+          ],
+          "killer_xy": null
+        },
+        {
+          "phase": 6,
+          "t": null,
+          "weapon": "",
+          "reason": "",
+          "dist_m": 0,
+          "wall": false,
+          "victim_team": 16,
+          "killer_team": 0,
+          "victim_xy": [
+            2091,
+            2350
+          ],
+          "killer_xy": null
+        },
+        {
+          "phase": 6,
+          "t": null,
+          "weapon": "WeapBerylM762_C",
+          "reason": "TorsoShot",
+          "dist_m": 19,
+          "wall": false,
+          "victim_team": 20,
+          "killer_team": 9,
+          "victim_xy": [
+            1824,
+            2562
+          ],
+          "killer_xy": [
+            1842,
+            2546
+          ]
+        },
+        {
+          "phase": 6,
+          "t": null,
+          "weapon": "WeapAUG_C",
+          "reason": "TorsoShot",
+          "dist_m": 46,
+          "wall": false,
+          "victim_team": 20,
+          "killer_team": 9,
+          "victim_xy": [
+            1899,
+            2581
+          ],
+          "killer_xy": [
+            1860,
+            2562
+          ]
+        },
+        {
+          "phase": 6,
+          "t": null,
+          "weapon": "WeapAUG_C",
+          "reason": "TorsoShot",
+          "dist_m": 21,
+          "wall": false,
+          "victim_team": 20,
+          "killer_team": 9,
+          "victim_xy": [
+            1840,
+            2562
+          ],
+          "killer_xy": [
+            1857,
+            2560
+          ]
+        },
+        {
+          "phase": 6,
+          "t": null,
+          "weapon": "WeapBerylM762_C",
+          "reason": "HeadShot",
+          "dist_m": 40,
+          "wall": false,
+          "victim_team": 20,
+          "killer_team": 9,
+          "victim_xy": [
+            1829,
+            2598
+          ],
+          "killer_xy": [
+            1814,
+            2562
+          ]
+        }
+      ]
     },
     {
       "match_id": "ac2a2225-8aed-43b4-829f-9a82eec79df0",
@@ -370,7 +2082,9 @@
               "landmark_hint": "Spot (1949m, 1941m)",
               "seed_id": 0
             }
-          ]
+          ],
+          "alive_teams_start": 26,
+          "alive_teams_end": 10
         },
         "2": {
           "phase": 2,
@@ -403,7 +2117,9 @@
               "landmark_hint": "Spot (2324m, 1554m)",
               "seed_id": 0
             }
-          ]
+          ],
+          "alive_teams_start": 10,
+          "alive_teams_end": 8
         },
         "3": {
           "phase": 3,
@@ -436,7 +2152,9 @@
               "landmark_hint": "Spot (2341m, 1589m)",
               "seed_id": 0
             }
-          ]
+          ],
+          "alive_teams_start": 8,
+          "alive_teams_end": 6
         },
         "4": {
           "phase": 4,
@@ -458,7 +2176,9 @@
               "landmark_hint": "Spot (2517m, 2094m)",
               "seed_id": 0
             }
-          ]
+          ],
+          "alive_teams_start": 6,
+          "alive_teams_end": 5
         },
         "5": {
           "phase": 5,
@@ -480,7 +2200,9 @@
               "landmark_hint": "Spot (2550m, 2063m)",
               "seed_id": 0
             }
-          ]
+          ],
+          "alive_teams_start": 5,
+          "alive_teams_end": 4
         },
         "6": {
           "phase": 6,
@@ -502,11 +2224,1866 @@
               "landmark_hint": "Spot (2756m, 2060m)",
               "seed_id": 0
             }
-          ]
+          ],
+          "alive_teams_start": 3,
+          "alive_teams_end": 2
         }
       },
       "platform": "steam",
-      "region": "as"
+      "region": "as",
+      "kills": [
+        {
+          "phase": 0,
+          "t": null,
+          "weapon": "WeapVector_C",
+          "reason": "TorsoShot",
+          "dist_m": 10,
+          "wall": false,
+          "victim_team": 22,
+          "killer_team": 1,
+          "victim_xy": [
+            2557,
+            1342
+          ],
+          "killer_xy": [
+            2553,
+            1355
+          ]
+        },
+        {
+          "phase": 0,
+          "t": null,
+          "weapon": "WeapFNFal_C",
+          "reason": "TorsoShot",
+          "dist_m": 2,
+          "wall": false,
+          "victim_team": 10,
+          "killer_team": 23,
+          "victim_xy": [
+            1964,
+            1941
+          ],
+          "killer_xy": [
+            1963,
+            1938
+          ]
+        },
+        {
+          "phase": 0,
+          "t": null,
+          "weapon": "WeapACE32_C",
+          "reason": "HeadShot",
+          "dist_m": 1,
+          "wall": false,
+          "victim_team": 17,
+          "killer_team": 14,
+          "victim_xy": [
+            1941,
+            1889
+          ],
+          "killer_xy": [
+            1942,
+            1890
+          ]
+        },
+        {
+          "phase": 0,
+          "t": null,
+          "weapon": "WeapBerylM762_C",
+          "reason": "TorsoShot",
+          "dist_m": 24,
+          "wall": false,
+          "victim_team": 29,
+          "killer_team": 23,
+          "victim_xy": [
+            1950,
+            1935
+          ],
+          "killer_xy": [
+            1970,
+            1920
+          ]
+        },
+        {
+          "phase": 0,
+          "t": null,
+          "weapon": "WeapBerylM762_C",
+          "reason": "HeadShot",
+          "dist_m": 2,
+          "wall": false,
+          "victim_team": 5,
+          "killer_team": 9,
+          "victim_xy": [
+            1911,
+            1883
+          ],
+          "killer_xy": [
+            1919,
+            1882
+          ]
+        },
+        {
+          "phase": 0,
+          "t": null,
+          "weapon": "WeapUZI_C",
+          "reason": "TorsoShot",
+          "dist_m": 6,
+          "wall": false,
+          "victim_team": 2,
+          "killer_team": 11,
+          "victim_xy": [
+            2000,
+            1801
+          ],
+          "killer_xy": [
+            2001,
+            1798
+          ]
+        },
+        {
+          "phase": 0,
+          "t": null,
+          "weapon": "WeapBerylM762_C",
+          "reason": "ArmShot",
+          "dist_m": 19,
+          "wall": false,
+          "victim_team": 24,
+          "killer_team": 23,
+          "victim_xy": [
+            1956,
+            1941
+          ],
+          "killer_xy": [
+            1979,
+            1921
+          ]
+        },
+        {
+          "phase": 0,
+          "t": null,
+          "weapon": "WeapHK416_C",
+          "reason": "TorsoShot",
+          "dist_m": 7,
+          "wall": false,
+          "victim_team": 22,
+          "killer_team": 3,
+          "victim_xy": [
+            2556,
+            1402
+          ],
+          "killer_xy": [
+            2554,
+            1399
+          ]
+        },
+        {
+          "phase": 0,
+          "t": null,
+          "weapon": "WeapM249_C",
+          "reason": "TorsoShot",
+          "dist_m": 8,
+          "wall": false,
+          "victim_team": 9,
+          "killer_team": 5,
+          "victim_xy": [
+            1950,
+            1894
+          ],
+          "killer_xy": [
+            1947,
+            1895
+          ]
+        },
+        {
+          "phase": 0,
+          "t": null,
+          "weapon": "WeapUZI_C",
+          "reason": "TorsoShot",
+          "dist_m": 27,
+          "wall": false,
+          "victim_team": 2,
+          "killer_team": 11,
+          "victim_xy": [
+            1973,
+            1802
+          ],
+          "killer_xy": [
+            2003,
+            1802
+          ]
+        },
+        {
+          "phase": 0,
+          "t": null,
+          "weapon": "WeapWinchester_C",
+          "reason": "ArmShot",
+          "dist_m": 2,
+          "wall": false,
+          "victim_team": 23,
+          "killer_team": 24,
+          "victim_xy": [
+            1948,
+            1966
+          ],
+          "killer_xy": [
+            1953,
+            1969
+          ]
+        },
+        {
+          "phase": 1,
+          "t": null,
+          "weapon": "WeapHK416_C",
+          "reason": "TorsoShot",
+          "dist_m": 5,
+          "wall": false,
+          "victim_team": 22,
+          "killer_team": 3,
+          "victim_xy": [
+            2557,
+            1400
+          ],
+          "killer_xy": [
+            2554,
+            1399
+          ]
+        },
+        {
+          "phase": 1,
+          "t": null,
+          "weapon": "WeapBerylM762_C",
+          "reason": "TorsoShot",
+          "dist_m": 11,
+          "wall": false,
+          "victim_team": 5,
+          "killer_team": 9,
+          "victim_xy": [
+            1934,
+            1897
+          ],
+          "killer_xy": [
+            1923,
+            1898
+          ]
+        },
+        {
+          "phase": 1,
+          "t": null,
+          "weapon": "WeapBerylM762_C",
+          "reason": "TorsoShot",
+          "dist_m": 15,
+          "wall": false,
+          "victim_team": 17,
+          "killer_team": 9,
+          "victim_xy": [
+            1938,
+            1898
+          ],
+          "killer_xy": [
+            1924,
+            1895
+          ]
+        },
+        {
+          "phase": 1,
+          "t": null,
+          "weapon": "WeapHK416_C",
+          "reason": "TorsoShot",
+          "dist_m": 35,
+          "wall": false,
+          "victim_team": 8,
+          "killer_team": 11,
+          "victim_xy": [
+            1960,
+            1801
+          ],
+          "killer_xy": [
+            1965,
+            1765
+          ]
+        },
+        {
+          "phase": 1,
+          "t": null,
+          "weapon": "WeapHK416_C",
+          "reason": "TorsoShot",
+          "dist_m": 39,
+          "wall": false,
+          "victim_team": 8,
+          "killer_team": 11,
+          "victim_xy": [
+            1948,
+            1805
+          ],
+          "killer_xy": [
+            1965,
+            1765
+          ]
+        },
+        {
+          "phase": 1,
+          "t": null,
+          "weapon": "WeapHK416_C",
+          "reason": "TorsoShot",
+          "dist_m": 29,
+          "wall": false,
+          "victim_team": 8,
+          "killer_team": 11,
+          "victim_xy": [
+            1937,
+            1760
+          ],
+          "killer_xy": [
+            1965,
+            1765
+          ]
+        },
+        {
+          "phase": 1,
+          "t": null,
+          "weapon": "WeapMP5K_C",
+          "reason": "TorsoShot",
+          "dist_m": 6,
+          "wall": false,
+          "victim_team": 9,
+          "killer_team": 14,
+          "victim_xy": [
+            1892,
+            1925
+          ],
+          "killer_xy": [
+            1897,
+            1926
+          ]
+        },
+        {
+          "phase": 1,
+          "t": null,
+          "weapon": "WeapACE32_C",
+          "reason": "TorsoShot",
+          "dist_m": 3,
+          "wall": false,
+          "victim_team": 5,
+          "killer_team": 14,
+          "victim_xy": [
+            1943,
+            1895
+          ],
+          "killer_xy": [
+            1940,
+            1892
+          ]
+        },
+        {
+          "phase": 1,
+          "t": null,
+          "weapon": "PlayerFemale_A_C",
+          "reason": "ArmShot",
+          "dist_m": 1,
+          "wall": false,
+          "victim_team": 5,
+          "killer_team": 14,
+          "victim_xy": [
+            1943,
+            1892
+          ],
+          "killer_xy": [
+            1943,
+            1891
+          ]
+        },
+        {
+          "phase": 1,
+          "t": null,
+          "weapon": "WeapAUG_C",
+          "reason": "HeadShot",
+          "dist_m": 1,
+          "wall": false,
+          "victim_team": 1,
+          "killer_team": 22,
+          "victim_xy": [
+            2573,
+            1342
+          ],
+          "killer_xy": [
+            2574,
+            1345
+          ]
+        },
+        {
+          "phase": 1,
+          "t": null,
+          "weapon": "WeapMP5K_C",
+          "reason": "TorsoShot",
+          "dist_m": 17,
+          "wall": false,
+          "victim_team": 18,
+          "killer_team": 28,
+          "victim_xy": [
+            2191,
+            926
+          ],
+          "killer_xy": [
+            2203,
+            932
+          ]
+        },
+        {
+          "phase": 1,
+          "t": null,
+          "weapon": "WeapMP5K_C",
+          "reason": "HeadShot",
+          "dist_m": 8,
+          "wall": false,
+          "victim_team": 17,
+          "killer_team": 14,
+          "victim_xy": [
+            1898,
+            1915
+          ],
+          "killer_xy": [
+            1891,
+            1915
+          ]
+        },
+        {
+          "phase": 1,
+          "t": null,
+          "weapon": "",
+          "reason": "",
+          "dist_m": 0,
+          "wall": false,
+          "victim_team": 1,
+          "killer_team": 1,
+          "victim_xy": [
+            2572,
+            1348
+          ],
+          "killer_xy": [
+            2573,
+            1342
+          ]
+        },
+        {
+          "phase": 1,
+          "t": null,
+          "weapon": "WeapAUG_C",
+          "reason": "TorsoShot",
+          "dist_m": 16,
+          "wall": false,
+          "victim_team": 3,
+          "killer_team": 22,
+          "victim_xy": [
+            2557,
+            1338
+          ],
+          "killer_xy": [
+            2572,
+            1340
+          ]
+        },
+        {
+          "phase": 1,
+          "t": null,
+          "weapon": "WeapAUG_C",
+          "reason": "LegShot",
+          "dist_m": 91,
+          "wall": false,
+          "victim_team": 28,
+          "killer_team": 27,
+          "victim_xy": [
+            2242,
+            942
+          ],
+          "killer_xy": [
+            2333,
+            924
+          ]
+        },
+        {
+          "phase": 1,
+          "t": null,
+          "weapon": "WeapACE32_C",
+          "reason": "PelvisShot",
+          "dist_m": 84,
+          "wall": false,
+          "victim_team": 28,
+          "killer_team": 18,
+          "victim_xy": [
+            2219,
+            942
+          ],
+          "killer_xy": [
+            2171,
+            932
+          ]
+        },
+        {
+          "phase": 1,
+          "t": null,
+          "weapon": "WeapAK47_C",
+          "reason": "TorsoShot",
+          "dist_m": 7,
+          "wall": false,
+          "victim_team": 28,
+          "killer_team": 18,
+          "victim_xy": [
+            2221,
+            986
+          ],
+          "killer_xy": [
+            2261,
+            984
+          ]
+        },
+        {
+          "phase": 1,
+          "t": null,
+          "weapon": "WeapAUG_C",
+          "reason": "PelvisShot",
+          "dist_m": 86,
+          "wall": false,
+          "victim_team": 28,
+          "killer_team": 27,
+          "victim_xy": [
+            2255,
+            961
+          ],
+          "killer_xy": [
+            2333,
+            924
+          ]
+        },
+        {
+          "phase": 1,
+          "t": null,
+          "weapon": "WeapAUG_C",
+          "reason": "TorsoShot",
+          "dist_m": 40,
+          "wall": false,
+          "victim_team": 1,
+          "killer_team": 3,
+          "victim_xy": [
+            2566,
+            1368
+          ],
+          "killer_xy": [
+            2563,
+            1375
+          ]
+        },
+        {
+          "phase": 1,
+          "t": null,
+          "weapon": "WeapBerreta686_C",
+          "reason": "LegShot",
+          "dist_m": 3,
+          "wall": false,
+          "victim_team": 1,
+          "killer_team": 3,
+          "victim_xy": [
+            2563,
+            1372
+          ],
+          "killer_xy": [
+            2563,
+            1375
+          ]
+        },
+        {
+          "phase": 1,
+          "t": null,
+          "weapon": "WeapFNFal_C",
+          "reason": "TorsoShot",
+          "dist_m": 71,
+          "wall": false,
+          "victim_team": 17,
+          "killer_team": 19,
+          "victim_xy": [
+            1919,
+            1914
+          ],
+          "killer_xy": [
+            1870,
+            1964
+          ]
+        },
+        {
+          "phase": 1,
+          "t": null,
+          "weapon": "WeapBerreta686_C",
+          "reason": "HeadShot",
+          "dist_m": 2,
+          "wall": false,
+          "victim_team": 26,
+          "killer_team": 7,
+          "victim_xy": [
+            1912,
+            2800
+          ],
+          "killer_xy": [
+            1911,
+            2800
+          ]
+        },
+        {
+          "phase": 1,
+          "t": null,
+          "weapon": "WeapBerreta686_C",
+          "reason": "HeadShot",
+          "dist_m": 10,
+          "wall": false,
+          "victim_team": 22,
+          "killer_team": 3,
+          "victim_xy": [
+            2571,
+            1352
+          ],
+          "killer_xy": [
+            2573,
+            1361
+          ]
+        },
+        {
+          "phase": 1,
+          "t": null,
+          "weapon": "WeapBerreta686_C",
+          "reason": "HeadShot",
+          "dist_m": 3,
+          "wall": false,
+          "victim_team": 26,
+          "killer_team": 7,
+          "victim_xy": [
+            1912,
+            2794
+          ],
+          "killer_xy": [
+            1912,
+            2800
+          ]
+        },
+        {
+          "phase": 1,
+          "t": null,
+          "weapon": "WeapAUG_C",
+          "reason": "TorsoShot",
+          "dist_m": 2,
+          "wall": false,
+          "victim_team": 11,
+          "killer_team": 9,
+          "victim_xy": [
+            1936,
+            1895
+          ],
+          "killer_xy": [
+            1938,
+            1894
+          ]
+        },
+        {
+          "phase": 1,
+          "t": null,
+          "weapon": "WeapVector_C",
+          "reason": "HeadShot",
+          "dist_m": 9,
+          "wall": false,
+          "victim_team": 9,
+          "killer_team": 11,
+          "victim_xy": [
+            1935,
+            1896
+          ],
+          "killer_xy": [
+            1936,
+            1895
+          ]
+        },
+        {
+          "phase": 1,
+          "t": null,
+          "weapon": "WeapAUG_C",
+          "reason": "TorsoShot",
+          "dist_m": 54,
+          "wall": false,
+          "victim_team": 18,
+          "killer_team": 27,
+          "victim_xy": [
+            2288,
+            979
+          ],
+          "killer_xy": [
+            2237,
+            965
+          ]
+        },
+        {
+          "phase": 1,
+          "t": null,
+          "weapon": "WeapVector_C",
+          "reason": "HeadShot",
+          "dist_m": 2,
+          "wall": false,
+          "victim_team": 11,
+          "killer_team": 9,
+          "victim_xy": [
+            1933,
+            1896
+          ],
+          "killer_xy": [
+            1936,
+            1899
+          ]
+        },
+        {
+          "phase": 1,
+          "t": null,
+          "weapon": "WeapAUG_C",
+          "reason": "TorsoShot",
+          "dist_m": 17,
+          "wall": false,
+          "victim_team": 18,
+          "killer_team": 27,
+          "victim_xy": [
+            2198,
+            969
+          ],
+          "killer_xy": [
+            2201,
+            968
+          ]
+        },
+        {
+          "phase": 1,
+          "t": null,
+          "weapon": "WeapBerreta686_C",
+          "reason": "PelvisShot",
+          "dist_m": 9,
+          "wall": false,
+          "victim_team": 18,
+          "killer_team": 27,
+          "victim_xy": [
+            2207,
+            979
+          ],
+          "killer_xy": [
+            2198,
+            978
+          ]
+        },
+        {
+          "phase": 1,
+          "t": null,
+          "weapon": "WeapMP5K_C",
+          "reason": "TorsoShot",
+          "dist_m": 73,
+          "wall": false,
+          "victim_team": 200,
+          "killer_team": 2,
+          "victim_xy": [
+            2249,
+            1719
+          ],
+          "killer_xy": [
+            2285,
+            1713
+          ]
+        },
+        {
+          "phase": 1,
+          "t": null,
+          "weapon": "WeapMP5K_C",
+          "reason": "TorsoShot",
+          "dist_m": 101,
+          "wall": false,
+          "victim_team": 200,
+          "killer_team": 2,
+          "victim_xy": [
+            2267,
+            1694
+          ],
+          "killer_xy": [
+            2283,
+            1704
+          ]
+        },
+        {
+          "phase": 1,
+          "t": null,
+          "weapon": "WeapBerylM762_C",
+          "reason": "TorsoShot",
+          "dist_m": 52,
+          "wall": false,
+          "victim_team": 12,
+          "killer_team": 26,
+          "victim_xy": [
+            1946,
+            2788
+          ],
+          "killer_xy": [
+            1944,
+            2735
+          ]
+        },
+        {
+          "phase": 1,
+          "t": null,
+          "weapon": "WeapAUG_C",
+          "reason": "TorsoShot",
+          "dist_m": 59,
+          "wall": false,
+          "victim_team": 12,
+          "killer_team": 7,
+          "victim_xy": [
+            1967,
+            2813
+          ],
+          "killer_xy": [
+            1926,
+            2789
+          ]
+        },
+        {
+          "phase": 1,
+          "t": null,
+          "weapon": "WeapM249_C",
+          "reason": "TorsoShot",
+          "dist_m": 21,
+          "wall": false,
+          "victim_team": 12,
+          "killer_team": 7,
+          "victim_xy": [
+            1925,
+            2775
+          ],
+          "killer_xy": [
+            1918,
+            2795
+          ]
+        },
+        {
+          "phase": 1,
+          "t": null,
+          "weapon": "WeapWinchester_C",
+          "reason": "TorsoShot",
+          "dist_m": 8,
+          "wall": false,
+          "victim_team": 23,
+          "killer_team": 24,
+          "victim_xy": [
+            1971,
+            1940
+          ],
+          "killer_xy": [
+            1966,
+            1939
+          ]
+        },
+        {
+          "phase": 1,
+          "t": null,
+          "weapon": "WeapWinchester_C",
+          "reason": "ArmShot",
+          "dist_m": 8,
+          "wall": false,
+          "victim_team": 23,
+          "killer_team": 24,
+          "victim_xy": [
+            1974,
+            1941
+          ],
+          "killer_xy": [
+            1966,
+            1939
+          ]
+        },
+        {
+          "phase": 1,
+          "t": null,
+          "weapon": "WeapRPD_C",
+          "reason": "TorsoShot",
+          "dist_m": 56,
+          "wall": false,
+          "victim_team": 24,
+          "killer_team": 4,
+          "victim_xy": [
+            1967,
+            1939
+          ],
+          "killer_xy": [
+            1954,
+            1884
+          ]
+        },
+        {
+          "phase": 1,
+          "t": null,
+          "weapon": "WeapM249_C",
+          "reason": "TorsoShot",
+          "dist_m": 37,
+          "wall": false,
+          "victim_team": 11,
+          "killer_team": 14,
+          "victim_xy": [
+            1909,
+            1882
+          ],
+          "killer_xy": [
+            1941,
+            1890
+          ]
+        },
+        {
+          "phase": 1,
+          "t": null,
+          "weapon": "WeapACE32_C",
+          "reason": "LegShot",
+          "dist_m": 5,
+          "wall": false,
+          "victim_team": 11,
+          "killer_team": 19,
+          "victim_xy": [
+            1868,
+            1918
+          ],
+          "killer_xy": [
+            1873,
+            1920
+          ]
+        },
+        {
+          "phase": 1,
+          "t": null,
+          "weapon": "WeapMP5K_C",
+          "reason": "TorsoShot",
+          "dist_m": 24,
+          "wall": false,
+          "victim_team": 200,
+          "killer_team": 2,
+          "victim_xy": [
+            2264,
+            1649
+          ],
+          "killer_xy": [
+            2270,
+            1665
+          ]
+        },
+        {
+          "phase": 1,
+          "t": null,
+          "weapon": "WeapRPD_C",
+          "reason": "TorsoShot",
+          "dist_m": 13,
+          "wall": false,
+          "victim_team": 14,
+          "killer_team": 4,
+          "victim_xy": [
+            1941,
+            1889
+          ],
+          "killer_xy": [
+            1943,
+            1888
+          ]
+        },
+        {
+          "phase": 1,
+          "t": null,
+          "weapon": "WeapVector_C",
+          "reason": "PelvisShot",
+          "dist_m": 5,
+          "wall": false,
+          "victim_team": 4,
+          "killer_team": 9,
+          "victim_xy": [
+            1933,
+            1894
+          ],
+          "killer_xy": [
+            1934,
+            1897
+          ]
+        },
+        {
+          "phase": 1,
+          "t": null,
+          "weapon": "WeapWinchester_C",
+          "reason": "ArmShot",
+          "dist_m": 5,
+          "wall": false,
+          "victim_team": 9,
+          "killer_team": 4,
+          "victim_xy": [
+            1937,
+            1901
+          ],
+          "killer_xy": [
+            1942,
+            1899
+          ]
+        },
+        {
+          "phase": 1,
+          "t": null,
+          "weapon": "WeapM24_C",
+          "reason": "HeadShot",
+          "dist_m": 20,
+          "wall": false,
+          "victim_team": 14,
+          "killer_team": 4,
+          "victim_xy": [
+            1971,
+            1908
+          ],
+          "killer_xy": [
+            1992,
+            1905
+          ]
+        },
+        {
+          "phase": 1,
+          "t": null,
+          "weapon": "WeapRPD_C",
+          "reason": "HeadShot",
+          "dist_m": 21,
+          "wall": false,
+          "victim_team": 14,
+          "killer_team": 4,
+          "victim_xy": [
+            1993,
+            1892
+          ],
+          "killer_xy": [
+            1974,
+            1901
+          ]
+        },
+        {
+          "phase": 1,
+          "t": null,
+          "weapon": "WeapBerreta686_C",
+          "reason": "ArmShot",
+          "dist_m": 4,
+          "wall": false,
+          "victim_team": 16,
+          "killer_team": 27,
+          "victim_xy": [
+            2448,
+            1249
+          ],
+          "killer_xy": [
+            2446,
+            1253
+          ]
+        },
+        {
+          "phase": 1,
+          "t": null,
+          "weapon": "WeapWinchester_C",
+          "reason": "HeadShot",
+          "dist_m": 6,
+          "wall": false,
+          "victim_team": 26,
+          "killer_team": 7,
+          "victim_xy": [
+            1904,
+            2757
+          ],
+          "killer_xy": [
+            1928,
+            2762
+          ]
+        },
+        {
+          "phase": 1,
+          "t": null,
+          "weapon": "WeapM249_C",
+          "reason": "TorsoShot",
+          "dist_m": 40,
+          "wall": false,
+          "victim_team": 26,
+          "killer_team": 7,
+          "victim_xy": [
+            1972,
+            2762
+          ],
+          "killer_xy": [
+            1939,
+            2785
+          ]
+        },
+        {
+          "phase": 1,
+          "t": null,
+          "weapon": "WeapAUG_C",
+          "reason": "ArmShot",
+          "dist_m": 20,
+          "wall": false,
+          "victim_team": 27,
+          "killer_team": 3,
+          "victim_xy": [
+            2448,
+            1300
+          ],
+          "killer_xy": [
+            2442,
+            1301
+          ]
+        },
+        {
+          "phase": 1,
+          "t": null,
+          "weapon": "WeapBerylM762_C",
+          "reason": "TorsoShot",
+          "dist_m": 20,
+          "wall": false,
+          "victim_team": 3,
+          "killer_team": 27,
+          "victim_xy": [
+            2439,
+            1302
+          ],
+          "killer_xy": [
+            2431,
+            1300
+          ]
+        },
+        {
+          "phase": 1,
+          "t": null,
+          "weapon": "WeapBerreta686_C",
+          "reason": "ArmShot",
+          "dist_m": 5,
+          "wall": false,
+          "victim_team": 27,
+          "killer_team": 3,
+          "victim_xy": [
+            2426,
+            1332
+          ],
+          "killer_xy": [
+            2423,
+            1329
+          ]
+        },
+        {
+          "phase": 1,
+          "t": null,
+          "weapon": "WeapAUG_C",
+          "reason": "TorsoShot",
+          "dist_m": 49,
+          "wall": false,
+          "victim_team": 3,
+          "killer_team": 27,
+          "victim_xy": [
+            2448,
+            1308
+          ],
+          "killer_xy": [
+            2446,
+            1307
+          ]
+        },
+        {
+          "phase": 1,
+          "t": null,
+          "weapon": "WeapWinchester_C",
+          "reason": "HeadShot",
+          "dist_m": 10,
+          "wall": false,
+          "victim_team": 3,
+          "killer_team": 27,
+          "victim_xy": [
+            2417,
+            1330
+          ],
+          "killer_xy": [
+            2420,
+            1320
+          ]
+        },
+        {
+          "phase": 1,
+          "t": null,
+          "weapon": "WeapRPD_C",
+          "reason": "HeadShot",
+          "dist_m": 26,
+          "wall": false,
+          "victim_team": 19,
+          "killer_team": 4,
+          "victim_xy": [
+            1942,
+            2034
+          ],
+          "killer_xy": [
+            1958,
+            2054
+          ]
+        },
+        {
+          "phase": 1,
+          "t": null,
+          "weapon": "WeapACE32_C",
+          "reason": "TorsoShot",
+          "dist_m": 1,
+          "wall": false,
+          "victim_team": 200,
+          "killer_team": 2,
+          "victim_xy": [
+            2331,
+            1542
+          ],
+          "killer_xy": [
+            2330,
+            1542
+          ]
+        },
+        {
+          "phase": 1,
+          "t": null,
+          "weapon": "WeapVector_C",
+          "reason": "TorsoShot",
+          "dist_m": 7,
+          "wall": false,
+          "victim_team": 19,
+          "killer_team": 4,
+          "victim_xy": [
+            1896,
+            2022
+          ],
+          "killer_xy": [
+            1904,
+            2023
+          ]
+        },
+        {
+          "phase": 2,
+          "t": null,
+          "weapon": "WeapAUG_C",
+          "reason": "TorsoShot",
+          "dist_m": 11,
+          "wall": false,
+          "victim_team": 21,
+          "killer_team": 20,
+          "victim_xy": [
+            2193,
+            3062
+          ],
+          "killer_xy": [
+            2181,
+            3064
+          ]
+        },
+        {
+          "phase": 2,
+          "t": null,
+          "weapon": "WeapQBZ95_C",
+          "reason": "PelvisShot",
+          "dist_m": 39,
+          "wall": false,
+          "victim_team": 19,
+          "killer_team": 4,
+          "victim_xy": [
+            1918,
+            1947
+          ],
+          "killer_xy": [
+            1938,
+            1981
+          ]
+        },
+        {
+          "phase": 2,
+          "t": null,
+          "weapon": "WeapACE32_C",
+          "reason": "HeadShot",
+          "dist_m": 16,
+          "wall": false,
+          "victim_team": 27,
+          "killer_team": 2,
+          "victim_xy": [
+            2342,
+            1563
+          ],
+          "killer_xy": [
+            2343,
+            1562
+          ]
+        },
+        {
+          "phase": 2,
+          "t": null,
+          "weapon": "WeapMini14_C",
+          "reason": "PelvisShot",
+          "dist_m": 169,
+          "wall": false,
+          "victim_team": 20,
+          "killer_team": 7,
+          "victim_xy": [
+            2228,
+            2941
+          ],
+          "killer_xy": [
+            2179,
+            2780
+          ]
+        },
+        {
+          "phase": 2,
+          "t": null,
+          "weapon": "WeapAUG_C",
+          "reason": "HeadShot",
+          "dist_m": 78,
+          "wall": false,
+          "victim_team": 21,
+          "killer_team": 20,
+          "victim_xy": [
+            2213,
+            3069
+          ],
+          "killer_xy": [
+            2203,
+            3110
+          ]
+        },
+        {
+          "phase": 2,
+          "t": null,
+          "weapon": "ProjGrenade_C",
+          "reason": "NonSpecific",
+          "dist_m": 39,
+          "wall": false,
+          "victim_team": 21,
+          "killer_team": 20,
+          "victim_xy": [
+            2256,
+            3080
+          ],
+          "killer_xy": [
+            2243,
+            3077
+          ]
+        },
+        {
+          "phase": 2,
+          "t": null,
+          "weapon": "WeapAUG_C",
+          "reason": "TorsoShot",
+          "dist_m": 8,
+          "wall": false,
+          "victim_team": 21,
+          "killer_team": 20,
+          "victim_xy": [
+            2241,
+            3070
+          ],
+          "killer_xy": [
+            2243,
+            3077
+          ]
+        },
+        {
+          "phase": 2,
+          "t": null,
+          "weapon": "WeapACE32_C",
+          "reason": "LegShot",
+          "dist_m": 40,
+          "wall": false,
+          "victim_team": 27,
+          "killer_team": 2,
+          "victim_xy": [
+            2342,
+            1563
+          ],
+          "killer_xy": [
+            2338,
+            1569
+          ]
+        },
+        {
+          "phase": 3,
+          "t": null,
+          "weapon": "WeapBerylM762_C",
+          "reason": "LegShot",
+          "dist_m": 63,
+          "wall": false,
+          "victim_team": 2,
+          "killer_team": 27,
+          "victim_xy": [
+            2347,
+            1642
+          ],
+          "killer_xy": [
+            2369,
+            1614
+          ]
+        },
+        {
+          "phase": 3,
+          "t": null,
+          "weapon": "ProjGrenade_C",
+          "reason": "NonSpecific",
+          "dist_m": 40,
+          "wall": false,
+          "victim_team": 27,
+          "killer_team": 2,
+          "victim_xy": [
+            2367,
+            1615
+          ],
+          "killer_xy": [
+            2372,
+            1615
+          ]
+        },
+        {
+          "phase": 3,
+          "t": null,
+          "weapon": "WeapM24_C",
+          "reason": "HeadShot",
+          "dist_m": 142,
+          "wall": false,
+          "victim_team": 20,
+          "killer_team": 7,
+          "victim_xy": [
+            2248,
+            3081
+          ],
+          "killer_xy": [
+            2274,
+            2943
+          ]
+        },
+        {
+          "phase": 3,
+          "t": null,
+          "weapon": "WeapACE32_C",
+          "reason": "TorsoShot",
+          "dist_m": 4,
+          "wall": false,
+          "victim_team": 27,
+          "killer_team": 2,
+          "victim_xy": [
+            2376,
+            1597
+          ],
+          "killer_xy": [
+            2378,
+            1600
+          ]
+        },
+        {
+          "phase": 3,
+          "t": null,
+          "weapon": "WeapACE32_C",
+          "reason": "HeadShot",
+          "dist_m": 54,
+          "wall": false,
+          "victim_team": 25,
+          "killer_team": 2,
+          "victim_xy": [
+            2268,
+            1595
+          ],
+          "killer_xy": [
+            2342,
+            1588
+          ]
+        },
+        {
+          "phase": 3,
+          "t": null,
+          "weapon": "WeapHK416_C",
+          "reason": "TorsoShot",
+          "dist_m": 41,
+          "wall": false,
+          "victim_team": 2,
+          "killer_team": 25,
+          "victim_xy": [
+            2349,
+            1588
+          ],
+          "killer_xy": [
+            2338,
+            1548
+          ]
+        },
+        {
+          "phase": 3,
+          "t": null,
+          "weapon": "",
+          "reason": "",
+          "dist_m": 0,
+          "wall": false,
+          "victim_team": 4,
+          "killer_team": 4,
+          "victim_xy": [
+            2504,
+            2199
+          ],
+          "killer_xy": [
+            2503,
+            2198
+          ]
+        },
+        {
+          "phase": 4,
+          "t": null,
+          "weapon": "WeapBerylM762_C",
+          "reason": "TorsoShot",
+          "dist_m": 25,
+          "wall": false,
+          "victim_team": 4,
+          "killer_team": 15,
+          "victim_xy": [
+            2523,
+            2086
+          ],
+          "killer_xy": [
+            2556,
+            2070
+          ]
+        },
+        {
+          "phase": 4,
+          "t": null,
+          "weapon": "WeapAUG_C",
+          "reason": "TorsoShot",
+          "dist_m": 28,
+          "wall": false,
+          "victim_team": 4,
+          "killer_team": 7,
+          "victim_xy": [
+            2501,
+            2099
+          ],
+          "killer_xy": [
+            2494,
+            2126
+          ]
+        },
+        {
+          "phase": 4,
+          "t": null,
+          "weapon": "WeapAUG_C",
+          "reason": "PelvisShot",
+          "dist_m": 10,
+          "wall": false,
+          "victim_team": 7,
+          "killer_team": 4,
+          "victim_xy": [
+            2514,
+            2096
+          ],
+          "killer_xy": [
+            2522,
+            2099
+          ]
+        },
+        {
+          "phase": 4,
+          "t": null,
+          "weapon": "WeapAUG_C",
+          "reason": "HeadShot",
+          "dist_m": 7,
+          "wall": false,
+          "victim_team": 4,
+          "killer_team": 7,
+          "victim_xy": [
+            2509,
+            2096
+          ],
+          "killer_xy": [
+            2505,
+            2102
+          ]
+        },
+        {
+          "phase": 4,
+          "t": null,
+          "weapon": "WeapMini14_C",
+          "reason": "TorsoShot",
+          "dist_m": 68,
+          "wall": false,
+          "victim_team": 15,
+          "killer_team": 7,
+          "victim_xy": [
+            2560,
+            2085
+          ],
+          "killer_xy": [
+            2531,
+            2144
+          ]
+        },
+        {
+          "phase": 4,
+          "t": null,
+          "weapon": "ProjGrenade_C",
+          "reason": "NonSpecific",
+          "dist_m": 41,
+          "wall": false,
+          "victim_team": 25,
+          "killer_team": 15,
+          "victim_xy": [
+            2534,
+            2010
+          ],
+          "killer_xy": [
+            2564,
+            2052
+          ]
+        },
+        {
+          "phase": 5,
+          "t": null,
+          "weapon": "WeapQBZ95_C",
+          "reason": "TorsoShot",
+          "dist_m": 64,
+          "wall": false,
+          "victim_team": 6,
+          "killer_team": 20,
+          "victim_xy": [
+            2924,
+            2130
+          ],
+          "killer_xy": [
+            2913,
+            2164
+          ]
+        },
+        {
+          "phase": 5,
+          "t": null,
+          "weapon": "WeapAUG_C",
+          "reason": "TorsoShot",
+          "dist_m": 28,
+          "wall": false,
+          "victim_team": 6,
+          "killer_team": 20,
+          "victim_xy": [
+            2959,
+            2156
+          ],
+          "killer_xy": [
+            2904,
+            2149
+          ]
+        },
+        {
+          "phase": 5,
+          "t": null,
+          "weapon": "ProjGrenade_C",
+          "reason": "NonSpecific",
+          "dist_m": 56,
+          "wall": false,
+          "victim_team": 6,
+          "killer_team": 20,
+          "victim_xy": [
+            2926,
+            2127
+          ],
+          "killer_xy": [
+            2904,
+            2149
+          ]
+        },
+        {
+          "phase": 5,
+          "t": null,
+          "weapon": "WeapAUG_C",
+          "reason": "TorsoShot",
+          "dist_m": 26,
+          "wall": false,
+          "victim_team": 6,
+          "killer_team": 20,
+          "victim_xy": [
+            2922,
+            2131
+          ],
+          "killer_xy": [
+            2904,
+            2149
+          ]
+        },
+        {
+          "phase": 5,
+          "t": null,
+          "weapon": "WeapBerylM762_C",
+          "reason": "ArmShot",
+          "dist_m": 38,
+          "wall": false,
+          "victim_team": 25,
+          "killer_team": 15,
+          "victim_xy": [
+            2689,
+            1981
+          ],
+          "killer_xy": [
+            2704,
+            2020
+          ]
+        },
+        {
+          "phase": 5,
+          "t": null,
+          "weapon": "WeapAUG_C",
+          "reason": "TorsoShot",
+          "dist_m": 13,
+          "wall": false,
+          "victim_team": 25,
+          "killer_team": 15,
+          "victim_xy": [
+            2660,
+            1964
+          ],
+          "killer_xy": [
+            2737,
+            2020
+          ]
+        },
+        {
+          "phase": 6,
+          "t": null,
+          "weapon": "",
+          "reason": "",
+          "dist_m": 0,
+          "wall": false,
+          "victim_team": 25,
+          "killer_team": 0,
+          "victim_xy": [
+            2594,
+            2078
+          ],
+          "killer_xy": null
+        },
+        {
+          "phase": 6,
+          "t": null,
+          "weapon": "WeapMini14_C",
+          "reason": "LegShot",
+          "dist_m": 139,
+          "wall": false,
+          "victim_team": 15,
+          "killer_team": 20,
+          "victim_xy": [
+            2775,
+            2063
+          ],
+          "killer_xy": [
+            2856,
+            2175
+          ]
+        },
+        {
+          "phase": 6,
+          "t": null,
+          "weapon": "WeapMini14_C",
+          "reason": "HeadShot",
+          "dist_m": 131,
+          "wall": false,
+          "victim_team": 15,
+          "killer_team": 20,
+          "victim_xy": [
+            2779,
+            2070
+          ],
+          "killer_xy": [
+            2856,
+            2175
+          ]
+        },
+        {
+          "phase": 6,
+          "t": null,
+          "weapon": "WeapHK416_C",
+          "reason": "ArmShot",
+          "dist_m": 45,
+          "wall": false,
+          "victim_team": 7,
+          "killer_team": 20,
+          "victim_xy": [
+            2775,
+            2217
+          ],
+          "killer_xy": [
+            2788,
+            2194
+          ]
+        },
+        {
+          "phase": 6,
+          "t": null,
+          "weapon": "ProjGrenade_C",
+          "reason": "NonSpecific",
+          "dist_m": 27,
+          "wall": false,
+          "victim_team": 7,
+          "killer_team": 20,
+          "victim_xy": [
+            2810,
+            2207
+          ],
+          "killer_xy": [
+            2810,
+            2208
+          ]
+        },
+        {
+          "phase": 6,
+          "t": null,
+          "weapon": "WeapAUG_C",
+          "reason": "TorsoShot",
+          "dist_m": 18,
+          "wall": false,
+          "victim_team": 20,
+          "killer_team": 7,
+          "victim_xy": [
+            2820,
+            2202
+          ],
+          "killer_xy": [
+            2810,
+            2207
+          ]
+        },
+        {
+          "phase": 6,
+          "t": null,
+          "weapon": "WeapAUG_C",
+          "reason": "LegShot",
+          "dist_m": 30,
+          "wall": false,
+          "victim_team": 20,
+          "killer_team": 7,
+          "victim_xy": [
+            2787,
+            2195
+          ],
+          "killer_xy": [
+            2810,
+            2207
+          ]
+        },
+        {
+          "phase": 6,
+          "t": null,
+          "weapon": "WeapM249_C",
+          "reason": "PelvisShot",
+          "dist_m": 4,
+          "wall": false,
+          "victim_team": 20,
+          "killer_team": 7,
+          "victim_xy": [
+            2802,
+            2210
+          ],
+          "killer_xy": [
+            2806,
+            2211
+          ]
+        }
+      ]
     }
   ],
   "num_matches": 2,
