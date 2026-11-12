@@ -165,6 +165,8 @@ def main() -> None:
     ap.add_argument("--top", type=int, default=15, help="리더보드 모드별 상위 N명")
     ap.add_argument("--modes", default="squad-fpp,squad", help="리더보드 모드 (쉼표 구분)")
     ap.add_argument("--per-region", type=int, default=18, help="권역당 새로 수집할 최대 매치 수")
+    ap.add_argument("--upgrade", action="store_true",
+                    help="킬 이벤트/생존 팀 수가 없는 기존 매치를 다시 받아 제자리에서 보강 (14일 이내 매치만 가능)")
     args = ap.parse_args()
 
     if not config.PUBG_API_KEY:
@@ -179,6 +181,46 @@ def main() -> None:
     touched_maps: Set[str] = set()
     if backfilled:
         touched_maps.update(m for m, b in bundles.items() if b["matches"])
+
+    if args.upgrade:
+        todo = [(mid_, mm) for mid_, b in bundles.items() for mm in b["matches"] if "kills" not in mm]
+        print(f"[보강] 킬 이벤트가 없는 기존 매치 {len(todo)}건 재수집 시도")
+        done = 0
+        for map_id_, mm in todo:
+            reg_meta_ = config.PRO_REGION_META.get(mm.get("region", ""))
+            if not reg_meta_:
+                continue
+            try:
+                m_resp = requests.get(
+                    f"{config.PUBG_API_BASE_URL}/shards/{reg_meta_['api_shard']}/matches/{mm['match_id']}",
+                    headers={"Accept": "application/vnd.api+json"}, timeout=20)
+                if m_resp.status_code != 200:
+                    continue
+                m_json = m_resp.json()
+                tel_url = next((inc.get("attributes", {}).get("URL") for inc in m_json.get("included", [])
+                                if inc.get("type") == "asset"), None)
+                if not tel_url:
+                    continue
+                t_resp = requests.get(tel_url, headers={"Accept-Encoding": "gzip"}, timeout=60)
+                if t_resp.status_code != 200:
+                    continue
+                parsed = _parse_single_telemetry_json(
+                    events=t_resp.json(), match_id=mm["match_id"], match_index=mm.get("match_index", 0),
+                    map_id=map_id_, size_meter=float(bundles[map_id_]["size_meter"]),
+                    team_ranks=extract_team_ranks_from_match_json(m_json))
+                if parsed and "kills" in parsed:
+                    mm["kills"] = parsed["kills"]
+                    for p_str, p_info in parsed["phases"].items():
+                        if p_str in mm.get("phases", {}):
+                            mm["phases"][p_str]["alive_teams_start"] = p_info.get("alive_teams_start")
+                            mm["phases"][p_str]["alive_teams_end"] = p_info.get("alive_teams_end")
+                    touched_maps.add(map_id_)
+                    done += 1
+                    if done % 10 == 0:
+                        print(f"  보강 {done}/{len(todo)}")
+            except Exception as exc:  # noqa: BLE001
+                print(f"  보강 오류 {mm.get('match_id', '')[:8]}: {exc}")
+        print(f"[보강] {done}건 완료 (기존 위치·순위 데이터는 그대로 유지)")
 
     target_regions = [r.strip() for r in args.regions.split(",") if r.strip() in config.PRO_REGION_META and r.strip() != "oc"]
     modes = [m.strip() for m in args.modes.split(",") if m.strip()]

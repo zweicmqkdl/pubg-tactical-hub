@@ -690,6 +690,21 @@ def _parse_single_telemetry_json(
     team_positions: Dict[Tuple[int, int], List[Tuple[float, float, float]]] = {}
     resolved_ranks: Dict[int, int] = dict(team_ranks or {})
 
+    # 신규 수집 항목: 페이즈별 생존 팀 수, 킬 이벤트 (기존 분석 로직은 이 값을 사용하지 않음)
+    phase_alive: Dict[int, List[int]] = {p: [] for p in config.PHASES}
+    kill_events: List[Dict[str, Any]] = []
+
+    def _loc_m(loc: Any) -> List[int] | None:
+        if not isinstance(loc, dict):
+            return None
+        try:
+            return [
+                int(round(float(loc.get("x", 0.0) or 0.0) / config.PUBG_UNIT_PER_METER)),
+                int(round(float(loc.get("y", 0.0) or 0.0) / config.PUBG_UNIT_PER_METER)),
+            ]
+        except Exception:
+            return None
+
     current_phase = 0
     for ev in events:
         t_type = ev.get("_T")
@@ -708,6 +723,34 @@ def _parse_single_telemetry_json(
             sy = float(sz_pos.get("y", 0.0) or 0.0) / config.PUBG_UNIT_PER_METER
             if 1 <= current_phase <= 6 and sz_rad > 10.0 and sx > 0 and sy > 0:
                 phase_zones[current_phase].append((sx, sy, sz_rad))
+            if 1 <= current_phase <= 6:
+                try:
+                    nat = int(gs.get("numAliveTeams", 0) or 0)
+                    if nat > 0:
+                        phase_alive[current_phase].append(nat)
+                except Exception:
+                    pass
+
+        elif t_type == "LogPlayerKillV2":
+            try:
+                victim = ev.get("victim") or {}
+                killer = ev.get("killer") or ev.get("finisher") or {}
+                kdi = ev.get("killerDamageInfo") or ev.get("finishDamageInfo") or {}
+                dist_raw = kdi.get("distance")
+                kill_events.append({
+                    "phase": current_phase,
+                    "t": int(float(ev.get("elapsedTime", 0.0) or 0.0)) if ev.get("elapsedTime") is not None else None,
+                    "weapon": kdi.get("damageCauserName") or "",
+                    "reason": kdi.get("damageReason") or "",
+                    "dist_m": int(round(float(dist_raw) / config.PUBG_UNIT_PER_METER)) if dist_raw is not None else None,
+                    "wall": bool(kdi.get("isThroughPenetrableWall", False)),
+                    "victim_team": int(victim.get("teamId", 0) or 0),
+                    "killer_team": int(killer.get("teamId", 0) or 0) if killer else 0,
+                    "victim_xy": _loc_m(victim.get("location")),
+                    "killer_xy": _loc_m(killer.get("location")) if killer else None,
+                })
+            except Exception:
+                pass
 
         elif t_type == "LogPlayerPosition" and 1 <= current_phase <= 6:
             char = ev.get("character") or {}
@@ -791,6 +834,8 @@ def _parse_single_telemetry_json(
             "zone_radius_meter": round(r_m, 1),
             "zone_radius_norm": round(r_m / size_meter, 5),
             "squad_holdings": squad_holdings,
+            "alive_teams_start": phase_alive[p][0] if phase_alive[p] else None,
+            "alive_teams_end": phase_alive[p][-1] if phase_alive[p] else None,
         }
 
     return {
@@ -798,6 +843,7 @@ def _parse_single_telemetry_json(
         "match_index": match_index,
         "map_id": map_id,
         "phases": phases_data,
+        "kills": kill_events,
     }
 
 
