@@ -307,6 +307,113 @@ def generate_virtual_telemetry(
     }
 
 
+STABILITY_EDGES: List[float] = [0.0, 0.33, 0.66, 1.0]   # 원 중심에서의 거리 / 원 반지름 구간 경계
+STABILITY_MIN_N: int = 20                                # 이 팀 수 미만인 구간은 '표본 부족'으로 표시
+
+
+def _build_stability_table(matches: List[Dict[str, Any]]) -> Dict[str, List[Dict[str, Any]]]:
+    """
+    '자리의 안정성' 표를 만듭니다.
+    - 페이즈 p의 자기장 원 안에서 30초 이상 머문 팀이, 원 중심에서 반지름의 몇 % 지점에 있었는가(구간)별로
+    - 바로 다음 페이즈(p+1) 원 안에 남아 있던 팀의 비율(stay_pct)을 계산합니다.
+    거점 하나하나가 아니라 '원과의 상대 위치'로 여러 판의 데이터를 합쳐 표본을 확보합니다.
+    """
+    counts: Dict[Tuple[int, int], List[int]] = {}
+    for match in matches:
+        phases = match["phases"]
+        for p in config.PHASES[:-1]:
+            cur = phases.get(str(p))
+            nxt = phases.get(str(p + 1))
+            if not cur or not nxt:
+                continue
+            seen = set()
+            for sq in cur["squad_holdings"]:
+                if sq["holding_time_sec"] < config.HOLDING_TIME_SEC or sq["squad_id"] in seen:
+                    continue
+                seen.add(sq["squad_id"])
+                r_cur = max(float(cur["zone_radius_meter"]), 1.0)
+                r_next = max(float(nxt["zone_radius_meter"]), 1.0)
+                rel = math.hypot(
+                    sq["x_meter"] - float(cur["zone_center_x_meter"]),
+                    sq["y_meter"] - float(cur["zone_center_y_meter"]),
+                ) / r_cur
+                if rel >= 1.0:
+                    continue  # 이미 현재 원 밖에 있던 팀은 제외 (원 밖은 항상 이동 필요)
+                b = max(i for i, e in enumerate(STABILITY_EDGES[:-1]) if rel >= e)
+                inside_next = math.hypot(
+                    sq["x_meter"] - float(nxt["zone_center_x_meter"]),
+                    sq["y_meter"] - float(nxt["zone_center_y_meter"]),
+                ) / r_next <= 1.0
+                cell = counts.setdefault((p, b), [0, 0])
+                cell[0] += 1
+                cell[1] += 1 if inside_next else 0
+
+    table: Dict[str, List[Dict[str, Any]]] = {}
+    for p in config.PHASES[:-1]:
+        rows = []
+        for b in range(len(STABILITY_EDGES) - 1):
+            n, k = counts.get((p, b), [0, 0])
+            rows.append({
+                "lo": STABILITY_EDGES[b],
+                "hi": STABILITY_EDGES[b + 1],
+                "n": int(n),
+                "stay_pct": round(k / n * 100.0, 1) if n > 0 else None,
+                "reliable": bool(n >= STABILITY_MIN_N),
+            })
+        table[str(p)] = rows
+    return table
+
+
+def _poisson_binomial_tails(probs: List[float], k: int) -> Tuple[float, float]:
+    """
+    서로 다른 확률(probs)을 가진 독립 시행들의 성공 횟수 X에 대해
+    P(X >= k) 와 P(X <= k) 를 정확히 계산합니다. (동적계획법)
+    """
+    dist = [1.0]
+    for p in probs:
+        nxt = [0.0] * (len(dist) + 1)
+        for j, v in enumerate(dist):
+            nxt[j] += v * (1.0 - p)
+            nxt[j + 1] += v * p
+        dist = nxt
+    k = max(0, min(k, len(dist) - 1))
+    p_ge = float(sum(dist[k:]))
+    p_le = float(sum(dist[: k + 1]))
+    return p_ge, p_le
+
+
+def _phase_top4_baselines(holding_records: List[Dict[str, Any]]) -> Dict[int, float]:
+    """
+    페이즈별 '기본 Top4 비율'을 계산합니다.
+    후반 페이즈까지 살아있는 팀은 원래 Top4 비율이 높기 때문에(생존자 편향),
+    각 거점의 Top4 비율은 '같은 페이즈에 있던 팀들의 평균'과 비교해야 공정합니다.
+    """
+    cutoff = config.TOP4_RANK_CUTOFF
+    pair_rank: Dict[Tuple[int, int], int] = {}
+    pair_phases: Dict[Tuple[int, int], set] = {}
+    for rec in holding_records:
+        tr = rec.get("team_rank", 0)
+        if tr > 0:
+            key = (rec["match_index"], rec["squad_id"])
+            pair_rank[key] = tr
+            pair_phases.setdefault(key, set()).add(rec["phase"])
+
+    overall_ranks = list(pair_rank.values())
+    overall_rate = (
+        sum(1 for r in overall_ranks if r <= cutoff) / len(overall_ranks) if overall_ranks else 0.2
+    )
+
+    baselines: Dict[int, float] = {}
+    for p in config.PHASES:
+        ranks = [pair_rank[k] for k, phs in pair_phases.items() if p in phs]
+        if len(ranks) >= 20:
+            rate = sum(1 for r in ranks if r <= cutoff) / len(ranks)
+        else:
+            rate = overall_rate  # 표본이 너무 적은 페이즈는 전체 평균으로 대체
+        baselines[p] = min(max(rate, 0.02), 0.98)
+    return baselines
+
+
 def calculate_spot_probabilities(telemetry_data: Dict[str, Any]) -> Dict[str, Any]:
     """
     2단계 (확률 산출 로직):
@@ -339,6 +446,7 @@ def calculate_spot_probabilities(telemetry_data: Dict[str, Any]) -> Dict[str, An
                     })
 
     coords_meter = np.array([[r["x_meter"], r["y_meter"]] for r in holding_records], dtype=np.float64)
+    phase_top4_baselines = _phase_top4_baselines(holding_records)
 
     dbscan = DBSCAN(
         eps=float(config.CLUSTER_RADIUS_METER),
@@ -444,25 +552,39 @@ def calculate_spot_probabilities(telemetry_data: Dict[str, Any]) -> Dict[str, An
 
         # Top 4 생존율(%) 계산: 해당 포인트에 고착했던 팀(매치-팀 단위 중복 제거) 중 최종 4위 이내 비율
         seen_team_ranks: Dict[Tuple[int, int], int] = {}
+        seen_team_last_phase: Dict[Tuple[int, int], int] = {}
         for i in member_indices:
             rec = holding_records[i]
             tr = rec.get("team_rank", 0)
             if tr > 0:
-                seen_team_ranks[(rec["match_index"], rec["squad_id"])] = tr
+                key = (rec["match_index"], rec["squad_id"])
+                seen_team_ranks[key] = tr
+                # 이 거점에서 해당 팀이 확인된 가장 늦은 페이즈 (그 페이즈까지는 살아있었다는 뜻)
+                seen_team_last_phase[key] = max(seen_team_last_phase.get(key, 0), rec["phase"])
 
         rank_sample_count = len(seen_team_ranks)
-        top4_count = sum(1 for r in seen_team_ranks.values() if r <= 4)
+        top4_count = sum(1 for r in seen_team_ranks.values() if r <= config.TOP4_RANK_CUTOFF)
         top4_survival_pct = round((top4_count / rank_sample_count) * 100.0, 1) if rank_sample_count > 0 else None
 
-        if top4_survival_pct is not None and rank_sample_count >= 2:
-            if top4_survival_pct >= 40.0:
-                spot_tier = "safe_spot"   # 🛡️ 생존 명당 (들어가서 버티기 좋은 자리)
-            elif top4_survival_pct < 25.0:
-                spot_tier = "hot_zone"    # ⚔️ 위험 교전지 (밖에서 지켜보며 킬 각 보기 좋은 자리)
-            else:
-                spot_tier = "neutral"     # 📍 일반 거점
-        else:
-            spot_tier = "neutral"
+        # 같은 페이즈에 있던 팀들의 평균 Top4 비율로 '기대값'을 구해 비교 (생존자 편향 보정)
+        expected_probs = [
+            phase_top4_baselines.get(seen_team_last_phase[k], 0.2) for k in seen_team_ranks
+        ]
+        top4_expected_pct = (
+            round(float(np.mean(expected_probs)) * 100.0, 1) if expected_probs else None
+        )
+
+        top4_pvalue_better = None   # 기대보다 좋을 때, 우연히 이만큼 나올 확률
+        top4_pvalue_worse = None    # 기대보다 나쁠 때, 우연히 이만큼 나올 확률
+        spot_tier = "neutral"       # 📍 일반 거점 (표본 부족이거나 평균과 구분되지 않음)
+        if rank_sample_count >= config.TIER_MIN_SAMPLES:
+            p_ge, p_le = _poisson_binomial_tails(expected_probs, top4_count)
+            top4_pvalue_better = round(p_ge, 4)
+            top4_pvalue_worse = round(p_le, 4)
+            if p_ge <= config.TIER_ALPHA:
+                spot_tier = "safe_spot"   # 🛡️ 생존 명당 (같은 페이즈 평균보다 순위가 유의하게 높음)
+            elif p_le <= config.TIER_ALPHA:
+                spot_tier = "hot_zone"    # ⚔️ 킬각 교전지 (같은 페이즈 평균보다 순위가 유의하게 낮음)
 
         spots.append({
             "spot_id": f"{map_id}_spot_{cluster_id + 1:03d}",
@@ -482,6 +604,9 @@ def calculate_spot_probabilities(telemetry_data: Dict[str, Any]) -> Dict[str, An
             "rank_sample_count": int(rank_sample_count),
             "top4_count": int(top4_count),
             "top4_survival_pct": top4_survival_pct,
+            "top4_expected_pct": top4_expected_pct,
+            "top4_pvalue_better": top4_pvalue_better,
+            "top4_pvalue_worse": top4_pvalue_worse,
             "spot_tier": spot_tier,
             "phase_stats": phase_stats,
         })
@@ -531,6 +656,7 @@ def calculate_spot_probabilities(telemetry_data: Dict[str, Any]) -> Dict[str, An
         "total_spots": len(spots),
         "spots": spots,
         "match_zones": match_zones_summary,
+        "stability_table": _build_stability_table(matches),
     }
 
 

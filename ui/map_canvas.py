@@ -65,6 +65,7 @@ def render_map_canvas(spots_data: Dict[str, Any]) -> None:
         "holdingTimeSec": int(config.HOLDING_TIME_SEC),
         "spots": spots_data.get("spots", []),
         "matchZones": spots_data.get("match_zones", []),
+        "stabilityTable": spots_data.get("stability_table", {}),
         "theme": theme,
     }
     payload_json = json.dumps(payload, ensure_ascii=False)
@@ -579,6 +580,20 @@ function focusSpot(spotId, nx, ny) {{
   renderAll();
 }}
 
+// 점유 확률을 믿고 쓸 수 있는 최소 비교 판 수 (이보다 적으면 '표본 부족'으로 표시)
+const MIN_SIMILAR_MATCHES = 10;
+
+// 자리의 안정성: 현재 원 안에서 반지름 대비 거리(relFrac)에 해당하는 구간의
+// '다음 페이즈 원 안에 남아 있던 팀 비율'을 표에서 찾습니다. (마지막 페이즈 P6은 다음 원이 없음)
+function lookupStability(phase, relFrac) {{
+  const rows = (DATA.stabilityTable || {{}})[String(phase)];
+  if (!rows || !rows.length) return null;
+  for (const row of rows) {{
+    if (relFrac >= row.lo && relFrac < row.hi) return row;
+  }}
+  return rows[rows.length - 1];
+}}
+
 // 특정 자기장 중심(zoneCxNorm, zoneCyNorm)과 페이즈(currentPhase)에 대해
 // ZONE_SIMILARITY_RADIUS(300m)를 반영한 실시간 점유 확률(%) 계산
 function computeActiveSpots() {{
@@ -609,6 +624,7 @@ function computeActiveSpots() {{
     let occupiedCount = 0;
     let similarCount = 0;
     let probPct = spot.occupancy_prob_pct;
+    let usedOverallFallback = false;   // 이 페이즈의 비교 판이 없어 전체(P1~P4 합산) 값으로 대체한 경우
 
     if (pStat) {{
       const eligibleList = pStat.eligible_match_indices || [];
@@ -630,22 +646,35 @@ function computeActiveSpots() {{
         similarCount = spot.similar_zone_matches || 12;
         occupiedCount = spot.occupied_matches || Math.round(similarCount * (spot.occupancy_prob_pct / 100));
         probPct = spot.occupancy_prob_pct;
+        usedOverallFallback = true;
       }}
     }}
 
     const tierOk = (!DATA.tierFilter || DATA.tierFilter === "all" || spot.spot_tier === DATA.tierFilter);
-    if (probPct >= minProbFilter && tierOk) {{
+    // 비교 판 수가 적은 점유 확률은 신뢰할 수 없으므로, 확률 필터를 켠 경우에는 제외합니다.
+    const probReliable = (!usedOverallFallback) && similarCount >= MIN_SIMILAR_MATCHES;
+    const probOk = probReliable ? (probPct >= minProbFilter) : (minProbFilter === 0);
+    if (probOk && tierOk) {{
+      const relFrac = rMeter > 0 ? (distFromZoneCenter / rMeter) : 0;
+      const stay = (currentPhase < 6) ? lookupStability(currentPhase, relFrac) : null;
       activeSpots.push({{
         ...spot,
         live_prob_pct: probPct,
         live_occupied: occupiedCount,
         live_similar: similarCount,
+        live_prob_reliable: probReliable,
+        live_prob_fallback: usedOverallFallback,
+        live_rel_pct: Math.round(relFrac * 100),
+        live_stay_pct: (stay && stay.reliable) ? stay.stay_pct : null,
+        live_stay_n: stay ? stay.n : 0,
         dist_from_center_m: Math.round(distFromZoneCenter),
       }});
     }}
   }}
 
-  activeSpots.sort((a, b) => (b.live_prob_pct - a.live_prob_pct) || (b.sample_count - a.sample_count));
+  activeSpots.sort((a, b) =>
+    ((b.live_prob_reliable ? 1 : 0) - (a.live_prob_reliable ? 1 : 0)) ||
+    (b.live_prob_pct - a.live_prob_pct) || (b.sample_count - a.sample_count));
   return activeSpots;
 }}
 
@@ -860,9 +889,9 @@ function renderAll() {{
     ctx.stroke();
 
     // 점유 확률(%) 배지 텍스트 (오직 ~~% 형태로만 깔끔하게 표출)
-    const badgeText = `${{Math.round(prob)}}%`;
+    const badgeText = spot.live_prob_reliable ? `${{Math.round(prob)}}%` : "표본↓";
 
-    ctx.font = (isSelected || prob >= 70)
+    ctx.font = (isSelected || (spot.live_prob_reliable && prob >= 70))
       ? "800 11.5px Pretendard, sans-serif"
       : "700 10.5px Pretendard, sans-serif";
     const textW = ctx.measureText(badgeText).width;
@@ -940,11 +969,28 @@ function updateSidebarPanel(activeSpots) {{
     const top4Pct = (spot.top4_survival_pct !== null && spot.top4_survival_pct !== undefined)
       ? `${{spot.top4_survival_pct.toFixed(0)}}%`
       : "-";
+    const top4Exp = (spot.top4_expected_pct !== null && spot.top4_expected_pct !== undefined)
+      ? `${{spot.top4_expected_pct.toFixed(0)}}%`
+      : "-";
+    const rankN = spot.rank_sample_count || 0;
+    // 등급은 '같은 페이즈 평균보다 우연으로 보기 어려울 만큼 차이날 때'만 부여됩니다.
     const tierLabel = (spot.spot_tier === "safe_spot")
-      ? `🛡️ 생존 명당 · Top4 ${{top4Pct}}`
+      ? `🛡️ 순위 높았던 곳 · Top4 ${{top4Pct}} (평균 ${{top4Exp}}, ${{rankN}}팀)`
       : (spot.spot_tier === "hot_zone"
-          ? `⚔️ 킬각 교전지 · Top4 ${{top4Pct}}`
-          : `📍 일반 거점 · Top4 ${{top4Pct}}`);
+          ? `⚔️ 순위 낮았던 곳 · Top4 ${{top4Pct}} (평균 ${{top4Exp}}, ${{rankN}}팀)`
+          : `📍 일반 거점 · 순위 기록 ${{rankN}}팀`);
+    const probLabel = spot.live_prob_reliable
+      ? `점유 ${{prob.toFixed(1)}}%`
+      : `<span style="font-size:12px; font-weight:800; opacity:0.75;">표본 부족</span>`;
+    const barWidth = spot.live_prob_reliable ? Math.min(100, prob) : 0;
+    let stayLine = "";
+    if (currentPhase >= 6) {{
+      stayLine = `원 중심에서 ${{spot.live_rel_pct}}% 지점 · 마지막 원`;
+    }} else if (spot.live_stay_pct !== null && spot.live_stay_pct !== undefined) {{
+      stayLine = `원 중심에서 ${{spot.live_rel_pct}}% 지점 · 다음 원에 남을 확률 약 <b>${{Math.round(spot.live_stay_pct)}}%</b>`;
+    }} else {{
+      stayLine = `원 중심에서 ${{spot.live_rel_pct}}% 지점 · 다음 원 잔류 확률: 표본 부족`;
+    }}
 
     html += `
       <div class="spot-item ${{isSel}}" onclick="focusSpot('${{spot.spot_id}}', ${{spot.x_norm}}, ${{spot.y_norm}})">
@@ -952,14 +998,15 @@ function updateSidebarPanel(activeSpots) {{
           <div style="font-weight:800; font-size:13px;">
             <span style="color:${{color}}; margin-right:4px;">#${{idx + 1}}</span> (${{Math.round(spot.x_meter)}}m, ${{Math.round(spot.y_meter)}}m)
           </div>
-          <span style="font-size:14px; font-weight:900; color:${{color}};">점유 ${{prob.toFixed(1)}}%</span>
+          <span style="font-size:14px; font-weight:900; color:${{color}};">${{probLabel}}</span>
         </div>
         <div style="display:flex; justify-content:space-between; font-size:11.5px; color:{theme['text_secondary']}; margin-top:4px;">
-          <span>유사 자기장 <b>${{spot.live_similar}}판 중 ${{spot.live_occupied}}판</b></span>
+          <span>${{spot.live_prob_fallback ? "이 페이즈에 비교할 수 있는 판 없음" : `유사 자기장 <b>${{spot.live_similar}}판 중 ${{spot.live_occupied}}판</b>`}}</span>
           <span style="color:${{color}}; font-weight:700;">${{tierLabel}}</span>
         </div>
+        <div style="font-size:11.5px; color:{theme['text_secondary']}; margin-top:3px;">${{stayLine}}</div>
         <div class="prob-bar-bg">
-          <div class="prob-bar-fill" style="width:${{Math.min(100, prob)}}%; background:${{color}};"></div>
+          <div class="prob-bar-fill" style="width:${{barWidth}}%; background:${{color}};"></div>
         </div>
       </div>
     `;
