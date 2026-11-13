@@ -24,7 +24,7 @@
     {
       "spot_id": "deston_spot_002",
       "cluster_id": 1,
-      "spot_name": "Spot (3811m, 4641m)",
+      "spot_name": "Spot (3824m, 4641m)",
       "x_meter": 3826.1,
       "y_meter": 4645.4,
       "x_norm": 0.47826,
@@ -106,7 +106,7 @@
     {
       "spot_id": "deston_spot_010",
       "cluster_id": 9,
-      "spot_name": "Spot (5662m, 3640m)",
+      "spot_name": "Spot (5662m, 3635m)",
       "x_meter": 5662.3,
       "y_meter": 3637.8,
       "x_norm": 0.70779,
@@ -356,7 +356,7 @@
     {
       "spot_id": "deston_spot_003",
       "cluster_id": 2,
-      "spot_name": "Spot (3460m, 2734m)",
+      "spot_name": "Spot (3459m, 2735m)",
       "x_meter": 3460.0,
       "y_meter": 2734.8,
       "x_norm": 0.4325,
@@ -439,7 +439,7 @@
     {
       "spot_id": "deston_spot_014",
       "cluster_id": 13,
-      "spot_name": "Spot (3751m, 3643m)",
+      "spot_name": "Spot (3743m, 3639m)",
       "x_meter": 3745.9,
       "y_meter": 3643.3,
       "x_norm": 0.46824,
@@ -615,7 +615,7 @@
     {
       "spot_id": "deston_spot_017",
       "cluster_id": 16,
-      "spot_name": "Spot (483m, 3317m)",
+      "spot_name": "Spot (477m, 3320m)",
       "x_meter": 480.4,
       "y_meter": 3318.9,
       "x_norm": 0.06005,
@@ -702,7 +702,7 @@
     {
       "spot_id": "deston_spot_005",
       "cluster_id": 4,
-      "spot_name": "Spot (2191m, 2898m)",
+      "spot_name": "Spot (2185m, 2895m)",
       "x_meter": 2188.5,
       "y_meter": 2897.1,
       "x_norm": 0.27356,
@@ -793,7 +793,7 @@
     {
       "spot_id": "deston_spot_007",
       "cluster_id": 6,
-      "spot_name": "Spot (4163m, 5638m)",
+      "spot_name": "Spot (4163m, 5640m)",
       "x_meter": 4163.3,
       "y_meter": 5639.7,
       "x_norm": 0.52041,
@@ -1030,7 +1030,7 @@
     {
       "spot_id": "deston_spot_023",
       "cluster_id": 22,
-      "spot_name": "Spot (2091m, 2712m)",
+      "spot_name": "Spot (2084m, 2725m)",
       "x_meter": 2088.1,
       "y_meter": 2718.9,
       "x_norm": 0.26101,
@@ -1122,7 +1122,7 @@
     {
       "spot_id": "deston_spot_024",
       "cluster_id": 23,
-      "spot_name": "Spot (1815m, 2696m)",
+      "spot_name": "Spot (1813m, 2709m)",
       "x_meter": 1814.5,
       "y_meter": 2702.7,
       "x_norm": 0.22681,
@@ -1216,7 +1216,7 @@
     {
       "spot_id": "deston_spot_021",
       "cluster_id": 20,
-      "spot_name": "Spot (6260m, 2369m)",
+      "spot_name": "Spot (6265m, 2368m)",
       "x_meter": 6263.1,
       "y_meter": 2367.7,
       "x_norm": 0.78289,
@@ -1560,7 +1560,7 @@
     {
       "spot_id": "deston_spot_015",
       "cluster_id": 14,
-      "spot_name": "Spot (4276m, 3657m)",
+      "spot_name": "Spot (4275m, 3660m)",
       "x_meter": 4276.1,
       "y_meter": 3659.3,
       "x_norm": 0.53451,
@@ -1731,7 +1731,7 @@
     {
       "spot_id": "deston_spot_019",
       "cluster_id": 18,
-      "spot_name": "Spot (5857m, 2830m)",
+      "spot_name": "Spot (5853m, 2835m)",
       "x_meter": 5855.3,
       "y_meter": 2833.1,
       "x_norm": 0.73192,
@@ -1815,7 +1815,7 @@
     {
       "spot_id": "deston_spot_025",
       "cluster_id": 24,
-      "spot_name": "Spot (1754m, 2681m)",
+      "spot_name": "Spot (1751m, 2683m)",
       "x_meter": 1754.1,
       "y_meter": 2681.0,
       "x_norm": 0.21926,
@@ -1998,7 +1998,7 @@
     {
       "spot_id": "deston_spot_011",
       "cluster_id": 10,
-      "spot_name": "Spot (3870m, 5253m)",
+      "spot_name": "Spot (3871m, 5250m)",
       "x_meter": 3870.7,
       "y_meter": 5252.2,
       "x_norm": 0.48384,
@@ -2075,7 +2075,7 @@
     {
       "spot_id": "deston_spot_022",
       "cluster_id": 21,
-      "spot_name": "Spot (6311m, 2384m)",
+      "spot_name": "Spot (6311m, 2383m)",
       "x_meter": 6311.6,
       "y_meter": 2384.1,
       "x_norm": 0.78895,
@@ -2507,21 +2507,40 @@
         "hi": 0.33,
         "n": 43,
         "stay_pct": 34.9,
-        "reliable": true
+        "reliable": true,
+        "adv_n": 43,
+        "adv_pct": 48.8,
+        "adv_reliable": true
       },
       {
         "lo": 0.33,
         "hi": 0.66,
         "n": 19,
         "stay_pct": 31.6,
-        "reliable": false
+        "reliable": false,
+        "adv_n": 19,
+        "adv_pct": 63.2,
+        "adv_reliable": false
       },
       {
         "lo": 0.66,
         "hi": 1.0,
         "n": 2,
         "stay_pct": 0.0,
-        "reliable": false
+        "reliable": false,
+        "adv_n": 2,
+        "adv_pct": 50.0,
+        "adv_reliable": false
+      },
+      {
+        "lo": 1.0,
+        "hi": 99.0,
+        "n": 0,
+        "stay_pct": null,
+        "reliable": false,
+        "adv_n": 0,
+        "adv_pct": null,
+        "adv_reliable": false
       }
     ],
     "2": [
@@ -2530,21 +2549,40 @@
         "hi": 0.33,
         "n": 4,
         "stay_pct": 100.0,
-        "reliable": false
+        "reliable": false,
+        "adv_n": 4,
+        "adv_pct": 100.0,
+        "adv_reliable": false
       },
       {
         "lo": 0.33,
         "hi": 0.66,
         "n": 7,
         "stay_pct": 85.7,
-        "reliable": false
+        "reliable": false,
+        "adv_n": 7,
+        "adv_pct": 85.7,
+        "adv_reliable": false
       },
       {
         "lo": 0.66,
         "hi": 1.0,
         "n": 3,
         "stay_pct": 0.0,
-        "reliable": false
+        "reliable": false,
+        "adv_n": 3,
+        "adv_pct": 100.0,
+        "adv_reliable": false
+      },
+      {
+        "lo": 1.0,
+        "hi": 99.0,
+        "n": 0,
+        "stay_pct": null,
+        "reliable": false,
+        "adv_n": 4,
+        "adv_pct": 75.0,
+        "adv_reliable": false
       }
     ],
     "3": [
@@ -2553,21 +2591,40 @@
         "hi": 0.33,
         "n": 7,
         "stay_pct": 100.0,
-        "reliable": false
+        "reliable": false,
+        "adv_n": 7,
+        "adv_pct": 85.7,
+        "adv_reliable": false
       },
       {
         "lo": 0.33,
         "hi": 0.66,
         "n": 10,
         "stay_pct": 70.0,
-        "reliable": false
+        "reliable": false,
+        "adv_n": 10,
+        "adv_pct": 70.0,
+        "adv_reliable": false
       },
       {
         "lo": 0.66,
         "hi": 1.0,
         "n": 3,
         "stay_pct": 33.3,
-        "reliable": false
+        "reliable": false,
+        "adv_n": 3,
+        "adv_pct": 100.0,
+        "adv_reliable": false
+      },
+      {
+        "lo": 1.0,
+        "hi": 99.0,
+        "n": 0,
+        "stay_pct": null,
+        "reliable": false,
+        "adv_n": 7,
+        "adv_pct": 85.7,
+        "adv_reliable": false
       }
     ],
     "4": [
@@ -2576,21 +2633,40 @@
         "hi": 0.33,
         "n": 5,
         "stay_pct": 100.0,
-        "reliable": false
+        "reliable": false,
+        "adv_n": 5,
+        "adv_pct": 80.0,
+        "adv_reliable": false
       },
       {
         "lo": 0.33,
         "hi": 0.66,
         "n": 13,
         "stay_pct": 84.6,
-        "reliable": false
+        "reliable": false,
+        "adv_n": 13,
+        "adv_pct": 84.6,
+        "adv_reliable": false
       },
       {
         "lo": 0.66,
         "hi": 1.0,
         "n": 8,
         "stay_pct": 12.5,
-        "reliable": false
+        "reliable": false,
+        "adv_n": 8,
+        "adv_pct": 87.5,
+        "adv_reliable": false
+      },
+      {
+        "lo": 1.0,
+        "hi": 99.0,
+        "n": 0,
+        "stay_pct": null,
+        "reliable": false,
+        "adv_n": 5,
+        "adv_pct": 60.0,
+        "adv_reliable": false
       }
     ],
     "5": [
@@ -2599,21 +2675,40 @@
         "hi": 0.33,
         "n": 1,
         "stay_pct": 100.0,
-        "reliable": false
+        "reliable": false,
+        "adv_n": 1,
+        "adv_pct": 100.0,
+        "adv_reliable": false
       },
       {
         "lo": 0.33,
         "hi": 0.66,
         "n": 7,
         "stay_pct": 57.1,
-        "reliable": false
+        "reliable": false,
+        "adv_n": 7,
+        "adv_pct": 100.0,
+        "adv_reliable": false
       },
       {
         "lo": 0.66,
         "hi": 1.0,
         "n": 11,
         "stay_pct": 18.2,
-        "reliable": false
+        "reliable": false,
+        "adv_n": 11,
+        "adv_pct": 45.5,
+        "adv_reliable": false
+      },
+      {
+        "lo": 1.0,
+        "hi": 99.0,
+        "n": 0,
+        "stay_pct": null,
+        "reliable": false,
+        "adv_n": 0,
+        "adv_pct": null,
+        "adv_reliable": false
       }
     ]
   },

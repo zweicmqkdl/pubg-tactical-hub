@@ -213,7 +213,7 @@
     {
       "spot_id": "taego_spot_101",
       "cluster_id": 100,
-      "spot_name": "Spot (4427m, 4975m)",
+      "spot_name": "Spot (4427m, 4971m)",
       "x_meter": 4425.8,
       "y_meter": 4972.2,
       "x_norm": 0.55323,
@@ -439,7 +439,7 @@
     {
       "spot_id": "taego_spot_037",
       "cluster_id": 36,
-      "spot_name": "Spot (4549m, 3648m)",
+      "spot_name": "Spot (4511m, 3638m)",
       "x_meter": 4526.5,
       "y_meter": 3647.7,
       "x_norm": 0.56582,
@@ -1232,7 +1232,7 @@
     {
       "spot_id": "taego_spot_021",
       "cluster_id": 20,
-      "spot_name": "Spot (4484m, 3548m)",
+      "spot_name": "Spot (4502m, 3571m)",
       "x_meter": 4493.8,
       "y_meter": 3576.3,
       "x_norm": 0.56172,
@@ -1410,7 +1410,7 @@
     {
       "spot_id": "taego_spot_212",
       "cluster_id": 211,
-      "spot_name": "Spot (4507m, 2493m)",
+      "spot_name": "Spot (4514m, 2489m)",
       "x_meter": 4506.2,
       "y_meter": 2490.3,
       "x_norm": 0.56327,
@@ -1596,7 +1596,7 @@
     {
       "spot_id": "taego_spot_188",
       "cluster_id": 187,
-      "spot_name": "Spot (3054m, 4363m)",
+      "spot_name": "Spot (3045m, 4369m)",
       "x_meter": 3050.1,
       "y_meter": 4370.1,
       "x_norm": 0.38126,
@@ -1795,7 +1795,7 @@
     {
       "spot_id": "taego_spot_024",
       "cluster_id": 23,
-      "spot_name": "Spot (2420m, 4782m)",
+      "spot_name": "Spot (2413m, 4782m)",
       "x_meter": 2415.9,
       "y_meter": 4782.8,
       "x_norm": 0.30199,
@@ -1994,7 +1994,7 @@
     {
       "spot_id": "taego_spot_022",
       "cluster_id": 21,
-      "spot_name": "Spot (4782m, 3506m)",
+      "spot_name": "Spot (4781m, 3510m)",
       "x_meter": 4793.2,
       "y_meter": 3509.9,
       "x_norm": 0.59915,
@@ -2169,7 +2169,7 @@
     {
       "spot_id": "taego_spot_250",
       "cluster_id": 249,
-      "spot_name": "Spot (4452m, 3595m)",
+      "spot_name": "Spot (4432m, 3569m)",
       "x_meter": 4448.7,
       "y_meter": 3561.7,
       "x_norm": 0.55609,
@@ -2346,7 +2346,7 @@
     {
       "spot_id": "taego_spot_123",
       "cluster_id": 122,
-      "spot_name": "Spot (4450m, 1051m)",
+      "spot_name": "Spot (4449m, 1052m)",
       "x_meter": 4449.1,
       "y_meter": 1051.8,
       "x_norm": 0.55614,
@@ -2515,7 +2515,7 @@
     {
       "spot_id": "taego_spot_169",
       "cluster_id": 168,
-      "spot_name": "Spot (5669m, 3205m)",
+      "spot_name": "Spot (5678m, 3187m)",
       "x_meter": 5679.8,
       "y_meter": 3196.5,
       "x_norm": 0.70997,
@@ -2890,7 +2890,7 @@
     {
       "spot_id": "taego_spot_039",
       "cluster_id": 38,
-      "spot_name": "Spot (5116m, 5073m)",
+      "spot_name": "Spot (5117m, 5088m)",
       "x_meter": 5119.9,
       "y_meter": 5082.5,
       "x_norm": 0.63999,
@@ -3098,7 +3098,7 @@
     {
       "spot_id": "taego_spot_152",
       "cluster_id": 151,
-      "spot_name": "Spot (5885m, 3506m)",
+      "spot_name": "Spot (5862m, 3526m)",
       "x_meter": 5876.7,
       "y_meter": 3515.2,
       "x_norm": 0.73459,
@@ -3266,7 +3266,7 @@
     {
       "spot_id": "taego_spot_299",
       "cluster_id": 298,
-      "spot_name": "Spot (2424m, 6457m)",
+      "spot_name": "Spot (2425m, 6464m)",
       "x_meter": 2422.0,
       "y_meter": 6463.4,
       "x_norm": 0.30275,
@@ -3635,7 +3635,7 @@
     {
       "spot_id": "taego_spot_100",
       "cluster_id": 99,
-      "spot_name": "Spot (957m, 5257m)",
+      "spot_name": "Spot (958m, 5257m)",
       "x_meter": 960.4,
       "y_meter": 5258.4,
       "x_norm": 0.12005,
@@ -4170,7 +4170,7 @@
     {
       "spot_id": "taego_spot_008",
       "cluster_id": 7,
-      "spot_name": "Spot (5675m, 6018m)",
+      "spot_name": "Spot (5696m, 6015m)",
       "x_meter": 5685.5,
       "y_meter": 6013.5,
       "x_norm": 0.71068,
@@ -4364,7 +4364,7 @@
     {
       "spot_id": "taego_spot_046",
       "cluster_id": 45,
-      "spot_name": "Spot (1308m, 3022m)",
+      "spot_name": "Spot (1314m, 3019m)",
       "x_meter": 1312.0,
       "y_meter": 3023.1,
       "x_norm": 0.164,
@@ -4532,7 +4532,7 @@
     {
       "spot_id": "taego_spot_057",
       "cluster_id": 56,
-      "spot_name": "Spot (3997m, 4301m)",
+      "spot_name": "Spot (3994m, 4295m)",
       "x_meter": 3999.9,
       "y_meter": 4299.1,
       "x_norm": 0.49999,
@@ -4922,7 +4922,7 @@
     {
       "spot_id": "taego_spot_208",
       "cluster_id": 207,
-      "spot_name": "Spot (1668m, 3203m)",
+      "spot_name": "Spot (1658m, 3210m)",
       "x_meter": 1665.6,
       "y_meter": 3206.9,
       "x_norm": 0.2082,
@@ -5275,7 +5275,7 @@
     {
       "spot_id": "taego_spot_098",
       "cluster_id": 97,
-      "spot_name": "Spot (6045m, 3873m)",
+      "spot_name": "Spot (6045m, 3874m)",
       "x_meter": 6044.6,
       "y_meter": 3874.6,
       "x_norm": 0.75557,
@@ -5451,7 +5451,7 @@
     {
       "spot_id": "taego_spot_223",
       "cluster_id": 222,
-      "spot_name": "Spot (1672m, 5098m)",
+      "spot_name": "Spot (1665m, 5092m)",
       "x_meter": 1660.1,
       "y_meter": 5098.6,
       "x_norm": 0.20751,
@@ -6016,7 +6016,7 @@
     {
       "spot_id": "taego_spot_002",
       "cluster_id": 1,
-      "spot_name": "Spot (5190m, 5163m)",
+      "spot_name": "Spot (5180m, 5175m)",
       "x_meter": 5171.4,
       "y_meter": 5184.7,
       "x_norm": 0.64643,
@@ -6226,7 +6226,7 @@
     {
       "spot_id": "taego_spot_170",
       "cluster_id": 169,
-      "spot_name": "Spot (3556m, 2233m)",
+      "spot_name": "Spot (3554m, 2239m)",
       "x_meter": 3560.4,
       "y_meter": 2238.8,
       "x_norm": 0.44504,
@@ -6409,7 +6409,7 @@
     {
       "spot_id": "taego_spot_285",
       "cluster_id": 284,
-      "spot_name": "Spot (3074m, 3756m)",
+      "spot_name": "Spot (3056m, 3757m)",
       "x_meter": 3061.0,
       "y_meter": 3757.8,
       "x_norm": 0.38262,
@@ -7149,7 +7149,7 @@
     {
       "spot_id": "taego_spot_020",
       "cluster_id": 19,
-      "spot_name": "Spot (7253m, 3041m)",
+      "spot_name": "Spot (7235m, 3065m)",
       "x_meter": 7247.7,
       "y_meter": 3048.1,
       "x_norm": 0.90596,
@@ -8227,7 +8227,7 @@
     {
       "spot_id": "taego_spot_420",
       "cluster_id": 419,
-      "spot_name": "Spot (2223m, 7025m)",
+      "spot_name": "Spot (2233m, 7027m)",
       "x_meter": 2238.7,
       "y_meter": 7029.0,
       "x_norm": 0.27984,
@@ -8555,7 +8555,7 @@
     {
       "spot_id": "taego_spot_033",
       "cluster_id": 32,
-      "spot_name": "Spot (5049m, 4628m)",
+      "spot_name": "Spot (5043m, 4641m)",
       "x_meter": 5040.8,
       "y_meter": 4630.3,
       "x_norm": 0.6301,
@@ -8757,7 +8757,7 @@
     {
       "spot_id": "taego_spot_213",
       "cluster_id": 212,
-      "spot_name": "Spot (3990m, 1053m)",
+      "spot_name": "Spot (3992m, 1063m)",
       "x_meter": 3996.2,
       "y_meter": 1062.4,
       "x_norm": 0.49952,
@@ -9097,7 +9097,7 @@
     {
       "spot_id": "taego_spot_146",
       "cluster_id": 145,
-      "spot_name": "Spot (2475m, 6678m)",
+      "spot_name": "Spot (2464m, 6695m)",
       "x_meter": 2464.5,
       "y_meter": 6672.7,
       "x_norm": 0.30806,
@@ -9271,7 +9271,7 @@
     {
       "spot_id": "taego_spot_094",
       "cluster_id": 93,
-      "spot_name": "Spot (3877m, 1160m)",
+      "spot_name": "Spot (3880m, 1157m)",
       "x_meter": 3879.5,
       "y_meter": 1158.5,
       "x_norm": 0.48494,
@@ -9792,7 +9792,7 @@
     {
       "spot_id": "taego_spot_125",
       "cluster_id": 124,
-      "spot_name": "Spot (5580m, 6853m)",
+      "spot_name": "Spot (5578m, 6851m)",
       "x_meter": 5579.3,
       "y_meter": 6855.4,
       "x_norm": 0.69741,
@@ -10353,7 +10353,7 @@
     {
       "spot_id": "taego_spot_261",
       "cluster_id": 260,
-      "spot_name": "Spot (6335m, 4500m)",
+      "spot_name": "Spot (6348m, 4522m)",
       "x_meter": 6360.7,
       "y_meter": 4518.0,
       "x_norm": 0.79508,
@@ -10531,7 +10531,7 @@
     {
       "spot_id": "taego_spot_147",
       "cluster_id": 146,
-      "spot_name": "Spot (3578m, 1958m)",
+      "spot_name": "Spot (3580m, 1976m)",
       "x_meter": 3580.4,
       "y_meter": 1969.1,
       "x_norm": 0.44755,
@@ -10714,7 +10714,7 @@
     {
       "spot_id": "taego_spot_265",
       "cluster_id": 264,
-      "spot_name": "Spot (4508m, 2531m)",
+      "spot_name": "Spot (4499m, 2530m)",
       "x_meter": 4503.2,
       "y_meter": 2529.2,
       "x_norm": 0.5629,
@@ -11251,7 +11251,7 @@
     {
       "spot_id": "taego_spot_266",
       "cluster_id": 265,
-      "spot_name": "Spot (4481m, 2422m)",
+      "spot_name": "Spot (4480m, 2412m)",
       "x_meter": 4480.8,
       "y_meter": 2418.2,
       "x_norm": 0.5601,
@@ -11432,7 +11432,7 @@
     {
       "spot_id": "taego_spot_042",
       "cluster_id": 41,
-      "spot_name": "Spot (3152m, 3591m)",
+      "spot_name": "Spot (3141m, 3599m)",
       "x_meter": 3146.7,
       "y_meter": 3593.4,
       "x_norm": 0.39334,
@@ -11614,7 +11614,7 @@
     {
       "spot_id": "taego_spot_205",
       "cluster_id": 204,
-      "spot_name": "Spot (3182m, 3820m)",
+      "spot_name": "Spot (3172m, 3791m)",
       "x_meter": 3174.3,
       "y_meter": 3805.8,
       "x_norm": 0.39678,
@@ -11793,7 +11793,7 @@
     {
       "spot_id": "taego_spot_306",
       "cluster_id": 305,
-      "spot_name": "Spot (5858m, 5910m)",
+      "spot_name": "Spot (5862m, 5910m)",
       "x_meter": 5859.9,
       "y_meter": 5910.7,
       "x_norm": 0.73249,
@@ -11978,7 +11978,7 @@
     {
       "spot_id": "taego_spot_060",
       "cluster_id": 59,
-      "spot_name": "Spot (5183m, 4128m)",
+      "spot_name": "Spot (5188m, 4130m)",
       "x_meter": 5183.0,
       "y_meter": 4128.3,
       "x_norm": 0.64787,
@@ -12161,7 +12161,7 @@
     {
       "spot_id": "taego_spot_264",
       "cluster_id": 263,
-      "spot_name": "Spot (3042m, 3511m)",
+      "spot_name": "Spot (3045m, 3508m)",
       "x_meter": 3048.2,
       "y_meter": 3509.6,
       "x_norm": 0.38102,
@@ -12344,7 +12344,7 @@
     {
       "spot_id": "taego_spot_269",
       "cluster_id": 268,
-      "spot_name": "Spot (3113m, 3749m)",
+      "spot_name": "Spot (3115m, 3750m)",
       "x_meter": 3112.9,
       "y_meter": 3747.6,
       "x_norm": 0.38911,
@@ -12721,7 +12721,7 @@
     {
       "spot_id": "taego_spot_010",
       "cluster_id": 9,
-      "spot_name": "Spot (4685m, 4348m)",
+      "spot_name": "Spot (4678m, 4353m)",
       "x_meter": 4680.9,
       "y_meter": 4349.7,
       "x_norm": 0.58511,
@@ -12905,7 +12905,7 @@
     {
       "spot_id": "taego_spot_065",
       "cluster_id": 64,
-      "spot_name": "Spot (2294m, 4602m)",
+      "spot_name": "Spot (2286m, 4601m)",
       "x_meter": 2290.1,
       "y_meter": 4602.0,
       "x_norm": 0.28627,
@@ -13279,7 +13279,7 @@
     {
       "spot_id": "taego_spot_199",
       "cluster_id": 198,
-      "spot_name": "Spot (2890m, 3598m)",
+      "spot_name": "Spot (2890m, 3594m)",
       "x_meter": 2892.0,
       "y_meter": 3600.0,
       "x_norm": 0.3615,
@@ -13646,7 +13646,7 @@
     {
       "spot_id": "taego_spot_014",
       "cluster_id": 13,
-      "spot_name": "Spot (4663m, 4383m)",
+      "spot_name": "Spot (4684m, 4384m)",
       "x_meter": 4676.3,
       "y_meter": 4384.8,
       "x_norm": 0.58454,
@@ -14023,7 +14023,7 @@
     {
       "spot_id": "taego_spot_271",
       "cluster_id": 270,
-      "spot_name": "Spot (3170m, 2982m)",
+      "spot_name": "Spot (3174m, 2981m)",
       "x_meter": 3171.3,
       "y_meter": 2980.6,
       "x_norm": 0.39642,
@@ -14559,7 +14559,7 @@
     {
       "spot_id": "taego_spot_025",
       "cluster_id": 24,
-      "spot_name": "Spot (6554m, 1885m)",
+      "spot_name": "Spot (6550m, 1887m)",
       "x_meter": 6559.4,
       "y_meter": 1885.9,
       "x_norm": 0.81993,
@@ -15836,7 +15836,7 @@
     {
       "spot_id": "taego_spot_079",
       "cluster_id": 78,
-      "spot_name": "Spot (5819m, 7507m)",
+      "spot_name": "Spot (5817m, 7502m)",
       "x_meter": 5816.4,
       "y_meter": 7504.5,
       "x_norm": 0.72705,
@@ -16191,7 +16191,7 @@
     {
       "spot_id": "taego_spot_059",
       "cluster_id": 58,
-      "spot_name": "Spot (4666m, 4670m)",
+      "spot_name": "Spot (4650m, 4661m)",
       "x_meter": 4661.2,
       "y_meter": 4668.3,
       "x_norm": 0.58265,
@@ -16388,7 +16388,7 @@
     {
       "spot_id": "taego_spot_387",
       "cluster_id": 386,
-      "spot_name": "Spot (2956m, 5520m)",
+      "spot_name": "Spot (2963m, 5517m)",
       "x_meter": 2961.7,
       "y_meter": 5519.7,
       "x_norm": 0.37021,
@@ -16591,7 +16591,7 @@
     {
       "spot_id": "taego_spot_019",
       "cluster_id": 18,
-      "spot_name": "Spot (4009m, 5726m)",
+      "spot_name": "Spot (3988m, 5711m)",
       "x_meter": 4002.8,
       "y_meter": 5726.0,
       "x_norm": 0.50036,
@@ -16795,7 +16795,7 @@
     {
       "spot_id": "taego_spot_153",
       "cluster_id": 152,
-      "spot_name": "Spot (6149m, 2581m)",
+      "spot_name": "Spot (6153m, 2587m)",
       "x_meter": 6153.8,
       "y_meter": 2585.1,
       "x_norm": 0.76922,
@@ -16957,7 +16957,7 @@
     {
       "spot_id": "taego_spot_198",
       "cluster_id": 197,
-      "spot_name": "Spot (719m, 4478m)",
+      "spot_name": "Spot (718m, 4475m)",
       "x_meter": 728.3,
       "y_meter": 4478.1,
       "x_norm": 0.09104,
@@ -17120,7 +17120,7 @@
     {
       "spot_id": "taego_spot_226",
       "cluster_id": 225,
-      "spot_name": "Spot (5166m, 5160m)",
+      "spot_name": "Spot (5171m, 5139m)",
       "x_meter": 5170.6,
       "y_meter": 5145.9,
       "x_norm": 0.64632,
@@ -17326,7 +17326,7 @@
     {
       "spot_id": "taego_spot_267",
       "cluster_id": 266,
-      "spot_name": "Spot (5043m, 5158m)",
+      "spot_name": "Spot (5036m, 5127m)",
       "x_meter": 5042.2,
       "y_meter": 5142.8,
       "x_norm": 0.63028,
@@ -18066,7 +18066,7 @@
     {
       "spot_id": "taego_spot_092",
       "cluster_id": 91,
-      "spot_name": "Spot (3609m, 945m)",
+      "spot_name": "Spot (3600m, 958m)",
       "x_meter": 3603.8,
       "y_meter": 954.9,
       "x_norm": 0.45048,
@@ -18666,7 +18666,7 @@
     {
       "spot_id": "taego_spot_117",
       "cluster_id": 116,
-      "spot_name": "Spot (1371m, 4676m)",
+      "spot_name": "Spot (1370m, 4675m)",
       "x_meter": 1373.0,
       "y_meter": 4678.2,
       "x_norm": 0.17163,
@@ -18836,7 +18836,7 @@
     {
       "spot_id": "taego_spot_148",
       "cluster_id": 147,
-      "spot_name": "Spot (3965m, 1067m)",
+      "spot_name": "Spot (3968m, 1066m)",
       "x_meter": 3965.0,
       "y_meter": 1067.0,
       "x_norm": 0.49563,
@@ -19008,7 +19008,7 @@
     {
       "spot_id": "taego_spot_230",
       "cluster_id": 229,
-      "spot_name": "Spot (6654m, 5884m)",
+      "spot_name": "Spot (6656m, 5882m)",
       "x_meter": 6654.6,
       "y_meter": 5884.9,
       "x_norm": 0.83183,
@@ -19347,7 +19347,7 @@
     {
       "spot_id": "taego_spot_071",
       "cluster_id": 70,
-      "spot_name": "Spot (6662m, 4953m)",
+      "spot_name": "Spot (6662m, 4945m)",
       "x_meter": 6663.2,
       "y_meter": 4945.9,
       "x_norm": 0.8329,
@@ -19694,7 +19694,7 @@
     {
       "spot_id": "taego_spot_158",
       "cluster_id": 157,
-      "spot_name": "Spot (6650m, 5858m)",
+      "spot_name": "Spot (6666m, 5859m)",
       "x_meter": 6658.5,
       "y_meter": 5858.7,
       "x_norm": 0.83232,
@@ -19859,7 +19859,7 @@
     {
       "spot_id": "taego_spot_259",
       "cluster_id": 258,
-      "spot_name": "Spot (6309m, 3868m)",
+      "spot_name": "Spot (6302m, 3872m)",
       "x_meter": 6305.9,
       "y_meter": 3870.4,
       "x_norm": 0.78824,
@@ -20028,7 +20028,7 @@
     {
       "spot_id": "taego_spot_302",
       "cluster_id": 301,
-      "spot_name": "Spot (4835m, 1712m)",
+      "spot_name": "Spot (4835m, 1722m)",
       "x_meter": 4835.8,
       "y_meter": 1717.2,
       "x_norm": 0.60448,
@@ -20537,7 +20537,7 @@
     {
       "spot_id": "taego_spot_435",
       "cluster_id": 434,
-      "spot_name": "Spot (1871m, 3304m)",
+      "spot_name": "Spot (1873m, 3309m)",
       "x_meter": 1871.8,
       "y_meter": 3311.5,
       "x_norm": 0.23398,
@@ -20720,7 +20720,7 @@
     {
       "spot_id": "taego_spot_185",
       "cluster_id": 184,
-      "spot_name": "Spot (4623m, 3663m)",
+      "spot_name": "Spot (4621m, 3658m)",
       "x_meter": 4618.9,
       "y_meter": 3658.6,
       "x_norm": 0.57737,
@@ -20892,7 +20892,7 @@
     {
       "spot_id": "taego_spot_303",
       "cluster_id": 302,
-      "spot_name": "Spot (4508m, 3492m)",
+      "spot_name": "Spot (4500m, 3491m)",
       "x_meter": 4507.1,
       "y_meter": 3493.4,
       "x_norm": 0.56339,
@@ -21063,7 +21063,7 @@
     {
       "spot_id": "taego_spot_105",
       "cluster_id": 104,
-      "spot_name": "Spot (2682m, 1937m)",
+      "spot_name": "Spot (2684m, 1933m)",
       "x_meter": 2684.2,
       "y_meter": 1934.8,
       "x_norm": 0.33553,
@@ -21237,7 +21237,7 @@
     {
       "spot_id": "taego_spot_311",
       "cluster_id": 310,
-      "spot_name": "Spot (6452m, 4452m)",
+      "spot_name": "Spot (6454m, 4473m)",
       "x_meter": 6452.1,
       "y_meter": 4460.8,
       "x_norm": 0.80652,
@@ -21416,7 +21416,7 @@
     {
       "spot_id": "taego_spot_358",
       "cluster_id": 357,
-      "spot_name": "Spot (2506m, 6765m)",
+      "spot_name": "Spot (2521m, 6764m)",
       "x_meter": 2512.0,
       "y_meter": 6765.5,
       "x_norm": 0.314,
@@ -21593,7 +21593,7 @@
     {
       "spot_id": "taego_spot_376",
       "cluster_id": 375,
-      "spot_name": "Spot (5400m, 3858m)",
+      "spot_name": "Spot (5402m, 3860m)",
       "x_meter": 5401.7,
       "y_meter": 3859.3,
       "x_norm": 0.67521,
@@ -21765,7 +21765,7 @@
     {
       "spot_id": "taego_spot_005",
       "cluster_id": 4,
-      "spot_name": "Spot (4718m, 3512m)",
+      "spot_name": "Spot (4716m, 3506m)",
       "x_meter": 4717.5,
       "y_meter": 3509.6,
       "x_norm": 0.58969,
@@ -21933,7 +21933,7 @@
     {
       "spot_id": "taego_spot_043",
       "cluster_id": 42,
-      "spot_name": "Spot (4741m, 3490m)",
+      "spot_name": "Spot (4741m, 3480m)",
       "x_meter": 4741.5,
       "y_meter": 3485.3,
       "x_norm": 0.59269,
@@ -22621,7 +22621,7 @@
     {
       "spot_id": "taego_spot_206",
       "cluster_id": 205,
-      "spot_name": "Spot (3556m, 2204m)",
+      "spot_name": "Spot (3576m, 2209m)",
       "x_meter": 3564.0,
       "y_meter": 2206.0,
       "x_norm": 0.4455,
@@ -22801,7 +22801,7 @@
     {
       "spot_id": "taego_spot_245",
       "cluster_id": 244,
-      "spot_name": "Spot (4410m, 3539m)",
+      "spot_name": "Spot (4411m, 3541m)",
       "x_meter": 4411.2,
       "y_meter": 3539.5,
       "x_norm": 0.5514,
@@ -23517,7 +23517,7 @@
     {
       "spot_id": "taego_spot_141",
       "cluster_id": 140,
-      "spot_name": "Spot (2071m, 3623m)",
+      "spot_name": "Spot (2077m, 3616m)",
       "x_meter": 2073.6,
       "y_meter": 3620.1,
       "x_norm": 0.25921,
@@ -23869,7 +23869,7 @@
     {
       "spot_id": "taego_spot_270",
       "cluster_id": 269,
-      "spot_name": "Spot (4556m, 2519m)",
+      "spot_name": "Spot (4553m, 2519m)",
       "x_meter": 4554.3,
       "y_meter": 2521.3,
       "x_norm": 0.56929,
@@ -24226,7 +24226,7 @@
     {
       "spot_id": "taego_spot_317",
       "cluster_id": 316,
-      "spot_name": "Spot (6339m, 4451m)",
+      "spot_name": "Spot (6342m, 4453m)",
       "x_meter": 6341.3,
       "y_meter": 4451.9,
       "x_norm": 0.79266,
@@ -25298,7 +25298,7 @@
     {
       "spot_id": "taego_spot_260",
       "cluster_id": 259,
-      "spot_name": "Spot (6466m, 4607m)",
+      "spot_name": "Spot (6468m, 4608m)",
       "x_meter": 6467.3,
       "y_meter": 4607.9,
       "x_norm": 0.80842,
@@ -25652,7 +25652,7 @@
     {
       "spot_id": "taego_spot_293",
       "cluster_id": 292,
-      "spot_name": "Spot (2436m, 2316m)",
+      "spot_name": "Spot (2436m, 2315m)",
       "x_meter": 2436.4,
       "y_meter": 2315.7,
       "x_norm": 0.30454,
@@ -26187,7 +26187,7 @@
     {
       "spot_id": "taego_spot_326",
       "cluster_id": 325,
-      "spot_name": "Spot (3104m, 3721m)",
+      "spot_name": "Spot (3108m, 3723m)",
       "x_meter": 3106.5,
       "y_meter": 3722.1,
       "x_norm": 0.38831,
@@ -26364,7 +26364,7 @@
     {
       "spot_id": "taego_spot_026",
       "cluster_id": 25,
-      "spot_name": "Spot (2563m, 2463m)",
+      "spot_name": "Spot (2562m, 2468m)",
       "x_meter": 2565.6,
       "y_meter": 2459.8,
       "x_norm": 0.3207,
@@ -26555,7 +26555,7 @@
     {
       "spot_id": "taego_spot_058",
       "cluster_id": 57,
-      "spot_name": "Spot (5615m, 4379m)",
+      "spot_name": "Spot (5632m, 4391m)",
       "x_meter": 5621.4,
       "y_meter": 4381.6,
       "x_norm": 0.70267,
@@ -26746,7 +26746,7 @@
     {
       "spot_id": "taego_spot_107",
       "cluster_id": 106,
-      "spot_name": "Spot (3557m, 2282m)",
+      "spot_name": "Spot (3559m, 2284m)",
       "x_meter": 3563.3,
       "y_meter": 2283.5,
       "x_norm": 0.44542,
@@ -26926,7 +26926,7 @@
     {
       "spot_id": "taego_spot_219",
       "cluster_id": 218,
-      "spot_name": "Spot (2916m, 3092m)",
+      "spot_name": "Spot (2914m, 3090m)",
       "x_meter": 2915.7,
       "y_meter": 3091.4,
       "x_norm": 0.36446,
@@ -27119,7 +27119,7 @@
     {
       "spot_id": "taego_spot_254",
       "cluster_id": 253,
-      "spot_name": "Spot (2940m, 5966m)",
+      "spot_name": "Spot (2947m, 5973m)",
       "x_meter": 2947.7,
       "y_meter": 5972.4,
       "x_norm": 0.36846,
@@ -27312,7 +27312,7 @@
     {
       "spot_id": "taego_spot_304",
       "cluster_id": 303,
-      "spot_name": "Spot (5854m, 6419m)",
+      "spot_name": "Spot (5851m, 6417m)",
       "x_meter": 5853.1,
       "y_meter": 6419.6,
       "x_norm": 0.73164,
@@ -27690,7 +27690,7 @@
     {
       "spot_id": "taego_spot_066",
       "cluster_id": 65,
-      "spot_name": "Spot (2308m, 4563m)",
+      "spot_name": "Spot (2312m, 4583m)",
       "x_meter": 2311.7,
       "y_meter": 4576.6,
       "x_norm": 0.28896,
@@ -27877,7 +27877,7 @@
     {
       "spot_id": "taego_spot_195",
       "cluster_id": 194,
-      "spot_name": "Spot (3190m, 3590m)",
+      "spot_name": "Spot (3186m, 3587m)",
       "x_meter": 3187.6,
       "y_meter": 3589.8,
       "x_norm": 0.39845,
@@ -28057,7 +28057,7 @@
     {
       "spot_id": "taego_spot_201",
       "cluster_id": 200,
-      "spot_name": "Spot (2355m, 3870m)",
+      "spot_name": "Spot (2365m, 3870m)",
       "x_meter": 2360.1,
       "y_meter": 3869.8,
       "x_norm": 0.29501,
@@ -28238,7 +28238,7 @@
     {
       "spot_id": "taego_spot_279",
       "cluster_id": 278,
-      "spot_name": "Spot (3048m, 3600m)",
+      "spot_name": "Spot (3057m, 3612m)",
       "x_meter": 3055.4,
       "y_meter": 3604.9,
       "x_norm": 0.38193,
@@ -28419,7 +28419,7 @@
     {
       "spot_id": "taego_spot_307",
       "cluster_id": 306,
-      "spot_name": "Spot (5778m, 5970m)",
+      "spot_name": "Spot (5754m, 5958m)",
       "x_meter": 5765.1,
       "y_meter": 5968.8,
       "x_norm": 0.72063,
@@ -28608,7 +28608,7 @@
     {
       "spot_id": "taego_spot_028",
       "cluster_id": 27,
-      "spot_name": "Spot (6077m, 4921m)",
+      "spot_name": "Spot (6078m, 4921m)",
       "x_meter": 6078.0,
       "y_meter": 4921.6,
       "x_norm": 0.75975,
@@ -28970,7 +28970,7 @@
     {
       "spot_id": "taego_spot_157",
       "cluster_id": 156,
-      "spot_name": "Spot (5877m, 5067m)",
+      "spot_name": "Spot (5876m, 5065m)",
       "x_meter": 5876.8,
       "y_meter": 5066.5,
       "x_norm": 0.7346,
@@ -29334,7 +29334,7 @@
     {
       "spot_id": "taego_spot_207",
       "cluster_id": 206,
-      "spot_name": "Spot (3172m, 3684m)",
+      "spot_name": "Spot (3176m, 3687m)",
       "x_meter": 3174.9,
       "y_meter": 3685.9,
       "x_norm": 0.39686,
@@ -29512,7 +29512,7 @@
     {
       "spot_id": "taego_spot_209",
       "cluster_id": 208,
-      "spot_name": "Spot (2923m, 3003m)",
+      "spot_name": "Spot (2931m, 2999m)",
       "x_meter": 2927.3,
       "y_meter": 3001.3,
       "x_norm": 0.36592,
@@ -30630,7 +30630,7 @@
     {
       "spot_id": "taego_spot_428",
       "cluster_id": 427,
-      "spot_name": "Spot (5825m, 6035m)",
+      "spot_name": "Spot (5826m, 6036m)",
       "x_meter": 5826.2,
       "y_meter": 6036.2,
       "x_norm": 0.72828,
@@ -31189,7 +31189,7 @@
     {
       "spot_id": "taego_spot_122",
       "cluster_id": 121,
-      "spot_name": "Spot (2712m, 3166m)",
+      "spot_name": "Spot (2726m, 3187m)",
       "x_meter": 2719.4,
       "y_meter": 3169.0,
       "x_norm": 0.33993,
@@ -32336,7 +32336,7 @@
     {
       "spot_id": "taego_spot_324",
       "cluster_id": 323,
-      "spot_name": "Spot (2755m, 3574m)",
+      "spot_name": "Spot (2745m, 3554m)",
       "x_meter": 2752.3,
       "y_meter": 3565.2,
       "x_norm": 0.34403,
@@ -32521,7 +32521,7 @@
     {
       "spot_id": "taego_spot_334",
       "cluster_id": 333,
-      "spot_name": "Spot (3112m, 4354m)",
+      "spot_name": "Spot (3105m, 4360m)",
       "x_meter": 3108.1,
       "y_meter": 4362.4,
       "x_norm": 0.38851,
@@ -32901,7 +32901,7 @@
     {
       "spot_id": "taego_spot_004",
       "cluster_id": 3,
-      "spot_name": "Spot (5690m, 5485m)",
+      "spot_name": "Spot (5690m, 5487m)",
       "x_meter": 5690.6,
       "y_meter": 5486.8,
       "x_norm": 0.71132,
@@ -33095,7 +33095,7 @@
     {
       "spot_id": "taego_spot_013",
       "cluster_id": 12,
-      "spot_name": "Spot (4929m, 6427m)",
+      "spot_name": "Spot (4930m, 6428m)",
       "x_meter": 4930.0,
       "y_meter": 6427.9,
       "x_norm": 0.61625,
@@ -33470,7 +33470,7 @@
     {
       "spot_id": "taego_spot_190",
       "cluster_id": 189,
-      "spot_name": "Spot (5696m, 5952m)",
+      "spot_name": "Spot (5689m, 5956m)",
       "x_meter": 5693.1,
       "y_meter": 5954.5,
       "x_norm": 0.71164,
@@ -33659,7 +33659,7 @@
     {
       "spot_id": "taego_spot_204",
       "cluster_id": 203,
-      "spot_name": "Spot (2876m, 3560m)",
+      "spot_name": "Spot (2873m, 3562m)",
       "x_meter": 2874.9,
       "y_meter": 3561.6,
       "x_norm": 0.35936,
@@ -33843,7 +33843,7 @@
     {
       "spot_id": "taego_spot_246",
       "cluster_id": 245,
-      "spot_name": "Spot (2534m, 4781m)",
+      "spot_name": "Spot (2534m, 4782m)",
       "x_meter": 2534.7,
       "y_meter": 4782.2,
       "x_norm": 0.31684,
@@ -35008,7 +35008,7 @@
     {
       "spot_id": "taego_spot_151",
       "cluster_id": 150,
-      "spot_name": "Spot (5388m, 5713m)",
+      "spot_name": "Spot (5384m, 5716m)",
       "x_meter": 5386.4,
       "y_meter": 5712.5,
       "x_norm": 0.6733,
@@ -35205,7 +35205,7 @@
     {
       "spot_id": "taego_spot_255",
       "cluster_id": 254,
-      "spot_name": "Spot (3169m, 5798m)",
+      "spot_name": "Spot (3164m, 5796m)",
       "x_meter": 3166.5,
       "y_meter": 5796.7,
       "x_norm": 0.39581,
@@ -36389,7 +36389,7 @@
     {
       "spot_id": "taego_spot_076",
       "cluster_id": 75,
-      "spot_name": "Spot (4545m, 5732m)",
+      "spot_name": "Spot (4537m, 5730m)",
       "x_meter": 4541.2,
       "y_meter": 5736.0,
       "x_norm": 0.56765,
@@ -36802,7 +36802,7 @@
     {
       "spot_id": "taego_spot_281",
       "cluster_id": 280,
-      "spot_name": "Spot (3423m, 5110m)",
+      "spot_name": "Spot (3422m, 5110m)",
       "x_meter": 3420.7,
       "y_meter": 5120.3,
       "x_norm": 0.42758,
@@ -37006,7 +37006,7 @@
     {
       "spot_id": "taego_spot_411",
       "cluster_id": 410,
-      "spot_name": "Spot (4619m, 5238m)",
+      "spot_name": "Spot (4620m, 5238m)",
       "x_meter": 4620.2,
       "y_meter": 5238.5,
       "x_norm": 0.57753,
@@ -37421,7 +37421,7 @@
     {
       "spot_id": "taego_spot_055",
       "cluster_id": 54,
-      "spot_name": "Spot (3334m, 5258m)",
+      "spot_name": "Spot (3333m, 5259m)",
       "x_meter": 3334.9,
       "y_meter": 5258.3,
       "x_norm": 0.41686,
@@ -37628,7 +37628,7 @@
     {
       "spot_id": "taego_spot_237",
       "cluster_id": 236,
-      "spot_name": "Spot (4956m, 5155m)",
+      "spot_name": "Spot (4955m, 5156m)",
       "x_meter": 4956.7,
       "y_meter": 5156.3,
       "x_norm": 0.61959,
@@ -37837,7 +37837,7 @@
     {
       "spot_id": "taego_spot_252",
       "cluster_id": 251,
-      "spot_name": "Spot (3353m, 5102m)",
+      "spot_name": "Spot (3353m, 5106m)",
       "x_meter": 3352.8,
       "y_meter": 5106.1,
       "x_norm": 0.4191,
@@ -38041,7 +38041,7 @@
     {
       "spot_id": "taego_spot_272",
       "cluster_id": 271,
-      "spot_name": "Spot (3441m, 5049m)",
+      "spot_name": "Spot (3435m, 5038m)",
       "x_meter": 3437.9,
       "y_meter": 5042.2,
       "x_norm": 0.42973,
@@ -38247,7 +38247,7 @@
     {
       "spot_id": "taego_spot_274",
       "cluster_id": 273,
-      "spot_name": "Spot (3499m, 5054m)",
+      "spot_name": "Spot (3484m, 5051m)",
       "x_meter": 3487.5,
       "y_meter": 5051.3,
       "x_norm": 0.43594,
@@ -38879,7 +38879,7 @@
     {
       "spot_id": "taego_spot_441",
       "cluster_id": 440,
-      "spot_name": "Spot (4010m, 4958m)",
+      "spot_name": "Spot (4013m, 4965m)",
       "x_meter": 4011.0,
       "y_meter": 4962.0,
       "x_norm": 0.50138,
@@ -39296,7 +39296,7 @@
     {
       "spot_id": "taego_spot_244",
       "cluster_id": 243,
-      "spot_name": "Spot (5046m, 5070m)",
+      "spot_name": "Spot (5046m, 5072m)",
       "x_meter": 5046.4,
       "y_meter": 5071.1,
       "x_norm": 0.63081,
@@ -40121,7 +40121,7 @@
     {
       "spot_id": "taego_spot_344",
       "cluster_id": 343,
-      "spot_name": "Spot (3535m, 4934m)",
+      "spot_name": "Spot (3536m, 4938m)",
       "x_meter": 3536.4,
       "y_meter": 4936.6,
       "x_norm": 0.44205,
@@ -40337,7 +40337,7 @@
     {
       "spot_id": "taego_spot_133",
       "cluster_id": 132,
-      "spot_name": "Spot (1613m, 1507m)",
+      "spot_name": "Spot (1630m, 1515m)",
       "x_meter": 1622.9,
       "y_meter": 1509.8,
       "x_norm": 0.20287,
@@ -40488,7 +40488,7 @@
     {
       "spot_id": "taego_spot_044",
       "cluster_id": 43,
-      "spot_name": "Spot (5836m, 7582m)",
+      "spot_name": "Spot (5847m, 7571m)",
       "x_meter": 5846.3,
       "y_meter": 7568.3,
       "x_norm": 0.73078,
@@ -40791,7 +40791,7 @@
     {
       "spot_id": "taego_spot_202",
       "cluster_id": 201,
-      "spot_name": "Spot (659m, 4525m)",
+      "spot_name": "Spot (651m, 4521m)",
       "x_meter": 655.7,
       "y_meter": 4523.0,
       "x_norm": 0.08196,
@@ -40947,7 +40947,7 @@
     {
       "spot_id": "taego_spot_109",
       "cluster_id": 108,
-      "spot_name": "Spot (6586m, 1931m)",
+      "spot_name": "Spot (6588m, 1931m)",
       "x_meter": 6586.9,
       "y_meter": 1923.2,
       "x_norm": 0.82336,
@@ -41546,7 +41546,7 @@
     {
       "spot_id": "taego_spot_096",
       "cluster_id": 95,
-      "spot_name": "Spot (7168m, 3107m)",
+      "spot_name": "Spot (7172m, 3096m)",
       "x_meter": 7170.6,
       "y_meter": 3102.2,
       "x_norm": 0.89632,
@@ -41699,7 +41699,7 @@
     {
       "spot_id": "taego_spot_149",
       "cluster_id": 148,
-      "spot_name": "Spot (656m, 4419m)",
+      "spot_name": "Spot (667m, 4416m)",
       "x_meter": 661.9,
       "y_meter": 4418.1,
       "x_norm": 0.08273,
@@ -41854,7 +41854,7 @@
     {
       "spot_id": "taego_spot_257",
       "cluster_id": 256,
-      "spot_name": "Spot (1556m, 1611m)",
+      "spot_name": "Spot (1557m, 1609m)",
       "x_meter": 1556.8,
       "y_meter": 1610.6,
       "x_norm": 0.19461,
@@ -42311,7 +42311,7 @@
     {
       "spot_id": "taego_spot_331",
       "cluster_id": 330,
-      "spot_name": "Spot (1054m, 2401m)",
+      "spot_name": "Spot (1047m, 2397m)",
       "x_meter": 1051.1,
       "y_meter": 2399.1,
       "x_norm": 0.13139,
@@ -42943,7 +42943,7 @@
     {
       "spot_id": "taego_spot_120",
       "cluster_id": 119,
-      "spot_name": "Spot (4451m, 895m)",
+      "spot_name": "Spot (4443m, 895m)",
       "x_meter": 4446.4,
       "y_meter": 895.0,
       "x_norm": 0.5558,
@@ -43258,7 +43258,7 @@
     {
       "spot_id": "taego_spot_175",
       "cluster_id": 174,
-      "spot_name": "Spot (6326m, 2939m)",
+      "spot_name": "Spot (6325m, 2936m)",
       "x_meter": 6326.0,
       "y_meter": 2937.8,
       "x_norm": 0.79074,
@@ -43420,7 +43420,7 @@
     {
       "spot_id": "taego_spot_295",
       "cluster_id": 294,
-      "spot_name": "Spot (714m, 4822m)",
+      "spot_name": "Spot (709m, 4819m)",
       "x_meter": 712.2,
       "y_meter": 4820.7,
       "x_norm": 0.08902,
@@ -43579,7 +43579,7 @@
     {
       "spot_id": "taego_spot_353",
       "cluster_id": 352,
-      "spot_name": "Spot (7011m, 4653m)",
+      "spot_name": "Spot (6992m, 4660m)",
       "x_meter": 7002.0,
       "y_meter": 4657.1,
       "x_norm": 0.87526,
@@ -43743,7 +43743,7 @@
     {
       "spot_id": "taego_spot_382",
       "cluster_id": 381,
-      "spot_name": "Spot (5951m, 2493m)",
+      "spot_name": "Spot (5965m, 2491m)",
       "x_meter": 5958.6,
       "y_meter": 2492.4,
       "x_norm": 0.74482,
@@ -43905,7 +43905,7 @@
     {
       "spot_id": "taego_spot_385",
       "cluster_id": 384,
-      "spot_name": "Spot (947m, 4916m)",
+      "spot_name": "Spot (947m, 4910m)",
       "x_meter": 948.0,
       "y_meter": 4913.5,
       "x_norm": 0.1185,
@@ -44221,7 +44221,7 @@
     {
       "spot_id": "taego_spot_137",
       "cluster_id": 136,
-      "spot_name": "Spot (2543m, 6726m)",
+      "spot_name": "Spot (2515m, 6715m)",
       "x_meter": 2526.2,
       "y_meter": 6721.1,
       "x_norm": 0.31578,
@@ -44900,7 +44900,7 @@
     {
       "spot_id": "taego_spot_155",
       "cluster_id": 154,
-      "spot_name": "Spot (3686m, 1133m)",
+      "spot_name": "Spot (3687m, 1136m)",
       "x_meter": 3685.9,
       "y_meter": 1135.2,
       "x_norm": 0.46074,
@@ -45572,7 +45572,7 @@
     {
       "spot_id": "taego_spot_143",
       "cluster_id": 142,
-      "spot_name": "Spot (5725m, 3046m)",
+      "spot_name": "Spot (5723m, 3045m)",
       "x_meter": 5724.5,
       "y_meter": 3045.9,
       "x_norm": 0.71557,
@@ -45733,7 +45733,7 @@
     {
       "spot_id": "taego_spot_214",
       "cluster_id": 213,
-      "spot_name": "Spot (6487m, 5755m)",
+      "spot_name": "Spot (6488m, 5758m)",
       "x_meter": 6488.1,
       "y_meter": 5756.9,
       "x_norm": 0.81101,
@@ -46237,7 +46237,7 @@
     {
       "spot_id": "taego_spot_336",
       "cluster_id": 335,
-      "spot_name": "Spot (1256m, 2697m)",
+      "spot_name": "Spot (1258m, 2701m)",
       "x_meter": 1257.3,
       "y_meter": 2699.4,
       "x_norm": 0.15716,
@@ -46401,7 +46401,7 @@
     {
       "spot_id": "taego_spot_359",
       "cluster_id": 358,
-      "spot_name": "Spot (2547m, 6761m)",
+      "spot_name": "Spot (2550m, 6767m)",
       "x_meter": 2549.1,
       "y_meter": 6764.9,
       "x_norm": 0.31863,
@@ -46575,7 +46575,7 @@
     {
       "spot_id": "taego_spot_363",
       "cluster_id": 362,
-      "spot_name": "Spot (5436m, 3248m)",
+      "spot_name": "Spot (5436m, 3247m)",
       "x_meter": 5436.4,
       "y_meter": 3248.2,
       "x_norm": 0.67955,
@@ -46737,7 +46737,7 @@
     {
       "spot_id": "taego_spot_372",
       "cluster_id": 371,
-      "spot_name": "Spot (6519m, 3952m)",
+      "spot_name": "Spot (6521m, 3954m)",
       "x_meter": 6520.4,
       "y_meter": 3953.4,
       "x_norm": 0.81505,
@@ -47405,7 +47405,7 @@
     {
       "spot_id": "taego_spot_406",
       "cluster_id": 405,
-      "spot_name": "Spot (6559m, 4598m)",
+      "spot_name": "Spot (6553m, 4593m)",
       "x_meter": 6556.6,
       "y_meter": 4596.0,
       "x_norm": 0.81957,
@@ -47574,7 +47574,7 @@
     {
       "spot_id": "taego_spot_422",
       "cluster_id": 421,
-      "spot_name": "Spot (2203m, 6699m)",
+      "spot_name": "Spot (2203m, 6697m)",
       "x_meter": 2203.3,
       "y_meter": 6698.5,
       "x_norm": 0.27541,
@@ -47745,7 +47745,7 @@
     {
       "spot_id": "taego_spot_121",
       "cluster_id": 120,
-      "spot_name": "Spot (2727m, 1972m)",
+      "spot_name": "Spot (2723m, 1971m)",
       "x_meter": 2718.5,
       "y_meter": 1977.7,
       "x_norm": 0.33981,
@@ -48093,7 +48093,7 @@
     {
       "spot_id": "taego_spot_231",
       "cluster_id": 230,
-      "spot_name": "Spot (4967m, 3118m)",
+      "spot_name": "Spot (4975m, 3104m)",
       "x_meter": 4966.6,
       "y_meter": 3113.0,
       "x_norm": 0.62083,
@@ -48615,7 +48615,7 @@
     {
       "spot_id": "taego_spot_131",
       "cluster_id": 130,
-      "spot_name": "Spot (2750m, 2398m)",
+      "spot_name": "Spot (2742m, 2403m)",
       "x_meter": 2748.0,
       "y_meter": 2401.2,
       "x_norm": 0.34351,
@@ -48801,7 +48801,7 @@
     {
       "spot_id": "taego_spot_166",
       "cluster_id": 165,
-      "spot_name": "Spot (4260m, 1910m)",
+      "spot_name": "Spot (4266m, 1925m)",
       "x_meter": 4263.0,
       "y_meter": 1915.7,
       "x_norm": 0.53287,
@@ -48979,7 +48979,7 @@
     {
       "spot_id": "taego_spot_174",
       "cluster_id": 173,
-      "spot_name": "Spot (4272m, 6652m)",
+      "spot_name": "Spot (4271m, 6653m)",
       "x_meter": 4274.0,
       "y_meter": 6650.1,
       "x_norm": 0.53425,
@@ -49159,7 +49159,7 @@
     {
       "spot_id": "taego_spot_404",
       "cluster_id": 403,
-      "spot_name": "Spot (3963m, 3852m)",
+      "spot_name": "Spot (3960m, 3853m)",
       "x_meter": 3962.3,
       "y_meter": 3853.8,
       "x_norm": 0.49529,
@@ -49519,7 +49519,7 @@
     {
       "spot_id": "taego_spot_412",
       "cluster_id": 411,
-      "spot_name": "Spot (6499m, 4550m)",
+      "spot_name": "Spot (6500m, 4550m)",
       "x_meter": 6499.4,
       "y_meter": 4549.5,
       "x_norm": 0.81242,
@@ -50038,7 +50038,7 @@
     {
       "spot_id": "taego_spot_027",
       "cluster_id": 26,
-      "spot_name": "Spot (5928m, 4221m)",
+      "spot_name": "Spot (5927m, 4219m)",
       "x_meter": 5927.9,
       "y_meter": 4220.4,
       "x_norm": 0.74099,
@@ -50395,7 +50395,7 @@
     {
       "spot_id": "taego_spot_048",
       "cluster_id": 47,
-      "spot_name": "Spot (4647m, 3685m)",
+      "spot_name": "Spot (4648m, 3680m)",
       "x_meter": 4648.1,
       "y_meter": 3682.9,
       "x_norm": 0.58101,
@@ -50743,7 +50743,7 @@
     {
       "spot_id": "taego_spot_099",
       "cluster_id": 98,
-      "spot_name": "Spot (4820m, 3565m)",
+      "spot_name": "Spot (4823m, 3572m)",
       "x_meter": 4821.9,
       "y_meter": 3569.1,
       "x_norm": 0.60274,
@@ -51096,7 +51096,7 @@
     {
       "spot_id": "taego_spot_224",
       "cluster_id": 223,
-      "spot_name": "Spot (6012m, 5558m)",
+      "spot_name": "Spot (6016m, 5555m)",
       "x_meter": 6014.2,
       "y_meter": 5557.3,
       "x_norm": 0.75178,
@@ -51277,7 +51277,7 @@
     {
       "spot_id": "taego_spot_235",
       "cluster_id": 234,
-      "spot_name": "Spot (1717m, 4419m)",
+      "spot_name": "Spot (1715m, 4425m)",
       "x_meter": 1716.4,
       "y_meter": 4422.6,
       "x_norm": 0.21456,
@@ -51800,7 +51800,7 @@
     {
       "spot_id": "taego_spot_258",
       "cluster_id": 257,
-      "spot_name": "Spot (4750m, 3186m)",
+      "spot_name": "Spot (4747m, 3185m)",
       "x_meter": 4748.7,
       "y_meter": 3185.9,
       "x_norm": 0.59359,
@@ -52153,7 +52153,7 @@
     {
       "spot_id": "taego_spot_296",
       "cluster_id": 295,
-      "spot_name": "Spot (4526m, 2333m)",
+      "spot_name": "Spot (4526m, 2336m)",
       "x_meter": 4526.4,
       "y_meter": 2334.8,
       "x_norm": 0.5658,
@@ -52700,7 +52700,7 @@
     {
       "spot_id": "taego_spot_366",
       "cluster_id": 365,
-      "spot_name": "Spot (1921m, 5187m)",
+      "spot_name": "Spot (1922m, 5187m)",
       "x_meter": 1922.1,
       "y_meter": 5187.5,
       "x_norm": 0.24026,
@@ -53253,7 +53253,7 @@
     {
       "spot_id": "taego_spot_430",
       "cluster_id": 429,
-      "spot_name": "Spot (2359m, 2450m)",
+      "spot_name": "Spot (2365m, 2453m)",
       "x_meter": 2362.5,
       "y_meter": 2451.9,
       "x_norm": 0.29531,
@@ -53973,7 +53973,7 @@
     {
       "spot_id": "taego_spot_113",
       "cluster_id": 112,
-      "spot_name": "Spot (5737m, 5466m)",
+      "spot_name": "Spot (5738m, 5466m)",
       "x_meter": 5736.8,
       "y_meter": 5466.8,
       "x_norm": 0.7171,
@@ -54164,7 +54164,7 @@
     {
       "spot_id": "taego_spot_074",
       "cluster_id": 73,
-      "spot_name": "Spot (5809m, 5880m)",
+      "spot_name": "Spot (5822m, 5887m)",
       "x_meter": 5821.2,
       "y_meter": 5886.2,
       "x_norm": 0.72765,
@@ -54346,7 +54346,7 @@
     {
       "spot_id": "taego_spot_104",
       "cluster_id": 103,
-      "spot_name": "Spot (5790m, 5370m)",
+      "spot_name": "Spot (5791m, 5372m)",
       "x_meter": 5791.2,
       "y_meter": 5371.3,
       "x_norm": 0.7239,
@@ -54540,7 +54540,7 @@
     {
       "spot_id": "taego_spot_172",
       "cluster_id": 171,
-      "spot_name": "Spot (6030m, 4505m)",
+      "spot_name": "Spot (6051m, 4509m)",
       "x_meter": 6042.4,
       "y_meter": 4504.5,
       "x_norm": 0.7553,
@@ -55093,7 +55093,7 @@
     {
       "spot_id": "taego_spot_396",
       "cluster_id": 395,
-      "spot_name": "Spot (2913m, 2548m)",
+      "spot_name": "Spot (2917m, 2547m)",
       "x_meter": 2915.6,
       "y_meter": 2548.3,
       "x_norm": 0.36445,
@@ -55283,7 +55283,7 @@
     {
       "spot_id": "taego_spot_399",
       "cluster_id": 398,
-      "spot_name": "Spot (2470m, 5642m)",
+      "spot_name": "Spot (2478m, 5652m)",
       "x_meter": 2473.9,
       "y_meter": 5646.4,
       "x_norm": 0.30924,
@@ -55669,7 +55669,7 @@
     {
       "spot_id": "taego_spot_011",
       "cluster_id": 10,
-      "spot_name": "Spot (4712m, 6087m)",
+      "spot_name": "Spot (4710m, 6089m)",
       "x_meter": 4711.4,
       "y_meter": 6088.4,
       "x_norm": 0.58892,
@@ -55860,7 +55860,7 @@
     {
       "spot_id": "taego_spot_034",
       "cluster_id": 33,
-      "spot_name": "Spot (5787m, 4742m)",
+      "spot_name": "Spot (5787m, 4745m)",
       "x_meter": 5787.4,
       "y_meter": 4744.2,
       "x_norm": 0.72342,
@@ -56045,7 +56045,7 @@
     {
       "spot_id": "taego_spot_090",
       "cluster_id": 89,
-      "spot_name": "Spot (3787m, 6361m)",
+      "spot_name": "Spot (3769m, 6366m)",
       "x_meter": 3778.6,
       "y_meter": 6363.6,
       "x_norm": 0.47232,
@@ -56420,7 +56420,7 @@
     {
       "spot_id": "taego_spot_171",
       "cluster_id": 170,
-      "spot_name": "Spot (5662m, 5486m)",
+      "spot_name": "Spot (5665m, 5481m)",
       "x_meter": 5663.9,
       "y_meter": 5483.7,
       "x_norm": 0.70799,
@@ -57006,7 +57006,7 @@
     {
       "spot_id": "taego_spot_197",
       "cluster_id": 196,
-      "spot_name": "Spot (3055m, 3677m)",
+      "spot_name": "Spot (3065m, 3677m)",
       "x_meter": 3060.4,
       "y_meter": 3677.9,
       "x_norm": 0.38254,
@@ -57186,7 +57186,7 @@
     {
       "spot_id": "taego_spot_217",
       "cluster_id": 216,
-      "spot_name": "Spot (2468m, 5388m)",
+      "spot_name": "Spot (2468m, 5387m)",
       "x_meter": 2468.8,
       "y_meter": 5388.0,
       "x_norm": 0.3086,
@@ -57385,7 +57385,7 @@
     {
       "spot_id": "taego_spot_253",
       "cluster_id": 252,
-      "spot_name": "Spot (2657m, 5733m)",
+      "spot_name": "Spot (2662m, 5735m)",
       "x_meter": 2659.6,
       "y_meter": 5734.5,
       "x_norm": 0.33245,
@@ -57585,7 +57585,7 @@
     {
       "spot_id": "taego_spot_289",
       "cluster_id": 288,
-      "spot_name": "Spot (1933m, 5527m)",
+      "spot_name": "Spot (1937m, 5537m)",
       "x_meter": 1935.5,
       "y_meter": 5532.8,
       "x_norm": 0.24193,
@@ -57944,7 +57944,7 @@
     {
       "spot_id": "taego_spot_294",
       "cluster_id": 293,
-      "spot_name": "Spot (3522m, 4245m)",
+      "spot_name": "Spot (3519m, 4230m)",
       "x_meter": 3520.7,
       "y_meter": 4238.1,
       "x_norm": 0.44009,
@@ -58131,7 +58131,7 @@
     {
       "spot_id": "taego_spot_330",
       "cluster_id": 329,
-      "spot_name": "Spot (2318m, 2716m)",
+      "spot_name": "Spot (2319m, 2706m)",
       "x_meter": 2319.3,
       "y_meter": 2711.4,
       "x_norm": 0.28991,
@@ -58506,7 +58506,7 @@
     {
       "spot_id": "taego_spot_371",
       "cluster_id": 370,
-      "spot_name": "Spot (2353m, 5428m)",
+      "spot_name": "Spot (2346m, 5433m)",
       "x_meter": 2350.2,
       "y_meter": 5430.9,
       "x_norm": 0.29377,
@@ -58695,7 +58695,7 @@
     {
       "spot_id": "taego_spot_448",
       "cluster_id": 447,
-      "spot_name": "Spot (3950m, 6188m)",
+      "spot_name": "Spot (3949m, 6189m)",
       "x_meter": 3950.2,
       "y_meter": 6188.7,
       "x_norm": 0.49378,
@@ -58886,7 +58886,7 @@
     {
       "spot_id": "taego_spot_081",
       "cluster_id": 80,
-      "spot_name": "Spot (4742m, 6071m)",
+      "spot_name": "Spot (4760m, 6043m)",
       "x_meter": 4753.1,
       "y_meter": 6055.5,
       "x_norm": 0.59414,
@@ -60093,7 +60093,7 @@
     {
       "spot_id": "taego_spot_278",
       "cluster_id": 277,
-      "spot_name": "Spot (4148m, 4699m)",
+      "spot_name": "Spot (4142m, 4696m)",
       "x_meter": 4144.0,
       "y_meter": 4697.7,
       "x_norm": 0.518,
@@ -60500,7 +60500,7 @@
     {
       "spot_id": "taego_spot_018",
       "cluster_id": 17,
-      "spot_name": "Spot (3891m, 5929m)",
+      "spot_name": "Spot (3888m, 5934m)",
       "x_meter": 3889.9,
       "y_meter": 5932.0,
       "x_norm": 0.48624,
@@ -61104,7 +61104,7 @@
     {
       "spot_id": "taego_spot_084",
       "cluster_id": 83,
-      "spot_name": "Spot (4868m, 5073m)",
+      "spot_name": "Spot (4882m, 5073m)",
       "x_meter": 4875.5,
       "y_meter": 5073.3,
       "x_norm": 0.60944,
@@ -61520,7 +61520,7 @@
     {
       "spot_id": "taego_spot_135",
       "cluster_id": 134,
-      "spot_name": "Spot (3225m, 5327m)",
+      "spot_name": "Spot (3228m, 5324m)",
       "x_meter": 3227.3,
       "y_meter": 5326.2,
       "x_norm": 0.40342,
@@ -61921,7 +61921,7 @@
     {
       "spot_id": "taego_spot_177",
       "cluster_id": 176,
-      "spot_name": "Spot (4414m, 4755m)",
+      "spot_name": "Spot (4414m, 4754m)",
       "x_meter": 4414.4,
       "y_meter": 4755.0,
       "x_norm": 0.5518,
@@ -62122,7 +62122,7 @@
     {
       "spot_id": "taego_spot_183",
       "cluster_id": 182,
-      "spot_name": "Spot (2961m, 5047m)",
+      "spot_name": "Spot (2963m, 5046m)",
       "x_meter": 2962.5,
       "y_meter": 5046.8,
       "x_norm": 0.37031,
@@ -62730,7 +62730,7 @@
     {
       "spot_id": "taego_spot_319",
       "cluster_id": 318,
-      "spot_name": "Spot (3993m, 4882m)",
+      "spot_name": "Spot (4003m, 4884m)",
       "x_meter": 3998.5,
       "y_meter": 4883.4,
       "x_norm": 0.49982,
@@ -63545,7 +63545,7 @@
     {
       "spot_id": "taego_spot_377",
       "cluster_id": 376,
-      "spot_name": "Spot (2624m, 5217m)",
+      "spot_name": "Spot (2626m, 5216m)",
       "x_meter": 2625.6,
       "y_meter": 5217.1,
       "x_norm": 0.32819,
@@ -63954,7 +63954,7 @@
     {
       "spot_id": "taego_spot_421",
       "cluster_id": 420,
-      "spot_name": "Spot (4035m, 5528m)",
+      "spot_name": "Spot (4034m, 5519m)",
       "x_meter": 4035.1,
       "y_meter": 5524.0,
       "x_norm": 0.50439,
@@ -64162,7 +64162,7 @@
     {
       "spot_id": "taego_spot_427",
       "cluster_id": 426,
-      "spot_name": "Spot (4418m, 5167m)",
+      "spot_name": "Spot (4428m, 5172m)",
       "x_meter": 4423.6,
       "y_meter": 5170.0,
       "x_norm": 0.55295,
@@ -64376,7 +64376,7 @@
     {
       "spot_id": "taego_spot_432",
       "cluster_id": 431,
-      "spot_name": "Spot (5200m, 5278m)",
+      "spot_name": "Spot (5196m, 5287m)",
       "x_meter": 5198.6,
       "y_meter": 5282.6,
       "x_norm": 0.64983,
@@ -64956,7 +64956,7 @@
     {
       "spot_id": "taego_spot_369",
       "cluster_id": 368,
-      "spot_name": "Spot (2433m, 6643m)",
+      "spot_name": "Spot (2435m, 6647m)",
       "x_meter": 2433.0,
       "y_meter": 6643.8,
       "x_norm": 0.30413,
@@ -65302,7 +65302,7 @@
     {
       "spot_id": "taego_spot_095",
       "cluster_id": 94,
-      "spot_name": "Spot (3851m, 1130m)",
+      "spot_name": "Spot (3850m, 1133m)",
       "x_meter": 3854.6,
       "y_meter": 1125.8,
       "x_norm": 0.48182,
@@ -65620,7 +65620,7 @@
     {
       "spot_id": "taego_spot_150",
       "cluster_id": 149,
-      "spot_name": "Spot (6493m, 1971m)",
+      "spot_name": "Spot (6487m, 1963m)",
       "x_meter": 6489.2,
       "y_meter": 1963.8,
       "x_norm": 0.81116,
@@ -67239,7 +67239,7 @@
     {
       "spot_id": "taego_spot_388",
       "cluster_id": 387,
-      "spot_name": "Spot (3986m, 4927m)",
+      "spot_name": "Spot (3981m, 4916m)",
       "x_meter": 3979.2,
       "y_meter": 4920.4,
       "x_norm": 0.4974,
@@ -68274,7 +68274,7 @@
     {
       "spot_id": "taego_spot_128",
       "cluster_id": 127,
-      "spot_name": "Spot (3962m, 1155m)",
+      "spot_name": "Spot (3956m, 1156m)",
       "x_meter": 3957.9,
       "y_meter": 1156.7,
       "x_norm": 0.49474,
@@ -68444,7 +68444,7 @@
     {
       "spot_id": "taego_spot_129",
       "cluster_id": 128,
-      "spot_name": "Spot (5591m, 6823m)",
+      "spot_name": "Spot (5609m, 6837m)",
       "x_meter": 5599.6,
       "y_meter": 6832.8,
       "x_norm": 0.69995,
@@ -68618,7 +68618,7 @@
     {
       "spot_id": "taego_spot_132",
       "cluster_id": 131,
-      "spot_name": "Spot (5552m, 3713m)",
+      "spot_name": "Spot (5540m, 3710m)",
       "x_meter": 5545.3,
       "y_meter": 3710.4,
       "x_norm": 0.69316,
@@ -69112,7 +69112,7 @@
     {
       "spot_id": "taego_spot_216",
       "cluster_id": 215,
-      "spot_name": "Spot (6733m, 3239m)",
+      "spot_name": "Spot (6728m, 3245m)",
       "x_meter": 6731.6,
       "y_meter": 3242.4,
       "x_norm": 0.84145,
@@ -69473,7 +69473,7 @@
     {
       "spot_id": "taego_spot_313",
       "cluster_id": 312,
-      "spot_name": "Spot (5381m, 5953m)",
+      "spot_name": "Spot (5382m, 5953m)",
       "x_meter": 5381.9,
       "y_meter": 5955.8,
       "x_norm": 0.67274,
@@ -69671,7 +69671,7 @@
     {
       "spot_id": "taego_spot_368",
       "cluster_id": 367,
-      "spot_name": "Spot (979m, 2474m)",
+      "spot_name": "Spot (989m, 2472m)",
       "x_meter": 988.3,
       "y_meter": 2473.4,
       "x_norm": 0.12354,
@@ -70130,7 +70130,7 @@
     {
       "spot_id": "taego_spot_403",
       "cluster_id": 402,
-      "spot_name": "Spot (6747m, 3298m)",
+      "spot_name": "Spot (6743m, 3286m)",
       "x_meter": 6744.8,
       "y_meter": 3289.9,
       "x_norm": 0.8431,
@@ -70772,7 +70772,7 @@
     {
       "spot_id": "taego_spot_015",
       "cluster_id": 14,
-      "spot_name": "Spot (4680m, 3576m)",
+      "spot_name": "Spot (4679m, 3578m)",
       "x_meter": 4680.2,
       "y_meter": 3577.5,
       "x_norm": 0.58503,
@@ -71251,7 +71251,7 @@
     {
       "spot_id": "taego_spot_062",
       "cluster_id": 61,
-      "spot_name": "Spot (5386m, 4543m)",
+      "spot_name": "Spot (5387m, 4543m)",
       "x_meter": 5387.2,
       "y_meter": 4543.3,
       "x_norm": 0.6734,
@@ -71627,7 +71627,7 @@
     {
       "spot_id": "taego_spot_075",
       "cluster_id": 74,
-      "spot_name": "Spot (4940m, 5106m)",
+      "spot_name": "Spot (4931m, 5115m)",
       "x_meter": 4936.1,
       "y_meter": 5110.9,
       "x_norm": 0.61701,
@@ -71831,7 +71831,7 @@
     {
       "spot_id": "taego_spot_078",
       "cluster_id": 77,
-      "spot_name": "Spot (5519m, 6509m)",
+      "spot_name": "Spot (5516m, 6510m)",
       "x_meter": 5517.7,
       "y_meter": 6509.8,
       "x_norm": 0.68971,
@@ -72206,7 +72206,7 @@
     {
       "spot_id": "taego_spot_085",
       "cluster_id": 84,
-      "spot_name": "Spot (3588m, 6425m)",
+      "spot_name": "Spot (3585m, 6426m)",
       "x_meter": 3587.1,
       "y_meter": 6426.1,
       "x_norm": 0.44838,
@@ -72735,7 +72735,7 @@
     {
       "spot_id": "taego_spot_111",
       "cluster_id": 110,
-      "spot_name": "Spot (4300m, 6646m)",
+      "spot_name": "Spot (4303m, 6639m)",
       "x_meter": 4301.9,
       "y_meter": 6643.2,
       "x_norm": 0.53774,
@@ -73810,7 +73810,7 @@
     {
       "spot_id": "taego_spot_184",
       "cluster_id": 183,
-      "spot_name": "Spot (2553m, 5158m)",
+      "spot_name": "Spot (2554m, 5156m)",
       "x_meter": 2554.0,
       "y_meter": 5157.4,
       "x_norm": 0.31925,
@@ -74219,7 +74219,7 @@
     {
       "spot_id": "taego_spot_225",
       "cluster_id": 224,
-      "spot_name": "Spot (1646m, 5330m)",
+      "spot_name": "Spot (1645m, 5329m)",
       "x_meter": 1645.8,
       "y_meter": 5329.9,
       "x_norm": 0.20573,
@@ -74394,7 +74394,7 @@
     {
       "spot_id": "taego_spot_232",
       "cluster_id": 231,
-      "spot_name": "Spot (6529m, 6100m)",
+      "spot_name": "Spot (6528m, 6101m)",
       "x_meter": 6528.6,
       "y_meter": 6100.9,
       "x_norm": 0.81608,
@@ -74558,7 +74558,7 @@
     {
       "spot_id": "taego_spot_238",
       "cluster_id": 237,
-      "spot_name": "Spot (701m, 4368m)",
+      "spot_name": "Spot (702m, 4367m)",
       "x_meter": 702.1,
       "y_meter": 4368.0,
       "x_norm": 0.08776,
@@ -74713,7 +74713,7 @@
     {
       "spot_id": "taego_spot_239",
       "cluster_id": 238,
-      "spot_name": "Spot (4723m, 3192m)",
+      "spot_name": "Spot (4727m, 3193m)",
       "x_meter": 4725.3,
       "y_meter": 3193.1,
       "x_norm": 0.59067,
@@ -74885,7 +74885,7 @@
     {
       "spot_id": "taego_spot_240",
       "cluster_id": 239,
-      "spot_name": "Spot (4119m, 1146m)",
+      "spot_name": "Spot (4119m, 1147m)",
       "x_meter": 4119.5,
       "y_meter": 1147.3,
       "x_norm": 0.51494,
@@ -75052,7 +75052,7 @@
     {
       "spot_id": "taego_spot_241",
       "cluster_id": 240,
-      "spot_name": "Spot (724m, 4589m)",
+      "spot_name": "Spot (722m, 4597m)",
       "x_meter": 723.4,
       "y_meter": 4593.6,
       "x_norm": 0.09043,
@@ -75575,7 +75575,7 @@
     {
       "spot_id": "taego_spot_310",
       "cluster_id": 309,
-      "spot_name": "Spot (994m, 2745m)",
+      "spot_name": "Spot (997m, 2748m)",
       "x_meter": 995.7,
       "y_meter": 2746.7,
       "x_norm": 0.12446,
@@ -76090,7 +76090,7 @@
     {
       "spot_id": "taego_spot_322",
       "cluster_id": 321,
-      "spot_name": "Spot (3084m, 6260m)",
+      "spot_name": "Spot (3080m, 6253m)",
       "x_meter": 3082.6,
       "y_meter": 6256.7,
       "x_norm": 0.38533,
@@ -76454,7 +76454,7 @@
     {
       "spot_id": "taego_spot_329",
       "cluster_id": 328,
-      "spot_name": "Spot (1912m, 2609m)",
+      "spot_name": "Spot (1913m, 2608m)",
       "x_meter": 1912.6,
       "y_meter": 2608.9,
       "x_norm": 0.23908,
@@ -76632,7 +76632,7 @@
     {
       "spot_id": "taego_spot_333",
       "cluster_id": 332,
-      "spot_name": "Spot (4671m, 3116m)",
+      "spot_name": "Spot (4669m, 3130m)",
       "x_meter": 4670.3,
       "y_meter": 3123.5,
       "x_norm": 0.58379,
@@ -77006,7 +77006,7 @@
     {
       "spot_id": "taego_spot_346",
       "cluster_id": 345,
-      "spot_name": "Spot (6227m, 3902m)",
+      "spot_name": "Spot (6228m, 3895m)",
       "x_meter": 6227.6,
       "y_meter": 3898.8,
       "x_norm": 0.77845,
@@ -77318,7 +77318,7 @@
     {
       "spot_id": "taego_spot_351",
       "cluster_id": 350,
-      "spot_name": "Spot (4958m, 4429m)",
+      "spot_name": "Spot (4958m, 4431m)",
       "x_meter": 4958.2,
       "y_meter": 4430.4,
       "x_norm": 0.61978,
@@ -78006,7 +78006,7 @@
     {
       "spot_id": "taego_spot_374",
       "cluster_id": 373,
-      "spot_name": "Spot (6376m, 2237m)",
+      "spot_name": "Spot (6381m, 2237m)",
       "x_meter": 6378.8,
       "y_meter": 2237.3,
       "x_norm": 0.79735,
@@ -78166,7 +78166,7 @@
     {
       "spot_id": "taego_spot_375",
       "cluster_id": 374,
-      "spot_name": "Spot (6492m, 5801m)",
+      "spot_name": "Spot (6492m, 5802m)",
       "x_meter": 6492.7,
       "y_meter": 5802.2,
       "x_norm": 0.81159,
@@ -78658,7 +78658,7 @@
     {
       "spot_id": "taego_spot_384",
       "cluster_id": 383,
-      "spot_name": "Spot (1382m, 4261m)",
+      "spot_name": "Spot (1379m, 4260m)",
       "x_meter": 1381.4,
       "y_meter": 4261.0,
       "x_norm": 0.17267,
@@ -79208,7 +79208,7 @@
     {
       "spot_id": "taego_spot_398",
       "cluster_id": 397,
-      "spot_name": "Spot (2452m, 5471m)",
+      "spot_name": "Spot (2442m, 5472m)",
       "x_meter": 2447.8,
       "y_meter": 5471.9,
       "x_norm": 0.30597,
@@ -79404,7 +79404,7 @@
     {
       "spot_id": "taego_spot_400",
       "cluster_id": 399,
-      "spot_name": "Spot (2670m, 5801m)",
+      "spot_name": "Spot (2689m, 5801m)",
       "x_meter": 2680.2,
       "y_meter": 5801.4,
       "x_norm": 0.33502,
@@ -80144,7 +80144,7 @@
     {
       "spot_id": "taego_spot_425",
       "cluster_id": 424,
-      "spot_name": "Spot (2924m, 5916m)",
+      "spot_name": "Spot (2915m, 5910m)",
       "x_meter": 2919.8,
       "y_meter": 5913.9,
       "x_norm": 0.36498,
@@ -80334,7 +80334,7 @@
     {
       "spot_id": "taego_spot_429",
       "cluster_id": 428,
-      "spot_name": "Spot (5356m, 6461m)",
+      "spot_name": "Spot (5356m, 6460m)",
       "x_meter": 5356.2,
       "y_meter": 6461.0,
       "x_norm": 0.66952,
@@ -81376,7 +81376,7 @@
     {
       "spot_id": "taego_spot_440",
       "cluster_id": 439,
-      "spot_name": "Spot (1734m, 2656m)",
+      "spot_name": "Spot (1739m, 2659m)",
       "x_meter": 1737.2,
       "y_meter": 2658.1,
       "x_norm": 0.21715,
@@ -81714,7 +81714,7 @@
     {
       "spot_id": "taego_spot_446",
       "cluster_id": 445,
-      "spot_name": "Spot (668m, 4357m)",
+      "spot_name": "Spot (669m, 4358m)",
       "x_meter": 668.7,
       "y_meter": 4358.0,
       "x_norm": 0.08358,
@@ -81867,7 +81867,7 @@
     {
       "spot_id": "taego_spot_450",
       "cluster_id": 449,
-      "spot_name": "Spot (6872m, 2807m)",
+      "spot_name": "Spot (6869m, 2806m)",
       "x_meter": 6870.7,
       "y_meter": 2806.9,
       "x_norm": 0.85883,
@@ -82018,7 +82018,7 @@
     {
       "spot_id": "taego_spot_452",
       "cluster_id": 451,
-      "spot_name": "Spot (6622m, 4871m)",
+      "spot_name": "Spot (6625m, 4872m)",
       "x_meter": 6623.7,
       "y_meter": 4872.0,
       "x_norm": 0.82796,
@@ -82188,7 +82188,7 @@
     {
       "spot_id": "taego_spot_455",
       "cluster_id": 454,
-      "spot_name": "Spot (5887m, 7567m)",
+      "spot_name": "Spot (5888m, 7567m)",
       "x_meter": 5888.2,
       "y_meter": 7567.5,
       "x_norm": 0.73603,
@@ -82337,7 +82337,7 @@
     {
       "spot_id": "taego_spot_456",
       "cluster_id": 455,
-      "spot_name": "Spot (1986m, 2722m)",
+      "spot_name": "Spot (1988m, 2722m)",
       "x_meter": 1987.6,
       "y_meter": 2722.6,
       "x_norm": 0.24845,
@@ -87038,21 +87038,40 @@
         "hi": 0.33,
         "n": 577,
         "stay_pct": 55.5,
-        "reliable": true
+        "reliable": true,
+        "adv_n": 532,
+        "adv_pct": 39.7,
+        "adv_reliable": true
       },
       {
         "lo": 0.33,
         "hi": 0.66,
         "n": 427,
         "stay_pct": 22.5,
-        "reliable": true
+        "reliable": true,
+        "adv_n": 396,
+        "adv_pct": 64.6,
+        "adv_reliable": true
       },
       {
         "lo": 0.66,
         "hi": 1.0,
         "n": 42,
         "stay_pct": 0.0,
-        "reliable": true
+        "reliable": true,
+        "adv_n": 41,
+        "adv_pct": 82.9,
+        "adv_reliable": true
+      },
+      {
+        "lo": 1.0,
+        "hi": 99.0,
+        "n": 0,
+        "stay_pct": null,
+        "reliable": false,
+        "adv_n": 0,
+        "adv_pct": null,
+        "adv_reliable": false
       }
     ],
     "2": [
@@ -87061,21 +87080,40 @@
         "hi": 0.33,
         "n": 55,
         "stay_pct": 96.4,
-        "reliable": true
+        "reliable": true,
+        "adv_n": 55,
+        "adv_pct": 70.9,
+        "adv_reliable": true
       },
       {
         "lo": 0.33,
         "hi": 0.66,
         "n": 66,
         "stay_pct": 69.7,
-        "reliable": true
+        "reliable": true,
+        "adv_n": 66,
+        "adv_pct": 87.9,
+        "adv_reliable": true
       },
       {
         "lo": 0.66,
         "hi": 1.0,
         "n": 67,
         "stay_pct": 10.4,
-        "reliable": true
+        "reliable": true,
+        "adv_n": 67,
+        "adv_pct": 80.6,
+        "adv_reliable": true
+      },
+      {
+        "lo": 1.0,
+        "hi": 99.0,
+        "n": 0,
+        "stay_pct": null,
+        "reliable": false,
+        "adv_n": 202,
+        "adv_pct": 79.2,
+        "adv_reliable": true
       }
     ],
     "3": [
@@ -87084,21 +87122,40 @@
         "hi": 0.33,
         "n": 49,
         "stay_pct": 93.9,
-        "reliable": true
+        "reliable": true,
+        "adv_n": 49,
+        "adv_pct": 89.8,
+        "adv_reliable": true
       },
       {
         "lo": 0.33,
         "hi": 0.66,
         "n": 84,
         "stay_pct": 70.2,
-        "reliable": true
+        "reliable": true,
+        "adv_n": 84,
+        "adv_pct": 79.8,
+        "adv_reliable": true
       },
       {
         "lo": 0.66,
         "hi": 1.0,
         "n": 54,
         "stay_pct": 22.2,
-        "reliable": true
+        "reliable": true,
+        "adv_n": 54,
+        "adv_pct": 83.3,
+        "adv_reliable": true
+      },
+      {
+        "lo": 1.0,
+        "hi": 99.0,
+        "n": 0,
+        "stay_pct": null,
+        "reliable": false,
+        "adv_n": 161,
+        "adv_pct": 76.4,
+        "adv_reliable": true
       }
     ],
     "4": [
@@ -87107,21 +87164,40 @@
         "hi": 0.33,
         "n": 38,
         "stay_pct": 97.4,
-        "reliable": true
+        "reliable": true,
+        "adv_n": 38,
+        "adv_pct": 89.5,
+        "adv_reliable": true
       },
       {
         "lo": 0.33,
         "hi": 0.66,
         "n": 93,
         "stay_pct": 77.4,
-        "reliable": true
+        "reliable": true,
+        "adv_n": 92,
+        "adv_pct": 72.8,
+        "adv_reliable": true
       },
       {
         "lo": 0.66,
         "hi": 1.0,
         "n": 64,
         "stay_pct": 29.7,
-        "reliable": true
+        "reliable": true,
+        "adv_n": 64,
+        "adv_pct": 73.4,
+        "adv_reliable": true
+      },
+      {
+        "lo": 1.0,
+        "hi": 99.0,
+        "n": 0,
+        "stay_pct": null,
+        "reliable": false,
+        "adv_n": 92,
+        "adv_pct": 45.7,
+        "adv_reliable": true
       }
     ],
     "5": [
@@ -87130,21 +87206,40 @@
         "hi": 0.33,
         "n": 28,
         "stay_pct": 75.0,
-        "reliable": true
+        "reliable": true,
+        "adv_n": 28,
+        "adv_pct": 75.0,
+        "adv_reliable": true
       },
       {
         "lo": 0.33,
         "hi": 0.66,
         "n": 73,
         "stay_pct": 38.4,
-        "reliable": true
+        "reliable": true,
+        "adv_n": 72,
+        "adv_pct": 81.9,
+        "adv_reliable": true
       },
       {
         "lo": 0.66,
         "hi": 1.0,
         "n": 65,
         "stay_pct": 10.8,
-        "reliable": true
+        "reliable": true,
+        "adv_n": 65,
+        "adv_pct": 70.8,
+        "adv_reliable": true
+      },
+      {
+        "lo": 1.0,
+        "hi": 99.0,
+        "n": 0,
+        "stay_pct": null,
+        "reliable": false,
+        "adv_n": 34,
+        "adv_pct": 44.1,
+        "adv_reliable": true
       }
     ]
   },

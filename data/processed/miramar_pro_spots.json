@@ -24,7 +24,7 @@
     {
       "spot_id": "miramar_spot_013",
       "cluster_id": 12,
-      "spot_name": "Spot (3656m, 4401m)",
+      "spot_name": "Spot (3661m, 4396m)",
       "x_meter": 3660.4,
       "y_meter": 4397.7,
       "x_norm": 0.45755,
@@ -164,7 +164,7 @@
     {
       "spot_id": "miramar_spot_004",
       "cluster_id": 3,
-      "spot_name": "Spot (4403m, 2809m)",
+      "spot_name": "Spot (4377m, 2798m)",
       "x_meter": 4383.1,
       "y_meter": 2804.5,
       "x_norm": 0.54788,
@@ -568,7 +568,7 @@
     {
       "spot_id": "miramar_spot_170",
       "cluster_id": 169,
-      "spot_name": "Spot (3568m, 7507m)",
+      "spot_name": "Spot (3564m, 7497m)",
       "x_meter": 3564.2,
       "y_meter": 7500.2,
       "x_norm": 0.44553,
@@ -824,7 +824,7 @@
     {
       "spot_id": "miramar_spot_099",
       "cluster_id": 98,
-      "spot_name": "Spot (1840m, 4083m)",
+      "spot_name": "Spot (1840m, 4081m)",
       "x_meter": 1843.3,
       "y_meter": 4092.3,
       "x_norm": 0.23041,
@@ -975,7 +975,7 @@
     {
       "spot_id": "miramar_spot_039",
       "cluster_id": 38,
-      "spot_name": "Spot (3676m, 4243m)",
+      "spot_name": "Spot (3696m, 4241m)",
       "x_meter": 3681.8,
       "y_meter": 4234.7,
       "x_norm": 0.46022,
@@ -1108,7 +1108,7 @@
     {
       "spot_id": "miramar_spot_012",
       "cluster_id": 11,
-      "spot_name": "Spot (3639m, 4183m)",
+      "spot_name": "Spot (3640m, 4182m)",
       "x_meter": 3637.9,
       "y_meter": 4182.8,
       "x_norm": 0.45473,
@@ -1245,7 +1245,7 @@
     {
       "spot_id": "miramar_spot_142",
       "cluster_id": 141,
-      "spot_name": "Spot (1235m, 6992m)",
+      "spot_name": "Spot (1243m, 6990m)",
       "x_meter": 1227.0,
       "y_meter": 6988.5,
       "x_norm": 0.15338,
@@ -1354,7 +1354,7 @@
     {
       "spot_id": "miramar_spot_107",
       "cluster_id": 106,
-      "spot_name": "Spot (6381m, 4628m)",
+      "spot_name": "Spot (6377m, 4625m)",
       "x_meter": 6382.0,
       "y_meter": 4628.1,
       "x_norm": 0.79776,
@@ -1639,7 +1639,7 @@
     {
       "spot_id": "miramar_spot_008",
       "cluster_id": 7,
-      "spot_name": "Spot (3736m, 2935m)",
+      "spot_name": "Spot (3742m, 2929m)",
       "x_meter": 3745.9,
       "y_meter": 2930.0,
       "x_norm": 0.46824,
@@ -1770,7 +1770,7 @@
     {
       "spot_id": "miramar_spot_032",
       "cluster_id": 31,
-      "spot_name": "Spot (5648m, 2933m)",
+      "spot_name": "Spot (5652m, 2934m)",
       "x_meter": 5655.5,
       "y_meter": 2930.1,
       "x_norm": 0.70693,
@@ -1911,7 +1911,7 @@
     {
       "spot_id": "miramar_spot_265",
       "cluster_id": 264,
-      "spot_name": "Spot (3234m, 6249m)",
+      "spot_name": "Spot (3257m, 6243m)",
       "x_meter": 3253.0,
       "y_meter": 6246.5,
       "x_norm": 0.40663,
@@ -2052,7 +2052,7 @@
     {
       "spot_id": "miramar_spot_165",
       "cluster_id": 164,
-      "spot_name": "Spot (5545m, 6290m)",
+      "spot_name": "Spot (5538m, 6287m)",
       "x_meter": 5542.0,
       "y_meter": 6288.8,
       "x_norm": 0.69275,
@@ -2451,7 +2451,7 @@
     {
       "spot_id": "miramar_spot_237",
       "cluster_id": 236,
-      "spot_name": "Spot (3603m, 5170m)",
+      "spot_name": "Spot (3601m, 5173m)",
       "x_meter": 3604.3,
       "y_meter": 5170.1,
       "x_norm": 0.45054,
@@ -3012,7 +3012,7 @@
     {
       "spot_id": "miramar_spot_046",
       "cluster_id": 45,
-      "spot_name": "Spot (6229m, 4679m)",
+      "spot_name": "Spot (6226m, 4671m)",
       "x_meter": 6230.7,
       "y_meter": 4676.0,
       "x_norm": 0.77884,
@@ -3298,7 +3298,7 @@
     {
       "spot_id": "miramar_spot_125",
       "cluster_id": 124,
-      "spot_name": "Spot (2483m, 4199m)",
+      "spot_name": "Spot (2484m, 4197m)",
       "x_meter": 2484.9,
       "y_meter": 4206.3,
       "x_norm": 0.31062,
@@ -3444,7 +3444,7 @@
     {
       "spot_id": "miramar_spot_192",
       "cluster_id": 191,
-      "spot_name": "Spot (2801m, 4359m)",
+      "spot_name": "Spot (2803m, 4371m)",
       "x_meter": 2800.6,
       "y_meter": 4366.2,
       "x_norm": 0.35008,
@@ -3740,7 +3740,7 @@
     {
       "spot_id": "miramar_spot_010",
       "cluster_id": 9,
-      "spot_name": "Spot (3771m, 4285m)",
+      "spot_name": "Spot (3779m, 4280m)",
       "x_meter": 3777.3,
       "y_meter": 4280.0,
       "x_norm": 0.47216,
@@ -3871,7 +3871,7 @@
     {
       "spot_id": "miramar_spot_031",
       "cluster_id": 30,
-      "spot_name": "Spot (5303m, 3362m)",
+      "spot_name": "Spot (5299m, 3371m)",
       "x_meter": 5301.3,
       "y_meter": 3359.4,
       "x_norm": 0.66267,
@@ -4004,7 +4004,7 @@
     {
       "spot_id": "miramar_spot_016",
       "cluster_id": 15,
-      "spot_name": "Spot (3822m, 4403m)",
+      "spot_name": "Spot (3836m, 4386m)",
       "x_meter": 3827.3,
       "y_meter": 4393.2,
       "x_norm": 0.47841,
@@ -4279,7 +4279,7 @@
     {
       "spot_id": "miramar_spot_041",
       "cluster_id": 40,
-      "spot_name": "Spot (5615m, 2536m)",
+      "spot_name": "Spot (5628m, 2540m)",
       "x_meter": 5624.5,
       "y_meter": 2544.8,
       "x_norm": 0.70307,
@@ -4634,7 +4634,7 @@
     {
       "spot_id": "miramar_spot_144",
       "cluster_id": 143,
-      "spot_name": "Spot (4213m, 5218m)",
+      "spot_name": "Spot (4211m, 5217m)",
       "x_meter": 4216.6,
       "y_meter": 5224.3,
       "x_norm": 0.52707,
@@ -4903,7 +4903,7 @@
     {
       "spot_id": "miramar_spot_017",
       "cluster_id": 16,
-      "spot_name": "Spot (4398m, 5024m)",
+      "spot_name": "Spot (4400m, 5031m)",
       "x_meter": 4400.5,
       "y_meter": 5029.4,
       "x_norm": 0.55007,
@@ -5036,7 +5036,7 @@
     {
       "spot_id": "miramar_spot_057",
       "cluster_id": 56,
-      "spot_name": "Spot (3450m, 2742m)",
+      "spot_name": "Spot (3433m, 2734m)",
       "x_meter": 3439.4,
       "y_meter": 2733.8,
       "x_norm": 0.42992,
@@ -5584,7 +5584,7 @@
     {
       "spot_id": "miramar_spot_123",
       "cluster_id": 122,
-      "spot_name": "Spot (2028m, 2414m)",
+      "spot_name": "Spot (2029m, 2417m)",
       "x_meter": 2024.7,
       "y_meter": 2411.5,
       "x_norm": 0.25309,
@@ -5725,7 +5725,7 @@
     {
       "spot_id": "miramar_spot_088",
       "cluster_id": 87,
-      "spot_name": "Spot (2489m, 2338m)",
+      "spot_name": "Spot (2487m, 2343m)",
       "x_meter": 2490.7,
       "y_meter": 2342.6,
       "x_norm": 0.31134,
@@ -5870,7 +5870,7 @@
     {
       "spot_id": "miramar_spot_155",
       "cluster_id": 154,
-      "spot_name": "Spot (4604m, 6700m)",
+      "spot_name": "Spot (4596m, 6693m)",
       "x_meter": 4602.2,
       "y_meter": 6698.0,
       "x_norm": 0.57527,
@@ -5986,7 +5986,7 @@
     {
       "spot_id": "miramar_spot_056",
       "cluster_id": 55,
-      "spot_name": "Spot (3072m, 2914m)",
+      "spot_name": "Spot (3072m, 2916m)",
       "x_meter": 3075.1,
       "y_meter": 2912.3,
       "x_norm": 0.38439,
@@ -6135,7 +6135,7 @@
     {
       "spot_id": "miramar_spot_076",
       "cluster_id": 75,
-      "spot_name": "Spot (2115m, 5129m)",
+      "spot_name": "Spot (2103m, 5130m)",
       "x_meter": 2111.2,
       "y_meter": 5131.0,
       "x_norm": 0.2639,
@@ -6654,7 +6654,7 @@
     {
       "spot_id": "miramar_spot_059",
       "cluster_id": 58,
-      "spot_name": "Spot (2978m, 3139m)",
+      "spot_name": "Spot (2990m, 3139m)",
       "x_meter": 2985.2,
       "y_meter": 3138.5,
       "x_norm": 0.37316,
@@ -6806,7 +6806,7 @@
     {
       "spot_id": "miramar_spot_077",
       "cluster_id": 76,
-      "spot_name": "Spot (2484m, 5424m)",
+      "spot_name": "Spot (2482m, 5416m)",
       "x_meter": 2487.0,
       "y_meter": 5415.8,
       "x_norm": 0.31087,
@@ -7245,7 +7245,7 @@
     {
       "spot_id": "miramar_spot_049",
       "cluster_id": 48,
-      "spot_name": "Spot (4943m, 4334m)",
+      "spot_name": "Spot (4937m, 4327m)",
       "x_meter": 4940.8,
       "y_meter": 4330.9,
       "x_norm": 0.6176,
@@ -7488,7 +7488,7 @@
     {
       "spot_id": "miramar_spot_134",
       "cluster_id": 133,
-      "spot_name": "Spot (4774m, 3768m)",
+      "spot_name": "Spot (4776m, 3749m)",
       "x_meter": 4771.3,
       "y_meter": 3758.0,
       "x_norm": 0.59641,
@@ -7738,7 +7738,7 @@
     {
       "spot_id": "miramar_spot_002",
       "cluster_id": 1,
-      "spot_name": "Spot (2780m, 5290m)",
+      "spot_name": "Spot (2778m, 5285m)",
       "x_meter": 2779.5,
       "y_meter": 5289.4,
       "x_norm": 0.34744,
@@ -8386,7 +8386,7 @@
     {
       "spot_id": "miramar_spot_047",
       "cluster_id": 46,
-      "spot_name": "Spot (4812m, 5397m)",
+      "spot_name": "Spot (4815m, 5397m)",
       "x_meter": 4815.1,
       "y_meter": 5397.4,
       "x_norm": 0.60189,
@@ -8510,7 +8510,7 @@
     {
       "spot_id": "miramar_spot_081",
       "cluster_id": 80,
-      "spot_name": "Spot (3998m, 2826m)",
+      "spot_name": "Spot (3998m, 2828m)",
       "x_meter": 3999.1,
       "y_meter": 2827.9,
       "x_norm": 0.49989,
@@ -8640,7 +8640,7 @@
     {
       "spot_id": "miramar_spot_151",
       "cluster_id": 150,
-      "spot_name": "Spot (4757m, 5675m)",
+      "spot_name": "Spot (4739m, 5673m)",
       "x_meter": 4746.6,
       "y_meter": 5669.6,
       "x_norm": 0.59332,
@@ -9145,7 +9145,7 @@
     {
       "spot_id": "miramar_spot_194",
       "cluster_id": 193,
-      "spot_name": "Spot (5167m, 4214m)",
+      "spot_name": "Spot (5167m, 4216m)",
       "x_meter": 5166.7,
       "y_meter": 4215.0,
       "x_norm": 0.64584,
@@ -9788,7 +9788,7 @@
     {
       "spot_id": "miramar_spot_341",
       "cluster_id": 340,
-      "spot_name": "Spot (5741m, 1954m)",
+      "spot_name": "Spot (5741m, 1955m)",
       "x_meter": 5741.4,
       "y_meter": 1955.1,
       "x_norm": 0.71767,
@@ -9915,7 +9915,7 @@
     {
       "spot_id": "miramar_spot_135",
       "cluster_id": 134,
-      "spot_name": "Spot (6276m, 5260m)",
+      "spot_name": "Spot (6286m, 5265m)",
       "x_meter": 6281.4,
       "y_meter": 5265.7,
       "x_norm": 0.78518,
@@ -10048,7 +10048,7 @@
     {
       "spot_id": "miramar_spot_119",
       "cluster_id": 118,
-      "spot_name": "Spot (4345m, 4537m)",
+      "spot_name": "Spot (4354m, 4512m)",
       "x_meter": 4353.4,
       "y_meter": 4519.3,
       "x_norm": 0.54417,
@@ -10705,7 +10705,7 @@
     {
       "spot_id": "miramar_spot_042",
       "cluster_id": 41,
-      "spot_name": "Spot (5358m, 2942m)",
+      "spot_name": "Spot (5362m, 2938m)",
       "x_meter": 5360.8,
       "y_meter": 2940.9,
       "x_norm": 0.6701,
@@ -11356,7 +11356,7 @@
     {
       "spot_id": "miramar_spot_232",
       "cluster_id": 231,
-      "spot_name": "Spot (6183m, 5013m)",
+      "spot_name": "Spot (6181m, 5011m)",
       "x_meter": 6185.2,
       "y_meter": 5012.8,
       "x_norm": 0.77315,
@@ -11492,7 +11492,7 @@
     {
       "spot_id": "miramar_spot_014",
       "cluster_id": 13,
-      "spot_name": "Spot (3848m, 3909m)",
+      "spot_name": "Spot (3854m, 3906m)",
       "x_meter": 3851.7,
       "y_meter": 3905.7,
       "x_norm": 0.48146,
@@ -11621,7 +11621,7 @@
     {
       "spot_id": "miramar_spot_364",
       "cluster_id": 363,
-      "spot_name": "Spot (4038m, 5228m)",
+      "spot_name": "Spot (4039m, 5228m)",
       "x_meter": 4039.0,
       "y_meter": 5228.8,
       "x_norm": 0.50488,
@@ -12026,7 +12026,7 @@
     {
       "spot_id": "miramar_spot_096",
       "cluster_id": 95,
-      "spot_name": "Spot (1433m, 4213m)",
+      "spot_name": "Spot (1448m, 4211m)",
       "x_meter": 1440.6,
       "y_meter": 4210.8,
       "x_norm": 0.18007,
@@ -12430,7 +12430,7 @@
     {
       "spot_id": "miramar_spot_387",
       "cluster_id": 386,
-      "spot_name": "Spot (2067m, 2021m)",
+      "spot_name": "Spot (2076m, 2018m)",
       "x_meter": 2073.3,
       "y_meter": 2021.1,
       "x_norm": 0.25916,
@@ -12566,7 +12566,7 @@
     {
       "spot_id": "miramar_spot_030",
       "cluster_id": 29,
-      "spot_name": "Spot (4492m, 5464m)",
+      "spot_name": "Spot (4505m, 5464m)",
       "x_meter": 4499.2,
       "y_meter": 5464.8,
       "x_norm": 0.5624,
@@ -12830,7 +12830,7 @@
     {
       "spot_id": "miramar_spot_112",
       "cluster_id": 111,
-      "spot_name": "Spot (5553m, 5441m)",
+      "spot_name": "Spot (5552m, 5442m)",
       "x_meter": 5553.1,
       "y_meter": 5442.1,
       "x_norm": 0.69414,
@@ -12963,7 +12963,7 @@
     {
       "spot_id": "miramar_spot_185",
       "cluster_id": 184,
-      "spot_name": "Spot (2252m, 5971m)",
+      "spot_name": "Spot (2253m, 5971m)",
       "x_meter": 2253.3,
       "y_meter": 5971.1,
       "x_norm": 0.28166,
@@ -13231,7 +13231,7 @@
     {
       "spot_id": "miramar_spot_219",
       "cluster_id": 218,
-      "spot_name": "Spot (1990m, 1796m)",
+      "spot_name": "Spot (1987m, 1795m)",
       "x_meter": 1988.9,
       "y_meter": 1796.0,
       "x_norm": 0.24861,
@@ -13364,7 +13364,7 @@
     {
       "spot_id": "miramar_spot_256",
       "cluster_id": 255,
-      "spot_name": "Spot (5749m, 2635m)",
+      "spot_name": "Spot (5751m, 2620m)",
       "x_meter": 5750.3,
       "y_meter": 2628.2,
       "x_norm": 0.71879,
@@ -13765,7 +13765,7 @@
     {
       "spot_id": "miramar_spot_083",
       "cluster_id": 82,
-      "spot_name": "Spot (2751m, 2350m)",
+      "spot_name": "Spot (2738m, 2370m)",
       "x_meter": 2742.1,
       "y_meter": 2362.9,
       "x_norm": 0.34276,
@@ -13903,7 +13903,7 @@
     {
       "spot_id": "miramar_spot_050",
       "cluster_id": 49,
-      "spot_name": "Spot (4406m, 5324m)",
+      "spot_name": "Spot (4407m, 5319m)",
       "x_meter": 4406.9,
       "y_meter": 5321.8,
       "x_norm": 0.55087,
@@ -14309,7 +14309,7 @@
     {
       "spot_id": "miramar_spot_156",
       "cluster_id": 155,
-      "spot_name": "Spot (1744m, 3851m)",
+      "spot_name": "Spot (1749m, 3855m)",
       "x_meter": 1746.6,
       "y_meter": 3855.6,
       "x_norm": 0.21833,
@@ -14720,7 +14720,7 @@
     {
       "spot_id": "miramar_spot_085",
       "cluster_id": 84,
-      "spot_name": "Spot (2433m, 1996m)",
+      "spot_name": "Spot (2433m, 1997m)",
       "x_meter": 2434.0,
       "y_meter": 1997.0,
       "x_norm": 0.30424,
@@ -15273,7 +15273,7 @@
     {
       "spot_id": "miramar_spot_084",
       "cluster_id": 83,
-      "spot_name": "Spot (2388m, 2195m)",
+      "spot_name": "Spot (2393m, 2204m)",
       "x_meter": 2391.3,
       "y_meter": 2200.1,
       "x_norm": 0.29891,
@@ -15414,7 +15414,7 @@
     {
       "spot_id": "miramar_spot_104",
       "cluster_id": 103,
-      "spot_name": "Spot (2911m, 3069m)",
+      "spot_name": "Spot (2912m, 3068m)",
       "x_meter": 2913.6,
       "y_meter": 3069.0,
       "x_norm": 0.36419,
@@ -16139,7 +16139,7 @@
     {
       "spot_id": "miramar_spot_356",
       "cluster_id": 355,
-      "spot_name": "Spot (2005m, 2747m)",
+      "spot_name": "Spot (2004m, 2747m)",
       "x_meter": 2005.0,
       "y_meter": 2747.6,
       "x_norm": 0.25062,
@@ -16775,7 +16775,7 @@
     {
       "spot_id": "miramar_spot_075",
       "cluster_id": 74,
-      "spot_name": "Spot (3578m, 5673m)",
+      "spot_name": "Spot (3566m, 5673m)",
       "x_meter": 3574.3,
       "y_meter": 5675.2,
       "x_norm": 0.44679,
@@ -17359,7 +17359,7 @@
     {
       "spot_id": "miramar_spot_019",
       "cluster_id": 18,
-      "spot_name": "Spot (2849m, 4834m)",
+      "spot_name": "Spot (2854m, 4832m)",
       "x_meter": 2849.3,
       "y_meter": 4826.4,
       "x_norm": 0.35616,
@@ -17511,7 +17511,7 @@
     {
       "spot_id": "miramar_spot_038",
       "cluster_id": 37,
-      "spot_name": "Spot (1244m, 7034m)",
+      "spot_name": "Spot (1247m, 7033m)",
       "x_meter": 1246.3,
       "y_meter": 7035.0,
       "x_norm": 0.15578,
@@ -17617,7 +17617,7 @@
     {
       "spot_id": "miramar_spot_132",
       "cluster_id": 131,
-      "spot_name": "Spot (1288m, 7006m)",
+      "spot_name": "Spot (1290m, 7009m)",
       "x_meter": 1289.5,
       "y_meter": 7006.8,
       "x_norm": 0.16119,
@@ -17723,7 +17723,7 @@
     {
       "spot_id": "miramar_spot_137",
       "cluster_id": 136,
-      "spot_name": "Spot (1102m, 6666m)",
+      "spot_name": "Spot (1102m, 6665m)",
       "x_meter": 1102.2,
       "y_meter": 6665.8,
       "x_norm": 0.13777,
@@ -17935,7 +17935,7 @@
     {
       "spot_id": "miramar_spot_033",
       "cluster_id": 32,
-      "spot_name": "Spot (2656m, 5500m)",
+      "spot_name": "Spot (2655m, 5490m)",
       "x_meter": 2655.1,
       "y_meter": 5494.3,
       "x_norm": 0.33189,
@@ -18438,7 +18438,7 @@
     {
       "spot_id": "miramar_spot_122",
       "cluster_id": 121,
-      "spot_name": "Spot (2554m, 5190m)",
+      "spot_name": "Spot (2558m, 5180m)",
       "x_meter": 2556.7,
       "y_meter": 5185.7,
       "x_norm": 0.31959,
@@ -18733,7 +18733,7 @@
     {
       "spot_id": "miramar_spot_254",
       "cluster_id": 253,
-      "spot_name": "Spot (3725m, 531m)",
+      "spot_name": "Spot (3735m, 539m)",
       "x_meter": 3732.5,
       "y_meter": 536.8,
       "x_norm": 0.46656,
@@ -18949,7 +18949,7 @@
     {
       "spot_id": "miramar_spot_360",
       "cluster_id": 359,
-      "spot_name": "Spot (2871m, 5269m)",
+      "spot_name": "Spot (2879m, 5282m)",
       "x_meter": 2874.0,
       "y_meter": 5272.2,
       "x_norm": 0.35925,
@@ -19097,7 +19097,7 @@
     {
       "spot_id": "miramar_spot_236",
       "cluster_id": 235,
-      "spot_name": "Spot (3432m, 7555m)",
+      "spot_name": "Spot (3445m, 7569m)",
       "x_meter": 3439.2,
       "y_meter": 7562.5,
       "x_norm": 0.4299,
@@ -19705,7 +19705,7 @@
     {
       "spot_id": "miramar_spot_101",
       "cluster_id": 100,
-      "spot_name": "Spot (4347m, 1061m)",
+      "spot_name": "Spot (4339m, 1059m)",
       "x_meter": 4343.9,
       "y_meter": 1060.6,
       "x_norm": 0.54298,
@@ -19819,7 +19819,7 @@
     {
       "spot_id": "miramar_spot_330",
       "cluster_id": 329,
-      "spot_name": "Spot (7304m, 4719m)",
+      "spot_name": "Spot (7309m, 4720m)",
       "x_meter": 7307.4,
       "y_meter": 4719.6,
       "x_norm": 0.91342,
@@ -19940,7 +19940,7 @@
     {
       "spot_id": "miramar_spot_172",
       "cluster_id": 171,
-      "spot_name": "Spot (5949m, 6337m)",
+      "spot_name": "Spot (5946m, 6337m)",
       "x_meter": 5947.8,
       "y_meter": 6337.5,
       "x_norm": 0.74347,
@@ -20297,7 +20297,7 @@
     {
       "spot_id": "miramar_spot_071",
       "cluster_id": 70,
-      "spot_name": "Spot (5256m, 6275m)",
+      "spot_name": "Spot (5255m, 6280m)",
       "x_meter": 5252.4,
       "y_meter": 6278.5,
       "x_norm": 0.65655,
@@ -20911,7 +20911,7 @@
     {
       "spot_id": "miramar_spot_103",
       "cluster_id": 102,
-      "spot_name": "Spot (4425m, 1844m)",
+      "spot_name": "Spot (4433m, 1858m)",
       "x_meter": 4429.4,
       "y_meter": 1851.2,
       "x_norm": 0.55367,
@@ -21286,7 +21286,7 @@
     {
       "spot_id": "miramar_spot_140",
       "cluster_id": 139,
-      "spot_name": "Spot (5934m, 5866m)",
+      "spot_name": "Spot (5932m, 5870m)",
       "x_meter": 5931.4,
       "y_meter": 5865.8,
       "x_norm": 0.74143,
@@ -21533,7 +21533,7 @@
     {
       "spot_id": "miramar_spot_181",
       "cluster_id": 180,
-      "spot_name": "Spot (5186m, 4241m)",
+      "spot_name": "Spot (5195m, 4257m)",
       "x_meter": 5189.2,
       "y_meter": 4243.4,
       "x_norm": 0.64865,
@@ -21790,7 +21790,7 @@
     {
       "spot_id": "miramar_spot_066",
       "cluster_id": 65,
-      "spot_name": "Spot (3734m, 2848m)",
+      "spot_name": "Spot (3737m, 2850m)",
       "x_meter": 3732.7,
       "y_meter": 2847.5,
       "x_norm": 0.46659,
@@ -21918,7 +21918,7 @@
     {
       "spot_id": "miramar_spot_284",
       "cluster_id": 283,
-      "spot_name": "Spot (3624m, 3035m)",
+      "spot_name": "Spot (3621m, 3033m)",
       "x_meter": 3622.6,
       "y_meter": 3033.9,
       "x_norm": 0.45283,
@@ -22675,7 +22675,7 @@
     {
       "spot_id": "miramar_spot_006",
       "cluster_id": 5,
-      "spot_name": "Spot (1458m, 3021m)",
+      "spot_name": "Spot (1476m, 3018m)",
       "x_meter": 1467.4,
       "y_meter": 3020.1,
       "x_norm": 0.18342,
@@ -22935,7 +22935,7 @@
     {
       "spot_id": "miramar_spot_070",
       "cluster_id": 69,
-      "spot_name": "Spot (4705m, 5694m)",
+      "spot_name": "Spot (4706m, 5691m)",
       "x_meter": 4706.0,
       "y_meter": 5693.2,
       "x_norm": 0.58825,
@@ -23059,7 +23059,7 @@
     {
       "spot_id": "miramar_spot_121",
       "cluster_id": 120,
-      "spot_name": "Spot (5841m, 2196m)",
+      "spot_name": "Spot (5846m, 2194m)",
       "x_meter": 5843.9,
       "y_meter": 2195.6,
       "x_norm": 0.73049,
@@ -23186,7 +23186,7 @@
     {
       "spot_id": "miramar_spot_139",
       "cluster_id": 138,
-      "spot_name": "Spot (5344m, 5860m)",
+      "spot_name": "Spot (5350m, 5861m)",
       "x_meter": 5347.2,
       "y_meter": 5861.0,
       "x_norm": 0.66841,
@@ -23431,7 +23431,7 @@
     {
       "spot_id": "miramar_spot_186",
       "cluster_id": 185,
-      "spot_name": "Spot (5063m, 4295m)",
+      "spot_name": "Spot (5050m, 4294m)",
       "x_meter": 5056.6,
       "y_meter": 4295.2,
       "x_norm": 0.63208,
@@ -23554,7 +23554,7 @@
     {
       "spot_id": "miramar_spot_246",
       "cluster_id": 245,
-      "spot_name": "Spot (5978m, 2303m)",
+      "spot_name": "Spot (5989m, 2307m)",
       "x_meter": 5984.3,
       "y_meter": 2305.6,
       "x_norm": 0.74804,
@@ -23683,7 +23683,7 @@
     {
       "spot_id": "miramar_spot_342",
       "cluster_id": 341,
-      "spot_name": "Spot (6128m, 2489m)",
+      "spot_name": "Spot (6135m, 2479m)",
       "x_meter": 6132.2,
       "y_meter": 2484.5,
       "x_norm": 0.76653,
@@ -23814,7 +23814,7 @@
     {
       "spot_id": "miramar_spot_378",
       "cluster_id": 377,
-      "spot_name": "Spot (1252m, 4507m)",
+      "spot_name": "Spot (1254m, 4508m)",
       "x_meter": 1253.5,
       "y_meter": 4508.3,
       "x_norm": 0.15668,
@@ -23941,7 +23941,7 @@
     {
       "spot_id": "miramar_spot_392",
       "cluster_id": 391,
-      "spot_name": "Spot (6607m, 3156m)",
+      "spot_name": "Spot (6608m, 3155m)",
       "x_meter": 6608.1,
       "y_meter": 3156.0,
       "x_norm": 0.82602,
@@ -24197,7 +24197,7 @@
     {
       "spot_id": "miramar_spot_147",
       "cluster_id": 146,
-      "spot_name": "Spot (6292m, 5327m)",
+      "spot_name": "Spot (6309m, 5337m)",
       "x_meter": 6302.0,
       "y_meter": 5331.9,
       "x_norm": 0.78775,
@@ -24459,7 +24459,7 @@
     {
       "spot_id": "miramar_spot_175",
       "cluster_id": 174,
-      "spot_name": "Spot (5592m, 2920m)",
+      "spot_name": "Spot (5589m, 2930m)",
       "x_meter": 5586.6,
       "y_meter": 2936.0,
       "x_norm": 0.69832,
@@ -24861,7 +24861,7 @@
     {
       "spot_id": "miramar_spot_025",
       "cluster_id": 24,
-      "spot_name": "Spot (3988m, 4635m)",
+      "spot_name": "Spot (3983m, 4632m)",
       "x_meter": 3982.5,
       "y_meter": 4630.0,
       "x_norm": 0.49781,
@@ -24993,7 +24993,7 @@
     {
       "spot_id": "miramar_spot_114",
       "cluster_id": 113,
-      "spot_name": "Spot (5488m, 5290m)",
+      "spot_name": "Spot (5490m, 5306m)",
       "x_meter": 5490.0,
       "y_meter": 5299.3,
       "x_norm": 0.68625,
@@ -25123,7 +25123,7 @@
     {
       "spot_id": "miramar_spot_235",
       "cluster_id": 234,
-      "spot_name": "Spot (5748m, 5542m)",
+      "spot_name": "Spot (5745m, 5545m)",
       "x_meter": 5744.4,
       "y_meter": 5541.0,
       "x_norm": 0.71805,
@@ -25381,7 +25381,7 @@
     {
       "spot_id": "miramar_spot_261",
       "cluster_id": 260,
-      "spot_name": "Spot (5440m, 3051m)",
+      "spot_name": "Spot (5438m, 3050m)",
       "x_meter": 5443.2,
       "y_meter": 3052.3,
       "x_norm": 0.6804,
@@ -25902,7 +25902,7 @@
     {
       "spot_id": "miramar_spot_110",
       "cluster_id": 109,
-      "spot_name": "Spot (3755m, 4366m)",
+      "spot_name": "Spot (3747m, 4369m)",
       "x_meter": 3751.8,
       "y_meter": 4367.8,
       "x_norm": 0.46897,
@@ -26031,7 +26031,7 @@
     {
       "spot_id": "miramar_spot_127",
       "cluster_id": 126,
-      "spot_name": "Spot (1731m, 1832m)",
+      "spot_name": "Spot (1741m, 1820m)",
       "x_meter": 1736.4,
       "y_meter": 1826.4,
       "x_norm": 0.21705,
@@ -26808,7 +26808,7 @@
     {
       "spot_id": "miramar_spot_328",
       "cluster_id": 327,
-      "spot_name": "Spot (4539m, 5462m)",
+      "spot_name": "Spot (4551m, 5472m)",
       "x_meter": 4545.1,
       "y_meter": 5467.3,
       "x_norm": 0.56813,
@@ -27068,7 +27068,7 @@
     {
       "spot_id": "miramar_spot_180",
       "cluster_id": 179,
-      "spot_name": "Spot (2146m, 2015m)",
+      "spot_name": "Spot (2132m, 2019m)",
       "x_meter": 2144.3,
       "y_meter": 2017.8,
       "x_norm": 0.26804,
@@ -27202,7 +27202,7 @@
     {
       "spot_id": "miramar_spot_198",
       "cluster_id": 197,
-      "spot_name": "Spot (4476m, 4770m)",
+      "spot_name": "Spot (4465m, 4756m)",
       "x_meter": 4469.8,
       "y_meter": 4760.9,
       "x_norm": 0.55873,
@@ -27334,7 +27334,7 @@
     {
       "spot_id": "miramar_spot_226",
       "cluster_id": 225,
-      "spot_name": "Spot (3487m, 2655m)",
+      "spot_name": "Spot (3484m, 2657m)",
       "x_meter": 3487.1,
       "y_meter": 2660.5,
       "x_norm": 0.43589,
@@ -27880,7 +27880,7 @@
     {
       "spot_id": "miramar_spot_359",
       "cluster_id": 358,
-      "spot_name": "Spot (1655m, 2985m)",
+      "spot_name": "Spot (1672m, 2999m)",
       "x_meter": 1667.4,
       "y_meter": 2992.7,
       "x_norm": 0.20843,
@@ -28682,7 +28682,7 @@
     {
       "spot_id": "miramar_spot_116",
       "cluster_id": 115,
-      "spot_name": "Spot (5966m, 5142m)",
+      "spot_name": "Spot (5966m, 5159m)",
       "x_meter": 5966.4,
       "y_meter": 5151.2,
       "x_norm": 0.7458,
@@ -28822,7 +28822,7 @@
     {
       "spot_id": "miramar_spot_138",
       "cluster_id": 137,
-      "spot_name": "Spot (5434m, 5038m)",
+      "spot_name": "Spot (5432m, 5035m)",
       "x_meter": 5433.3,
       "y_meter": 5037.2,
       "x_norm": 0.67916,
@@ -29088,7 +29088,7 @@
     {
       "spot_id": "miramar_spot_276",
       "cluster_id": 275,
-      "spot_name": "Spot (5920m, 4913m)",
+      "spot_name": "Spot (5907m, 4917m)",
       "x_meter": 5914.2,
       "y_meter": 4915.9,
       "x_norm": 0.73927,
@@ -29634,7 +29634,7 @@
     {
       "spot_id": "miramar_spot_097",
       "cluster_id": 96,
-      "spot_name": "Spot (1751m, 4391m)",
+      "spot_name": "Spot (1741m, 4393m)",
       "x_meter": 1749.1,
       "y_meter": 4384.2,
       "x_norm": 0.21864,
@@ -29778,7 +29778,7 @@
     {
       "spot_id": "miramar_spot_220",
       "cluster_id": 219,
-      "spot_name": "Spot (2298m, 2062m)",
+      "spot_name": "Spot (2301m, 2058m)",
       "x_meter": 2300.3,
       "y_meter": 2060.1,
       "x_norm": 0.28753,
@@ -30195,7 +30195,7 @@
     {
       "spot_id": "miramar_spot_043",
       "cluster_id": 42,
-      "spot_name": "Spot (5822m, 3635m)",
+      "spot_name": "Spot (5820m, 3636m)",
       "x_meter": 5821.3,
       "y_meter": 3636.1,
       "x_norm": 0.72767,
@@ -30334,7 +30334,7 @@
     {
       "spot_id": "miramar_spot_093",
       "cluster_id": 92,
-      "spot_name": "Spot (1726m, 4119m)",
+      "spot_name": "Spot (1731m, 4113m)",
       "x_meter": 1729.0,
       "y_meter": 4116.5,
       "x_norm": 0.21612,
@@ -30472,7 +30472,7 @@
     {
       "spot_id": "miramar_spot_141",
       "cluster_id": 140,
-      "spot_name": "Spot (3841m, 5244m)",
+      "spot_name": "Spot (3840m, 5243m)",
       "x_meter": 3841.0,
       "y_meter": 5244.0,
       "x_norm": 0.48012,
@@ -30745,7 +30745,7 @@
     {
       "spot_id": "miramar_spot_063",
       "cluster_id": 62,
-      "spot_name": "Spot (2960m, 3295m)",
+      "spot_name": "Spot (2960m, 3293m)",
       "x_meter": 2957.5,
       "y_meter": 3297.1,
       "x_norm": 0.36969,
@@ -30888,7 +30888,7 @@
     {
       "spot_id": "miramar_spot_234",
       "cluster_id": 233,
-      "spot_name": "Spot (2012m, 2810m)",
+      "spot_name": "Spot (2013m, 2812m)",
       "x_meter": 2013.3,
       "y_meter": 2806.8,
       "x_norm": 0.25166,
@@ -31172,7 +31172,7 @@
     {
       "spot_id": "miramar_spot_094",
       "cluster_id": 93,
-      "spot_name": "Spot (1989m, 4137m)",
+      "spot_name": "Spot (1985m, 4136m)",
       "x_meter": 1989.9,
       "y_meter": 4136.2,
       "x_norm": 0.24873,
@@ -31748,7 +31748,7 @@
     {
       "spot_id": "miramar_spot_064",
       "cluster_id": 63,
-      "spot_name": "Spot (2765m, 2916m)",
+      "spot_name": "Spot (2768m, 2915m)",
       "x_meter": 2767.3,
       "y_meter": 2915.9,
       "x_norm": 0.34591,
@@ -31891,7 +31891,7 @@
     {
       "spot_id": "miramar_spot_087",
       "cluster_id": 86,
-      "spot_name": "Spot (2676m, 2629m)",
+      "spot_name": "Spot (2676m, 2633m)",
       "x_meter": 2676.8,
       "y_meter": 2631.7,
       "x_norm": 0.33461,
@@ -32032,7 +32032,7 @@
     {
       "spot_id": "miramar_spot_091",
       "cluster_id": 90,
-      "spot_name": "Spot (2076m, 3959m)",
+      "spot_name": "Spot (2079m, 3956m)",
       "x_meter": 2077.8,
       "y_meter": 3958.0,
       "x_norm": 0.25973,
@@ -32174,7 +32174,7 @@
     {
       "spot_id": "miramar_spot_105",
       "cluster_id": 104,
-      "spot_name": "Spot (2900m, 2936m)",
+      "spot_name": "Spot (2907m, 2928m)",
       "x_meter": 2904.0,
       "y_meter": 2932.7,
       "x_norm": 0.363,
@@ -32317,7 +32317,7 @@
     {
       "spot_id": "miramar_spot_197",
       "cluster_id": 196,
-      "spot_name": "Spot (3072m, 4415m)",
+      "spot_name": "Spot (3071m, 4415m)",
       "x_meter": 3071.9,
       "y_meter": 4415.7,
       "x_norm": 0.38399,
@@ -32461,7 +32461,7 @@
     {
       "spot_id": "miramar_spot_227",
       "cluster_id": 226,
-      "spot_name": "Spot (1975m, 4012m)",
+      "spot_name": "Spot (1974m, 4018m)",
       "x_meter": 1975.1,
       "y_meter": 4015.7,
       "x_norm": 0.24688,
@@ -32884,7 +32884,7 @@
     {
       "spot_id": "miramar_spot_255",
       "cluster_id": 254,
-      "spot_name": "Spot (2320m, 2488m)",
+      "spot_name": "Spot (2331m, 2488m)",
       "x_meter": 2326.1,
       "y_meter": 2488.8,
       "x_norm": 0.29076,
@@ -33022,7 +33022,7 @@
     {
       "spot_id": "miramar_spot_373",
       "cluster_id": 372,
-      "spot_name": "Spot (1982m, 3743m)",
+      "spot_name": "Spot (1976m, 3738m)",
       "x_meter": 1979.3,
       "y_meter": 3740.7,
       "x_norm": 0.24742,
@@ -33306,7 +33306,7 @@
     {
       "spot_id": "miramar_spot_375",
       "cluster_id": 374,
-      "spot_name": "Spot (2402m, 2830m)",
+      "spot_name": "Spot (2397m, 2827m)",
       "x_meter": 2400.1,
       "y_meter": 2829.0,
       "x_norm": 0.30001,
@@ -33584,7 +33584,7 @@
     {
       "spot_id": "miramar_spot_303",
       "cluster_id": 302,
-      "spot_name": "Spot (2561m, 4696m)",
+      "spot_name": "Spot (2548m, 4700m)",
       "x_meter": 2550.7,
       "y_meter": 4697.8,
       "x_norm": 0.31883,
@@ -34755,7 +34755,7 @@
     {
       "spot_id": "miramar_spot_282",
       "cluster_id": 281,
-      "spot_name": "Spot (2985m, 4376m)",
+      "spot_name": "Spot (2990m, 4375m)",
       "x_meter": 2987.7,
       "y_meter": 4375.9,
       "x_norm": 0.37346,
@@ -35649,7 +35649,7 @@
     {
       "spot_id": "miramar_spot_264",
       "cluster_id": 263,
-      "spot_name": "Spot (3161m, 5520m)",
+      "spot_name": "Spot (3154m, 5524m)",
       "x_meter": 3157.7,
       "y_meter": 5522.3,
       "x_norm": 0.39472,
@@ -35796,7 +35796,7 @@
     {
       "spot_id": "miramar_spot_371",
       "cluster_id": 370,
-      "spot_name": "Spot (3032m, 5676m)",
+      "spot_name": "Spot (3030m, 5674m)",
       "x_meter": 3031.5,
       "y_meter": 5676.0,
       "x_norm": 0.37894,
@@ -35948,7 +35948,7 @@
     {
       "spot_id": "miramar_spot_376",
       "cluster_id": 375,
-      "spot_name": "Spot (2636m, 3953m)",
+      "spot_name": "Spot (2637m, 3950m)",
       "x_meter": 2636.9,
       "y_meter": 3951.9,
       "x_norm": 0.32962,
@@ -36095,7 +36095,7 @@
     {
       "spot_id": "miramar_spot_163",
       "cluster_id": 162,
-      "spot_name": "Spot (4186m, 5433m)",
+      "spot_name": "Spot (4190m, 5433m)",
       "x_meter": 4191.8,
       "y_meter": 5434.6,
       "x_norm": 0.52398,
@@ -36222,7 +36222,7 @@
     {
       "spot_id": "miramar_spot_169",
       "cluster_id": 168,
-      "spot_name": "Spot (2127m, 2098m)",
+      "spot_name": "Spot (2109m, 2091m)",
       "x_meter": 2125.1,
       "y_meter": 2090.7,
       "x_norm": 0.26564,
@@ -36569,7 +36569,7 @@
     {
       "spot_id": "miramar_spot_388",
       "cluster_id": 387,
-      "spot_name": "Spot (6218m, 6393m)",
+      "spot_name": "Spot (6217m, 6388m)",
       "x_meter": 6218.8,
       "y_meter": 6390.5,
       "x_norm": 0.77735,
@@ -36686,7 +36686,7 @@
     {
       "spot_id": "miramar_spot_166",
       "cluster_id": 165,
-      "spot_name": "Spot (2056m, 2000m)",
+      "spot_name": "Spot (2059m, 1997m)",
       "x_meter": 2058.5,
       "y_meter": 1993.6,
       "x_norm": 0.25731,
@@ -36946,7 +36946,7 @@
     {
       "spot_id": "miramar_spot_251",
       "cluster_id": 250,
-      "spot_name": "Spot (6158m, 721m)",
+      "spot_name": "Spot (6160m, 715m)",
       "x_meter": 6159.6,
       "y_meter": 718.4,
       "x_norm": 0.76995,
@@ -37753,7 +37753,7 @@
     {
       "spot_id": "miramar_spot_247",
       "cluster_id": 246,
-      "spot_name": "Spot (5720m, 629m)",
+      "spot_name": "Spot (5719m, 632m)",
       "x_meter": 5720.8,
       "y_meter": 628.6,
       "x_norm": 0.7151,
@@ -37857,7 +37857,7 @@
     {
       "spot_id": "miramar_spot_343",
       "cluster_id": 342,
-      "spot_name": "Spot (6479m, 2636m)",
+      "spot_name": "Spot (6474m, 2637m)",
       "x_meter": 6476.6,
       "y_meter": 2637.2,
       "x_norm": 0.80957,
@@ -38106,7 +38106,7 @@
     {
       "spot_id": "miramar_spot_069",
       "cluster_id": 68,
-      "spot_name": "Spot (4304m, 1843m)",
+      "spot_name": "Spot (4303m, 1841m)",
       "x_meter": 4310.4,
       "y_meter": 1844.2,
       "x_norm": 0.53879,
@@ -38610,7 +38610,7 @@
     {
       "spot_id": "miramar_spot_168",
       "cluster_id": 167,
-      "spot_name": "Spot (3405m, 7542m)",
+      "spot_name": "Spot (3408m, 7542m)",
       "x_meter": 3405.2,
       "y_meter": 7542.7,
       "x_norm": 0.42566,
@@ -38717,7 +38717,7 @@
     {
       "spot_id": "miramar_spot_171",
       "cluster_id": 170,
-      "spot_name": "Spot (1615m, 2780m)",
+      "spot_name": "Spot (1609m, 2792m)",
       "x_meter": 1614.2,
       "y_meter": 2784.0,
       "x_norm": 0.20178,
@@ -38846,7 +38846,7 @@
     {
       "spot_id": "miramar_spot_173",
       "cluster_id": 172,
-      "spot_name": "Spot (3796m, 1536m)",
+      "spot_name": "Spot (3796m, 1534m)",
       "x_meter": 3796.8,
       "y_meter": 1534.9,
       "x_norm": 0.4746,
@@ -38967,7 +38967,7 @@
     {
       "spot_id": "miramar_spot_174",
       "cluster_id": 173,
-      "spot_name": "Spot (5445m, 2679m)",
+      "spot_name": "Spot (5448m, 2676m)",
       "x_meter": 5445.4,
       "y_meter": 2678.6,
       "x_norm": 0.68067,
@@ -39225,7 +39225,7 @@
     {
       "spot_id": "miramar_spot_200",
       "cluster_id": 199,
-      "spot_name": "Spot (5653m, 2965m)",
+      "spot_name": "Spot (5641m, 2973m)",
       "x_meter": 5649.6,
       "y_meter": 2969.2,
       "x_norm": 0.70621,
@@ -39694,7 +39694,7 @@
     {
       "spot_id": "miramar_spot_243",
       "cluster_id": 242,
-      "spot_name": "Spot (5285m, 2333m)",
+      "spot_name": "Spot (5301m, 2328m)",
       "x_meter": 5290.6,
       "y_meter": 2330.8,
       "x_norm": 0.66133,
@@ -39816,7 +39816,7 @@
     {
       "spot_id": "miramar_spot_248",
       "cluster_id": 247,
-      "spot_name": "Spot (3464m, 524m)",
+      "spot_name": "Spot (3462m, 512m)",
       "x_meter": 3463.1,
       "y_meter": 515.7,
       "x_norm": 0.43289,
@@ -39924,7 +39924,7 @@
     {
       "spot_id": "miramar_spot_253",
       "cluster_id": 252,
-      "spot_name": "Spot (4379m, 5812m)",
+      "spot_name": "Spot (4363m, 5812m)",
       "x_meter": 4369.0,
       "y_meter": 5812.7,
       "x_norm": 0.54613,
@@ -40046,7 +40046,7 @@
     {
       "spot_id": "miramar_spot_258",
       "cluster_id": 257,
-      "spot_name": "Spot (5687m, 4198m)",
+      "spot_name": "Spot (5687m, 4197m)",
       "x_meter": 5688.1,
       "y_meter": 4198.5,
       "x_norm": 0.71102,
@@ -40302,7 +40302,7 @@
     {
       "spot_id": "miramar_spot_266",
       "cluster_id": 265,
-      "spot_name": "Spot (4514m, 6671m)",
+      "spot_name": "Spot (4521m, 6670m)",
       "x_meter": 4519.2,
       "y_meter": 6671.1,
       "x_norm": 0.5649,
@@ -40416,7 +40416,7 @@
     {
       "spot_id": "miramar_spot_267",
       "cluster_id": 266,
-      "spot_name": "Spot (6018m, 841m)",
+      "spot_name": "Spot (6013m, 833m)",
       "x_meter": 6017.1,
       "y_meter": 838.4,
       "x_norm": 0.75213,
@@ -40667,7 +40667,7 @@
     {
       "spot_id": "miramar_spot_324",
       "cluster_id": 323,
-      "spot_name": "Spot (4592m, 5471m)",
+      "spot_name": "Spot (4592m, 5469m)",
       "x_meter": 4592.2,
       "y_meter": 5470.6,
       "x_norm": 0.57402,
@@ -41545,7 +41545,7 @@
     {
       "spot_id": "miramar_spot_045",
       "cluster_id": 44,
-      "spot_name": "Spot (5821m, 3399m)",
+      "spot_name": "Spot (5809m, 3402m)",
       "x_meter": 5815.2,
       "y_meter": 3400.8,
       "x_norm": 0.7269,
@@ -42056,7 +42056,7 @@
     {
       "spot_id": "miramar_spot_078",
       "cluster_id": 77,
-      "spot_name": "Spot (2396m, 5582m)",
+      "spot_name": "Spot (2396m, 5581m)",
       "x_meter": 2396.5,
       "y_meter": 5581.9,
       "x_norm": 0.29956,
@@ -42203,7 +42203,7 @@
     {
       "spot_id": "miramar_spot_079",
       "cluster_id": 78,
-      "spot_name": "Spot (2474m, 5670m)",
+      "spot_name": "Spot (2465m, 5657m)",
       "x_meter": 2470.0,
       "y_meter": 5664.0,
       "x_norm": 0.30875,
@@ -42352,7 +42352,7 @@
     {
       "spot_id": "miramar_spot_129",
       "cluster_id": 128,
-      "spot_name": "Spot (1739m, 2321m)",
+      "spot_name": "Spot (1746m, 2320m)",
       "x_meter": 1743.2,
       "y_meter": 2321.0,
       "x_norm": 0.2179,
@@ -42485,7 +42485,7 @@
     {
       "spot_id": "miramar_spot_130",
       "cluster_id": 129,
-      "spot_name": "Spot (1988m, 2170m)",
+      "spot_name": "Spot (1991m, 2168m)",
       "x_meter": 1990.0,
       "y_meter": 2169.5,
       "x_norm": 0.24875,
@@ -43442,7 +43442,7 @@
     {
       "spot_id": "miramar_spot_204",
       "cluster_id": 203,
-      "spot_name": "Spot (4184m, 4435m)",
+      "spot_name": "Spot (4183m, 4436m)",
       "x_meter": 4184.1,
       "y_meter": 4436.3,
       "x_norm": 0.52301,
@@ -43570,7 +43570,7 @@
     {
       "spot_id": "miramar_spot_206",
       "cluster_id": 205,
-      "spot_name": "Spot (6229m, 6037m)",
+      "spot_name": "Spot (6228m, 6034m)",
       "x_meter": 6228.9,
       "y_meter": 6035.8,
       "x_norm": 0.77862,
@@ -43686,7 +43686,7 @@
     {
       "spot_id": "miramar_spot_208",
       "cluster_id": 207,
-      "spot_name": "Spot (969m, 2256m)",
+      "spot_name": "Spot (964m, 2258m)",
       "x_meter": 966.9,
       "y_meter": 2257.4,
       "x_norm": 0.12086,
@@ -43796,7 +43796,7 @@
     {
       "spot_id": "miramar_spot_209",
       "cluster_id": 208,
-      "spot_name": "Spot (5636m, 5537m)",
+      "spot_name": "Spot (5641m, 5539m)",
       "x_meter": 5638.9,
       "y_meter": 5538.5,
       "x_norm": 0.70486,
@@ -43922,7 +43922,7 @@
     {
       "spot_id": "miramar_spot_210",
       "cluster_id": 209,
-      "spot_name": "Spot (886m, 7380m)",
+      "spot_name": "Spot (885m, 7380m)",
       "x_meter": 886.1,
       "y_meter": 7380.4,
       "x_norm": 0.11076,
@@ -44022,7 +44022,7 @@
     {
       "spot_id": "miramar_spot_213",
       "cluster_id": 212,
-      "spot_name": "Spot (3314m, 4733m)",
+      "spot_name": "Spot (3315m, 4734m)",
       "x_meter": 3314.8,
       "y_meter": 4733.6,
       "x_norm": 0.41435,
@@ -44429,7 +44429,7 @@
     {
       "spot_id": "miramar_spot_231",
       "cluster_id": 230,
-      "spot_name": "Spot (1908m, 3017m)",
+      "spot_name": "Spot (1904m, 3022m)",
       "x_meter": 1906.9,
       "y_meter": 3019.9,
       "x_norm": 0.23837,
@@ -44939,7 +44939,7 @@
     {
       "spot_id": "miramar_spot_252",
       "cluster_id": 251,
-      "spot_name": "Spot (5739m, 581m)",
+      "spot_name": "Spot (5740m, 574m)",
       "x_meter": 5740.1,
       "y_meter": 578.1,
       "x_norm": 0.71751,
@@ -45043,7 +45043,7 @@
     {
       "spot_id": "miramar_spot_257",
       "cluster_id": 256,
-      "spot_name": "Spot (5490m, 3334m)",
+      "spot_name": "Spot (5493m, 3335m)",
       "x_meter": 5492.1,
       "y_meter": 3334.8,
       "x_norm": 0.68651,
@@ -45303,7 +45303,7 @@
     {
       "spot_id": "miramar_spot_260",
       "cluster_id": 259,
-      "spot_name": "Spot (5363m, 2962m)",
+      "spot_name": "Spot (5364m, 2964m)",
       "x_meter": 5364.1,
       "y_meter": 2963.6,
       "x_norm": 0.67051,
@@ -45430,7 +45430,7 @@
     {
       "spot_id": "miramar_spot_269",
       "cluster_id": 268,
-      "spot_name": "Spot (3273m, 1086m)",
+      "spot_name": "Spot (3272m, 1084m)",
       "x_meter": 3272.9,
       "y_meter": 1085.8,
       "x_norm": 0.40911,
@@ -45888,7 +45888,7 @@
     {
       "spot_id": "miramar_spot_278",
       "cluster_id": 277,
-      "spot_name": "Spot (5600m, 5029m)",
+      "spot_name": "Spot (5601m, 5027m)",
       "x_meter": 5600.9,
       "y_meter": 5028.1,
       "x_norm": 0.70011,
@@ -46024,7 +46024,7 @@
     {
       "spot_id": "miramar_spot_285",
       "cluster_id": 284,
-      "spot_name": "Spot (4627m, 2195m)",
+      "spot_name": "Spot (4627m, 2193m)",
       "x_meter": 4627.8,
       "y_meter": 2194.5,
       "x_norm": 0.57848,
@@ -46147,7 +46147,7 @@
     {
       "spot_id": "miramar_spot_287",
       "cluster_id": 286,
-      "spot_name": "Spot (4625m, 2452m)",
+      "spot_name": "Spot (4623m, 2451m)",
       "x_meter": 4624.1,
       "y_meter": 2451.9,
       "x_norm": 0.57802,
@@ -46270,7 +46270,7 @@
     {
       "spot_id": "miramar_spot_290",
       "cluster_id": 289,
-      "spot_name": "Spot (5525m, 1643m)",
+      "spot_name": "Spot (5530m, 1648m)",
       "x_meter": 5527.8,
       "y_meter": 1645.7,
       "x_norm": 0.69097,
@@ -46396,7 +46396,7 @@
     {
       "spot_id": "miramar_spot_295",
       "cluster_id": 294,
-      "spot_name": "Spot (3490m, 5306m)",
+      "spot_name": "Spot (3492m, 5307m)",
       "x_meter": 3491.6,
       "y_meter": 5307.4,
       "x_norm": 0.43645,
@@ -46944,7 +46944,7 @@
     {
       "spot_id": "miramar_spot_304",
       "cluster_id": 303,
-      "spot_name": "Spot (2280m, 4259m)",
+      "spot_name": "Spot (2267m, 4246m)",
       "x_meter": 2273.8,
       "y_meter": 4253.2,
       "x_norm": 0.28422,
@@ -47197,7 +47197,7 @@
     {
       "spot_id": "miramar_spot_308",
       "cluster_id": 307,
-      "spot_name": "Spot (1788m, 1662m)",
+      "spot_name": "Spot (1801m, 1671m)",
       "x_meter": 1795.3,
       "y_meter": 1667.1,
       "x_norm": 0.22441,
@@ -47718,7 +47718,7 @@
     {
       "spot_id": "miramar_spot_312",
       "cluster_id": 311,
-      "spot_name": "Spot (6624m, 3646m)",
+      "spot_name": "Spot (6625m, 3652m)",
       "x_meter": 6625.2,
       "y_meter": 3649.4,
       "x_norm": 0.82815,
@@ -48070,7 +48070,7 @@
     {
       "spot_id": "miramar_spot_318",
       "cluster_id": 317,
-      "spot_name": "Spot (6410m, 2231m)",
+      "spot_name": "Spot (6410m, 2232m)",
       "x_meter": 6410.4,
       "y_meter": 2232.1,
       "x_norm": 0.8013,
@@ -48711,7 +48711,7 @@
     {
       "spot_id": "miramar_spot_332",
       "cluster_id": 331,
-      "spot_name": "Spot (7359m, 4623m)",
+      "spot_name": "Spot (7355m, 4625m)",
       "x_meter": 7357.4,
       "y_meter": 4624.4,
       "x_norm": 0.91967,
@@ -48828,7 +48828,7 @@
     {
       "spot_id": "miramar_spot_334",
       "cluster_id": 333,
-      "spot_name": "Spot (2682m, 4983m)",
+      "spot_name": "Spot (2673m, 4981m)",
       "x_meter": 2678.1,
       "y_meter": 4982.7,
       "x_norm": 0.33477,
@@ -49093,7 +49093,7 @@
     {
       "spot_id": "miramar_spot_336",
       "cluster_id": 335,
-      "spot_name": "Spot (6187m, 5462m)",
+      "spot_name": "Spot (6187m, 5461m)",
       "x_meter": 6187.7,
       "y_meter": 5462.1,
       "x_norm": 0.77346,
@@ -49224,7 +49224,7 @@
     {
       "spot_id": "miramar_spot_339",
       "cluster_id": 338,
-      "spot_name": "Spot (5739m, 524m)",
+      "spot_name": "Spot (5742m, 539m)",
       "x_meter": 5741.2,
       "y_meter": 532.1,
       "x_norm": 0.71765,
@@ -49596,7 +49596,7 @@
     {
       "spot_id": "miramar_spot_346",
       "cluster_id": 345,
-      "spot_name": "Spot (4407m, 5418m)",
+      "spot_name": "Spot (4397m, 5416m)",
       "x_meter": 4402.3,
       "y_meter": 5417.4,
       "x_norm": 0.55029,
@@ -49994,7 +49994,7 @@
     {
       "spot_id": "miramar_spot_355",
       "cluster_id": 354,
-      "spot_name": "Spot (1808m, 4366m)",
+      "spot_name": "Spot (1808m, 4365m)",
       "x_meter": 1808.4,
       "y_meter": 4365.8,
       "x_norm": 0.22605,
@@ -50137,7 +50137,7 @@
     {
       "spot_id": "miramar_spot_357",
       "cluster_id": 356,
-      "spot_name": "Spot (4374m, 2745m)",
+      "spot_name": "Spot (4379m, 2751m)",
       "x_meter": 4377.0,
       "y_meter": 2748.2,
       "x_norm": 0.54713,
@@ -50257,7 +50257,7 @@
     {
       "spot_id": "miramar_spot_358",
       "cluster_id": 357,
-      "spot_name": "Spot (1669m, 2879m)",
+      "spot_name": "Spot (1668m, 2890m)",
       "x_meter": 1669.2,
       "y_meter": 2885.3,
       "x_norm": 0.20864,
@@ -50659,7 +50659,7 @@
     {
       "spot_id": "miramar_spot_372",
       "cluster_id": 371,
-      "spot_name": "Spot (6623m, 3133m)",
+      "spot_name": "Spot (6620m, 3115m)",
       "x_meter": 6622.3,
       "y_meter": 3124.5,
       "x_norm": 0.82779,
@@ -50787,7 +50787,7 @@
     {
       "spot_id": "miramar_spot_377",
       "cluster_id": 376,
-      "spot_name": "Spot (2101m, 5778m)",
+      "spot_name": "Spot (2098m, 5781m)",
       "x_meter": 2100.1,
       "y_meter": 5779.7,
       "x_norm": 0.26251,
@@ -51051,7 +51051,7 @@
     {
       "spot_id": "miramar_spot_382",
       "cluster_id": 381,
-      "spot_name": "Spot (2381m, 5458m)",
+      "spot_name": "Spot (2375m, 5460m)",
       "x_meter": 2378.4,
       "y_meter": 5459.3,
       "x_norm": 0.29731,
@@ -51193,7 +51193,7 @@
     {
       "spot_id": "miramar_spot_390",
       "cluster_id": 389,
-      "spot_name": "Spot (3412m, 7730m)",
+      "spot_name": "Spot (3408m, 7734m)",
       "x_meter": 3410.9,
       "y_meter": 7732.2,
       "x_norm": 0.42636,
@@ -51298,7 +51298,7 @@
     {
       "spot_id": "miramar_spot_391",
       "cluster_id": 390,
-      "spot_name": "Spot (3461m, 1835m)",
+      "spot_name": "Spot (3463m, 1839m)",
       "x_meter": 3462.8,
       "y_meter": 1837.3,
       "x_norm": 0.43286,
@@ -54415,21 +54415,40 @@
         "hi": 0.33,
         "n": 316,
         "stay_pct": 38.3,
-        "reliable": true
+        "reliable": true,
+        "adv_n": 316,
+        "adv_pct": 53.5,
+        "adv_reliable": true
       },
       {
         "lo": 0.33,
         "hi": 0.66,
         "n": 347,
         "stay_pct": 28.8,
-        "reliable": true
+        "reliable": true,
+        "adv_n": 347,
+        "adv_pct": 67.4,
+        "adv_reliable": true
       },
       {
         "lo": 0.66,
         "hi": 1.0,
         "n": 52,
         "stay_pct": 5.8,
-        "reliable": true
+        "reliable": true,
+        "adv_n": 52,
+        "adv_pct": 82.7,
+        "adv_reliable": true
+      },
+      {
+        "lo": 1.0,
+        "hi": 99.0,
+        "n": 0,
+        "stay_pct": null,
+        "reliable": false,
+        "adv_n": 0,
+        "adv_pct": null,
+        "adv_reliable": false
       }
     ],
     "2": [
@@ -54438,21 +54457,40 @@
         "hi": 0.33,
         "n": 45,
         "stay_pct": 100.0,
-        "reliable": true
+        "reliable": true,
+        "adv_n": 45,
+        "adv_pct": 77.8,
+        "adv_reliable": true
       },
       {
         "lo": 0.33,
         "hi": 0.66,
         "n": 64,
         "stay_pct": 64.1,
-        "reliable": true
+        "reliable": true,
+        "adv_n": 64,
+        "adv_pct": 90.6,
+        "adv_reliable": true
       },
       {
         "lo": 0.66,
         "hi": 1.0,
         "n": 49,
         "stay_pct": 10.2,
-        "reliable": true
+        "reliable": true,
+        "adv_n": 49,
+        "adv_pct": 85.7,
+        "adv_reliable": true
+      },
+      {
+        "lo": 1.0,
+        "hi": 99.0,
+        "n": 0,
+        "stay_pct": null,
+        "reliable": false,
+        "adv_n": 180,
+        "adv_pct": 70.0,
+        "adv_reliable": true
       }
     ],
     "3": [
@@ -54461,21 +54499,40 @@
         "hi": 0.33,
         "n": 56,
         "stay_pct": 98.2,
-        "reliable": true
+        "reliable": true,
+        "adv_n": 56,
+        "adv_pct": 82.1,
+        "adv_reliable": true
       },
       {
         "lo": 0.33,
         "hi": 0.66,
         "n": 71,
         "stay_pct": 77.5,
-        "reliable": true
+        "reliable": true,
+        "adv_n": 71,
+        "adv_pct": 85.9,
+        "adv_reliable": true
       },
       {
         "lo": 0.66,
         "hi": 1.0,
         "n": 33,
         "stay_pct": 12.1,
-        "reliable": true
+        "reliable": true,
+        "adv_n": 33,
+        "adv_pct": 78.8,
+        "adv_reliable": true
+      },
+      {
+        "lo": 1.0,
+        "hi": 99.0,
+        "n": 0,
+        "stay_pct": null,
+        "reliable": false,
+        "adv_n": 146,
+        "adv_pct": 65.8,
+        "adv_reliable": true
       }
     ],
     "4": [
@@ -54484,21 +54541,40 @@
         "hi": 0.33,
         "n": 44,
         "stay_pct": 97.7,
-        "reliable": true
+        "reliable": true,
+        "adv_n": 44,
+        "adv_pct": 88.6,
+        "adv_reliable": true
       },
       {
         "lo": 0.33,
         "hi": 0.66,
         "n": 87,
         "stay_pct": 69.0,
-        "reliable": true
+        "reliable": true,
+        "adv_n": 87,
+        "adv_pct": 86.2,
+        "adv_reliable": true
       },
       {
         "lo": 0.66,
         "hi": 1.0,
         "n": 60,
         "stay_pct": 21.7,
-        "reliable": true
+        "reliable": true,
+        "adv_n": 60,
+        "adv_pct": 76.7,
+        "adv_reliable": true
+      },
+      {
+        "lo": 1.0,
+        "hi": 99.0,
+        "n": 0,
+        "stay_pct": null,
+        "reliable": false,
+        "adv_n": 76,
+        "adv_pct": 44.7,
+        "adv_reliable": true
       }
     ],
     "5": [
@@ -54507,21 +54583,40 @@
         "hi": 0.33,
         "n": 26,
         "stay_pct": 96.2,
-        "reliable": true
+        "reliable": true,
+        "adv_n": 25,
+        "adv_pct": 96.0,
+        "adv_reliable": true
       },
       {
         "lo": 0.33,
         "hi": 0.66,
         "n": 87,
         "stay_pct": 49.4,
-        "reliable": true
+        "reliable": true,
+        "adv_n": 86,
+        "adv_pct": 75.6,
+        "adv_reliable": true
       },
       {
         "lo": 0.66,
         "hi": 1.0,
         "n": 106,
         "stay_pct": 8.5,
-        "reliable": true
+        "reliable": true,
+        "adv_n": 106,
+        "adv_pct": 58.5,
+        "adv_reliable": true
+      },
+      {
+        "lo": 1.0,
+        "hi": 99.0,
+        "n": 0,
+        "stay_pct": null,
+        "reliable": false,
+        "adv_n": 35,
+        "adv_pct": 42.9,
+        "adv_reliable": true
       }
     ]
   },
