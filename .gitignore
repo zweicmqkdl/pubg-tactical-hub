@@ -4,3 +4,6 @@ __pycache__/
 data/raw/*.json
 !data/raw/*_pro_matches.json
 tools/
+
+# 고해상도 원본 지도 (용량이 커서 저장소에 올리지 않음)
+assets/maps_src/
