@@ -319,6 +319,7 @@ def _build_stability_table(matches: List[Dict[str, Any]]) -> Dict[str, List[Dict
     거점 하나하나가 아니라 '원과의 상대 위치'로 여러 판의 데이터를 합쳐 표본을 확보합니다.
     """
     counts: Dict[Tuple[int, int], List[int]] = {}
+    adv_counts: Dict[Tuple[int, int], List[int]] = {}
     for match in matches:
         phases = match["phases"]
         for p in config.PHASES[:-1]:
@@ -337,8 +338,18 @@ def _build_stability_table(matches: List[Dict[str, Any]]) -> Dict[str, List[Dict
                     sq["x_meter"] - float(cur["zone_center_x_meter"]),
                     sq["y_meter"] - float(cur["zone_center_y_meter"]),
                 ) / r_cur
+                # 실제 진출 여부: 최종 순위가 다음 페이즈 시작 시 생존 팀 수 이하이면 그때까지 살아 있었다고 봄
+                # (킬/생존 팀 수 데이터가 있는 판에서만 계산)
+                alive_next = nxt.get("alive_teams_start")
+                rank = int(sq.get("team_rank", 0) or 0)
+                if alive_next and rank > 0:
+                    ab = (len(STABILITY_EDGES) - 1) if rel >= 1.0 else max(
+                        i for i, e in enumerate(STABILITY_EDGES[:-1]) if rel >= e)
+                    acell = adv_counts.setdefault((p, ab), [0, 0])
+                    acell[0] += 1
+                    acell[1] += 1 if rank <= int(alive_next) else 0
                 if rel >= 1.0:
-                    continue  # 이미 현재 원 밖에 있던 팀은 제외 (원 밖은 항상 이동 필요)
+                    continue  # 이미 현재 원 밖에 있던 팀은 '남을 확률' 계산에서 제외
                 b = max(i for i, e in enumerate(STABILITY_EDGES[:-1]) if rel >= e)
                 inside_next = math.hypot(
                     sq["x_meter"] - float(nxt["zone_center_x_meter"]),
@@ -351,14 +362,19 @@ def _build_stability_table(matches: List[Dict[str, Any]]) -> Dict[str, List[Dict
     table: Dict[str, List[Dict[str, Any]]] = {}
     for p in config.PHASES[:-1]:
         rows = []
-        for b in range(len(STABILITY_EDGES) - 1):
-            n, k = counts.get((p, b), [0, 0])
+        for b in range(len(STABILITY_EDGES)):
+            outside = b == len(STABILITY_EDGES) - 1   # 마지막 칸: 이미 원 밖에 있던 팀
+            n, k = (0, 0) if outside else counts.get((p, b), [0, 0])
+            an, ak = adv_counts.get((p, b), [0, 0])
             rows.append({
-                "lo": STABILITY_EDGES[b],
-                "hi": STABILITY_EDGES[b + 1],
+                "lo": STABILITY_EDGES[b] if not outside else 1.0,
+                "hi": STABILITY_EDGES[b + 1] if not outside else 99.0,
                 "n": int(n),
                 "stay_pct": round(k / n * 100.0, 1) if n > 0 else None,
                 "reliable": bool(n >= STABILITY_MIN_N),
+                "adv_n": int(an),
+                "adv_pct": round(ak / an * 100.0, 1) if an > 0 else None,
+                "adv_reliable": bool(an >= STABILITY_MIN_N),
             })
         table[str(p)] = rows
     return table

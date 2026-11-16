@@ -667,6 +667,8 @@ function computeActiveSpots() {{
         live_rel_pct: Math.round(relFrac * 100),
         live_stay_pct: (stay && stay.reliable) ? stay.stay_pct : null,
         live_stay_n: stay ? stay.n : 0,
+        live_adv_pct: (stay && stay.adv_reliable) ? stay.adv_pct : null,
+        live_adv_n: stay ? (stay.adv_n || 0) : 0,
         dist_from_center_m: Math.round(distFromZoneCenter),
       }});
     }}
@@ -986,6 +988,8 @@ function updateSidebarPanel(activeSpots) {{
     let stayLine = "";
     if (currentPhase >= 6) {{
       stayLine = `원 중심에서 ${{spot.live_rel_pct}}% 지점 · 마지막 원`;
+    }} else if (spot.live_adv_pct !== null && spot.live_adv_pct !== undefined) {{
+      stayLine = `원 중심에서 ${{spot.live_rel_pct}}% 지점 · 비슷한 위치의 팀 중 다음 페이즈까지 살아남은 비율 <b>${{Math.round(spot.live_adv_pct)}}%</b> (${{spot.live_adv_n}}팀)`;
     }} else if (spot.live_stay_pct !== null && spot.live_stay_pct !== undefined) {{
       stayLine = `원 중심에서 ${{spot.live_rel_pct}}% 지점 · 다음 원에 남을 확률 약 <b>${{Math.round(spot.live_stay_pct)}}%</b>`;
     }} else {{
